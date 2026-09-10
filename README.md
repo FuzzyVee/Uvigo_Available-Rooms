@@ -16,5 +16,3 @@ Google Calendar (public .ics feeds, maintained by ESEI)
    index.html  ──►  "Room SO1: BUSY (BDII_3 until 10:30) · Next: 12:30 IU_7"
 ```
 
-No server, no database, no API keys. If the school changes a timetable,
-your page picks it up automatically within 6 hours.
