@@ -1,10 +1,137 @@
 {
- "generated_at": "2026-09-10T17:16:15",
+ "generated_at": "2026-09-10T10:56:22",
  "timezone": "Europe/Madrid",
  "calendar_count": 10,
- "event_count": 8,
- "_note": "SAMPLE DATA for a first render. The real data.json is produced by scraper.py.",
+ "event_count": 694,
  "events": [
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-09-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-09-07",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-09-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-09-07",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-09-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-09-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-09-08",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-09-08",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-09-08",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-09-08",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-09-08",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-09-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-09-09",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-09-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-09-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-09-09",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
   {
    "subject": "BDII_3",
    "room": "SO1",
@@ -26,8 +153,16 @@
    "room": "2.3",
    "date": "2026-09-10",
    "start": "08:45",
-   "end": "10:45",
+   "end": "10:30",
    "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-09-10",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
   },
   {
    "subject": "IU_7",
@@ -36,14 +171,6 @@
    "start": "12:30",
    "end": "14:30",
    "raw": "IU_7 [SO8]"
-  },
-  {
-   "subject": "CDA_A",
-   "room": "2.3",
-   "date": "2026-09-10",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "CDA_A [2.3]"
   },
   {
    "subject": "BDII_4",
@@ -58,7 +185,7 @@
    "room": "2.3",
    "date": "2026-09-11",
    "start": "08:45",
-   "end": "10:45",
+   "end": "10:30",
    "raw": "IU_A [2.3]"
   },
   {
@@ -68,6 +195,5366 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-09-11",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-09-11",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-09-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-09-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-09-14",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-09-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-09-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-09-14",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-09-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-09-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-09-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-09-15",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-09-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-09-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-09-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-09-15",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-09-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-09-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-09-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-09-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-09-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-09-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-09-16",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-09-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-09-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-09-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-09-16",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-09-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-09-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-09-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-09-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-09-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-09-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-09-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-09-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-09-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-09-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-09-18",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-09-18",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-09-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-09-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-09-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-09-18",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-09-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-09-21",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-09-21",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-09-21",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-09-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-09-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-09-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-09-21",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-09-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-09-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-09-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-09-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-09-22",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-09-22",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-09-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-09-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-09-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-09-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-09-22",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-09-22",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-09-22",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-09-22",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-09-22",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-09-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-09-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-09-23",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-09-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-09-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-09-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-09-23",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-09-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-09-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-09-23",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-09-24",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-09-24",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-09-24",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-09-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-09-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-09-24",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-09-24",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-09-24",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-09-24",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-09-24",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-09-25",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-09-25",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-09-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-09-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-09-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-09-25",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-09-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-09-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-09-28",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-09-28",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-09-28",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-09-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-09-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-09-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-09-28",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-09-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-09-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-09-28",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-09-28",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-09-29",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-09-29",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-09-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-09-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-09-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-09-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-09-29",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-09-29",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-09-29",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-09-29",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-09-29",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-09-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-09-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-09-30",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-09-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-09-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-09-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-09-30",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-09-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-09-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-09-30",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-10-01",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-10-01",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-10-01",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-10-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-10-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-10-01",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-10-01",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-10-01",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-10-01",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-10-01",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-10-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-10-02",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-10-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-10-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-10-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-10-02",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-10-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-10-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-10-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-10-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-10-05",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-10-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-10-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-10-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-10-05",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-10-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-10-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-10-05",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-10-05",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-10-06",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-10-06",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-10-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-10-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-10-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-10-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-10-06",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-10-06",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-10-06",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-10-06",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-10-06",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-10-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-10-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-10-07",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-10-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-10-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-10-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-10-07",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-10-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-10-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-10-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-10-08",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-10-08",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-10-08",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-10-08",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-10-08",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-10-08",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-10-08",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-10-08",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-10-08",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-10-08",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-10-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-10-09",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-10-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-10-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-10-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-10-09",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-10-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-10-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-10-13",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-10-13",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-10-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-10-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-10-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-10-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-10-13",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-10-13",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-10-13",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-10-13",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-10-13",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-10-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-10-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-10-14",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-10-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-10-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-10-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-10-14",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-10-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-10-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-10-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-10-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-10-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-10-15",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-10-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-10-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-10-15",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-10-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-10-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-10-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-10-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-10-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-10-16",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-10-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-10-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-10-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-10-16",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-10-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-10-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-10-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-10-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-10-19",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "IU - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-19",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] IU - FinCarreira [Magna]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-10-19",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-10-19",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-10-19",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-10-19",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-10-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-10-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-10-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-10-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-10-20",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-10-20",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "LC - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-20",
+   "start": "10:00",
+   "end": "12:00",
+   "raw": "[EXAM] LC - FinCarreira [Magna]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-10-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-10-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-10-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-10-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "TALF - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-20",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] TALF - FinCarreira [Magna]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-10-20",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-10-20",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "[EXAM] CDA - FinCarreira [Magna]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-10-21",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-10-21",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-10-21",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "DGP - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-21",
+   "start": "10:00",
+   "end": "12:00",
+   "raw": "[EXAM] DGP - FinCarreira [Magna]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-10-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-10-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-10-21",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "RC II - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-21",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] RC II - FinCarreira [Magna]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-10-21",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-10-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-10-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-10-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-10-22",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-10-22",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-10-22",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "HAE - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-22",
+   "start": "09:00",
+   "end": "12:00",
+   "raw": "[EXAM] HAE - FinCarreira [Magna]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-10-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-10-22",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-10-22",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-10-22",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-10-22",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "SI - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-22",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "[EXAM] SI - FinCarreira [Magna]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-10-22",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-10-22",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-10-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-10-23",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "CDI - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-23",
+   "start": "09:00",
+   "end": "12:00",
+   "raw": "[EXAM] CDI - FinCarreira [Magna]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-10-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-10-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-10-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-10-23",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-10-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-10-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BD II - FinCarreira",
+   "room": "EXAM",
+   "date": "2026-10-23",
+   "start": "16:00",
+   "end": "18:30",
+   "raw": "[EXAM] BD II - FinCarreira [Magna]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-10-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-10-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-10-26",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-10-26",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-10-26",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-10-26",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-10-26",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-10-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-10-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-10-26",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-10-26",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-10-27",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-10-27",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-10-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-10-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-10-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-10-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-10-27",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-10-27",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-10-27",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-10-27",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-10-27",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "BDII. Proba Avaliación Contínua",
+   "room": null,
+   "date": "2026-10-28",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "BDII. Proba Avaliación Contínua"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-10-28",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-10-28",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B . Proba",
+   "room": "2.3",
+   "date": "2026-10-28",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]. Proba"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-10-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-10-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-10-28",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A . Proba",
+   "room": "2.3",
+   "date": "2026-10-28",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]. Proba"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-10-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-10-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-10-28",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-10-29",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-10-29",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-10-29",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-10-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-10-29",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-10-29",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-10-29",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-10-29",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-10-29",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-10-29",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-10-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-10-30",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-10-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-10-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-10-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-10-30",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-10-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-10-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-11-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-11-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-11-02",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-11-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-11-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-11-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-11-02",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-11-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-11-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-11-02",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-11-02",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-11-03",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-11-03",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-11-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-11-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-11-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-11-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-11-03",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-11-03",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-11-03",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-11-03",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-11-03",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-11-04",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-11-04",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-11-04",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-11-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-11-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-11-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-11-04",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-11-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-11-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-11-04",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-11-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-11-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-11-05",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-11-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-11-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-11-05",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-11-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-11-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-11-05",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-11-05",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-11-06",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-11-06",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-11-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-11-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-11-06",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-11-06",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-11-06",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-11-06",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-11-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-11-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-11-09",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-11-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-11-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-11-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-11-09",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-11-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-11-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-11-09",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-11-09",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-11-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-11-10",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-11-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-11-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-11-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-11-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-11-10",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-11-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-11-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-11-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-11-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-11-12",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-11-12",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-11-12",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-11-12",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-11-12",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-11-12",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-11-12",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-11-12",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-11-12",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-11-12",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-11-13",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-11-13",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-11-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-11-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-11-13",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-11-13",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-11-13",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-11-13",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-11-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-11-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-11-16",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-11-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-11-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-11-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-11-16",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-11-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-11-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-11-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-11-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-11-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-11-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-11-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-11-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-11-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-11-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-11-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-11-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-11-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-11-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-11-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-11-18",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-11-18",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-11-18",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-11-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-11-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-11-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-11-18",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-11-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-11-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-11-18",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-11-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-11-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-11-19",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-11-19",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-11-19",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-11-19",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-11-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-11-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-11-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-11-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-11-20",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-11-20",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-11-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-11-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-11-20",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-11-20",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-11-20",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-11-20",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-11-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-11-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-11-23",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-11-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-11-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-11-23",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-11-23",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-11-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-11-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-11-23",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-11-23",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-11-24",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-11-24",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-11-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-11-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-11-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-11-24",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-11-24",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-11-24",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-11-24",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-11-24",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-11-24",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-11-25",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-11-25",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-11-25",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-11-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-11-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-11-25",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-11-25",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-11-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-11-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-11-25",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-11-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-11-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-11-26",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-11-26",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-11-26",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-11-26",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-11-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-11-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-11-26",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-11-26",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-11-27",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-11-27",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-11-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-11-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-11-27",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-11-27",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-11-27",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-11-27",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-11-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-11-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-11-30",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-11-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-11-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-11-30",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-11-30",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-11-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-11-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-11-30",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-11-30",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-12-01",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-12-01",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-12-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-12-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-12-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-12-01",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-12-01",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-12-01",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-12-01",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-12-01",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-12-01",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-12-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-12-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-12-02",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-12-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-12-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-12-02",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-12-02",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-12-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-12-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-12-02",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-12-03",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-12-03",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-12-03",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-12-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-12-03",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-12-03",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-12-03",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-12-03",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-12-03",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-12-03",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-12-04",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-12-04",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-12-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-12-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-12-04",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-12-04",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-12-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-12-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-12-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-12-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-12-07",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-12-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-12-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-12-07",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-12-07",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-12-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-12-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-12-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-12-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-12-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-12-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-12-09",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-12-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-12-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-12-09",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-12-09",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-12-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-12-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-12-09",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-12-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-12-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-12-10",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-12-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-12-10",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-12-10",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-12-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-12-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-12-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-12-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "date": "2026-12-11",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-12-11",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "AUTOM",
+   "date": "2026-12-11",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-12-11",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-12-11",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-12-11",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "date": "2026-12-11",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-12-11",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
+  },
+  {
+   "subject": "BDII_2",
+   "room": "SO1",
+   "date": "2026-12-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_2 [SO1]"
+  },
+  {
+   "subject": "CDA_1",
+   "room": "SO2",
+   "date": "2026-12-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_1 [SO2]"
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "date": "2026-12-14",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]"
+  },
+  {
+   "subject": "LC_6",
+   "room": "L37",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_6 [L37]"
+  },
+  {
+   "subject": "BDII_8",
+   "room": "SO1",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_8 [SO1]"
+  },
+  {
+   "subject": "CDA_4",
+   "room": "SO2",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_4 [SO2]"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "date": "2026-12-14",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]"
+  },
+  {
+   "subject": "LC_7",
+   "room": "L37",
+   "date": "2026-12-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_7 [L37]"
+  },
+  {
+   "subject": "BDII_5",
+   "room": "SO2",
+   "date": "2026-12-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDII_5 [SO2]"
+  },
+  {
+   "subject": "LC_3",
+   "room": "L37",
+   "date": "2026-12-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_3 [L37]"
+  },
+  {
+   "subject": "BDII_6",
+   "room": "SO2",
+   "date": "2026-12-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_6 [SO2]"
+  },
+  {
+   "subject": "IU_6",
+   "room": "SO8",
+   "date": "2026-12-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_6 [SO8]"
+  },
+  {
+   "subject": "LC_A",
+   "room": "2.3",
+   "date": "2026-12-15",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LC_A [2.3]"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "AUTOM",
+   "date": "2026-12-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]"
+  },
+  {
+   "subject": "LC_1",
+   "room": "L37",
+   "date": "2026-12-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_1 [L37]"
+  },
+  {
+   "subject": "CDA_7",
+   "room": "SO2",
+   "date": "2026-12-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_7 [SO2]"
+  },
+  {
+   "subject": "IU_2",
+   "room": "SO8",
+   "date": "2026-12-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_2 [SO8]"
+  },
+  {
+   "subject": "LC_B",
+   "room": "2.3",
+   "date": "2026-12-15",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "CDA_3",
+   "room": "SO2",
+   "date": "2026-12-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_3 [SO2]"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "date": "2026-12-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
+   "subject": "CDA_8",
+   "room": "SO2",
+   "date": "2026-12-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "CDA_8 [SO2]"
+  },
+  {
+   "subject": "IU_5",
+   "room": "SO4",
+   "date": "2026-12-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "IU_5 [SO4]"
+  },
+  {
+   "subject": "CDA_2",
+   "room": "SO2",
+   "date": "2026-12-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDA_2 [SO2]"
+  },
+  {
+   "subject": "IU_4",
+   "room": "SO8",
+   "date": "2026-12-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_4 [SO8]"
+  },
+  {
+   "subject": "BDII_B",
+   "room": "2.3",
+   "date": "2026-12-16",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "BDII_B [2.3]"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "AUTOM",
+   "date": "2026-12-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]"
+  },
+  {
+   "subject": "BDII_7",
+   "room": "SO1",
+   "date": "2026-12-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_7 [SO1]"
+  },
+  {
+   "subject": "IU_3",
+   "room": "SO8",
+   "date": "2026-12-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_3 [SO8]"
+  },
+  {
+   "subject": "BDII_A",
+   "room": "2.3",
+   "date": "2026-12-16",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "BDII_A [2.3]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "date": "2026-12-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "CDA_5",
+   "room": "SO2",
+   "date": "2026-12-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_5 [SO2]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "date": "2026-12-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-12-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-12-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-12-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "LC_5",
+   "room": "L37",
+   "date": "2026-12-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "LC_5 [L37]"
+  },
+  {
+   "subject": "CDA_6",
+   "room": "SO2",
+   "date": "2026-12-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDA_6 [SO2]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-12-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "LC_8",
+   "room": "L37",
+   "date": "2026-12-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_8 [L37]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-12-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "LC_2",
+   "room": "L37",
+   "date": "2026-12-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "LC_2 [L37]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-12-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-12-18",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-12-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  },
+  {
+   "subject": "IU_8",
+   "room": "SO8",
+   "date": "2026-12-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "IU_8 [SO8]"
+  },
+  {
+   "subject": "IU_B",
+   "room": "2.3",
+   "date": "2026-12-18",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "IU_B [2.3]"
+  },
+  {
+   "subject": "LC_4",
+   "room": "L30A",
+   "date": "2026-12-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "LC_4 [L30A]"
   }
  ]
 }
