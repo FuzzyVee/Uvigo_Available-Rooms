@@ -1,0 +1,73 @@
+{
+ "generated_at": "2026-09-10T17:16:15",
+ "timezone": "Europe/Madrid",
+ "calendar_count": 10,
+ "event_count": 8,
+ "_note": "SAMPLE DATA for a first render. The real data.json is produced by scraper.py.",
+ "events": [
+  {
+   "subject": "BDII_3",
+   "room": "SO1",
+   "date": "2026-09-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDII_3 [SO1]"
+  },
+  {
+   "subject": "IU_1",
+   "room": "SO8",
+   "date": "2026-09-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IU_1 [SO8]"
+  },
+  {
+   "subject": "CDA_B",
+   "room": "2.3",
+   "date": "2026-09-10",
+   "start": "08:45",
+   "end": "10:45",
+   "raw": "CDA_B [2.3]"
+  },
+  {
+   "subject": "IU_7",
+   "room": "SO8",
+   "date": "2026-09-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IU_7 [SO8]"
+  },
+  {
+   "subject": "CDA_A",
+   "room": "2.3",
+   "date": "2026-09-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDA_A [2.3]"
+  },
+  {
+   "subject": "BDII_4",
+   "room": "SO1",
+   "date": "2026-09-10",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "BDII_4 [SO1]"
+  },
+  {
+   "subject": "IU_A",
+   "room": "2.3",
+   "date": "2026-09-11",
+   "start": "08:45",
+   "end": "10:45",
+   "raw": "IU_A [2.3]"
+  },
+  {
+   "subject": "BDII_1",
+   "room": "SO1",
+   "date": "2026-09-11",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDII_1 [SO1]"
+  }
+ ]
+}
