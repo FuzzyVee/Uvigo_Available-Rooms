@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -23,6 +27,15 @@ jobs:
 
       - name: Scrape calendars
         run: python scraper.py
+
+      - name: Pull latest changes to avoid push conflicts
+      run: git pull --rebase origin main
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "chore: update room data"
+        file_pattern: "data.json"
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v6
