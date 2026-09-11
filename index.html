@@ -128,7 +128,7 @@ function render(){
     viewingNow ? "Right now" : `Status on ${weekdayName(iso)} at ${time}`;
 
   const evts = eventsOn(iso);
-  const rooms = [...new Set(evts.map(e=>e.room).filter(Boolean))].sort((a,b)=>{
+  const rooms = [...new Set(DATA.events.map(e=>e.room).filter(Boolean))].sort((a,b)=>{
     const ka=roomKey(a), kb=roomKey(b);
     for(let i=0;i<Math.max(ka.length,kb.length);i++){
       if(ka[i]===undefined) return -1; if(kb[i]===undefined) return 1;
@@ -160,11 +160,14 @@ function render(){
   const body = document.getElementById("dayBody");
   body.innerHTML = "";
   if(!rooms.length){
-    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes found for this date${iso<nowIso?" (it is in the past)":""}.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes found for this date.</td></tr>`;
   }
   for(const room of rooms){
-    const chips = evts.filter(e=>e.room===room)
-      .map(e=>`<span class="chip"><b>${e.start}–${e.end}</b> ${e.subject}</span>`).join("");
+    const roomDayEvts = evts.filter(e=>e.room===room);
+    const chips = roomDayEvts.length 
+      ? roomDayEvts.map(e=>`<span class="chip"><b>${e.start}–${e.end}</b> ${e.subject}</span>`).join("")
+      : `<span style="color:var(--muted); font-size:.8rem">No classes scheduled today</span>`;
+      
     body.insertAdjacentHTML("beforeend", `<tr><td><b>${room}</b></td><td>${chips}</td></tr>`);
   }
 }
