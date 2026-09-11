@@ -136,7 +136,18 @@ DAYS_BEHIND = 7
 DAYS_AHEAD  = 100
 
 # Event titles look like "BDII_3 [SO1]" -> room between square brackets.
-ROOM_RE = re.compile(r"\[([^\]]+)\]")
+# IGNORE_ROOMS defines names that shouldn't be parsed as physical classrooms
+IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD"}
+
+def parse_room(summary):
+    match = re.search(r'\[(.*?)\]', summary)
+    if match:
+        # Skip if it matches any ignored keyword
+        room_name = match.group(1).strip()
+        if room_name.upper() in IGNORE_ROOMS:
+            return None
+        return room_name
+    return None
 
 def fetch_ics(calendar_id: str) -> bytes:
     if not calendar_id.endswith("@group.calendar.google.com") and not calendar_id.endswith("@gmail.com"):
@@ -159,7 +170,7 @@ def room_and_subject(summary: str, location: str):
     """Return (room, subject). The room is taken from the Google Calendar
     'Location' field if present, otherwise from the [ROOM] part of the title."""
     room = location.strip() if location else None
-    m = ROOM_RE.search(summary)
+    m = parse_room(summary)
     if not room and m:
         room = m.group(1).strip()
     subject = ROOM_RE.sub("", summary).strip()
