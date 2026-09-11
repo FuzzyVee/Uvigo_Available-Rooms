@@ -148,53 +148,54 @@ function renderTeachers() {
   });
 
   if (!filtered.length) {
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado profesores que coincidan con la búsqueda.</div>`;
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted); padding:12px;">No se han encontrado profesores que coincidan con la búsqueda.</div>`;
     return;
   }
 
   for (const t of filtered) {
     const card = document.createElement("div");
-    card.className = "card free";
+    card.className = "card free teacher-card";
 
-    const subjectsText = t.subjects && t.subjects.length 
-      ? t.subjects.join(", ") 
-      : "Docencia no especificada";
-
-    let extraInfoHtml = "";
-    if (t.info || t.events) {
-      const rawText = t.info || t.events;
-      extraInfoHtml = `
-        <div class="teacher-info-section">
-          <h4>Información / Actividad</h4>
-          <div style="font-size:0.85rem; line-height:1.4; color:var(--text); white-space: pre-wrap;">
-            ${rawText}
-          </div>
-        </div>
-      `;
-    }
+    // Formatear asignaturas como chips/badges o lista
+    const subjectsList = t.subjects && t.subjects.length 
+      ? t.subjects.map(s => `<span class="chip"><b>${s}</b></span>`).join(" ") 
+      : "<span style='color:var(--muted);'>No especificadas</span>";
 
     card.innerHTML = `
-      <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
+      <div class="teacher-header">
         <div>
-          <div class="room" style="font-size:1.2rem;">${t.name}</div>
-          <div class="cls"> <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
+          <div class="room">${t.name}</div>
+          <div class="cls">
+            ${t.email ? `<a href="mailto:${t.email}" class="card-link">${t.email}</a>` : '<span style="color:var(--muted)">Sin correo</span>'}
+          </div>
         </div>
-        <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
+        <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.8rem; height:fit-content;">
           DESPACHO: ${t.office || 'N/A'}
         </span>
       </div>
 
-      <div class="next" style="margin-top:10px;">
-         <b>Asignaturas:</b> ${subjectsText}
-      </div>
+      <!-- Acordeón Desplegable -->
+      <details class="teacher-details">
+        <summary class="teacher-summary">Más información</summary>
+        <div class="teacher-extra-content">
+          <div style="margin-bottom: 8px;">
+            <strong style="display:block; font-size:0.8rem; color:var(--muted); margin-bottom:4px;">ASIGNATURAS / ENLACES:</strong>
+            <div>${subjectsList}</div>
+          </div>
 
-      ${t.tutoring_url ? `
-        <div class="next">
-           <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
+          ${t.tutoring_url ? `
+            <div style="margin-top:8px; font-size:0.85rem;">
+               <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Horario de Tutorías ↗</a>
+            </div>
+          ` : ''}
+
+          ${t.virtual_office ? `
+            <div style="margin-top:4px; font-size:0.85rem;">
+               <a href="${t.virtual_office}" target="_blank" rel="noopener" class="card-link">Despacho Virtual ↗</a>
+            </div>
+          ` : ''}
         </div>
-      ` : ''}
-
-      ${extraInfoHtml}
+      </details>
     `;
 
     board.appendChild(card);
