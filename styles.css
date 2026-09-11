@@ -23,7 +23,7 @@
 body {
   /* Added a dark 65% linear gradient overlay on top of the image */
   background: 
-    linear-gradient(rgba(13, 17, 23, 0.67), rgba(13, 17, 23, 0.67)),
+    linear-gradient(rgba(13, 17, 23, 0.69), rgba(13, 17, 23, 0.69)),
     url('https://f2.toyhou.se/file/f2-toyhou-se/images/116329354_1XMc1olgmXT12cp.png') no-repeat center center fixed;
   background-size: cover;
   background-color: var(--bg);
