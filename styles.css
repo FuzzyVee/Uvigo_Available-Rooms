@@ -347,3 +347,68 @@ footer {
   font-size: 0.75rem;
   color: var(--muted);
 }
+
+.autocomplete-items div {
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px; 
+}
+
+.autocomplete-title {
+  white-space: nowrap;
+  flex-shrink: 0; 
+
+.autocomplete-item-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 200px; 
+}
+
+#teachersBoard .card {
+  grid-column: 1 / -1; 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 20px;
+}
+
+.teacher-info-section {
+  background: var(--panel2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 8px;
+  max-height: 250px;
+  overflow-y: auto;  
+}
+
+.teacher-info-section h4 {
+  font-size: 0.85rem;
+  color: var(--accent);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.teacher-events-list {
+  list-style: none;
+  font-size: 0.85rem;
+  color: var(--text);
+}
+
+.teacher-events-list li {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.teacher-events-list li:last-child {
+  border-bottom: none;
+}

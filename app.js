@@ -131,7 +131,6 @@ function render() {
   }
 }
 
-/* ---------- rendering teachers ---------- */
 function renderTeachers() {
   if (!TEACHERS_DATA) return;
 
@@ -149,7 +148,7 @@ function renderTeachers() {
   });
 
   if (!filtered.length) {
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No teachers found matching your search.</div>`;
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado profesores que coincidan con la búsqueda.</div>`;
     return;
   }
 
@@ -159,31 +158,49 @@ function renderTeachers() {
 
     const subjectsText = t.subjects && t.subjects.length 
       ? t.subjects.join(", ") 
-      : "No subjects specified";
+      : "Docencia no especificada";
+
+    let extraInfoHtml = "";
+    if (t.info || t.events) {
+      const rawText = t.info || t.events;
+      extraInfoHtml = `
+        <div class="teacher-info-section">
+          <h4>Información / Actividad</h4>
+          <div style="font-size:0.85rem; line-height:1.4; color:var(--text); white-space: pre-wrap;">
+            ${rawText}
+          </div>
+        </div>
+      `;
+    }
 
     card.innerHTML = `
-      <div class="room">${t.name}</div>
-      <span class="pill" style="background:var(--panel2); color:var(--accent)">
-        OFFICE: ${t.office || 'N/A'}
-      </span>
-      <div class="cls" style="margin-bottom:6px;">
-        <a href="mailto:${t.email}" class="card-link">${t.email || 'No email'}</a>
+      <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
+        <div>
+          <div class="room" style="font-size:1.2rem;">${t.name}</div>
+          <div class="cls"> <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
+        </div>
+        <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
+          DESPACHO: ${t.office || 'N/A'}
+        </span>
       </div>
-      <div class="next">
-        <b>Subjects:</b> ${subjectsText}
+
+      <div class="next" style="margin-top:10px;">
+         <b>Asignaturas:</b> ${subjectsText}
       </div>
+
       ${t.tutoring_url ? `
-        <div class="next" style="margin-top:6px;">
-          <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Tutoring Schedule &rarr;</a>
+        <div class="next">
+           <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
         </div>
       ` : ''}
+
+      ${extraInfoHtml}
     `;
 
     board.appendChild(card);
   }
 }
 
-/* ---------- boot ---------- */
 function tick() {
   document.getElementById("clock").textContent =
     weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
@@ -291,7 +308,26 @@ function setupTeacherAutocomplete() {
   const input = document.getElementById("teacherSearch");
   const listContainer = document.getElementById("autocompleteList");
   if (!input || !listContainer) return;
+  matches.forEach(t => {
+    const item = document.createElement("div");
+  
+     // Si office existe, nos aseguramos de no mostrar una parrafada en el desplegable
+    let officeClean = t.office || "";
+    if (officeClean.length > 20) {
+        officeClean = officeClean.substring(0, 20) + "...";
+    }
 
+    item.innerHTML = `
+    <span class="autocomplete-title">${t.name}</span>
+    <span class="autocomplete-item-sub truncate">${officeClean ? 'Despacho ' + officeClean : ''}</span>`;
+
+     item.addEventListener("click", function() {
+     input.value = t.name;
+     listContainer.innerHTML = "";
+        renderTeachers();
+    });
+    listContainer.appendChild(item);
+  });
   function closeAllLists(elmnt) {
     if (elmnt !== input && elmnt !== listContainer) {
       listContainer.innerHTML = "";
