@@ -22,32 +22,6 @@ def clean_text(text):
     return re.sub(r"\s+", " ", text).strip()
 
 
-def extract_field_by_label(soup, label_pattern):
-    """
-    Finds text following a label in tables, definition lists, or paragraph rows.
-    Example: searches for 'Despacho:' or 'Teléfono:' and returns the adjacent text.
-    """
-    element = soup.find(
-        lambda tag: tag.name in ["td", "th", "strong", "span", "div", "p"]
-        and re.search(label_pattern, tag.text, re.IGNORECASE)
-    )
-    if not element:
-        return ""
-
-    # Check next sibling element (common in tables or flex containers)
-    next_el = element.find_next_sibling()
-    if next_el and next_el.text.strip():
-        return clean_text(next_el.text)
-
-    # Check parent container text with label removed
-    parent = element.parent
-    if parent:
-        text = parent.text.replace(element.text, "")
-        return clean_text(text)
-
-    return ""
-
-
 def extract_teacher_info(profile_url):
     info = {
         "office": "No especificado",
@@ -65,79 +39,64 @@ def extract_teacher_info(profile_url):
 
         soup = BeautifulSoup(res.content, "html.parser")
 
-        # 1. Isolate the main profile content wrapper
-        content = soup.select_one(".entry-content, .pf-profile, article, .post-inner")
-        if not content:
-            content = soup # fallback if structure varies slightly
+        # 1. Extracción de enlaces directos (Email, Campus Remoto, Tutorías UVigo)
+        for a in soup.find_all("a", href=True):
+            href = a["href"].strip()
+            
+            if href.startswith("mailto:") and not info["email"]:
+                info["email"] = href.replace("mailto:", "").strip()
+            elif "campusremotouvigo" in href and not info["virtual_office"]:
+                info["virtual_office"] = href
+            elif ("uvigo.gal" in href or "uvigo.es" in href) and ("/pdi/" in href or "docente" in href):
+                if not info["uvigo_url"]:
+                    info["uvigo_url"] = href
 
-        # 2. Extract Email (mailto link)
-        email_link = content.select_one("a[href^='mailto:']")
-        if email_link:
-            info["email"] = email_link["href"].replace("mailto:", "").strip()
+        # Asignar la URL de tutorías/PDI al campo office tal como pediste
+        if info["uvigo_url"]:
+            info["office"] = info["uvigo_url"]
 
-        # 3. Extract Virtual Office (campusremotouvigo)
-        virtual_link = content.select_one("a[href*='campusremotouvigo']")
-        if virtual_link:
-            info["virtual_office"] = virtual_link["href"].strip()
-
-        # 4. Extract UVigo PDI / Profile Link
-        uvigo_link = content.select_one("a[href*='uvigo.gal'][href*='/pdi/'], a[href*='uvigo.es'][href*='/pdi/']")
-        if uvigo_link:
-            info["uvigo_url"] = uvigo_link["href"].strip()
-
-        # 5. Extract Despacho (Office) & Teléfono (Phone) directly from text rows/cells
-        # Look specifically for labels followed by text
-        text_nodes = content.find_all(["p", "td", "li", "div", "span"])
-        for node in text_nodes:
-            text = clean_text(node.text)
-
-            # Look for "Despacho:" or "Oficina:"
-            if info["office"] == "No especificado" and re.search(r"despacho", text, re.IGNORECASE):
-                # Grab just the number/code right after "Despacho"
-                match = re.search(r"despacho[:\s]+([A-Za-z0-9\.\-]+)", text, re.IGNORECASE)
-                if match:
-                    info["office"] = match.group(1).strip()
-
-            # Look for "Teléfono:" or "Telefono:"
-            if not info["phone"] and re.search(r"teléfono|telefono", text, re.IGNORECASE):
+        # 2. Extracción limpia de teléfono buscando celdas de tabla o filas específicas
+        for tr in soup.find_all(["tr", "li", "div"]):
+            text = clean_text(tr.text)
+            if re.search(r"teléfono|telefono", text, re.IGNORECASE) and not info["phone"]:
                 match = re.search(r"(?:teléfono|telefono)[:\s]+(\+?\d[\d\s]{7,})", text, re.IGNORECASE)
                 if match:
                     info["phone"] = clean_text(match.group(1))
 
-        # 6. Extract Subjects (Docencia)
-        # Find the specific heading for subjects/docencia
-        docencia_heading = content.find(
-            lambda tag: tag.name in ["h2", "h3", "h4", "h5", "strong"] 
-            and ("docencia" in tag.text.lower() or "asignaturas" in tag.text.lower())
+        # 3. Extracción estricta de Asignaturas (solo dentro de bloques de docencia reales)
+        docencia_section = soup.find(
+            lambda tag: tag.name in ["div", "section", "ul"] 
+            and ("docencia" in "".join(tag.get("class", [])).lower() or "f-docencia" in "".join(tag.get("class", [])).lower())
         )
 
-        if docencia_heading:
-            # Find the closest parent or sibling container holding the list of subjects
-            parent_container = docencia_heading.find_parent(["div", "section"]) or docencia_heading.parent
-            if parent_container:
-                for a in parent_container.find_all("a", href=True):
-                    subj_name = clean_text(a.text)
-                    href = a["href"]
+        if not docencia_section:
+            # Búsqueda alternativa por encabezado de asignaturas
+            heading = soup.find(lambda tag: tag.name in ["h2", "h3", "h4"] and "docencia" in tag.text.lower())
+            if heading:
+                docencia_section = heading.find_next_sibling()
 
-                    # Filter out navigation, email, and external links
-                    if (
-                        subj_name
-                        and len(subj_name) > 3
-                        and not href.startswith("mailto:")
-                        and "uvigo.gal" not in href
-                        and "campusremotouvigo" not in href
-                        and "/profesorado/" not in href
-                        and subj_name not in info["subjects"]
-                    ):
-                        info["subjects"].append(subj_name)
+        if docencia_section:
+            for a in docencia_section.find_all("a", href=True):
+                subj_name = clean_text(a.text)
+                href = a["href"]
+                if (
+                    subj_name 
+                    and len(subj_name) > 3 
+                    and not href.startswith("mailto:") 
+                    and "uvigo" not in href 
+                    and "/profesorado/" not in href
+                    and subj_name not in info["subjects"]
+                ):
+                    info["subjects"].append(subj_name)
 
     except Exception as e:
         print(f"Error parsing {profile_url}: {e}")
 
     return info
 
+
 def scrape_all_teachers():
-    print(f"Connecting to {TEACHERS_LIST_URL}...")
+    print(f"Conectando a {TEACHERS_LIST_URL}...")
     res = requests.get(TEACHERS_LIST_URL, headers=HEADERS, timeout=15)
 
     if res.status_code != 200:
@@ -161,7 +120,7 @@ def scrape_all_teachers():
             esei_url = BASE_URL + esei_url
 
         visited_urls.add(esei_url)
-        print(f"[{len(visited_urls)}] Fetching: {name}")
+        print(f"[{len(visited_urls)}] Procesando: {name}")
 
         extra_info = extract_teacher_info(esei_url)
 
@@ -186,7 +145,7 @@ def scrape_all_teachers():
     with open("teachers.json", "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
-    print(f"\nSaved {len(teachers_data)} teachers to 'teachers.json'")
+    print(f"\nGuardados {len(teachers_data)} profesores en 'teachers.json'")
 
 
 if __name__ == "__main__":
