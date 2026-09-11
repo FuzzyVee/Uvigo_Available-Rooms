@@ -1,7 +1,4 @@
-
-
-  return nameMatch || officeMatch || subjectMatch;
-}const TZ = "Europe/Madrid";
+const TZ = "Europe/Madrid";
 let DATA = null;
 let TEACHERS_DATA = null;
 let activeFilter = 'all';
@@ -61,7 +58,7 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
-  // Búsqueda flexible en el diccionario de alias (permite buscar por fragmentos como "ae", "so", etc.)
+  // Expandir alias si la consulta coincide de forma parcial con las claves
   let expandedAliases = [];
   for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
     if (aliasKey.includes(query) || query.includes(aliasKey)) {
@@ -72,12 +69,15 @@ function matchesTeacher(teacher, rawQuery) {
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
-    // 1. Coincidencia por texto parcial (ej. "datos", "operativos")
+    // 1. Coincidencia por texto parcial (ej: "algoritmos", "datos")
     if (subNorm.includes(query)) return true;
-    // 2. Coincidencia por alias o abreviatura parcial (ej. "ae" encuentra "algoritmos...")
+    // 2. Coincidencia por alias (ej: "ae" o "aed")
     return expandedAliases.some(alias => subNorm.includes(alias));
   });
-  
+
+  return nameMatch || officeMatch || subjectMatch;
+}
+
 /* ---------- floor / room helper filters ---------- */
 function getFloor(roomName) {
   if (!roomName) return null;
