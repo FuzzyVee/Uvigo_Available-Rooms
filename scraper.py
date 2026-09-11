@@ -140,9 +140,9 @@ def parse_room(summary):
             return None
         return room_name
     return None
-
+    
 def fetch_ics(calendar_id: str) -> bytes:
-    # Handle base64 decoding safely with padding
+    # Safely decode base64 if needed
     if not calendar_id.endswith("@group.calendar.google.com") and not calendar_id.endswith("@gmail.com"):
         try:
             padded_id = calendar_id + "=" * (-len(calendar_id) % 4)
@@ -155,8 +155,11 @@ def fetch_ics(calendar_id: str) -> bytes:
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             return resp.read()
+    except urllib.error.HTTPError as exc:
+        print(f"  [HTTP {exc.code}] Failed to fetch calendar ID: {calendar_id}", file=sys.stderr)
+        return b""
     except Exception as exc:
-        print(f"  ! could not fetch {calendar_id}: {exc}", file=sys.stderr)
+        print(f"  [ERROR] {exc} for calendar ID: {calendar_id}", file=sys.stderr)
         return b""
 
 def room_and_subject(summary: str, location: str):
