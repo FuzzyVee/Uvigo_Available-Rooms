@@ -16,11 +16,11 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -30,11 +30,9 @@ jobs:
       - name: Scrape calendars
         run: python scraper.py
 
-      - name: Pull latest changes to avoid push conflicts
-        run: git pull --rebase origin main
-
-      - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v6
+      - name: Commit and push updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update room data"
           file_pattern: "data.json"
+          auto_fetch: true
