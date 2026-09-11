@@ -116,6 +116,8 @@ def normalize_room(room_name: str) -> str:
         return room_name
     room_clean = room_name.strip()
     room_clean = re.sub(r'/elect.*$', '', room_clean, flags=re.IGNORECASE)
+    if re.fullmatch(r'(aula\s+)?m[ag]{2}na', room_clean, flags=re.IGNORECASE):
+        return "Aula Magna"
     return room_clean.strip()
 
 def parse_room(summary):
