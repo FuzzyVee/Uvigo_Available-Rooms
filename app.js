@@ -4,6 +4,27 @@ let TEACHERS_DATA = null;
 let activeFilter = 'all';
 let selectedTeacher = null;
 
+/* ---------- Diccionario de siglas y abreviaturas ---------- */
+const SUBJECT_ALIASES = {
+  "aedii": "algoritmos e estructuras de datos ii",
+  "aedi": "algoritmos e estructuras de datos i",
+  "bdii": "bases de datos ii",
+  "bdi": "bases de datos i",
+  "is1": "enxeñaría del software i",
+  "is2": "enxeñaría del software ii",
+  "so": "sistemas operativos",
+  "cd": "ciencia de datos",
+  "ia": "intelixencia artificial",
+  "redes": "redes de ordenadores"
+  // Puedes añadir aquí todas las abreviaturas extra que necesites
+};
+
+/* Helper para obtener el texto expandido de la búsqueda si coincide con una sigla */
+function expandQuery(query) {
+  const q = query.toLowerCase().trim();
+  return [q, SUBJECT_ALIASES[q] || ""];
+}
+
 /* ---------- floor / room helper filters ---------- */
 function getFloor(roomName) {
   if (!roomName) return null;
@@ -141,7 +162,7 @@ function renderTeachers() {
 
   board.innerHTML = "";
 
-  // 1. DETAIL VIEW: Runs when a card or autocomplete item is selected
+  // 1. DETAIL VIEW
   if (selectedTeacher) {
     const t = selectedTeacher;
     const subjectsText = t.subjects && t.subjects.length 
@@ -203,13 +224,20 @@ function renderTeachers() {
     return;
   }
 
-  // 2. SEARCH GRID: Concise cards (Name, Email, Office only)
-  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
+  // 2. SEARCH GRID
+  const rawQuery = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
+  const [query, expandedAlias] = expandQuery(rawQuery);
 
   const filtered = TEACHERS_DATA.teachers.filter(t => {
     const nameMatch = t.name.toLowerCase().includes(query);
     const officeMatch = (t.office || "").toLowerCase().includes(query);
-    const subjectMatch = (t.subjects || []).some(s => s.toLowerCase().includes(query));
+    
+    // Comprobar coincidencia directa o con abreviatura
+    const subjectMatch = (t.subjects || []).some(s => {
+      const subLower = s.toLowerCase();
+      return subLower.includes(query) || (expandedAlias && subLower.includes(expandedAlias));
+    });
+
     return nameMatch || officeMatch || subjectMatch;
   });
 
@@ -377,19 +405,24 @@ function setupTeacherAutocomplete() {
   }
 
   input.addEventListener("input", function() {
-    const val = this.value.trim().toLowerCase();
+    const rawVal = this.value.trim().toLowerCase();
     listContainer.innerHTML = "";
     currentFocus = -1;
 
     selectedTeacher = null;
     renderTeachers();
 
-    if (!val || !TEACHERS_DATA) return;
+    if (!rawVal || !TEACHERS_DATA) return;
+
+    const [val, expandedAlias] = expandQuery(rawVal);
 
     const matches = TEACHERS_DATA.teachers.filter(t => {
       const nameMatch = t.name.toLowerCase().includes(val);
       const officeMatch = (t.office || "").toLowerCase().includes(val);
-      const subjectMatch = (t.subjects || []).some(s => s.toLowerCase().includes(val));
+      const subjectMatch = (t.subjects || []).some(s => {
+        const subLower = s.toLowerCase();
+        return subLower.includes(val) || (expandedAlias && subLower.includes(expandedAlias));
+      });
       return nameMatch || officeMatch || subjectMatch;
     }).slice(0, 7);
 
@@ -412,18 +445,18 @@ function setupTeacherAutocomplete() {
 
   input.addEventListener("keydown", function(e) {
     let items = listContainer.getElementsByTagName("div");
-    if (e.keyCode === 40) { // Down key
+    if (e.keyCode === 40) {
       currentFocus++;
       addActive(items);
-    } else if (e.keyCode === 38) { // Up key
+    } else if (e.keyCode === 38) {
       currentFocus--;
       addActive(items);
-    } else if (e.keyCode === 13) { // Enter key
+    } else if (e.keyCode === 13) {
       e.preventDefault();
       if (currentFocus > -1 && items[currentFocus]) {
         items[currentFocus].click();
       }
-    } else if (e.keyCode === 27) { // Escape key
+    } else if (e.keyCode === 27) {
       listContainer.innerHTML = "";
     }
   });
