@@ -26,7 +26,7 @@ jobs:
 
       - name: Fetch and generate teachers.json
         run: |
-          python update_teachers.py
+          python scrape_teachers.py
 
       - name: Commit and push if changes exist
         run: |
