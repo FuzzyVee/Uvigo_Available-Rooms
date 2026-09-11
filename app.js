@@ -3,6 +3,7 @@ let DATA = null;
 let TEACHERS_DATA = null;
 let activeFilter = 'all';
 
+/* ---------- floor / room helper filters ---------- */
 function getFloor(roomName) {
   if (!roomName) return null;
   const match = roomName.match(/\b([0-3])\.\d+\b/);
@@ -21,6 +22,7 @@ const PRESET_FILTERS = {
   }
 };
 
+/* ---------- time helpers (all in Europe/Madrid) ---------- */
 function madridParts(date = new Date()) {
   const p = new Intl.DateTimeFormat("en-GB", {
     timeZone: TZ,
@@ -50,6 +52,7 @@ const toMin = t => {
   return a * 60 + b;
 };
 
+/* ---------- data helpers ---------- */
 const eventsOn = iso => DATA.events.filter(e => e.date === iso);
 
 function roomKey(r) {
@@ -61,6 +64,7 @@ function statusAt(evts, time) {
   return evts.find(e => toMin(e.start) <= t && t < toMin(e.end));
 }
 
+/* ---------- rendering rooms ---------- */
 function render() {
   if (!DATA) return;
   const dateEl = document.getElementById("date");
@@ -150,12 +154,7 @@ function renderTeachers() {
 
   for (const t of filtered) {
     const card = document.createElement("div");
-    card.className = "card free teacher-card";
-
-    card.addEventListener("click", (e) => {
-      if (e.target.tagName === "A") return;
-      card.classList.toggle("expanded");
-    });
+    card.className = "card free";
 
     const subjectsText = t.subjects && t.subjects.length 
       ? t.subjects.join(", ") 
@@ -165,8 +164,8 @@ function renderTeachers() {
     if (t.info || t.events) {
       const rawText = t.info || t.events;
       extraInfoHtml = `
-        <div class="teacher-info-section" style="margin-top:8px;">
-          <h4 style="margin:0 0 4px 0; font-size:0.85rem;">Información / Actividad</h4>
+        <div class="teacher-info-section">
+          <h4>Información / Actividad</h4>
           <div style="font-size:0.85rem; line-height:1.4; color:var(--text); white-space: pre-wrap;">
             ${rawText}
           </div>
@@ -178,26 +177,24 @@ function renderTeachers() {
       <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
         <div>
           <div class="room" style="font-size:1.2rem;">${t.name}</div>
-          <div class="cls"><a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
+          <div class="cls"> <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
         </div>
         <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
           DESPACHO: ${t.office || 'N/A'}
         </span>
       </div>
 
-      <div class="teacher-extra-content">
-        <div class="next" style="margin-top:10px;">
-          <b>Asignaturas:</b> ${subjectsText}
-        </div>
-
-        ${t.tutoring_url ? `
-          <div class="next">
-             <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
-          </div>
-        ` : ''}
-
-        ${extraInfoHtml}
+      <div class="next" style="margin-top:10px;">
+         <b>Asignaturas:</b> ${subjectsText}
       </div>
+
+      ${t.tutoring_url ? `
+        <div class="next">
+           <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
+        </div>
+      ` : ''}
+
+      ${extraInfoHtml}
     `;
 
     board.appendChild(card);
@@ -222,7 +219,7 @@ async function boot() {
   } catch (err) {
     const e = document.getElementById("error");
     e.style.display = "block";
-    e.textContent = "Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
+    e.textContent = "⚠ Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
     return;
   }
 
@@ -302,17 +299,15 @@ async function boot() {
       render();
     }
   }, 30000);
-  
   setupTeacherAutocomplete();
 }
+
+let currentFocus = -1;
 
 function setupTeacherAutocomplete() {
   const input = document.getElementById("teacherSearch");
   const listContainer = document.getElementById("autocompleteList");
   if (!input || !listContainer) return;
-
-  let currentFocus = -1;
-
   function closeAllLists(elmnt) {
     if (elmnt !== input && elmnt !== listContainer) {
       listContainer.innerHTML = "";
@@ -352,41 +347,33 @@ function setupTeacherAutocomplete() {
 
     matches.forEach(t => {
       const item = document.createElement("div");
-      let officeClean = t.office || "";
-      if (officeClean.length > 20) {
-        officeClean = officeClean.substring(0, 20) + "...";
-      }
-
       item.innerHTML = `
-        <span class="autocomplete-title">${t.name}</span>
-        <span class="autocomplete-item-sub">${officeClean ? 'Despacho ' + officeClean : ''}</span>
+        <span>${t.name}</span>
+        <span class="autocomplete-item-sub">${t.office ? 'Despacho ' + t.office : ''}</span>
       `;
-
-      item.addEventListener("click", function(e) {
-        e.stopPropagation();
+      item.addEventListener("click", function() {
         input.value = t.name;
         listContainer.innerHTML = "";
         renderTeachers();
       });
-
       listContainer.appendChild(item);
     });
   });
 
   input.addEventListener("keydown", function(e) {
     let items = listContainer.getElementsByTagName("div");
-    if (e.keyCode === 40) {
+    if (e.keyCode === 40) { // Down key
       currentFocus++;
       addActive(items);
-    } else if (e.keyCode === 38) {
+    } else if (e.keyCode === 38) { // Up key
       currentFocus--;
       addActive(items);
-    } else if (e.keyCode === 13) {
+    } else if (e.keyCode === 13) { // Enter key
       e.preventDefault();
       if (currentFocus > -1 && items[currentFocus]) {
         items[currentFocus].click();
       }
-    } else if (e.keyCode === 27) {
+    } else if (e.keyCode === 27) { // Escape key
       listContainer.innerHTML = "";
     }
   });
