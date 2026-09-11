@@ -288,3 +288,49 @@ footer {
 .card-link:hover {
   text-decoration: underline;
 }
+
+.search-container {
+  position: relative;
+  width: 100%;
+}
+
+.autocomplete-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-top: 4px;
+  max-height: 250px;
+  overflow-y: auto;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+}
+
+.autocomplete-items div {
+  padding: 10px 12px;
+  cursor: pointer;
+  font-size: 0.88rem;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.autocomplete-items div:last-child {
+  border-bottom: none;
+}
+
+.autocomplete-items div:hover,
+.autocomplete-items .autocomplete-active {
+  background-color: var(--panel2);
+  color: var(--accent);
+}
+
+.autocomplete-item-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+}

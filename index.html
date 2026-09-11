@@ -56,7 +56,10 @@
   <div class="controls">
     <label style="flex:1;">
       Search Teacher
-      <input type="text" id="teacherSearch" placeholder="Buscar por nombre, asignatura o despacho..." style="width:100%;">
+      <div class="search-container">
+        <input type="text" id="teacherSearch" placeholder="Buscar por nombre, asignatura o despacho..." style="width:100%;" autocomplete="off">
+        <div id="autocompleteList" class="autocomplete-items"></div>
+      </div>
     </label>
     <span class="legend" id="teachersFreshness"></span>
   </div>
@@ -64,7 +67,7 @@
   <h2>Docentes y Despachos</h2>
   <div class="grid" id="teachersBoard"></div>
 </div>
-
+    
 <footer>Data refreshes automatically · times are Europe/Ourense</footer>
 
 <script src="app.js"></script>

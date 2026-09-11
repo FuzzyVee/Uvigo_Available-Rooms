@@ -282,6 +282,89 @@ async function boot() {
       render();
     }
   }, 30000);
+  setupTeacherAutocomplete();
+}
+
+let currentFocus = -1;
+
+function setupTeacherAutocomplete() {
+  const input = document.getElementById("teacherSearch");
+  const listContainer = document.getElementById("autocompleteList");
+  if (!input || !listContainer) return;
+
+  function closeAllLists(elmnt) {
+    if (elmnt !== input && elmnt !== listContainer) {
+      listContainer.innerHTML = "";
+    }
+  }
+
+  function addActive(items) {
+    if (!items || !items.length) return false;
+    removeActive(items);
+    if (currentFocus >= items.length) currentFocus = 0;
+    if (currentFocus < 0) currentFocus = items.length - 1;
+    items[currentFocus].classList.add("autocomplete-active");
+    items[currentFocus].scrollIntoView({ block: "nearest" });
+  }
+
+  function removeActive(items) {
+    for (let i = 0; i < items.length; i++) {
+      items[i].classList.remove("autocomplete-active");
+    }
+  }
+
+  input.addEventListener("input", function() {
+    const val = this.value.trim().toLowerCase();
+    listContainer.innerHTML = "";
+    currentFocus = -1;
+
+    renderTeachers();
+
+    if (!val || !TEACHERS_DATA) return;
+
+    const matches = TEACHERS_DATA.teachers.filter(t => {
+      const nameMatch = t.name.toLowerCase().includes(val);
+      const officeMatch = (t.office || "").toLowerCase().includes(val);
+      const subjectMatch = (t.subjects || []).some(s => s.toLowerCase().includes(val));
+      return nameMatch || officeMatch || subjectMatch;
+    }).slice(0, 7);
+
+    matches.forEach(t => {
+      const item = document.createElement("div");
+      item.innerHTML = `
+        <span>${t.name}</span>
+        <span class="autocomplete-item-sub">${t.office ? 'Despacho ' + t.office : ''}</span>
+      `;
+      item.addEventListener("click", function() {
+        input.value = t.name;
+        listContainer.innerHTML = "";
+        renderTeachers();
+      });
+      listContainer.appendChild(item);
+    });
+  });
+
+  input.addEventListener("keydown", function(e) {
+    let items = listContainer.getElementsByTagName("div");
+    if (e.keyCode === 40) { // Down key
+      currentFocus++;
+      addActive(items);
+    } else if (e.keyCode === 38) { // Up key
+      currentFocus--;
+      addActive(items);
+    } else if (e.keyCode === 13) { // Enter key
+      e.preventDefault();
+      if (currentFocus > -1 && items[currentFocus]) {
+        items[currentFocus].click();
+      }
+    } else if (e.keyCode === 27) { // Escape key
+      listContainer.innerHTML = "";
+    }
+  });
+
+  document.addEventListener("click", function(e) {
+    closeAllLists(e.target);
+  });
 }
 
 boot();
