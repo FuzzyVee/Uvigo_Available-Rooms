@@ -163,8 +163,8 @@ def fetch_ics(calendar_id: str) -> bytes:
             return resp.read()
     except Exception as exc:                       # keep going if one calendar fails
         print(f"  ! could not fetch {calendar_id}: {exc}", file=sys.stderr)
-        return b""
 
+        return b""
 
 def room_and_subject(summary: str, location: str):
     """Return (room, subject). The room is taken from the Google Calendar
@@ -172,7 +172,7 @@ def room_and_subject(summary: str, location: str):
     room = location.strip() if location else None
     m = parse_room(summary)
     if not room and m:
-        room = m.group(1).strip()
+        room = m
     subject = ROOM_RE.sub("", summary).strip()
     return room, subject
 
