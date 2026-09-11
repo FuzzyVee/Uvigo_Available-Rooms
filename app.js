@@ -230,14 +230,15 @@ function renderTeachers() {
     detailContainer.style.gridColumn = "1 / -1";
     detailContainer.innerHTML = `
       <button id="backToSearchBtn" style="margin-bottom: 16px; padding: 8px 16px; cursor: pointer; background: var(--panel2); color: var(--accent); border: 1px solid var(--accent); border-radius: 6px;">
-        ← Volver al buscador
+        &larr; Volver al buscador
       </button>
       <div class="card free" style="cursor: default; padding:20px;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:12px;">
           <div>
             <div class="room" style="font-size:1.5rem;">${t.name}</div>
-            <div class="cls" style="font-size:1rem; margin-top:4px;">
-              <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a>
+            <div class="cls" style="font-size:1rem; margin-top:6px; display:flex; flex-direction:column; gap:4px;">
+              ${t.email ? `<a href="mailto:${t.email}" class="card-link">${t.email}</a>` : '<span style="color:var(--muted);">Sin correo</span>'}
+              ${t.phone ? `<span style="color:var(--text); font-size:0.9rem;">Teléfono: <b>${t.phone}</b></span>` : ''}
             </div>
           </div>
           <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.95rem; padding: 6px 12px;">
@@ -250,11 +251,26 @@ function renderTeachers() {
           <div style="display:flex; flex-wrap:wrap; gap:6px;">${subjectsText}</div>
         </div>
 
-        ${t.tutoring_url ? `
-          <div style="margin-top:16px;">
-             <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link" style="font-size:1rem;">Ver Horario de Tutorías ↗</a>
-          </div>
-        ` : ''}
+        <!-- ACTION BUTTONS & PORTAL LINKS -->
+        <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
+          ${t.esei_url ? `
+            <a href="${t.esei_url}" target="_blank" rel="noopener" class="card-link" style="padding: 6px 12px; background: var(--panel2); border-radius: 6px; font-size: 0.9rem;">
+              Ficha ESEI &nearr;
+            </a>
+          ` : ''}
+
+          ${t.uvigo_url ? `
+            <a href="${t.uvigo_url}" target="_blank" rel="noopener" class="card-link" style="padding: 6px 12px; background: var(--panel2); border-radius: 6px; font-size: 0.9rem;">
+              Perfil UVigo / Tutorías &nearr;
+            </a>
+          ` : ''}
+
+          ${t.virtual_office ? `
+            <a href="${t.virtual_office}" target="_blank" rel="noopener" class="card-link" style="padding: 6px 12px; background: var(--panel2); border-radius: 6px; font-size: 0.9rem;">
+              Despacho Virtual &nearr;
+            </a>
+          ` : ''}
+        </div>
 
         ${extraInfoHtml}
       </div>
