@@ -6,57 +6,76 @@
 <title>ESEI · Room availability</title>
 <style>
   :root{
-    --bg:#0d1117; --panel:#161b22; --panel2:#1c2330; --border:#2b3442;
+    --bg:#0d1117; --panel:rgba(22, 27, 34, 0.85); --panel2:rgba(28, 35, 48, 0.85); --border:#2b3442;
     --text:#e6edf3; --muted:#8b98a9;
     --free:#22c55e; --free-bg:rgba(34,197,94,.12);
     --busy:#f59e0b; --busy-bg:rgba(245,158,11,.12);
     --accent:#58a6ff;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:url('https://f2.toyhou.se/file/f2-toyhou-se/images/116329354_1XMc1olgmXT12cp.png');background-repeat:no-repeat;background-size:cover;color:var(--text);
-       font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-       max-width:1100px;margin:0 auto;padding:24px 16px 64px}
-  header{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between;
-         margin-bottom:6px}
+
+  /* Fixed Background Image Cover */
+  body{
+    background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/116329354_1XMc1olgmXT12cp.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: var(--bg);
+    color:var(--text);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    max-width:1100px;margin:0 auto;padding:24px 16px 64px;
+    min-height: 100vh;
+  }
+
+  header{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between;margin-bottom:6px}
   h1{font-size:1.5rem;letter-spacing:.3px}
   h1 span{color:var(--accent)}
   #clock{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.95rem}
   .sub{color:var(--muted);font-size:.85rem;margin-bottom:20px}
-  .controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;
-            background:var(--panel);border:1px solid var(--border);border-radius:12px;
-            padding:12px 14px;margin-bottom:22px}
+  
+  .controls{
+    display:flex;flex-wrap:wrap;gap:10px;align-items:center;
+    background:var(--panel);border:1px solid var(--border);border-radius:12px;
+    padding:12px 14px;margin-bottom:22px;
+    backdrop-filter: blur(8px); /* Subtle glassmorphism effect for background readability */
+  }
   .controls label{font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:4px}
-  input,button{background:var(--panel2);border:1px solid var(--border);color:var(--text);
-               border-radius:8px;padding:7px 10px;font-size:.9rem}
+  input,button{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 10px;font-size:.9rem}
   button{cursor:pointer}
   button:hover{border-color:var(--accent)}
   button.active{background:var(--accent);border-color:var(--accent);color:#06121f;font-weight:600}
-  h2{font-size:1.05rem;margin:26px 0 12px;color:var(--muted);text-transform:uppercase;
-     letter-spacing:1px}
+
+  .filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-left: auto;
+  }
+
+  h2{font-size:1.05rem;margin:26px 0 12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;
-        padding:14px;border-left:5px solid var(--free)}
+  .card{
+    background:var(--panel);border:1px solid var(--border);border-radius:12px;
+    padding:14px;border-left:5px solid var(--free);
+    backdrop-filter: blur(8px);
+  }
   .card.busy{border-left-color:var(--busy)}
   .room{font-weight:700;font-size:1.05rem;margin-bottom:6px}
-  .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.5px;
-        padding:3px 9px;border-radius:999px;margin-bottom:8px}
+  .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.5px;padding:3px 9px;border-radius:999px;margin-bottom:8px}
   .card.free .pill{background:var(--free-bg);color:var(--free)}
   .card.busy .pill{background:var(--busy-bg);color:var(--busy)}
   .cls{font-size:.9rem}
   .cls .time{color:var(--muted);font-size:.8rem}
   .next{margin-top:8px;font-size:.78rem;color:var(--muted)}
-  table{width:100%;border-collapse:collapse;background:var(--panel);
-        border:1px solid var(--border);border-radius:12px;overflow:hidden}
-  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border);
-        font-size:.88rem;vertical-align:top}
-  th{background:var(--panel2);color:var(--muted);font-size:.75rem;text-transform:uppercase;
-     letter-spacing:.6px}
+  table{
+    width:100%;border-collapse:collapse;background:var(--panel);
+    border:1px solid var(--border);border-radius:12px;overflow:hidden;
+    backdrop-filter: blur(8px);
+  }
+  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border);font-size:.88rem;vertical-align:top}
+  th{background:var(--panel2);color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.6px}
   tr:last-child td{border-bottom:none}
-  .chip{display:inline-block;background:var(--panel2);border:1px solid var(--border);
-        border-radius:8px;padding:3px 8px;margin:2px 3px 2px 0;font-size:.8rem;white-space:nowrap}
+  .chip{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:3px 8px;margin:2px 3px 2px 0;font-size:.8rem;white-space:nowrap}
   .chip b{color:var(--accent);font-weight:600}
-  #error{display:none;background:rgba(245,158,11,.1);border:1px solid var(--busy);
-         color:var(--busy);border-radius:12px;padding:14px;margin-bottom:18px;font-size:.9rem}
+  #error{display:none;background:rgba(245,158,11,.1);border:1px solid var(--busy);color:var(--busy);border-radius:12px;padding:14px;margin-bottom:18px;font-size:.9rem}
   .legend{font-size:.78rem;color:var(--muted)}
   footer{margin-top:40px;color:var(--muted);font-size:.78rem;text-align:center}
 </style>
@@ -76,12 +95,13 @@
   <label>Time <input type="time" id="time"></label>
   <button id="nowBtn" class="active">Now</button>
   <span class="legend" id="freshness"></span>
+  
   <div class="filter-buttons">
     <button class="filter-btn active" data-filter="all">All Rooms</button>
+    <button class="filter-btn" data-filter="soxAndMagna">Floor -1</button>
     <button class="filter-btn" data-filter="floor1">Floor 1</button>
     <button class="filter-btn" data-filter="floor2">Floor 2</button>
     <button class="filter-btn" data-filter="floor3">Floor 3</button>
-    <button class="filter-btn" data-filter="soxAndMagna">Floor -1</button>
   </div>
 </div>
 
@@ -99,6 +119,26 @@
 <script>
 const TZ = "Europe/Madrid";
 let DATA = null;
+let activeFilter = 'all';
+
+/* ---------- floor / room helper filters ---------- */
+function getFloor(roomName) {
+  if (!roomName) return null;
+  const match = roomName.match(/\b([0-3])\.\d+\b/);
+  return match ? parseInt(match[1], 10) : null;
+}
+
+const PRESET_FILTERS = {
+  all: () => true,
+  floor1: (room) => getFloor(room) === 1,
+  floor2: (room) => getFloor(room) === 2,
+  floor3: (room) => getFloor(room) === 3,
+  soxAndMagna: (room) => {
+    if (!room) return false;
+    const r = room.toLowerCase();
+    return r.includes("so") || r === "aula magna";
+  }
+};
 
 /* ---------- time helpers (all in Europe/Madrid) ---------- */
 function madridParts(date = new Date()) {
@@ -108,7 +148,7 @@ function madridParts(date = new Date()) {
   return {date:`${p.year}-${p.month}-${p.day}`, time:`${p.hour}:${p.minute}`,
           timeFull:`${p.hour}:${p.minute}:${p.second}`};
 }
-function weekdayName(iso){ // iso = YYYY-MM-DD
+function weekdayName(iso){
   const [y,m,d]=iso.split("-").map(Number);
   return new Date(y,m-1,d).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short"});
 }
@@ -116,7 +156,7 @@ const toMin = t => {const[a,b]=t.split(":").map(Number);return a*60+b;};
 
 /* ---------- data helpers ---------- */
 const eventsOn = iso => DATA.events.filter(e => e.date === iso);
-function roomKey(r){ // natural sort: SO2 before SO10
+function roomKey(r){
   return (r||"").split(/(\d+)/).map(s=>isNaN(s)?s:+s);
 }
 function statusAt(evts, time){
@@ -135,7 +175,9 @@ function render(){
     viewingNow ? "Right now" : `Status on ${weekdayName(iso)} at ${time}`;
 
   const evts = eventsOn(iso);
-  const rooms = [...new Set(DATA.events.map(e=>e.room).filter(Boolean))].sort((a,b)=>{
+  
+  // Extract unique rooms
+  let rooms = [...new Set(DATA.events.map(e=>e.room).filter(Boolean))].sort((a,b)=>{
     const ka=roomKey(a), kb=roomKey(b);
     for(let i=0;i<Math.max(ka.length,kb.length);i++){
       if(ka[i]===undefined) return -1; if(kb[i]===undefined) return 1;
@@ -143,11 +185,20 @@ function render(){
     } return 0;
   });
 
+  // Apply active room filter
+  const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
+  rooms = rooms.filter(filterFn);
+
   /* status board */
   const board = document.getElementById("board");
   board.innerHTML = "";
   const later = evts.filter(e => toMin(e.start) >= toMin(time))
                     .sort((a,b)=>toMin(a.start)-toMin(b.start));
+
+  if(!rooms.length){
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No rooms matching this floor filter.</div>`;
+  }
+
   for(const room of rooms){
     const roomEvts = evts.filter(e=>e.room===room);
     const cur = statusAt(roomEvts, time);
@@ -167,7 +218,7 @@ function render(){
   const body = document.getElementById("dayBody");
   body.innerHTML = "";
   if(!rooms.length){
-    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes found for this date.</td></tr>`;
+    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes or rooms found for this view.</td></tr>`;
   }
   for(const room of rooms){
     const roomDayEvts = evts.filter(e=>e.room===room);
@@ -199,7 +250,7 @@ async function boot(){
   document.getElementById("freshness").textContent =
     "data updated: " + new Date(DATA.generated_at).toLocaleString();
 
-  /* default date: today, or the first date that actually has events */
+  /* default date setup */
   const today = madridParts().date;
   const dates = [...new Set(DATA.events.map(e=>e.date))].sort();
   const def = dates.includes(today) ? today : (dates.find(d=>d>=today) || dates[0] || today);
@@ -217,7 +268,18 @@ async function boot(){
     syncNowBtn(); render();
   });
 
+  /* Filter buttons click handler */
+  document.querySelectorAll('.filter-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      activeFilter = e.target.getAttribute('data-filter');
+      render();
+    });
+  });
+
   render();
+
   /* keep "now" fresh */
   setInterval(()=>{
     if(document.getElementById("nowBtn").classList.contains("active")){
@@ -228,52 +290,6 @@ async function boot(){
   }, 30000);
 }
 boot();
-
-function getFloor(roomName) {
-  if (!roomName) return null;
-  const match = roomName.match(/\b([0-3])\.\d+\b/);
-  return match ? parseInt(match[1], 10) : null;
-}
-
-const PRESET_FILTERS = {
-  all: () => true,
-  floor1: (event) => getFloor(event.room) === 1,
-  floor2: (event) => getFloor(event.room) === 2,
-  floor3: (event) => getFloor(event.room) === 3,
-  soxAndMagna: (event) => {
-    if (!event.room) return false;
-    const room = event.room.toLowerCase();
-    return room.includes("so") || room === "aula magna";
-  }
-};
-
-let allEvents = [];
-let activeFilter = 'all';
-
-function applyAndRender() {
-  const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
-  const filteredEvents = allEvents.filter(filterFn);
-  
-  renderEvents(filteredEvents);
-}
-
-fetch('data.json')
-  .then(res => res.json())
-  .then(data => {
-    allEvents = data.events;
-    
-    applyAndRender();
-
-    document.querySelectorAll('.filter-btn').forEach(button => {
-      button.addEventListener('click', (e) => {
-        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-        e.target.classList.add('active');
-
-        activeFilter = e.target.getAttribute('data-filter');
-        applyAndRender();
-      });
-    });
-  });
 </script>
 </body>
 </html>
