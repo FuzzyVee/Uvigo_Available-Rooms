@@ -136,7 +136,7 @@ DAYS_BEHIND = 7
 DAYS_AHEAD  = 100
 
 # Event titles look like "BDII_3 [SO1]" -> room between square brackets.
-ROOM_RE = re.compile(r"\[([^\]]+)\]")
+ROOM_RE = re.compile(r'\s*\[.*?\]')
 
 # IGNORE_ROOMS defines names that shouldn't be parsed as physical classrooms
 IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD"}
