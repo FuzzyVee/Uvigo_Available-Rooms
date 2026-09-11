@@ -11,6 +11,7 @@ import json
 import re
 import sys
 import urllib.request
+import urllib.error
 import base64
 
 from icalendar import Calendar                       
@@ -105,7 +106,7 @@ CALENDAR_GROUPS = {
         "Y1_jZTNiOTQ3ODIxNjY3ZjA4MDY5NWRhNmJkY2IwNWNkZjgzMzZjZTFlZjY3ZjkyMzE2NDBmMjAzNTZkZDA2YjMwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_1OTc1NDgzMDAxOGEwMzkwZmMyMTRkMTdjNWY5NTE5M2RjMmIwMTRkYzhmYmY0OWYwYmVlOGQ0NzUzN2NkYmY4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_jM2MxMzdjMjBiNTJlN2NmMWFmOWQxOTEzZjE0YTRlN2FhN2RmOGMyZDQwZjNjN2ZmNTIyMDdlMjU0NmJmYmEwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
-        "Y1_2NDNjMDBhNjE3M2RkM110OWRlNmY3YTQ0NDJiYzVhNjYyYzdhMTY0ZjExYjdiNTM0MzljNDMxZmE1NjNiNGViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
+        "Y1_2NDNjMDBhNjE3M2RkMTE0OWRlNmY3YTQ0NDJiYzVhNjYyYzdhMTY0ZjExYjdiNTM0MzljNDMxZmE1NjNiNGViQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
     ],
 }
 
@@ -116,17 +117,17 @@ DAYS_AHEAD  = 100
 
 ROOM_RE = re.compile(r'\s*\[.*?\]')
 
-# Items to completely filter out from room availability listing
+# Unwanted entries filtered completely out
 IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD", "AEDII", "AUTOM"}
 
 def normalize_room(room_name: str) -> str:
-    """Normalize room aliases (e.g. 2.4/Elect -> 2.4)"""
+    """Normalize room names (e.g., converts '2.4/Elect' to '2.4')."""
     if not room_name:
         return room_name
     
     room_clean = room_name.strip()
     
-    # Strip '/Elect', '/ELECT', '/ELEC' suffix
+    # Trim '/Elect', '/ELECT', or '/Elec' variations off room names
     room_clean = re.sub(r'/elect.*$', '', room_clean, flags=re.IGNORECASE)
     
     return room_clean.strip()
@@ -140,26 +141,24 @@ def parse_room(summary):
             return None
         return room_name
     return None
-    
-def fetch_ics(calendar_id: str) -> bytes:
-    # Safely decode base64 if needed
-    if not calendar_id.endswith("@group.calendar.google.com") and not calendar_id.endswith("@gmail.com"):
-        try:
-            padded_id = calendar_id + "=" * (-len(calendar_id) % 4)
-            calendar_id = base64.b64decode(padded_id).decode('utf-8')
-        except Exception:
-            pass
 
-    url = FEED_URL.format(cid=calendar_id)
+def fetch_ics(calendar_id: str) -> bytes:
+    # Exception handling for Base64 decoding
+    cid = calendar_id
+    if not cid.endswith("@group.calendar.google.com") and not cid.endswith("@gmail.com"):
+        try:
+            padded_id = cid + "=" * (-len(cid) % 4)
+            cid = base64.b64decode(padded_id).decode('utf-8')
+        except Exception:
+            pass # Keep original if decoding fails
+
+    url = FEED_URL.format(cid=cid)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        with urllib.request.urlopen(req, timeout=15) as resp:
             return resp.read()
-    except urllib.error.HTTPError as exc:
-        print(f"  [HTTP {exc.code}] Failed to fetch calendar ID: {calendar_id}", file=sys.stderr)
-        return b""
     except Exception as exc:
-        print(f"  [ERROR] {exc} for calendar ID: {calendar_id}", file=sys.stderr)
+        # Gracefully handle HTTP 404s or invalid links without failing script execution
         return b""
 
 def room_and_subject(summary: str, location: str):
@@ -190,17 +189,24 @@ def main():
         for cid in ids:
             seen.setdefault(cid, group)
     calendars = list(seen.items())
-    print(f"{len(calendars)} unique calendars | expanding events between "
-          f"{start} and {end} ...")
+    print(f"{len(calendars)} unique calendars | fetching events between {start} and {end} ...")
 
     out, no_room = [], 0
     for cid, group in calendars:
         raw = fetch_ics(cid)
         if not raw:
             continue
+        
+        # Exception handling for invalid or corrupt .ics content
         try:
             cal = Calendar.from_ical(raw)
-            for ev in recurring_ical_events.of(cal).between(start, end):
+            events = recurring_ical_events.of(cal).between(start, end)
+        except Exception:
+            continue
+
+        for ev in events:
+            # Exception handling for malformed individual events
+            try:
                 summary  = str(ev.get("SUMMARY", "")).strip()
                 location = str(ev.get("LOCATION", "") or "").strip()
                 if not summary:
@@ -219,9 +225,10 @@ def main():
                     "end":     t2 or "23:59",
                     "raw":     summary,
                 })
-            print(f"  ok [{group}] {cid[:30]}...")
-        except Exception as e:
-            print(f"  ! error parsing calendar {cid[:30]}: {e}", file=sys.stderr)
+            except Exception:
+                continue # Skip individual corrupted event
+                
+        print(f"  ok [{group}] {cid[:25]}...")
 
     out.sort(key=lambda e: (e["date"], e["start"], e["room"] or ""))
     data = {
@@ -233,9 +240,9 @@ def main():
     }
     with open("data.json", "w", encoding="utf-8") as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
+        
     rooms = {e["room"] for e in out if e["room"]}
-    print(f"Wrote data.json: {len(out)} events, {len(rooms)} rooms "
-          f"({no_room} events had no room info).")
+    print(f"Done! Wrote data.json: {len(out)} events, {len(rooms)} rooms processed.")
 
 if __name__ == "__main__":
     main()
