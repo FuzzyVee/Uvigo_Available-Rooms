@@ -2,6 +2,7 @@ const TZ = "Europe/Madrid";
 let DATA = null;
 let TEACHERS_DATA = null;
 let activeFilter = 'all';
+let selectedTeacher = null;
 
 /* ---------- floor / room helper filters ---------- */
 function getFloor(roomName) {
@@ -131,14 +132,79 @@ function render() {
   }
 }
 
+/* ---------- rendering teachers ---------- */
 function renderTeachers() {
   if (!TEACHERS_DATA) return;
 
-  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
   const board = document.getElementById("teachersBoard");
   if (!board) return;
 
   board.innerHTML = "";
+
+  // 1. DETAIL VIEW: Runs when a card or autocomplete item is selected
+  if (selectedTeacher) {
+    const t = selectedTeacher;
+    const subjectsText = t.subjects && t.subjects.length 
+      ? t.subjects.map(s => `<span class="chip"><b>${s}</b></span>`).join(" ")
+      : "Docencia no especificada";
+
+    let extraInfoHtml = "";
+    if (t.info || t.events) {
+      extraInfoHtml = `
+        <div class="teacher-info-section" style="margin-top:16px;">
+          <h4 style="margin:0 0 8px 0; font-size:1rem;">Información / Actividad</h4>
+          <div style="font-size:0.9rem; line-height:1.5; color:var(--text); white-space: pre-wrap;">
+            ${t.info || t.events}
+          </div>
+        </div>
+      `;
+    }
+
+    const detailContainer = document.createElement("div");
+    detailContainer.style.gridColumn = "1 / -1";
+    detailContainer.innerHTML = `
+      <button id="backToSearchBtn" style="margin-bottom: 16px; padding: 8px 16px; cursor: pointer; background: var(--panel2); color: var(--accent); border: 1px solid var(--accent); border-radius: 6px;">
+        ← Volver al buscador
+      </button>
+      <div class="card free" style="cursor: default; padding:20px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
+          <div>
+            <div class="room" style="font-size:1.5rem;">${t.name}</div>
+            <div class="cls" style="font-size:1rem; margin-top:4px;">
+              <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a>
+            </div>
+          </div>
+          <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.95rem; padding: 6px 12px;">
+            DESPACHO: ${t.office || 'N/A'}
+          </span>
+        </div>
+
+        <div style="margin-top:20px;">
+          <b style="display:block; margin-bottom:8px;">Asignaturas:</b>
+          <div>${subjectsText}</div>
+        </div>
+
+        ${t.tutoring_url ? `
+          <div style="margin-top:16px;">
+             <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link" style="font-size:1rem;">Ver Horario de Tutorías ↗</a>
+          </div>
+        ` : ''}
+
+        ${extraInfoHtml}
+      </div>
+    `;
+
+    board.appendChild(detailContainer);
+
+    document.getElementById("backToSearchBtn").addEventListener("click", () => {
+      selectedTeacher = null;
+      renderTeachers();
+    });
+    return;
+  }
+
+  // 2. SEARCH GRID: Concise cards (Name, Email, Office only)
+  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
 
   const filtered = TEACHERS_DATA.teachers.filter(t => {
     const nameMatch = t.name.toLowerCase().includes(query);
@@ -155,47 +221,24 @@ function renderTeachers() {
   for (const t of filtered) {
     const card = document.createElement("div");
     card.className = "card free";
-
-    const subjectsText = t.subjects && t.subjects.length 
-      ? t.subjects.join(", ") 
-      : "Docencia no especificada";
-
-    let extraInfoHtml = "";
-    if (t.info || t.events) {
-      const rawText = t.info || t.events;
-      extraInfoHtml = `
-        <div class="teacher-info-section">
-          <h4>Información / Actividad</h4>
-          <div style="font-size:0.85rem; line-height:1.4; color:var(--text); white-space: pre-wrap;">
-            ${rawText}
-          </div>
-        </div>
-      `;
-    }
+    card.style.cursor = "pointer";
 
     card.innerHTML = `
       <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
         <div>
           <div class="room" style="font-size:1.2rem;">${t.name}</div>
-          <div class="cls"> <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
+          <div class="cls"><a href="mailto:${t.email}" class="card-link" onclick="event.stopPropagation()">${t.email || 'Sin correo'}</a></div>
         </div>
         <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
           DESPACHO: ${t.office || 'N/A'}
         </span>
       </div>
-
-      <div class="next" style="margin-top:10px;">
-         <b>Asignaturas:</b> ${subjectsText}
-      </div>
-
-      ${t.tutoring_url ? `
-        <div class="next">
-           <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
-        </div>
-      ` : ''}
-
-      ${extraInfoHtml}
     `;
+
+    card.addEventListener("click", () => {
+      selectedTeacher = t;
+      renderTeachers();
+    });
 
     board.appendChild(card);
   }
@@ -286,7 +329,10 @@ async function boot() {
 
   const searchInput = document.getElementById("teacherSearch");
   if (searchInput) {
-    searchInput.addEventListener("input", renderTeachers);
+    searchInput.addEventListener("input", () => {
+      selectedTeacher = null;
+      renderTeachers();
+    });
   }
 
   render();
@@ -302,12 +348,13 @@ async function boot() {
   setupTeacherAutocomplete();
 }
 
-let currentFocus = -1;
-
 function setupTeacherAutocomplete() {
   const input = document.getElementById("teacherSearch");
   const listContainer = document.getElementById("autocompleteList");
   if (!input || !listContainer) return;
+
+  let currentFocus = -1;
+
   function closeAllLists(elmnt) {
     if (elmnt !== input && elmnt !== listContainer) {
       listContainer.innerHTML = "";
@@ -334,6 +381,7 @@ function setupTeacherAutocomplete() {
     listContainer.innerHTML = "";
     currentFocus = -1;
 
+    selectedTeacher = null;
     renderTeachers();
 
     if (!val || !TEACHERS_DATA) return;
@@ -348,10 +396,12 @@ function setupTeacherAutocomplete() {
     matches.forEach(t => {
       const item = document.createElement("div");
       item.innerHTML = `
-        <span>${t.name}</span>
+        <span class="autocomplete-title">${t.name}</span>
         <span class="autocomplete-item-sub">${t.office ? 'Despacho ' + t.office : ''}</span>
       `;
-      item.addEventListener("click", function() {
+      item.addEventListener("click", function(e) {
+        e.stopPropagation();
+        selectedTeacher = t;
         input.value = t.name;
         listContainer.innerHTML = "";
         renderTeachers();
