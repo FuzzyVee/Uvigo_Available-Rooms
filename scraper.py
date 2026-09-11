@@ -136,9 +136,10 @@ DAYS_BEHIND = 7
 DAYS_AHEAD  = 100
 
 # Event titles look like "BDII_3 [SO1]" -> room between square brackets.
+ROOM_RE = re.compile(r"\[([^\]]+)\]")
+
 # IGNORE_ROOMS defines names that shouldn't be parsed as physical classrooms
 IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD"}
-
 def parse_room(summary):
     match = re.search(r'\[(.*?)\]', summary)
     if match:
@@ -148,6 +149,7 @@ def parse_room(summary):
             return None
         return room_name
     return None
+
 
 def fetch_ics(calendar_id: str) -> bytes:
     if not calendar_id.endswith("@group.calendar.google.com") and not calendar_id.endswith("@gmail.com"):
@@ -159,11 +161,11 @@ def fetch_ics(calendar_id: str) -> bytes:
     url = FEED_URL.format(cid=calendar_id)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            return resp.read()
-    except Exception as exc:                       # keep going if one calendar fails
         print(f"  ! could not fetch {calendar_id}: {exc}", file=sys.stderr)
 
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return resp.read()
+    except Exception as exc:
         return b""
 
 def room_and_subject(summary: str, location: str):
