@@ -127,78 +127,14 @@ function render() {
   }
 }
 
-let selectedTeacher = null;
-
 function renderTeachers() {
   if (!TEACHERS_DATA) return;
 
+  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
   const board = document.getElementById("teachersBoard");
   if (!board) return;
 
   board.innerHTML = "";
-
-  if (selectedTeacher) {
-    const t = selectedTeacher;
-    const subjectsText = t.subjects && t.subjects.length 
-      ? t.subjects.map(s => `<span class="chip"><b>${s}</b></span>`).join(" ")
-      : "Docencia no especificada";
-
-    let extraInfoHtml = "";
-    if (t.info || t.events) {
-      extraInfoHtml = `
-        <div class="teacher-info-section" style="margin-top:16px;">
-          <h4 style="margin:0 0 8px 0; font-size:1rem;">Información / Actividad</h4>
-          <div style="font-size:0.9rem; line-height:1.5; color:var(--text); white-space: pre-wrap;">
-            ${t.info || t.events}
-          </div>
-        </div>
-      `;
-    }
-
-    const detailContainer = document.createElement("div");
-    detailContainer.style.gridColumn = "1 / -1";
-    detailContainer.innerHTML = `
-      <button id="backToSearchBtn" style="margin-bottom: 16px; padding: 8px 16px; cursor: pointer; background: var(--panel2); color: var(--accent); border: 1px solid var(--accent); border-radius: 6px;">
-        ← Volver al buscador
-      </button>
-      <div class="card free" style="cursor: default;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
-          <div>
-            <div class="room" style="font-size:1.5rem;">${t.name}</div>
-            <div class="cls" style="font-size:1rem; margin-top:4px;">
-              <a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a>
-            </div>
-          </div>
-          <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.95rem; padding: 6px 12px;">
-            DESPACHO: ${t.office || 'N/A'}
-          </span>
-        </div>
-
-        <div style="margin-top:20px;">
-          <b style="display:block; margin-bottom:8px;">Asignaturas:</b>
-          <div>${subjectsText}</div>
-        </div>
-
-        ${t.tutoring_url ? `
-          <div style="margin-top:16px;">
-             <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link" style="font-size:1rem;">Ver Horario de Tutorías ↗</a>
-          </div>
-        ` : ''}
-
-        ${extraInfoHtml}
-      </div>
-    `;
-
-    board.appendChild(detailContainer);
-
-    document.getElementById("backToSearchBtn").addEventListener("click", () => {
-      selectedTeacher = null;
-      renderTeachers();
-    });
-    return;
-  }
-
-  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
 
   const filtered = TEACHERS_DATA.teachers.filter(t => {
     const nameMatch = t.name.toLowerCase().includes(query);
@@ -214,25 +150,55 @@ function renderTeachers() {
 
   for (const t of filtered) {
     const card = document.createElement("div");
-    card.className = "card free";
-    card.style.cursor = "pointer";
+    card.className = "card free teacher-card";
+
+    card.addEventListener("click", (e) => {
+      if (e.target.tagName === "A") return;
+      card.classList.toggle("expanded");
+    });
+
+    const subjectsText = t.subjects && t.subjects.length 
+      ? t.subjects.join(", ") 
+      : "Docencia no especificada";
+
+    let extraInfoHtml = "";
+    if (t.info || t.events) {
+      const rawText = t.info || t.events;
+      extraInfoHtml = `
+        <div class="teacher-info-section" style="margin-top:8px;">
+          <h4 style="margin:0 0 4px 0; font-size:0.85rem;">Información / Actividad</h4>
+          <div style="font-size:0.85rem; line-height:1.4; color:var(--text); white-space: pre-wrap;">
+            ${rawText}
+          </div>
+        </div>
+      `;
+    }
 
     card.innerHTML = `
       <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
         <div>
           <div class="room" style="font-size:1.2rem;">${t.name}</div>
-          <div class="cls"><a href="mailto:${t.email}" class="card-link" onclick="event.stopPropagation()">${t.email || 'Sin correo'}</a></div>
+          <div class="cls"><a href="mailto:${t.email}" class="card-link">${t.email || 'Sin correo'}</a></div>
         </div>
         <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
           DESPACHO: ${t.office || 'N/A'}
         </span>
       </div>
-    `;
 
-    card.addEventListener("click", () => {
-      selectedTeacher = t;
-      renderTeachers();
-    });
+      <div class="teacher-extra-content">
+        <div class="next" style="margin-top:10px;">
+          <b>Asignaturas:</b> ${subjectsText}
+        </div>
+
+        ${t.tutoring_url ? `
+          <div class="next">
+             <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Ver Horario de Tutorías ↗</a>
+          </div>
+        ` : ''}
+
+        ${extraInfoHtml}
+      </div>
+    `;
 
     board.appendChild(card);
   }
