@@ -129,110 +129,6 @@ function render() {
 
 let selectedTeacher = null;
 
-function tick() {
-  document.getElementById("clock").textContent =
-    weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
-}
-
-async function boot() {
-  tick();
-  setInterval(tick, 1000);
-
-  try {
-    const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    DATA = await r.json();
-    document.getElementById("freshness").textContent =
-      "data updated: " + new Date(DATA.generated_at).toLocaleString();
-  } catch (err) {
-    const e = document.getElementById("error");
-    e.style.display = "block";
-    e.textContent = "Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
-    return;
-  }
-
-  try {
-    const r = await fetch(`teachers.json?v=${Date.now()}`, { cache: "no-store" });
-    if (r.ok) {
-      TEACHERS_DATA = await r.json();
-      const freshnessEl = document.getElementById("teachersFreshness");
-      if (freshnessEl) {
-        freshnessEl.textContent = "updated: " + new Date(TEACHERS_DATA.generated_at).toLocaleDateString();
-      }
-    }
-  } catch (err) {
-    console.warn("teachers.json could not be loaded.");
-  }
-
-  document.querySelectorAll('.tab-btn').forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-      
-      e.target.classList.add('active');
-      const tabId = e.target.getAttribute('data-tab') + 'Tab';
-      const targetTab = document.getElementById(tabId);
-      if (targetTab) targetTab.classList.add('active');
-
-      if (e.target.getAttribute('data-tab') === 'teachers') {
-        renderTeachers();
-      }
-    });
-  });
-
-  const today = madridParts().date;
-  const dates = [...new Set(DATA.events.map(e => e.date))].sort();
-  const def = dates.includes(today) ? today : (dates.find(d => d >= today) || dates[0] || today);
-  const dateEl = document.getElementById("date");
-  const timeEl = document.getElementById("time");
-  dateEl.value = def;
-  timeEl.value = madridParts().time;
-
-  const syncNowBtn = () =>
-    document.getElementById("nowBtn").classList.toggle("active", dateEl.value === madridParts().date);
-
-  [dateEl, timeEl].forEach(el => el.addEventListener("input", () => {
-    syncNowBtn();
-    render();
-  }));
-
-  document.getElementById("nowBtn").addEventListener("click", () => {
-    dateEl.value = madridParts().date;
-    timeEl.value = madridParts().time;
-    syncNowBtn();
-    render();
-  });
-
-  document.querySelectorAll('.filter-btn').forEach(button => {
-    button.addEventListener('click', (e) => {
-      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-      e.target.classList.add('active');
-      activeFilter = e.target.getAttribute('data-filter');
-      render();
-    });
-  });
-
-  const searchInput = document.getElementById("teacherSearch");
-  if (searchInput) {
-    searchInput.addEventListener("input", renderTeachers);
-  }
-
-  render();
-  renderTeachers();
-
-  setInterval(() => {
-    if (document.getElementById("nowBtn").classList.contains("active")) {
-      timeEl.value = madridParts().time;
-      dateEl.value = madridParts().date;
-      render();
-    }
-  }, 30000);
-  
-  setupTeacherAutocomplete();
-}
-
-let selectedTeacher = null;
-
 function renderTeachers() {
   if (!TEACHERS_DATA) return;
 
@@ -342,6 +238,108 @@ function renderTeachers() {
 
     board.appendChild(card);
   }
+}
+
+function tick() {
+  document.getElementById("clock").textContent =
+    weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
+}
+
+async function boot() {
+  tick();
+  setInterval(tick, 1000);
+
+  try {
+    const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    DATA = await r.json();
+    document.getElementById("freshness").textContent =
+      "data updated: " + new Date(DATA.generated_at).toLocaleString();
+  } catch (err) {
+    const e = document.getElementById("error");
+    e.style.display = "block";
+    e.textContent = "Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
+    return;
+  }
+
+  try {
+    const r = await fetch(`teachers.json?v=${Date.now()}`, { cache: "no-store" });
+    if (r.ok) {
+      TEACHERS_DATA = await r.json();
+      const freshnessEl = document.getElementById("teachersFreshness");
+      if (freshnessEl) {
+        freshnessEl.textContent = "updated: " + new Date(TEACHERS_DATA.generated_at).toLocaleDateString();
+      }
+    }
+  } catch (err) {
+    console.warn("teachers.json could not be loaded.");
+  }
+
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      
+      e.target.classList.add('active');
+      const tabId = e.target.getAttribute('data-tab') + 'Tab';
+      const targetTab = document.getElementById(tabId);
+      if (targetTab) targetTab.classList.add('active');
+
+      if (e.target.getAttribute('data-tab') === 'teachers') {
+        renderTeachers();
+      }
+    });
+  });
+
+  const today = madridParts().date;
+  const dates = [...new Set(DATA.events.map(e => e.date))].sort();
+  const def = dates.includes(today) ? today : (dates.find(d => d >= today) || dates[0] || today);
+  const dateEl = document.getElementById("date");
+  const timeEl = document.getElementById("time");
+  dateEl.value = def;
+  timeEl.value = madridParts().time;
+
+  const syncNowBtn = () =>
+    document.getElementById("nowBtn").classList.toggle("active", dateEl.value === madridParts().date);
+
+  [dateEl, timeEl].forEach(el => el.addEventListener("input", () => {
+    syncNowBtn();
+    render();
+  }));
+
+  document.getElementById("nowBtn").addEventListener("click", () => {
+    dateEl.value = madridParts().date;
+    timeEl.value = madridParts().time;
+    syncNowBtn();
+    render();
+  });
+
+  document.querySelectorAll('.filter-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      activeFilter = e.target.getAttribute('data-filter');
+      render();
+    });
+  });
+
+  const searchInput = document.getElementById("teacherSearch");
+  if (searchInput) {
+    searchInput.addEventListener("input", renderTeachers);
+  }
+
+  render();
+  renderTeachers();
+
+  setInterval(() => {
+    if (document.getElementById("nowBtn").classList.contains("active")) {
+      timeEl.value = madridParts().time;
+      dateEl.value = madridParts().date;
+      render();
+    }
+  }, 30000);
+  
+  setupTeacherAutocomplete();
 }
 
 function setupTeacherAutocomplete() {
