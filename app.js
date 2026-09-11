@@ -137,7 +137,6 @@ function renderTeachers() {
 
   board.innerHTML = "";
 
-  // 1. DETAIL VIEW: Rendered when a teacher card is clicked
   if (selectedTeacher) {
     const t = selectedTeacher;
     const subjectsText = t.subjects && t.subjects.length 
@@ -162,7 +161,7 @@ function renderTeachers() {
       <button id="backToSearchBtn" style="margin-bottom: 16px; padding: 8px 16px; cursor: pointer; background: var(--panel2); color: var(--accent); border: 1px solid var(--accent); border-radius: 6px;">
         ← Volver al buscador
       </button>
-      <div class="card free" style="cursor: default; padding: 20px;">
+      <div class="card free" style="cursor: default;">
         <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:8px;">
           <div>
             <div class="room" style="font-size:1.5rem;">${t.name}</div>
@@ -199,7 +198,6 @@ function renderTeachers() {
     return;
   }
 
-  // 2. SEARCH GRID: Strictly shows ONLY Name, Email, and Office
   const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
 
   const filtered = TEACHERS_DATA.teachers.filter(t => {
@@ -210,7 +208,7 @@ function renderTeachers() {
   });
 
   if (!filtered.length) {
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado profesores.</div>`;
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado profesores que coincidan con la búsqueda.</div>`;
     return;
   }
 
@@ -375,7 +373,6 @@ function setupTeacherAutocomplete() {
     listContainer.innerHTML = "";
     currentFocus = -1;
 
-    selectedTeacher = null;
     renderTeachers();
 
     if (!val || !TEACHERS_DATA) return;
@@ -401,7 +398,6 @@ function setupTeacherAutocomplete() {
 
       item.addEventListener("click", function(e) {
         e.stopPropagation();
-        selectedTeacher = t;
         input.value = t.name;
         listContainer.innerHTML = "";
         renderTeachers();
