@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-11T12:36:33.037453+00:00",
+  "generated_at": "2026-09-11T13:34:18.694576+00:00",
   "count": 97,
   "teachers": [
     {
       "id": "p-1",
       "name": "Alonso Carracedo, Manuel",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo",
       "phone": "",
       "email": "manuel.alonso.carracedo@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alonso-carracedo-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo",
       "subjects": []
@@ -16,10 +16,10 @@
     {
       "id": "p-2",
       "name": "Álvarez Domínguez, Miguel",
-      "office": "Lab",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez",
       "phone": "988387016",
       "email": "miguel.alvarez.dominguez@uvigo.es",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alvarez-dominguez-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez",
       "subjects": []
@@ -27,10 +27,10 @@
     {
       "id": "p-3",
       "name": "Arias Pérez, Pedro",
-      "office": "311",
+      "office": "No especificado",
       "phone": "988387035",
       "email": "pedro.arias.perez@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29849/",
       "uvigo_url": "",
       "subjects": []
@@ -38,7 +38,7 @@
     {
       "id": "p-4",
       "name": "Arriba Pérez, Francisco de",
-      "office": "314",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/francisco-arriba-perez",
       "phone": "988368915",
       "email": "farriba@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/307692360",
@@ -49,7 +49,7 @@
     {
       "id": "p-5",
       "name": "Balvís Outeiriño, Eduardo",
-      "office": "311",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/eduardo-balvis-outeirino",
       "phone": "988387035",
       "email": "ebalvis@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/100015018",
@@ -60,7 +60,7 @@
     {
       "id": "p-6",
       "name": "Barreiro Alonso, Enrique",
-      "office": "414",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/enrique-barreiro-alonso",
       "phone": "988368911",
       "email": "enrique@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/195045626",
@@ -71,10 +71,10 @@
     {
       "id": "p-7",
       "name": "Bea Besada, Yago",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada",
       "phone": "",
       "email": "yago.bea@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/bea-besada-yago/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada",
       "subjects": []
@@ -82,7 +82,7 @@
     {
       "id": "p-8",
       "name": "Blanco Cerradelo, Lidia",
-      "office": "Despacho",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/lidia-blanco-cerradelo",
       "phone": "",
       "email": "lyblanco@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/408041424",
@@ -93,7 +93,7 @@
     {
       "id": "p-9",
       "name": "Blanco González, Guillermo",
-      "office": "402",
+      "office": "https://www.uvigo.gal/es/universidad/administracionpersonal/pdi/guillermo-blanco-gonzalez",
       "phone": "988387009",
       "email": "guillermo.blanco.gonzalez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/192251466",
@@ -104,7 +104,7 @@
     {
       "id": "p-10",
       "name": "Borrajo Diz, María Lourdes",
-      "office": "307",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-lourdes-borrajo-diz",
       "phone": "988387028",
       "email": "lborrajo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/830941365",
@@ -115,7 +115,7 @@
     {
       "id": "p-11",
       "name": "Campos Bastos, Celso",
-      "office": "410",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/celso-campos-bastos",
       "phone": "988387017",
       "email": "ccampos@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/123383861",
@@ -126,10 +126,10 @@
     {
       "id": "p-12",
       "name": "Candal Ventureira, David",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira",
       "phone": "",
       "email": "dcandal@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/candal-ventureira-david/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira",
       "subjects": []
@@ -137,7 +137,7 @@
     {
       "id": "p-13",
       "name": "Castro Miguéns, Carlos",
-      "office": "312",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/carlos-castro-miguens",
       "phone": "988387023",
       "email": "cmiguens@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/476999933",
@@ -148,7 +148,7 @@
     {
       "id": "p-14",
       "name": "Celard Pérez, Pedro",
-      "office": "412",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-celard-perez",
       "phone": "988387019",
       "email": "pedro.celard.perez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/347244169",
@@ -159,7 +159,7 @@
     {
       "id": "p-15",
       "name": "Cid Araujo, Jose Angel",
-      "office": "31",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-angel-cid-araujo",
       "phone": "988 387 221",
       "email": "angelcid@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/964130816",
@@ -170,10 +170,10 @@
     {
       "id": "p-16",
       "name": "Cotos Fernández-Arruty, Laura",
-      "office": "521",
+      "office": "No especificado",
       "phone": "",
       "email": "laura.cotos@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-fernandez-arruty-laura/",
       "uvigo_url": "",
       "subjects": []
@@ -181,7 +181,7 @@
     {
       "id": "p-17",
       "name": "Cotos Yáñez, Tomas Raimundo",
-      "office": "13",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/tomas-raimundo-cotos-yanez",
       "phone": "988368766",
       "email": "cotos@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/370913313",
@@ -192,7 +192,7 @@
     {
       "id": "p-18",
       "name": "Cruz González, Maria Montserrat",
-      "office": "310",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-montserrat-cruz-gonzalez",
       "phone": "988368719",
       "email": "mcruz@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/133719569",
@@ -203,7 +203,7 @@
     {
       "id": "p-19",
       "name": "Cuesta Morales, Pedro",
-      "office": "411",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-cuesta-morales",
       "phone": "988387018",
       "email": "pcuesta@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/749520036",
@@ -214,7 +214,7 @@
     {
       "id": "p-20",
       "name": "Darriba Bilbao, Víctor Manuel",
-      "office": "304",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/victor-manuel-darriba-bilbao",
       "phone": "988387025",
       "email": "darriba@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/448025197",
@@ -225,7 +225,7 @@
     {
       "id": "p-21",
       "name": "Diaz-Cacho Medina, Miguel Ramón",
-      "office": "310",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-ramon-diaz-cacho-medina",
       "phone": "988387034",
       "email": "mcacho@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/768518475",
@@ -236,10 +236,10 @@
     {
       "id": "p-22",
       "name": "Feijóo Miranda, José",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda",
       "phone": "",
       "email": "jfeijoomiranda@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/feijoo-miranda-jose-2/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda",
       "subjects": []
@@ -247,7 +247,7 @@
     {
       "id": "p-23",
       "name": "Fernández Gavilanes, Milagros",
-      "office": "313",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/milagros-fernandez-gavilanes",
       "phone": "988387271",
       "email": "mfgavilanes@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/267428983",
@@ -258,7 +258,7 @@
     {
       "id": "p-24",
       "name": "Fernández González, Daniel",
-      "office": "305",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-fernandez-gonzalez",
       "phone": "988387026",
       "email": "danifg@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/841425695",
@@ -269,7 +269,7 @@
     {
       "id": "p-25",
       "name": "Fernández Lanza, Santiago",
-      "office": "305",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/santiago-fernandez-lanza",
       "phone": "988387026",
       "email": "sflanza@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/633396819",
@@ -280,7 +280,7 @@
     {
       "id": "p-26",
       "name": "Fernández Riverola, Florentino",
-      "office": "408",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/florentino-fernandez-riverola",
       "phone": "988387015",
       "email": "riverola@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/509875813",
@@ -291,10 +291,10 @@
     {
       "id": "p-27",
       "name": "Figueiral Alonso, Erik",
-      "office": "Tel",
+      "office": "No especificado",
       "phone": "",
       "email": "erik.figueiral.alonso@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/figueiral-alonso-erik/",
       "uvigo_url": "",
       "subjects": []
@@ -302,7 +302,7 @@
     {
       "id": "p-28",
       "name": "Gálvez Gálvez, Juan Francisco",
-      "office": "402",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-francisco-galvez-galvez",
       "phone": "988387009",
       "email": "galvez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/890357780",
@@ -313,7 +313,7 @@
     {
       "id": "p-29",
       "name": "García Hervella, Noelia",
-      "office": "Laboratorio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/noelia-garcia-hervella",
       "phone": "988387252",
       "email": "nghervella@esei.uvigo.es",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/975250706",
@@ -324,7 +324,7 @@
     {
       "id": "p-30",
       "name": "García Pérez-Schofield, Baltasar",
-      "office": "307",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-baltasar-garcia-perez-schofield",
       "phone": "988368891",
       "email": "jbgarcia@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/656060768",
@@ -335,7 +335,7 @@
     {
       "id": "p-31",
       "name": "García Rivera, Matías",
-      "office": "311",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/matias-garcia-rivera",
       "phone": "988387035",
       "email": "mgrivera@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/612808536",
@@ -346,7 +346,7 @@
     {
       "id": "p-32",
       "name": "Garriga Domínguez, Ana",
-      "office": "26",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-garriga-dominguez",
       "phone": "988368834",
       "email": "agarriga@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/747433606",
@@ -357,7 +357,7 @@
     {
       "id": "p-33",
       "name": "Gómez Meire, Silvana",
-      "office": "410",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/silvana-gomez-meire",
       "phone": "988387017",
       "email": "sgmeire@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/155534894",
@@ -368,10 +368,10 @@
     {
       "id": "p-34",
       "name": "González Mariño, Ángela",
-      "office": "311",
+      "office": "No especificado",
       "phone": "988387035",
       "email": "angela.gonzalez@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-marino-angela/",
       "uvigo_url": "",
       "subjects": []
@@ -379,7 +379,7 @@
     {
       "id": "p-35",
       "name": "González Moreno, Juan Carlos",
-      "office": "407",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-carlos-gonzalez-moreno",
       "phone": "988387014",
       "email": "jcmoreno@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/870755795",
@@ -390,10 +390,10 @@
     {
       "id": "p-36",
       "name": "González Pedrouzo, Antonio Adrián",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo",
       "phone": "",
       "email": "antonio.adrian.gonzalez@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pedrouzo-antonio-adrian/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo",
       "subjects": []
@@ -401,7 +401,7 @@
     {
       "id": "p-37",
       "name": "González Peña, Daniel",
-      "office": "306",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-gonzalez-pena",
       "phone": "988387039",
       "email": "dgpena@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/267388097",
@@ -412,7 +412,7 @@
     {
       "id": "p-38",
       "name": "González Rodríguez, Brais",
-      "office": "Edificio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/brais-gonzalez-rodriguez",
       "phone": "988368767",
       "email": "brais.gonzalez.rodriguez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/313974611",
@@ -423,7 +423,7 @@
     {
       "id": "p-39",
       "name": "González Rufino, María Encarnación",
-      "office": "409",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-encarnacion-gonzalez-rufino",
       "phone": "988387016",
       "email": "nrufino@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/904911293",
@@ -434,7 +434,7 @@
     {
       "id": "p-40",
       "name": "Iago Núñez Lugilde",
-      "office": "516",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/iago-nunez-lugilde",
       "phone": "",
       "email": "iago.nunez.lugilde@uvigo.es",
       "virtual_office": "https://campusremotouvigo.gal/public/498872871",
@@ -445,7 +445,7 @@
     {
       "id": "p-41",
       "name": "Lado Touriño, María José",
-      "office": "405",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-jose-lado-tourino",
       "phone": "988387012",
       "email": "mrpepa@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/995394505",
@@ -456,7 +456,7 @@
     {
       "id": "p-42",
       "name": "Laza Fidalgo, Rosalia",
-      "office": "406",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/rosalia-laza-fidalgo",
       "phone": "988387013",
       "email": "rlaza@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/991095057",
@@ -467,7 +467,7 @@
     {
       "id": "p-43",
       "name": "López Fernández, Hugo",
-      "office": "309",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/hugo-lopez-fernandez",
       "phone": "988387030",
       "email": "hlfernandez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/850827261",
@@ -478,7 +478,7 @@
     {
       "id": "p-44",
       "name": "López Pedrares, Javier",
-      "office": "315",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-lopez-pedrares",
       "phone": "988368807",
       "email": "javier.lopez.pedrares@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/491820289",
@@ -489,7 +489,7 @@
     {
       "id": "p-45",
       "name": "Lorenzo Iglesias, Eva María",
-      "office": "412",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/eva-maria-lorenzo-iglesias",
       "phone": "988387019",
       "email": "eva@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/295468650",
@@ -500,7 +500,7 @@
     {
       "id": "p-46",
       "name": "Luis Vázquez, Ivan",
-      "office": "407",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-luis-vazquez",
       "phone": "988387014",
       "email": "ivan.luis@uvigo.es",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/1533%2039586",
@@ -511,7 +511,7 @@
     {
       "id": "p-47",
       "name": "Martínez Estévez, Iván",
-      "office": "401",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ivan-martinez-estevez",
       "phone": "988387008",
       "email": "ivan.martinez.estevez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/443206892",
@@ -522,7 +522,7 @@
     {
       "id": "p-48",
       "name": "Martínez Orge, José Luis",
-      "office": "403",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-luis-martinez-orge",
       "phone": "988387010",
       "email": "jlorge@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/653674688",
@@ -533,7 +533,7 @@
     {
       "id": "p-49",
       "name": "Méndez Penín, Arturo José",
-      "office": "404",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/arturo-jose-mendez-penin",
       "phone": "988387011",
       "email": "mrarthur@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/286815130",
@@ -544,7 +544,7 @@
     {
       "id": "p-50",
       "name": "Méndez Reboredo, José Ramón",
-      "office": "408",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-ramon-mendez-reboredo",
       "phone": "988387015",
       "email": "moncho.mendez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/853477752",
@@ -555,7 +555,7 @@
     {
       "id": "p-51",
       "name": "Mondelo Visuña, Víctor",
-      "office": "Laboratorio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/victor-mondelo-visuna",
       "phone": "988387252",
       "email": "vmondelo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/613461796",
@@ -566,7 +566,7 @@
     {
       "id": "p-52",
       "name": "Mosquera González, Julio",
-      "office": "315",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/julio-mosquera-gonzalez",
       "phone": "988368807",
       "email": "julio.mosquera.gonzalez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/421865470",
@@ -577,10 +577,10 @@
     {
       "id": "p-53",
       "name": "Mosquera Lois, David",
-      "office": "315",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
       "phone": "988368807",
       "email": "david.mosquera.lois@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-lois-david/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
       "subjects": []
@@ -588,7 +588,7 @@
     {
       "id": "p-54",
       "name": "Mosquera Rodríguez, Manuel Alfredo",
-      "office": "E",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alfredo-mosquera-rodriguez",
       "phone": "988368765",
       "email": "mamrguez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/730562009",
@@ -599,7 +599,7 @@
     {
       "id": "p-55",
       "name": "Nieto González, Juan",
-      "office": "403",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-nieto-gonzalez",
       "phone": "988387009",
       "email": "juan.nieto@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/378992896",
@@ -610,7 +610,7 @@
     {
       "id": "p-56",
       "name": "Novo Lourés, María",
-      "office": "308",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-novo-loures",
       "phone": "988387029",
       "email": "manovo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/483792494",
@@ -621,7 +621,7 @@
     {
       "id": "p-57",
       "name": "Olivieri Cecchi, David Nicholas",
-      "office": "411",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-nicholas-olivieri-cecchi",
       "phone": "988387018",
       "email": "olivieri@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/883261697",
@@ -632,7 +632,7 @@
     {
       "id": "p-58",
       "name": "Otero Cerdeira, Lorena",
-      "office": "301",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/lorena-otero-cerdeira",
       "phone": "988387022",
       "email": "locerdeira@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/750068307",
@@ -643,7 +643,7 @@
     {
       "id": "p-59",
       "name": "Otero Iglesias, José",
-      "office": "303",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-otero-iglesias",
       "phone": "988387024",
       "email": "jose.otero.iglesias@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/331832169",
@@ -654,7 +654,7 @@
     {
       "id": "p-60",
       "name": "Otero Pombo, Juan",
-      "office": "303",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/juan-otero-pombo",
       "phone": "988387024",
       "email": "juan.otero.pombo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/1903%2049096",
@@ -665,7 +665,7 @@
     {
       "id": "p-61",
       "name": "Outeiriño Cid, Cristina",
-      "office": "304",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/cristina-outeirino-cid",
       "phone": "988387025",
       "email": "cristina.outeirino@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/508379775",
@@ -676,10 +676,10 @@
     {
       "id": "p-62",
       "name": "Pájaro Diéguez, Manuel",
-      "office": "28",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez",
       "phone": "988387237",
       "email": "mapajaro@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pajaro-dieguez-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez",
       "subjects": []
@@ -687,10 +687,10 @@
     {
       "id": "p-63",
       "name": "Pato Valcárcel, Josué",
-      "office": "412",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel",
       "phone": "988387019",
       "email": "josue.pato@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pato-valcarcel-josue/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel",
       "subjects": []
@@ -698,7 +698,7 @@
     {
       "id": "p-64",
       "name": "Pavón Rial, María Reyes",
-      "office": "406",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-reyes-pavon-rial",
       "phone": "988387013",
       "email": "pavon@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/282663808",
@@ -709,7 +709,7 @@
     {
       "id": "p-65",
       "name": "Pérez Bouzas, Maria Pilar",
-      "office": "Edificio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-pilar-perez-bouzas",
       "phone": "988368769",
       "email": "maria.pilar.perez.bouzas@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/827471071",
@@ -720,7 +720,7 @@
     {
       "id": "p-66",
       "name": "Pérez Estévez, Diego",
-      "office": "312",
+      "office": "https://www.uvigo.gal/en/university/administration-staff/pdi/diego-perez-estevez",
       "phone": "988387023",
       "email": "dieperez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/137843329",
@@ -731,7 +731,7 @@
     {
       "id": "p-67",
       "name": "Pérez Pérez, Martín",
-      "office": "314",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/martin-perez-perez",
       "phone": "988368915",
       "email": "martiperez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/701654406",
@@ -742,7 +742,7 @@
     {
       "id": "p-68",
       "name": "Reboiro Jato, Miguel",
-      "office": "306",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-reboiro-jato",
       "phone": "988387027",
       "email": "mrjato@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/959723898",
@@ -753,7 +753,7 @@
     {
       "id": "p-69",
       "name": "Rial Fernández, Miguel",
-      "office": "312",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-rial-fernandez",
       "phone": "988387023",
       "email": "mrial@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/473346982",
@@ -764,7 +764,7 @@
     {
       "id": "p-70",
       "name": "Ribadas Pena, Francisco José",
-      "office": "303",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-jose-ribadas-pena",
       "phone": "988387024",
       "email": "ribadas@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/833444977",
@@ -775,7 +775,7 @@
     {
       "id": "p-71",
       "name": "Rodeiro Iglesias, Javier",
-      "office": "413",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-rodeiro-iglesias",
       "phone": "988387020",
       "email": "jrodeiro@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/346873159",
@@ -786,7 +786,7 @@
     {
       "id": "p-72",
       "name": "Rodríguez Conde, Iván",
-      "office": "414",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-rodriguez-conde",
       "phone": "988368911",
       "email": "ivarodriguez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/421279888",
@@ -797,7 +797,7 @@
     {
       "id": "p-73",
       "name": "Rodríguez de la Fuente, Marta",
-      "office": "4.18",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/marta-rodriguez-fuente",
       "phone": "988368750",
       "email": "marta@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/957669426",
@@ -808,7 +808,7 @@
     {
       "id": "p-74",
       "name": "Rodríguez Liñares, Leandro",
-      "office": "405",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/leandro-rodriguez-linares",
       "phone": "988387012",
       "email": "leandro@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/979404306",
@@ -819,7 +819,7 @@
     {
       "id": "p-75",
       "name": "Rodríguez Martínez, David",
-      "office": "315",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-rodriguez-martinez",
       "phone": "988368807",
       "email": "david.rodriguez.martinez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/854655765",
@@ -830,7 +830,7 @@
     {
       "id": "p-76",
       "name": "Rodríguez Martínez, Francisco Javier",
-      "office": "301",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-rodriguez-martinez",
       "phone": "988387022",
       "email": "franjrm@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/784781224",
@@ -841,7 +841,7 @@
     {
       "id": "p-77",
       "name": "Rodríguez Martínez, Gerardo José",
-      "office": "315",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/gerardo-jose-rodriguez-martinez",
       "phone": "988368807",
       "email": "gerodriguez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/609065512",
@@ -852,10 +852,10 @@
     {
       "id": "p-78",
       "name": "Rodríguez Miranda, Iván",
-      "office": "Tel",
+      "office": "No especificado",
       "phone": "",
       "email": "iv.rodriguez@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-miranda-ivan/",
       "uvigo_url": "",
       "subjects": []
@@ -863,7 +863,7 @@
     {
       "id": "p-79",
       "name": "Rodríguez-Toubes Muñiz, Diego",
-      "office": "Edificio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/diego-rodriguez-toubes-muniz",
       "phone": "988368747",
       "email": "drtoubes@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/350363303",
@@ -874,7 +874,7 @@
     {
       "id": "p-80",
       "name": "Romero González, Rubén",
-      "office": "Lab",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ruben-romero-gonzalez",
       "phone": "988387252",
       "email": "rrgonzalez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/552459726",
@@ -885,7 +885,7 @@
     {
       "id": "p-81",
       "name": "Ruano Ordás, David Alfonso",
-      "office": "409",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-alfonso-ruano-ordas",
       "phone": "988387016",
       "email": "drordas@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/249371841",
@@ -896,10 +896,10 @@
     {
       "id": "p-82",
       "name": "Sánchez Sellero, Francisco Javier",
-      "office": "Tel",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero",
       "phone": "",
       "email": "javiss@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sanchez-sellero-francisco-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero",
       "subjects": []
@@ -907,7 +907,7 @@
     {
       "id": "p-83",
       "name": "Seara Vieira, Adrián",
-      "office": "412",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/adrian-seara-vieira",
       "phone": "988387019",
       "email": "adrseara@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/180182292",
@@ -918,7 +918,7 @@
     {
       "id": "p-84",
       "name": "Serrano Antón, Belén",
-      "office": "313",
+      "office": "No especificado",
       "phone": "",
       "email": "belen.serrano@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/238817691",
@@ -929,7 +929,7 @@
     {
       "id": "p-85",
       "name": "Sorribes Fernández, José Manuel",
-      "office": "412",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sorribes-fernandez",
       "phone": "988387019",
       "email": "sorribes@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/190080641",
@@ -940,7 +940,7 @@
     {
       "id": "p-86",
       "name": "Sotelo Martínez, José Manuel",
-      "office": "310",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sotelo-martinez",
       "phone": "988387034",
       "email": "jmsotelo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/634477845",
@@ -951,7 +951,7 @@
     {
       "id": "p-87",
       "name": "Suárez García, Andrés",
-      "office": "Laboratorio",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/andres-suarez-garcia",
       "phone": "",
       "email": "andsuarez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/417071046",
@@ -962,7 +962,7 @@
     {
       "id": "p-88",
       "name": "Tugores Blanco, Laia Francina",
-      "office": "315",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/laia-francina-tugores-blanco",
       "phone": "988368807",
       "email": "laia.francina.tugores@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/108640644",
@@ -973,10 +973,10 @@
     {
       "id": "p-89",
       "name": "Veloso Trigo, Rubén",
-      "office": "Tel",
+      "office": "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo",
       "phone": "",
       "email": "ruben.veloso.trigo@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/veloso-trigo-ruben/",
       "uvigo_url": "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo",
       "subjects": []
@@ -984,7 +984,7 @@
     {
       "id": "p-90",
       "name": "Vila Sobrino, Xosé Antón",
-      "office": "404",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/xose-anton-vila-sobrino",
       "phone": "988387011",
       "email": "anton@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/675060359",
@@ -995,7 +995,7 @@
     {
       "id": "p-91",
       "name": "Vilares Ferro, Manuel",
-      "office": "302",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-vilares-ferro",
       "phone": "988387280",
       "email": "vilares@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/111912971",
@@ -1006,7 +1006,7 @@
     {
       "id": "p-101",
       "name": "Formella , Arno",
-      "office": "309",
+      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/arno-formella",
       "phone": "988387030",
       "email": "formella@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/public/966364345",
@@ -1017,7 +1017,7 @@
     {
       "id": "p-102",
       "name": "Garcia Lourenço, Anália Maria",
-      "office": "308",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/analia-maria-garcia-lourenco",
       "phone": "988387029",
       "email": "analia@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/346319569",
@@ -1028,7 +1028,7 @@
     {
       "id": "p-104",
       "name": "Gómez Rodríguez, Alma María",
-      "office": "401",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/alma-maria-gomez-rodriguez",
       "phone": "988387008",
       "email": "alma@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/995308053",
@@ -1039,7 +1039,7 @@
     {
       "id": "p-106",
       "name": "Gueimonde Canto, Ana Isabel",
-      "office": "E",
+      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-isabel-gueimonde-canto",
       "phone": "988368741",
       "email": "agueimonde@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/854740109",
@@ -1050,10 +1050,10 @@
     {
       "id": "p-111",
       "name": "Pérez Cota, Manuel",
-      "office": "401",
+      "office": "No especificado",
       "phone": "986813933",
       "email": "mpcota@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-cota-manuel/",
       "uvigo_url": "",
       "subjects": []
@@ -1061,10 +1061,10 @@
     {
       "id": "p-112",
       "name": "Ramos Valcárcel, David",
-      "office": "407",
+      "office": "No especificado",
       "phone": "988387014",
       "email": "david@uvigo.gal",
-      "virtual_office": "",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/106798094",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ramos-valcarcel-david/",
       "uvigo_url": "",
       "subjects": []
