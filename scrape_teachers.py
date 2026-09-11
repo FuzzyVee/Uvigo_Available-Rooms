@@ -37,64 +37,67 @@ def extract_teacher_info(profile_url):
             return info
 
         soup = BeautifulSoup(res.content, "html.parser")
-
-        # Aislar el contenedor principal para evitar menús y pies de página
         content = soup.select_one(".entry-content, .pf-profile, article, .post-inner")
         if not content:
             content = soup
 
-        # 1. Extracción de Tutorías (etiqueta "Tutorías:" o enlace PDI) y se asigna a office
-        tutorias_tag = content.find(lambda tag: tag.name in ["strong", "b", "p", "div"] and "tutorías" in tag.text.lower())
-        if tutorias_tag:
-            # Buscar el enlace dentro del mismo bloque o en el siguiente hermano
-            link_el = tutorias_tag.find_next("a", href=True)
-            if link_el:
-                url = link_el["href"].strip()
-                info["uvigo_url"] = url
-                info["office"] = url
-
-        # Fallback si no encuentra la etiqueta por texto pero sí el enlace PDI
-        if info["office"] == "No especificado":
-            uvigo_link = content.select_one("a[href*='/pdi/'], a[href*='uvigo.gal'][href*='administracion-persoal']")
-            if uvigo_link:
-                url = uvigo_link["href"].strip()
-                info["uvigo_url"] = url
-                info["office"] = url
-
-        # 2. Extracción de Email
-        email_link = content.select_one("a[href^='mailto:']")
-        if email_link:
-            info["email"] = email_link["href"].replace("mailto:", "").strip()
-
-        # 3. Extracción de Teléfono
-        for node in content.find_all(["p", "td", "li", "div"]):
+        # 1. Extracción de Despacho físico (ej: Despacho: 209 o D2)
+        text_nodes = content.find_all(["p", "td", "li", "div", "span"])
+        for node in text_nodes:
             text = clean_text(node.text)
+            
+            # Buscar Despacho
+            if info["office"] == "No especificado" and re.search(r"despacho", text, re.IGNORECASE):
+                match = re.search(r"despacho[:\s]+([A-Za-z0-9\.\-]+)", text, re.IGNORECASE)
+                if match:
+                    val = match.group(1).strip()
+                    if val and val.lower() != "despacho":
+                        info["office"] = val
+
+            # Buscar Teléfono
             if not info["phone"] and re.search(r"teléfono|telefono", text, re.IGNORECASE):
                 match = re.search(r"(?:teléfono|telefono)[:\s]+(\+?\d[\d\s]{7,})", text, re.IGNORECASE)
                 if match:
                     info["phone"] = clean_text(match.group(1))
 
-        # 4. Extracción limpia de Asignaturas (basado en la sección de la imagen)
+        # 2. Extracción de Tutorías / URL UVigo (si el despacho sigue sin especificar, o para el campo uvigo_url)
+        tutorias_tag = content.find(lambda tag: tag.name in ["strong", "b", "p", "div"] and "tutorías" in tag.text.lower())
+        if tutorias_tag:
+            link_el = tutorias_tag.find_next("a", href=True)
+            if link_el:
+                info["uvigo_url"] = link_el["href"].strip()
+
+        if not info["uvigo_url"]:
+            uvigo_link = content.select_one("a[href*='/pdi/'], a[href*='uvigo.gal'][href*='administracion-persoal']")
+            if uvigo_link:
+                info["uvigo_url"] = uvigo_link["href"].strip()
+
+        # Si no hay despacho físico pero sí hay enlace de tutorías/PDI, opcionalmente asignarlo o dejar despacho limpio
+        # (Si prefieres que office tenga la URL solo cuando no hay despacho físico, descomenta la siguiente línea):
+        # if info["office"] == "No especificado" and info["uvigo_url"]:
+        #     info["office"] = info["uvigo_url"]
+
+        # 3. Extracción de Email
+        email_link = content.select_one("a[href^='mailto:']")
+        if email_link:
+            info["email"] = email_link["href"].replace("mailto:", "").strip()
+
+        # 4. Extracción limpia de Asignaturas
         asig_heading = content.find(lambda tag: tag.name in ["strong", "b", "p", "div", "h3", "h4"] and "asignaturas" in tag.text.lower())
         if asig_heading:
-            # Recorremos los siguientes elementos hasta encontrar otra sección principal o fin de bloque
             parent_block = asig_heading.find_parent(["div", "p", "section"]) or asig_heading.parent
             if parent_block:
-                # Extraer texto o enlaces de asignaturas
                 text_block = parent_block.get_text(separator="\n")
                 lines = [clean_text(l) for l in text_block.split("\n") if clean_text(l)]
                 
-                # Filtrar la línea de la etiqueta "Asignaturas:" y nombres de grados (ej. "Grao en Enxeñaría Informática")
                 capture = False
                 for line in lines:
                     if "asignaturas:" in line.lower():
                         capture = True
                         continue
                     if capture:
-                        # Si llegamos a otra sección como "Datos de contacto", paramos
                         if any(term in line.lower() for term in ["datos de contacto", "despacho:", "teléfono:", "correo electrónico:", "tutorías:"]):
                             break
-                        # Omitir nombres genéricos de grados si aparecen solos
                         if "grao en" in line.lower() or "máster" in line.lower():
                             continue
                         if len(line) > 2 and line not in info["subjects"]:
