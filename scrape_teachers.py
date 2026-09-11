@@ -55,7 +55,6 @@ def extract_teacher_info(profile_url):
         "email": "",
         "virtual_office": "",
         "uvigo_url": "",
-        "tutoring_url": "",
         "subjects": []
     }
 
@@ -67,7 +66,6 @@ def extract_teacher_info(profile_url):
         soup = BeautifulSoup(res.content, "html.parser")
         page_text = soup.get_text()
 
-        # 1. Office (Despacho)
         extracted_office = extract_field_by_label(soup, r"Despacho")
         if extracted_office:
             info["office"] = extracted_office
@@ -76,7 +74,6 @@ def extract_teacher_info(profile_url):
             if office_match:
                 info["office"] = office_match.group(1).strip()
 
-        # 2. Phone (Teléfono)
         extracted_phone = extract_field_by_label(soup, r"Teléfono|Telefono")
         if extracted_phone:
             info["phone"] = extracted_phone
@@ -85,24 +82,15 @@ def extract_teacher_info(profile_url):
             if phone_match:
                 info["phone"] = clean_text(phone_match.group(1))
 
-        # 3. Email
         email_match = re.search(r"[\w\.-]+@uvigo\.(?:es|gal)", page_text)
         if email_match:
             info["email"] = email_match.group(0)
 
-        # 4. UVigo / Tutoring URL (The UVigo PDI link serves as tutoring page)
-        tutorias_link = soup.find("a", href=re.compile(r"uvigo\.gal/.*pdi"))
-        if tutorias_link:
-            url_found = tutorias_link.get("href")
-            info["uvigo_url"] = url_found
-            info["tutoring_url"] = url_found
 
-        # 5. Virtual Office
         virtual_link = soup.find("a", href=re.compile(r"campusremotouvigo"))
         if virtual_link:
             info["virtual_office"] = virtual_link.get("href")
 
-        # 6. Clean Subject Extraction (only within docencia sections)
         docencia_section = soup.find(
             lambda tag: tag.name in ["div", "section"]
             and ("docencia" in tag.get("class", []) or "f-docencia" in tag.get("class", []))
@@ -171,7 +159,6 @@ def scrape_all_teachers():
             "virtual_office": extra_info["virtual_office"],
             "esei_url": esei_url,
             "uvigo_url": extra_info["uvigo_url"],
-            "tutoring_url": extra_info["tutoring_url"],
             "subjects": extra_info["subjects"]
         })
 
