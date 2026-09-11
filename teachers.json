@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-11T13:47:15.642181+00:00",
+  "generated_at": "2026-09-11T13:56:16.902705+00:00",
   "count": 97,
   "teachers": [
     {
       "id": "p-1",
       "name": "Alonso Carracedo, Manuel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo",
+      "office": "Tel",
       "phone": "",
       "email": "manuel.alonso.carracedo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alonso-carracedo-manuel/",
@@ -17,7 +17,7 @@
     {
       "id": "p-2",
       "name": "Álvarez Domínguez, Miguel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez",
+      "office": "Lab",
       "phone": "988387016",
       "email": "miguel.alvarez.dominguez@uvigo.es",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alvarez-dominguez-miguel/",
@@ -30,7 +30,7 @@
     {
       "id": "p-3",
       "name": "Arias Pérez, Pedro",
-      "office": "No especificado",
+      "office": "311",
       "phone": "988387035",
       "email": "pedro.arias.perez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29849/",
@@ -45,7 +45,7 @@
     {
       "id": "p-4",
       "name": "Arriba Pérez, Francisco de",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/francisco-arriba-perez",
+      "office": "314",
       "phone": "988368915",
       "email": "farriba@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/arriba-perez-francisco-de/",
@@ -61,7 +61,7 @@
     {
       "id": "p-5",
       "name": "Balvís Outeiriño, Eduardo",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/eduardo-balvis-outeirino",
+      "office": "311",
       "phone": "988387035",
       "email": "ebalvis@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/balvis-outeirino-eduardo/",
@@ -76,7 +76,7 @@
     {
       "id": "p-6",
       "name": "Barreiro Alonso, Enrique",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/enrique-barreiro-alonso",
+      "office": "414",
       "phone": "988368911",
       "email": "enrique@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/barreiro-alonso-enrique/",
@@ -93,7 +93,7 @@
     {
       "id": "p-7",
       "name": "Bea Besada, Yago",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada",
+      "office": "Tel",
       "phone": "",
       "email": "yago.bea@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/bea-besada-yago/",
@@ -105,7 +105,7 @@
     {
       "id": "p-8",
       "name": "Blanco Cerradelo, Lidia",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/lidia-blanco-cerradelo",
+      "office": "virtual",
       "phone": "",
       "email": "lyblanco@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-cerradelo-lidia/",
@@ -117,7 +117,7 @@
     {
       "id": "p-9",
       "name": "Blanco González, Guillermo",
-      "office": "https://www.uvigo.gal/es/universidad/administracionpersonal/pdi/guillermo-blanco-gonzalez",
+      "office": "402",
       "phone": "988387009",
       "email": "guillermo.blanco.gonzalez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-gonzalez-guillermo/",
@@ -132,7 +132,7 @@
     {
       "id": "p-10",
       "name": "Borrajo Diz, María Lourdes",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-lourdes-borrajo-diz",
+      "office": "307",
       "phone": "988387028",
       "email": "lborrajo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/borrajo-diz-maria-lourdes/",
@@ -150,7 +150,7 @@
     {
       "id": "p-11",
       "name": "Campos Bastos, Celso",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/celso-campos-bastos",
+      "office": "410",
       "phone": "988387017",
       "email": "ccampos@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/campos-bastos-celso/",
@@ -171,7 +171,7 @@
     {
       "id": "p-12",
       "name": "Candal Ventureira, David",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira",
+      "office": "Tel",
       "phone": "",
       "email": "dcandal@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/candal-ventureira-david/",
@@ -187,7 +187,7 @@
     {
       "id": "p-13",
       "name": "Castro Miguéns, Carlos",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/carlos-castro-miguens",
+      "office": "312",
       "phone": "988387023",
       "email": "cmiguens@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/castro-miguens-carlos/",
@@ -206,7 +206,7 @@
     {
       "id": "p-14",
       "name": "Celard Pérez, Pedro",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-celard-perez",
+      "office": "412",
       "phone": "988387019",
       "email": "pedro.celard.perez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/celard-perez-pedro/",
@@ -224,7 +224,7 @@
     {
       "id": "p-15",
       "name": "Cid Araujo, Jose Angel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-angel-cid-araujo",
+      "office": "31",
       "phone": "988 387 221",
       "email": "angelcid@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cid-araujo-jose-angel/",
@@ -243,7 +243,7 @@
     {
       "id": "p-16",
       "name": "Cotos Fernández-Arruty, Laura",
-      "office": "No especificado",
+      "office": "521",
       "phone": "",
       "email": "laura.cotos@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-fernandez-arruty-laura/",
@@ -255,7 +255,7 @@
     {
       "id": "p-17",
       "name": "Cotos Yáñez, Tomas Raimundo",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/tomas-raimundo-cotos-yanez",
+      "office": "13",
       "phone": "988368766",
       "email": "cotos@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-yanez-tomas-raimundo/",
@@ -276,7 +276,7 @@
     {
       "id": "p-18",
       "name": "Cruz González, Maria Montserrat",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-montserrat-cruz-gonzalez",
+      "office": "310",
       "phone": "988368719",
       "email": "mcruz@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cruz-gonzalez-maria-montserrat/",
@@ -288,7 +288,7 @@
     {
       "id": "p-19",
       "name": "Cuesta Morales, Pedro",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-cuesta-morales",
+      "office": "411",
       "phone": "988387018",
       "email": "pcuesta@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cuesta-morales-pedro/",
@@ -307,7 +307,7 @@
     {
       "id": "p-20",
       "name": "Darriba Bilbao, Víctor Manuel",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/victor-manuel-darriba-bilbao",
+      "office": "304",
       "phone": "988387025",
       "email": "darriba@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/darriba-bilbao-victor-manuel/",
@@ -331,7 +331,7 @@
     {
       "id": "p-21",
       "name": "Diaz-Cacho Medina, Miguel Ramón",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-ramon-diaz-cacho-medina",
+      "office": "310",
       "phone": "988387034",
       "email": "mcacho@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/diaz-cacho-medina-miguel-ramon/",
@@ -354,7 +354,7 @@
     {
       "id": "p-22",
       "name": "Feijóo Miranda, José",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda",
+      "office": "Tel",
       "phone": "",
       "email": "jfeijoomiranda@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/feijoo-miranda-jose-2/",
@@ -366,7 +366,7 @@
     {
       "id": "p-23",
       "name": "Fernández Gavilanes, Milagros",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/milagros-fernandez-gavilanes",
+      "office": "313",
       "phone": "988387271",
       "email": "mfgavilanes@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gavilanes-milagros/",
@@ -383,7 +383,7 @@
     {
       "id": "p-24",
       "name": "Fernández González, Daniel",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-fernandez-gonzalez",
+      "office": "305",
       "phone": "988387026",
       "email": "danifg@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gonzalez-daniel/",
@@ -398,7 +398,7 @@
     {
       "id": "p-25",
       "name": "Fernández Lanza, Santiago",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/santiago-fernandez-lanza",
+      "office": "305",
       "phone": "988387026",
       "email": "sflanza@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-lanza-santiago/",
@@ -413,7 +413,7 @@
     {
       "id": "p-26",
       "name": "Fernández Riverola, Florentino",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/florentino-fernandez-riverola",
+      "office": "408",
       "phone": "988387015",
       "email": "riverola@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-riverola-florentino/",
@@ -437,7 +437,7 @@
     {
       "id": "p-27",
       "name": "Figueiral Alonso, Erik",
-      "office": "No especificado",
+      "office": "Tel",
       "phone": "",
       "email": "erik.figueiral.alonso@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/figueiral-alonso-erik/",
@@ -451,7 +451,7 @@
     {
       "id": "p-28",
       "name": "Gálvez Gálvez, Juan Francisco",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-francisco-galvez-galvez",
+      "office": "402",
       "phone": "988387009",
       "email": "galvez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/galvez-galvez-juan-francisco/",
@@ -470,7 +470,7 @@
     {
       "id": "p-29",
       "name": "García Hervella, Noelia",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/noelia-garcia-hervella",
+      "office": "Laboratorio",
       "phone": "988387252",
       "email": "nghervella@esei.uvigo.es",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-hervella-noelia/",
@@ -484,7 +484,7 @@
     {
       "id": "p-30",
       "name": "García Pérez-Schofield, Baltasar",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-baltasar-garcia-perez-schofield",
+      "office": "307",
       "phone": "988368891",
       "email": "jbgarcia@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-perez-schofield-jose-baltasar/",
@@ -506,7 +506,7 @@
     {
       "id": "p-31",
       "name": "García Rivera, Matías",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/matias-garcia-rivera",
+      "office": "311",
       "phone": "988387035",
       "email": "mgrivera@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-rivera-matias/",
@@ -526,7 +526,7 @@
     {
       "id": "p-32",
       "name": "Garriga Domínguez, Ana",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-garriga-dominguez",
+      "office": "26",
       "phone": "988368834",
       "email": "agarriga@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garriga-dominguez-ana/",
@@ -544,7 +544,7 @@
     {
       "id": "p-33",
       "name": "Gómez Meire, Silvana",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/silvana-gomez-meire",
+      "office": "410",
       "phone": "988387017",
       "email": "sgmeire@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-meire-silvana/",
@@ -564,7 +564,7 @@
     {
       "id": "p-34",
       "name": "González Mariño, Ángela",
-      "office": "No especificado",
+      "office": "311",
       "phone": "988387035",
       "email": "angela.gonzalez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-marino-angela/",
@@ -574,7 +574,7 @@
     {
       "id": "p-35",
       "name": "González Moreno, Juan Carlos",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-carlos-gonzalez-moreno",
+      "office": "407",
       "phone": "988387014",
       "email": "jcmoreno@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-moreno-juan-carlos/",
@@ -608,7 +608,7 @@
     {
       "id": "p-36",
       "name": "González Pedrouzo, Antonio Adrián",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo",
+      "office": "Tel",
       "phone": "",
       "email": "antonio.adrian.gonzalez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pedrouzo-antonio-adrian/",
@@ -620,7 +620,7 @@
     {
       "id": "p-37",
       "name": "González Peña, Daniel",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-gonzalez-pena",
+      "office": "306",
       "phone": "988387039",
       "email": "dgpena@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pena-daniel/",
@@ -639,7 +639,7 @@
     {
       "id": "p-38",
       "name": "González Rodríguez, Brais",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/brais-gonzalez-rodriguez",
+      "office": "Edificio",
       "phone": "988368767",
       "email": "brais.gonzalez.rodriguez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rodriguez-brais/",
@@ -652,7 +652,7 @@
     {
       "id": "p-39",
       "name": "González Rufino, María Encarnación",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-encarnacion-gonzalez-rufino",
+      "office": "409",
       "phone": "988387016",
       "email": "nrufino@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rufino-maria-encarnacion/",
@@ -669,7 +669,7 @@
     {
       "id": "p-40",
       "name": "Iago Núñez Lugilde",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/iago-nunez-lugilde",
+      "office": "516",
       "phone": "",
       "email": "iago.nunez.lugilde@uvigo.es",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/iago-nunez-lugilde/",
@@ -682,7 +682,7 @@
     {
       "id": "p-41",
       "name": "Lado Touriño, María José",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-jose-lado-tourino",
+      "office": "405",
       "phone": "988387012",
       "email": "mrpepa@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lado-tourino-maria-jose/",
@@ -701,7 +701,7 @@
     {
       "id": "p-42",
       "name": "Laza Fidalgo, Rosalia",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/rosalia-laza-fidalgo",
+      "office": "406",
       "phone": "988387013",
       "email": "rlaza@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/laza-fidalgo-rosalia/",
@@ -724,7 +724,7 @@
     {
       "id": "p-43",
       "name": "López Fernández, Hugo",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/hugo-lopez-fernandez",
+      "office": "309",
       "phone": "988387030",
       "email": "hlfernandez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-fernandez-hugo/",
@@ -737,7 +737,7 @@
     {
       "id": "p-44",
       "name": "López Pedrares, Javier",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-lopez-pedrares",
+      "office": "315",
       "phone": "988368807",
       "email": "javier.lopez.pedrares@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-pedrares-javier-2/",
@@ -749,7 +749,7 @@
     {
       "id": "p-45",
       "name": "Lorenzo Iglesias, Eva María",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/eva-maria-lorenzo-iglesias",
+      "office": "412",
       "phone": "988387019",
       "email": "eva@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lorenzo-iglesias-eva-maria/",
@@ -767,7 +767,7 @@
     {
       "id": "p-46",
       "name": "Luis Vázquez, Ivan",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-luis-vazquez",
+      "office": "407",
       "phone": "988387014",
       "email": "ivan.luis@uvigo.es",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/luis-vazquez-ivan/",
@@ -780,7 +780,7 @@
     {
       "id": "p-47",
       "name": "Martínez Estévez, Iván",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ivan-martinez-estevez",
+      "office": "401",
       "phone": "988387008",
       "email": "ivan.martinez.estevez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-estevez-ivan/",
@@ -794,7 +794,7 @@
     {
       "id": "p-48",
       "name": "Martínez Orge, José Luis",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-luis-martinez-orge",
+      "office": "403",
       "phone": "988387010",
       "email": "jlorge@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-orge-jose-luis/",
@@ -807,7 +807,7 @@
     {
       "id": "p-49",
       "name": "Méndez Penín, Arturo José",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/arturo-jose-mendez-penin",
+      "office": "404",
       "phone": "988387011",
       "email": "mrarthur@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-penin-arturo-jose/",
@@ -826,7 +826,7 @@
     {
       "id": "p-50",
       "name": "Méndez Reboredo, José Ramón",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-ramon-mendez-reboredo",
+      "office": "408",
       "phone": "988387015",
       "email": "moncho.mendez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-reboredo-jose-ramon/",
@@ -845,7 +845,7 @@
     {
       "id": "p-51",
       "name": "Mondelo Visuña, Víctor",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/victor-mondelo-visuna",
+      "office": "Laboratorio",
       "phone": "988387252",
       "email": "vmondelo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mondelo-visuna-victor/",
@@ -859,7 +859,7 @@
     {
       "id": "p-52",
       "name": "Mosquera González, Julio",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/julio-mosquera-gonzalez",
+      "office": "315",
       "phone": "988368807",
       "email": "julio.mosquera.gonzalez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-gonzalez-julio/",
@@ -878,7 +878,7 @@
     {
       "id": "p-53",
       "name": "Mosquera Lois, David",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
+      "office": "315",
       "phone": "988368807",
       "email": "david.mosquera.lois@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-lois-david/",
@@ -890,7 +890,7 @@
     {
       "id": "p-54",
       "name": "Mosquera Rodríguez, Manuel Alfredo",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alfredo-mosquera-rodriguez",
+      "office": "E",
       "phone": "988368765",
       "email": "mamrguez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-rodriguez-manuel-alfredo/",
@@ -902,7 +902,7 @@
     {
       "id": "p-55",
       "name": "Nieto González, Juan",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-nieto-gonzalez",
+      "office": "403",
       "phone": "988387009",
       "email": "juan.nieto@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/nieto-gonzalez-juan/",
@@ -915,7 +915,7 @@
     {
       "id": "p-56",
       "name": "Novo Lourés, María",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-novo-loures",
+      "office": "308",
       "phone": "988387029",
       "email": "manovo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/novo-loures-maria/",
@@ -929,7 +929,7 @@
     {
       "id": "p-57",
       "name": "Olivieri Cecchi, David Nicholas",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-nicholas-olivieri-cecchi",
+      "office": "411",
       "phone": "988387018",
       "email": "olivieri@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/olivieri-cecchi-david-nicholas/",
@@ -951,7 +951,7 @@
     {
       "id": "p-58",
       "name": "Otero Cerdeira, Lorena",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/lorena-otero-cerdeira",
+      "office": "301",
       "phone": "988387022",
       "email": "locerdeira@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-cerdeira-lorena/",
@@ -966,7 +966,7 @@
     {
       "id": "p-59",
       "name": "Otero Iglesias, José",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-otero-iglesias",
+      "office": "303",
       "phone": "988387024",
       "email": "jose.otero.iglesias@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-iglesias-jose/",
@@ -981,7 +981,7 @@
     {
       "id": "p-60",
       "name": "Otero Pombo, Juan",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/juan-otero-pombo",
+      "office": "303",
       "phone": "988387024",
       "email": "juan.otero.pombo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-pombo-juan/",
@@ -994,7 +994,7 @@
     {
       "id": "p-61",
       "name": "Outeiriño Cid, Cristina",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/cristina-outeirino-cid",
+      "office": "304",
       "phone": "988387025",
       "email": "cristina.outeirino@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/outeirino-cid-cristina/",
@@ -1006,7 +1006,7 @@
     {
       "id": "p-62",
       "name": "Pájaro Diéguez, Manuel",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez",
+      "office": "28",
       "phone": "988387237",
       "email": "mapajaro@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pajaro-dieguez-manuel/",
@@ -1020,7 +1020,7 @@
     {
       "id": "p-63",
       "name": "Pato Valcárcel, Josué",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel",
+      "office": "412",
       "phone": "988387019",
       "email": "josue.pato@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pato-valcarcel-josue/",
@@ -1034,7 +1034,7 @@
     {
       "id": "p-64",
       "name": "Pavón Rial, María Reyes",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-reyes-pavon-rial",
+      "office": "406",
       "phone": "988387013",
       "email": "pavon@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pavon-rial-maria-reyes/",
@@ -1053,7 +1053,7 @@
     {
       "id": "p-65",
       "name": "Pérez Bouzas, Maria Pilar",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-pilar-perez-bouzas",
+      "office": "Edificio",
       "phone": "988368769",
       "email": "maria.pilar.perez.bouzas@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-bouzas-maria-pilar/",
@@ -1065,7 +1065,7 @@
     {
       "id": "p-66",
       "name": "Pérez Estévez, Diego",
-      "office": "https://www.uvigo.gal/en/university/administration-staff/pdi/diego-perez-estevez",
+      "office": "312",
       "phone": "988387023",
       "email": "dieperez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-estevez-diego/",
@@ -1077,7 +1077,7 @@
     {
       "id": "p-67",
       "name": "Pérez Pérez, Martín",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/martin-perez-perez",
+      "office": "314",
       "phone": "988368915",
       "email": "martiperez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-perez-martin/",
@@ -1090,7 +1090,7 @@
     {
       "id": "p-68",
       "name": "Reboiro Jato, Miguel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-reboiro-jato",
+      "office": "306",
       "phone": "988387027",
       "email": "mrjato@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/reboiro-jato-miguel/",
@@ -1112,7 +1112,7 @@
     {
       "id": "p-69",
       "name": "Rial Fernández, Miguel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-rial-fernandez",
+      "office": "312",
       "phone": "988387023",
       "email": "mrial@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rial-fernandez-miguel/",
@@ -1125,7 +1125,7 @@
     {
       "id": "p-70",
       "name": "Ribadas Pena, Francisco José",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-jose-ribadas-pena",
+      "office": "303",
       "phone": "988387024",
       "email": "ribadas@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ribadas-pena-francisco-jose/",
@@ -1147,7 +1147,7 @@
     {
       "id": "p-71",
       "name": "Rodeiro Iglesias, Javier",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-rodeiro-iglesias",
+      "office": "413",
       "phone": "988387020",
       "email": "jrodeiro@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodeiro-iglesias-javier/",
@@ -1160,7 +1160,7 @@
     {
       "id": "p-72",
       "name": "Rodríguez Conde, Iván",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-rodriguez-conde",
+      "office": "414",
       "phone": "988368911",
       "email": "ivarodriguez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-conde-ivan/",
@@ -1187,7 +1187,7 @@
     {
       "id": "p-73",
       "name": "Rodríguez de la Fuente, Marta",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/marta-rodriguez-fuente",
+      "office": "4.18",
       "phone": "988368750",
       "email": "marta@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-de-la-fuente-marta/",
@@ -1204,7 +1204,7 @@
     {
       "id": "p-74",
       "name": "Rodríguez Liñares, Leandro",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/leandro-rodriguez-linares",
+      "office": "405",
       "phone": "988387012",
       "email": "leandro@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-linares-leandro/",
@@ -1225,7 +1225,7 @@
     {
       "id": "p-75",
       "name": "Rodríguez Martínez, David",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-rodriguez-martinez",
+      "office": "315",
       "phone": "988368807",
       "email": "david.rodriguez.martinez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-david/",
@@ -1238,7 +1238,7 @@
     {
       "id": "p-76",
       "name": "Rodríguez Martínez, Francisco Javier",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-rodriguez-martinez",
+      "office": "301",
       "phone": "988387022",
       "email": "franjrm@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-francisco-javier/",
@@ -1259,7 +1259,7 @@
     {
       "id": "p-77",
       "name": "Rodríguez Martínez, Gerardo José",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/gerardo-jose-rodriguez-martinez",
+      "office": "315",
       "phone": "988368807",
       "email": "gerodriguez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-gerardo-jose/",
@@ -1272,7 +1272,7 @@
     {
       "id": "p-78",
       "name": "Rodríguez Miranda, Iván",
-      "office": "No especificado",
+      "office": "Tel",
       "phone": "",
       "email": "iv.rodriguez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-miranda-ivan/",
@@ -1285,7 +1285,7 @@
     {
       "id": "p-79",
       "name": "Rodríguez-Toubes Muñiz, Diego",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/diego-rodriguez-toubes-muniz",
+      "office": "Edificio",
       "phone": "988368747",
       "email": "drtoubes@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-toubes-muniz-diego/",
@@ -1305,7 +1305,7 @@
     {
       "id": "p-80",
       "name": "Romero González, Rubén",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ruben-romero-gonzalez",
+      "office": "Lab",
       "phone": "988387252",
       "email": "rrgonzalez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/romero-gonzalez-ruben/",
@@ -1319,7 +1319,7 @@
     {
       "id": "p-81",
       "name": "Ruano Ordás, David Alfonso",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-alfonso-ruano-ordas",
+      "office": "409",
       "phone": "988387016",
       "email": "drordas@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ruano-ordas-david-alfonso/",
@@ -1337,7 +1337,7 @@
     {
       "id": "p-82",
       "name": "Sánchez Sellero, Francisco Javier",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero",
+      "office": "Tel",
       "phone": "",
       "email": "javiss@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sanchez-sellero-francisco-javier/",
@@ -1349,7 +1349,7 @@
     {
       "id": "p-83",
       "name": "Seara Vieira, Adrián",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/adrian-seara-vieira",
+      "office": "412",
       "phone": "988387019",
       "email": "adrseara@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/seara-vieira-adrian/",
@@ -1361,7 +1361,7 @@
     {
       "id": "p-84",
       "name": "Serrano Antón, Belén",
-      "office": "No especificado",
+      "office": "313",
       "phone": "",
       "email": "belen.serrano@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29795/",
@@ -1375,7 +1375,7 @@
     {
       "id": "p-85",
       "name": "Sorribes Fernández, José Manuel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sorribes-fernandez",
+      "office": "412",
       "phone": "988387019",
       "email": "sorribes@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sorribes-fenandez-jose-manuel/",
@@ -1396,7 +1396,7 @@
     {
       "id": "p-86",
       "name": "Sotelo Martínez, José Manuel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sotelo-martinez",
+      "office": "310",
       "phone": "988387034",
       "email": "jmsotelo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sotelo-martinez-jose-manuel/",
@@ -1416,7 +1416,7 @@
     {
       "id": "p-87",
       "name": "Suárez García, Andrés",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/andres-suarez-garcia",
+      "office": "Laboratorio",
       "phone": "",
       "email": "andsuarez@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/suarez-garcia-andres/",
@@ -1428,7 +1428,7 @@
     {
       "id": "p-88",
       "name": "Tugores Blanco, Laia Francina",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/laia-francina-tugores-blanco",
+      "office": "315",
       "phone": "988368807",
       "email": "laia.francina.tugores@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/tugores-blanco-laia-francina/",
@@ -1441,7 +1441,7 @@
     {
       "id": "p-89",
       "name": "Veloso Trigo, Rubén",
-      "office": "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo",
+      "office": "Tel",
       "phone": "",
       "email": "ruben.veloso.trigo@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/veloso-trigo-ruben/",
@@ -1455,7 +1455,7 @@
     {
       "id": "p-90",
       "name": "Vila Sobrino, Xosé Antón",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/xose-anton-vila-sobrino",
+      "office": "404",
       "phone": "988387011",
       "email": "anton@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vila-sobrino-xose-anton/",
@@ -1474,7 +1474,7 @@
     {
       "id": "p-91",
       "name": "Vilares Ferro, Manuel",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-vilares-ferro",
+      "office": "302",
       "phone": "988387280",
       "email": "vilares@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vilares-ferro-manuel/",
@@ -1501,7 +1501,7 @@
     {
       "id": "p-101",
       "name": "Formella , Arno",
-      "office": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/arno-formella",
+      "office": "309",
       "phone": "988387030",
       "email": "formella@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/formella-arno/",
@@ -1524,7 +1524,7 @@
     {
       "id": "p-102",
       "name": "Garcia Lourenço, Anália Maria",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/analia-maria-garcia-lourenco",
+      "office": "308",
       "phone": "988387029",
       "email": "analia@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-lourenco-analia-maria/",
@@ -1546,7 +1546,7 @@
     {
       "id": "p-104",
       "name": "Gómez Rodríguez, Alma María",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/alma-maria-gomez-rodriguez",
+      "office": "401",
       "phone": "988387008",
       "email": "alma@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-rodriguez-alma-maria/",
@@ -1571,7 +1571,7 @@
     {
       "id": "p-106",
       "name": "Gueimonde Canto, Ana Isabel",
-      "office": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-isabel-gueimonde-canto",
+      "office": "E",
       "phone": "988368741",
       "email": "agueimonde@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gueimonde-canto-ana-isabel/",
@@ -1589,7 +1589,7 @@
     {
       "id": "p-111",
       "name": "Pérez Cota, Manuel",
-      "office": "No especificado",
+      "office": "401",
       "phone": "986813933",
       "email": "mpcota@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-cota-manuel/",
@@ -1609,7 +1609,7 @@
     {
       "id": "p-112",
       "name": "Ramos Valcárcel, David",
-      "office": "No especificado",
+      "office": "407",
       "phone": "988387014",
       "email": "david@uvigo.gal",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ramos-valcarcel-david/",
