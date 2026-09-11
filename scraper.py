@@ -69,11 +69,8 @@ CALENDAR_GROUPS = {
         "ZXNlaS51dmlnby5lc19lbzRwYzgwc3I5bm85c2N1NGI3bW8wc25xOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "ZXNlaS51dmlnby5lc19xa3JyYm81ZTlkNzlhMjBxNmtkc2dvbHRnY0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "ZXNlaS51dmlnby5lc18yNnVwYzYyc2hpc29qZDJ1MjNzcGFtMGJ1NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-        "ZXNlaS51dmlnby5lc191NGZwYXExZmg3MnRhaGxkdvVwOWMxOW1ha0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "ZXNlaS51dmlnby5lc18yMWk3MW1uazM5djBnYzMzbzF2aW5yMXF2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "ZXNlaS51dmlnby5lc19oYWJ0Mm1nN29jNGE2aWVidTczaGpoaWlsb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-        "ZXNlaS51dmlnby5lc188Y21jdDNhc3YzNmJlZHYwcWJ1bDVxdTc2NEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-        "ZXNlaS51dmlnby5lc19qOWg1bzc1c2szZ2hiMTBlNW44c2t0cG9mZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "c_1e7fd190617c56f14e6821faa3fd1d8ad417467dcf2b91bc42ee16aaa4f0d1cb@group.calendar.google.com",
     ],
     "Grado 1IA - 1C": [
@@ -82,21 +79,18 @@ CALENDAR_GROUPS = {
         "Y1_wdHJrdWtpdGw2ZG9lN2RwbzVxMnBrNnR2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "Y1_yYXFqOGw2bG4xamxzb2I1dHIwcXNjaTU4Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
         "Y1_0c2llcG1qOWI1Z2w4b204bzVmZWVpNGFhNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-        "ZXNlaS51dmlnby5lc19nc3B2cTkyNm5ocWo4cGxscGd0a2g0ajdrb0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+        "esei.uvigo.es_gspvq926nhqj8pllpgtkh4j7ko@group.calendar.google.com",
     ],
     "Grado 2IA - 1C": [
         "Y1_mYzAzZTUzNjdmNjAwZDZlYTgyMjUwZDdjYTYzMGZmNmZjNzUwZDI1NGJkMTJiOWMxOGY1NzZhMjc0NGU1OGFjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
-        "Y1_iNTY3NTIwY2FhMDc4OWNiOTNiYjM1ZTAzYTY6NWNkZWQ1ZDM1ZjJhZTRkMGVkYjk0NGVhZmVkZDkwZDQ1MzRhQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_kN2IxYzg4NmE2YzU2YWI2YmE3MjI4YTc3NjAwNGU4MDE0NWVlYTkzZjc2Yzc2NDQ0ZDVhMzVjZjZkZjg2NDBmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_3ZTI3OGY5Mzk2ZjA0MTRhNTZjMzk0M2Y4ZjIyM2JmMzk3MTAxMzA4NzE4OTkxZDJkMTQ0MDE4YzRkMTRlYzBmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
-        "Y1_3MzA4ZDE3ZDU1Y2Y6ZWY4Zjg4ZjhlNDEyYmM4MTRhMDczM2JlODYyNDlhZmRmMDA5OTBkMmRhODM3MmZlMzY3QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
     ],
     "Grado 3IA - 1C": [
         "Y1_1ZDI0NDJlMGRjYzNjZjZjM2MzNDUyNzhmMmNlZDRhNWJkODBjYjEyNGUzZWYxNzI5NDE5MzE0YTZlZDA2OWU0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_mMWQyYTk4NTdmYTBiMTliOTdlNmVhZWVjYzE1ZjA1MTUxNzEzZDhmNGZiZWIwMGQ1ZTg2YTAyYTA0MGE1N2Q0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_iNTk2Y2NjMmQ3ZmQ3ZDFjMTBhNTM1N2Y5MTcxYWMzYWFlMTQ0MTMzYjY1YWI1MGRiNzUwOGVmZDAzNjNiNTMxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
         "Y1_mZGJkNjE1ZTRmYjcxODc2NmZhODAzNWQ3NGQ5Nzg5OWI0ZWUxNTZmZjY3YTM1MjgzNzRhMTkwZGIwODA5NDczQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
-        "Y1_mYjMwMjU4MjFjYTEyNGM5NjgwOTViMDVjNDcwYWI4NTRmYmUyZDA6YzA3OTRjZTZmYWQ2YjkwNjA0NjAyOTlmQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
     ],
     "Grado 4IA - 1C": [
         "Y1_jZGEwNGE0OGVjZWRmNzM4NjFhOWNjMDhiMTU1NGM4MjhkZDJiZjZjODZiZmIxMTVlMjJhMTFlYTk2MmZlMGMzQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
@@ -134,24 +128,33 @@ def parse_room(summary):
         return room_name
     return None
 
-def fetch_ics(calendar_id: str) -> bytes:
-    cid = calendar_id
-    if not cid.endswith("@group.calendar.google.com") and not cid.endswith("@gmail.com"):
-        try:
-            # Strip custom UVigo base64 prefixes if present (e.g., Y1_)
-            if "_" in cid and not cid.startswith("esei."):
-                cid = cid.split("_", 1)[1]
-            padded_id = cid + "=" * (-len(cid) % 4)
-            cid = base64.b64decode(padded_id).decode('utf-8')
-        except Exception:
-            pass
+def resolve_calendar_id(raw_id: str) -> str:
+    """Decodes standard or UVigo-prefixed base64 string to a Google Calendar ID."""
+    if "@group.calendar.google.com" in raw_id or "@gmail.com" in raw_id:
+        return raw_id
+    
+    candidate = raw_id
+    if "_" in candidate and not candidate.startswith("esei."):
+        candidate = candidate.split("_", 1)[1]
+        
+    try:
+        padded = candidate + "=" * (-len(candidate) % 4)
+        decoded = base64.b64decode(padded).decode('utf-8', errors='ignore')
+        if "@" in decoded:
+            return decoded
+    except Exception:
+        pass
 
-    url = FEED_URL.format(cid=cid)
+    return raw_id
+
+def fetch_ics(calendar_id: str) -> bytes:
+    resolved_id = resolve_calendar_id(calendar_id)
+    url = FEED_URL.format(cid=resolved_id)
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
             return resp.read()
-    except Exception:
+    except Exception as err:
         return b""
 
 def room_and_subject(summary: str, location: str):
@@ -184,6 +187,8 @@ def main():
     print(f"{len(calendars)} unique calendars | fetching events between {start} and {end} ...")
 
     out, no_room = [], 0
+    success_count = 0
+
     for cid, group in calendars:
         raw = fetch_ics(cid)
         if not raw:
@@ -195,6 +200,7 @@ def main():
         except Exception:
             continue
 
+        success_count += 1
         for ev in events:
             try:
                 summary = str(ev.get("SUMMARY", "")).strip()
@@ -225,6 +231,7 @@ def main():
         "generated_at": dt.datetime.now().isoformat(timespec="seconds"),
         "timezone": "Europe/Madrid",
         "calendar_count": len(calendars),
+        "successful_calendars": success_count,
         "event_count": len(out),
         "events": out,
     }
@@ -232,7 +239,8 @@ def main():
         json.dump(data, fh, ensure_ascii=False, indent=1)
 
     rooms = {e["room"] for e in out if e["room"]}
-    print(f"Done! Wrote data.json: {len(out)} events, {len(rooms)} rooms processed.")
+    print(f"\nDone! Successfully processed {success_count}/{len(calendars)} calendars.")
+    print(f"Wrote data.json: {len(out)} events across {len(rooms)} unique rooms.")
 
 if __name__ == "__main__":
     main()
