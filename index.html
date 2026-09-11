@@ -3,47 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ESEI · Room availability</title>
+  <title>ESEI · Availability</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header>
-  <h1>ESEI <span>·</span> Room availability</h1>
+  <h1>ESEI <span>·</span> Availability</h1>
   <div id="clock">--:--:--</div>
 </header>
-<div class="sub">Grado en Enxeñaría Informática — built from the official ESEI public calendars</div>
+<div class="sub">Grado en Enxeñaría Informática — built from official ESEI public data</div>
 
 <div id="error"></div>
 
-<div class="controls">
-  <label>Date <input type="date" id="date"></label>
-  <label>Time <input type="time" id="time"></label>
-  <button id="nowBtn" class="active">Now</button>
-  <span class="legend" id="freshness"></span>
-  
-  <div class="filter-buttons">
-    <button class="filter-btn active" data-filter="all">All Rooms</button>
-    <button class="filter-btn" data-filter="soxAndMagna">Floor -1</button>
-    <button class="filter-btn" data-filter="floor1">Floor 1</button>
-    <button class="filter-btn" data-filter="floor2">Floor 2</button>
-    <button class="filter-btn" data-filter="floor3">Floor 3</button>
-  </div>
+<div class="tab-nav">
+  <button class="tab-btn active" data-tab="rooms">Aulas</button>
+  <button class="tab-btn" data-tab="teachers">Profesores</button>
 </div>
 
-<h2 id="boardTitle">Right now</h2>
-<div class="grid" id="board"></div>
+<div id="roomsTab" class="tab-content active">
+  <div class="controls">
+    <label>Date <input type="date" id="date"></label>
+    <label>Time <input type="time" id="time"></label>
+    <button id="nowBtn" class="active">Now</button>
+    <span class="legend" id="freshness"></span>
+    
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All Rooms</button>
+      <button class="filter-btn" data-filter="soxAndMagna">Floor -1</button>
+      <button class="filter-btn" data-filter="floor1">Floor 1</button>
+      <button class="filter-btn" data-filter="floor2">Floor 2</button>
+      <button class="filter-btn" data-filter="floor3">Floor 3</button>
+    </div>
+  </div>
 
-<h2>Day schedule</h2>
-<table>
-  <thead>
-    <tr>
-      <th style="width:120px">Room</th>
-      <th>Classes</th>
-    </tr>
-  </thead>
-  <tbody id="dayBody"></tbody>
-</table>
+  <h2 id="boardTitle">Right now</h2>
+  <div class="grid" id="board"></div>
+
+  <h2>Day schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:120px">Room</th>
+        <th>Classes</th>
+      </tr>
+    </thead>
+    <tbody id="dayBody"></tbody>
+  </table>
+</div>
+
+<div id="teachersTab" class="tab-content">
+  <div class="controls">
+    <label style="flex:1;">
+      Search Teacher
+      <input type="text" id="teacherSearch" placeholder="Buscar por nombre, asignatura o despacho..." style="width:100%;">
+    </label>
+    <span class="legend" id="teachersFreshness"></span>
+  </div>
+
+  <h2>Docentes y Despachos</h2>
+  <div class="grid" id="teachersBoard"></div>
+</div>
 
 <footer>Data refreshes automatically · times are Europe/Ourense</footer>
 

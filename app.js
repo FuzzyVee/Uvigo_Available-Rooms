@@ -1,5 +1,6 @@
 const TZ = "Europe/Madrid";
 let DATA = null;
+let TEACHERS_DATA = null;
 let activeFilter = 'all';
 
 /* ---------- floor / room helper filters ---------- */
@@ -63,8 +64,9 @@ function statusAt(evts, time) {
   return evts.find(e => toMin(e.start) <= t && t < toMin(e.end));
 }
 
-/* ---------- rendering ---------- */
+/* ---------- rendering rooms ---------- */
 function render() {
+  if (!DATA) return;
   const dateEl = document.getElementById("date");
   const timeEl = document.getElementById("time");
   const iso = dateEl.value;
@@ -77,7 +79,6 @@ function render() {
 
   const evts = eventsOn(iso);
   
-  // Extract unique rooms
   let rooms = [...new Set(DATA.events.map(e => e.room).filter(Boolean))].sort((a, b) => {
     const ka = roomKey(a), kb = roomKey(b);
     for (let i = 0; i < Math.max(ka.length, kb.length); i++) {
@@ -88,11 +89,9 @@ function render() {
     return 0;
   });
 
-  // Apply active room filter
   const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
   rooms = rooms.filter(filterFn);
 
-  /* status board */
   const board = document.getElementById("board");
   board.innerHTML = "";
   const later = evts.filter(e => toMin(e.start) >= toMin(time))
@@ -117,7 +116,6 @@ function render() {
     board.appendChild(card);
   }
 
-  /* day schedule table */
   const body = document.getElementById("dayBody");
   body.innerHTML = "";
   if (!rooms.length) {
@@ -130,6 +128,58 @@ function render() {
       : `<span style="color:var(--muted); font-size:.8rem">No classes scheduled today</span>`;
       
     body.insertAdjacentHTML("beforeend", `<tr><td><b>${room}</b></td><td>${chips}</td></tr>`);
+  }
+}
+
+/* ---------- rendering teachers ---------- */
+function renderTeachers() {
+  if (!TEACHERS_DATA) return;
+
+  const query = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
+  const board = document.getElementById("teachersBoard");
+  if (!board) return;
+
+  board.innerHTML = "";
+
+  const filtered = TEACHERS_DATA.teachers.filter(t => {
+    const nameMatch = t.name.toLowerCase().includes(query);
+    const officeMatch = (t.office || "").toLowerCase().includes(query);
+    const subjectMatch = (t.subjects || []).some(s => s.toLowerCase().includes(query));
+    return nameMatch || officeMatch || subjectMatch;
+  });
+
+  if (!filtered.length) {
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No teachers found matching your search.</div>`;
+    return;
+  }
+
+  for (const t of filtered) {
+    const card = document.createElement("div");
+    card.className = "card free";
+
+    const subjectsText = t.subjects && t.subjects.length 
+      ? t.subjects.join(", ") 
+      : "No subjects specified";
+
+    card.innerHTML = `
+      <div class="room">${t.name}</div>
+      <span class="pill" style="background:var(--panel2); color:var(--accent)">
+        OFFICE: ${t.office || 'N/A'}
+      </span>
+      <div class="cls" style="margin-bottom:6px;">
+        <a href="mailto:${t.email}" class="card-link">${t.email || 'No email'}</a>
+      </div>
+      <div class="next">
+        <b>Subjects:</b> ${subjectsText}
+      </div>
+      ${t.tutoring_url ? `
+        <div class="next" style="margin-top:6px;">
+          <a href="${t.tutoring_url}" target="_blank" rel="noopener" class="card-link">Tutoring Schedule &rarr;</a>
+        </div>
+      ` : ''}
+    `;
+
+    board.appendChild(card);
   }
 }
 
@@ -147,6 +197,8 @@ async function boot() {
     const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
     if (!r.ok) throw new Error("HTTP " + r.status);
     DATA = await r.json();
+    document.getElementById("freshness").textContent =
+      "data updated: " + new Date(DATA.generated_at).toLocaleString();
   } catch (err) {
     const e = document.getElementById("error");
     e.style.display = "block";
@@ -154,10 +206,35 @@ async function boot() {
     return;
   }
 
-  document.getElementById("freshness").textContent =
-    "data updated: " + new Date(DATA.generated_at).toLocaleString();
+  try {
+    const r = await fetch(`teachers.json?v=${Date.now()}`, { cache: "no-store" });
+    if (r.ok) {
+      TEACHERS_DATA = await r.json();
+      const freshnessEl = document.getElementById("teachersFreshness");
+      if (freshnessEl) {
+        freshnessEl.textContent = "updated: " + new Date(TEACHERS_DATA.generated_at).toLocaleDateString();
+      }
+    }
+  } catch (err) {
+    console.warn("teachers.json could not be loaded.");
+  }
 
-  /* default date setup */
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      
+      e.target.classList.add('active');
+      const tabId = e.target.getAttribute('data-tab') + 'Tab';
+      const targetTab = document.getElementById(tabId);
+      if (targetTab) targetTab.classList.add('active');
+
+      if (e.target.getAttribute('data-tab') === 'teachers') {
+        renderTeachers();
+      }
+    });
+  });
+
   const today = madridParts().date;
   const dates = [...new Set(DATA.events.map(e => e.date))].sort();
   const def = dates.includes(today) ? today : (dates.find(d => d >= today) || dates[0] || today);
@@ -181,7 +258,6 @@ async function boot() {
     render();
   });
 
-  /* Filter buttons click handler */
   document.querySelectorAll('.filter-btn').forEach(button => {
     button.addEventListener('click', (e) => {
       document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
@@ -191,9 +267,14 @@ async function boot() {
     });
   });
 
-  render();
+  const searchInput = document.getElementById("teacherSearch");
+  if (searchInput) {
+    searchInput.addEventListener("input", renderTeachers);
+  }
 
-  /* keep "now" fresh */
+  render();
+  renderTeachers();
+
   setInterval(() => {
     if (document.getElementById("nowBtn").classList.contains("active")) {
       timeEl.value = madridParts().time;
