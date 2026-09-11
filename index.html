@@ -1,84 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ESEI · Room availability</title>
-<style>
-  :root{
-    --bg:#0d1117; --panel:rgba(22, 27, 34, 0.85); --panel2:rgba(28, 35, 48, 0.85); --border:#2b3442;
-    --text:#e6edf3; --muted:#8b98a9;
-    --free:#22c55e; --free-bg:rgba(34,197,94,.12);
-    --busy:#f59e0b; --busy-bg:rgba(245,158,11,.12);
-    --accent:#58a6ff;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-
-  /* Fixed Background Image Cover */
-  body{
-    background: url('https://f2.toyhou.se/file/f2-toyhou-se/images/116329354_1XMc1olgmXT12cp.png') no-repeat center center fixed;
-    background-size: cover;
-    background-color: var(--bg);
-    color:var(--text);
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-    max-width:1100px;margin:0 auto;padding:24px 16px 64px;
-    min-height: 100vh;
-  }
-
-  header{display:flex;flex-wrap:wrap;gap:12px;align-items:baseline;justify-content:space-between;margin-bottom:6px}
-  h1{font-size:1.5rem;letter-spacing:.3px}
-  h1 span{color:var(--accent)}
-  #clock{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.95rem}
-  .sub{color:var(--muted);font-size:.85rem;margin-bottom:20px}
-  
-  .controls{
-    display:flex;flex-wrap:wrap;gap:10px;align-items:center;
-    background:var(--panel);border:1px solid var(--border);border-radius:12px;
-    padding:12px 14px;margin-bottom:22px;
-    backdrop-filter: blur(8px); /* Subtle glassmorphism effect for background readability */
-  }
-  .controls label{font-size:.8rem;color:var(--muted);display:flex;flex-direction:column;gap:4px}
-  input,button{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 10px;font-size:.9rem}
-  button{cursor:pointer}
-  button:hover{border-color:var(--accent)}
-  button.active{background:var(--accent);border-color:var(--accent);color:#06121f;font-weight:600}
-
-  .filter-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-left: auto;
-  }
-
-  h2{font-size:1.05rem;margin:26px 0 12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px}
-  .card{
-    background:var(--panel);border:1px solid var(--border);border-radius:12px;
-    padding:14px;border-left:5px solid var(--free);
-    backdrop-filter: blur(8px);
-  }
-  .card.busy{border-left-color:var(--busy)}
-  .room{font-weight:700;font-size:1.05rem;margin-bottom:6px}
-  .pill{display:inline-block;font-size:.72rem;font-weight:700;letter-spacing:.5px;padding:3px 9px;border-radius:999px;margin-bottom:8px}
-  .card.free .pill{background:var(--free-bg);color:var(--free)}
-  .card.busy .pill{background:var(--busy-bg);color:var(--busy)}
-  .cls{font-size:.9rem}
-  .cls .time{color:var(--muted);font-size:.8rem}
-  .next{margin-top:8px;font-size:.78rem;color:var(--muted)}
-  table{
-    width:100%;border-collapse:collapse;background:var(--panel);
-    border:1px solid var(--border);border-radius:12px;overflow:hidden;
-    backdrop-filter: blur(8px);
-  }
-  th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--border);font-size:.88rem;vertical-align:top}
-  th{background:var(--panel2);color:var(--muted);font-size:.75rem;text-transform:uppercase;letter-spacing:.6px}
-  tr:last-child td{border-bottom:none}
-  .chip{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:8px;padding:3px 8px;margin:2px 3px 2px 0;font-size:.8rem;white-space:nowrap}
-  .chip b{color:var(--accent);font-weight:600}
-  #error{display:none;background:rgba(245,158,11,.1);border:1px solid var(--busy);color:var(--busy);border-radius:12px;padding:14px;margin-bottom:18px;font-size:.9rem}
-  .legend{font-size:.78rem;color:var(--muted)}
-  footer{margin-top:40px;color:var(--muted);font-size:.78rem;text-align:center}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESEI · Room availability</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -110,186 +36,17 @@
 
 <h2>Day schedule</h2>
 <table>
-  <thead><tr><th style="width:120px">Room</th><th>Classes</th></tr></thead>
+  <thead>
+    <tr>
+      <th style="width:120px">Room</th>
+      <th>Classes</th>
+    </tr>
+  </thead>
   <tbody id="dayBody"></tbody>
 </table>
 
 <footer>Data refreshes automatically · times are Europe/Ourense</footer>
 
-<script>
-const TZ = "Europe/Madrid";
-let DATA = null;
-let activeFilter = 'all';
-
-/* ---------- floor / room helper filters ---------- */
-function getFloor(roomName) {
-  if (!roomName) return null;
-  const match = roomName.match(/\b([0-3])\.\d+\b/);
-  return match ? parseInt(match[1], 10) : null;
-}
-
-const PRESET_FILTERS = {
-  all: () => true,
-  floor1: (room) => getFloor(room) === 1,
-  floor2: (room) => getFloor(room) === 2,
-  floor3: (room) => getFloor(room) === 3,
-  soxAndMagna: (room) => {
-    if (!room) return false;
-    const r = room.toLowerCase();
-    return r.includes("so") || r === "aula magna";
-  }
-};
-
-/* ---------- time helpers (all in Europe/Madrid) ---------- */
-function madridParts(date = new Date()) {
-  const p = new Intl.DateTimeFormat("en-GB",{timeZone:TZ,year:"numeric",month:"2-digit",
-    day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:false})
-    .formatToParts(date).reduce((a,x)=>(a[x.type]=x.value,a),{});
-  return {date:`${p.year}-${p.month}-${p.day}`, time:`${p.hour}:${p.minute}`,
-          timeFull:`${p.hour}:${p.minute}:${p.second}`};
-}
-function weekdayName(iso){
-  const [y,m,d]=iso.split("-").map(Number);
-  return new Date(y,m-1,d).toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"short"});
-}
-const toMin = t => {const[a,b]=t.split(":").map(Number);return a*60+b;};
-
-/* ---------- data helpers ---------- */
-const eventsOn = iso => DATA.events.filter(e => e.date === iso);
-function roomKey(r){
-  return (r||"").split(/(\d+)/).map(s=>isNaN(s)?s:+s);
-}
-function statusAt(evts, time){
-  const t = toMin(time);
-  return evts.find(e => toMin(e.start) <= t && t < toMin(e.end));
-}
-
-/* ---------- rendering ---------- */
-function render(){
-  const dateEl = document.getElementById("date");
-  const timeEl = document.getElementById("time");
-  const iso  = dateEl.value, time = timeEl.value;
-  const nowIso = madridParts().date;
-  const viewingNow = (iso === nowIso);
-  document.getElementById("boardTitle").textContent =
-    viewingNow ? "Right now" : `Status on ${weekdayName(iso)} at ${time}`;
-
-  const evts = eventsOn(iso);
-  
-  // Extract unique rooms
-  let rooms = [...new Set(DATA.events.map(e=>e.room).filter(Boolean))].sort((a,b)=>{
-    const ka=roomKey(a), kb=roomKey(b);
-    for(let i=0;i<Math.max(ka.length,kb.length);i++){
-      if(ka[i]===undefined) return -1; if(kb[i]===undefined) return 1;
-      if(ka[i]!==kb[i]) return ka[i]<kb[i]?-1:1;
-    } return 0;
-  });
-
-  // Apply active room filter
-  const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
-  rooms = rooms.filter(filterFn);
-
-  /* status board */
-  const board = document.getElementById("board");
-  board.innerHTML = "";
-  const later = evts.filter(e => toMin(e.start) >= toMin(time))
-                    .sort((a,b)=>toMin(a.start)-toMin(b.start));
-
-  if(!rooms.length){
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No rooms matching this floor filter.</div>`;
-  }
-
-  for(const room of rooms){
-    const roomEvts = evts.filter(e=>e.room===room);
-    const cur = statusAt(roomEvts, time);
-    const nxt = later.find(e=>e.room===room);
-    const card = document.createElement("div");
-    card.className = "card " + (cur ? "busy" : "free");
-    card.innerHTML =
-      `<div class="room">${room}</div>` +
-      `<span class="pill">${cur ? "BUSY" : "FREE"}</span>` +
-      (cur ? `<div class="cls">${cur.subject} <span class="time">until ${cur.end}</span></div>`
-           : `<div class="cls" style="color:var(--muted)">no class at this time</div>`) +
-      (nxt ? `<div class="next">Next: ${nxt.start} · ${nxt.subject}</div>` : "");
-    board.appendChild(card);
-  }
-
-  /* day schedule table */
-  const body = document.getElementById("dayBody");
-  body.innerHTML = "";
-  if(!rooms.length){
-    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes or rooms found for this view.</td></tr>`;
-  }
-  for(const room of rooms){
-    const roomDayEvts = evts.filter(e=>e.room===room);
-    const chips = roomDayEvts.length 
-      ? roomDayEvts.map(e=>`<span class="chip"><b>${e.start}–${e.end}</b> ${e.subject}</span>`).join("")
-      : `<span style="color:var(--muted); font-size:.8rem">No classes scheduled today</span>`;
-      
-    body.insertAdjacentHTML("beforeend", `<tr><td><b>${room}</b></td><td>${chips}</td></tr>`);
-  }
-}
-
-/* ---------- boot ---------- */
-function tick(){
-  document.getElementById("clock").textContent =
-    weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
-}
-async function boot(){
-  tick(); setInterval(tick, 1000);
-  try{
-      const r = await fetch(`data.json?v=${Date.now()}`, {cache:"no-store"});
-      if(!r.ok) throw new Error("HTTP " + r.status);
-    DATA = await r.json();
-  }catch(err){
-    const e = document.getElementById("error");
-    e.style.display = "block";
-    e.textContent = "⚠ Could not load data.json — if you are opening this file locally, run a tiny server first:  python -m http.server   (or push to GitHub Pages, where it works out of the box).";
-    return;
-  }
-  document.getElementById("freshness").textContent =
-    "data updated: " + new Date(DATA.generated_at).toLocaleString();
-
-  /* default date setup */
-  const today = madridParts().date;
-  const dates = [...new Set(DATA.events.map(e=>e.date))].sort();
-  const def = dates.includes(today) ? today : (dates.find(d=>d>=today) || dates[0] || today);
-  const dateEl = document.getElementById("date");
-  const timeEl = document.getElementById("time");
-  dateEl.value = def;
-  timeEl.value = madridParts().time;
-
-  const syncNowBtn = () =>
-    document.getElementById("nowBtn").classList.toggle("active",
-      dateEl.value === madridParts().date);
-  [dateEl,timeEl].forEach(el=>el.addEventListener("input", ()=>{syncNowBtn();render();}));
-  document.getElementById("nowBtn").addEventListener("click", ()=>{
-    dateEl.value = madridParts().date; timeEl.value = madridParts().time;
-    syncNowBtn(); render();
-  });
-
-  /* Filter buttons click handler */
-  document.querySelectorAll('.filter-btn').forEach(button => {
-    button.addEventListener('click', (e) => {
-      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
-      e.target.classList.add('active');
-      activeFilter = e.target.getAttribute('data-filter');
-      render();
-    });
-  });
-
-  render();
-
-  /* keep "now" fresh */
-  setInterval(()=>{
-    if(document.getElementById("nowBtn").classList.contains("active")){
-      timeEl.value = madridParts().time;
-      dateEl.value = madridParts().date;
-      render();
-    }
-  }, 30000);
-}
-boot();
-</script>
+<script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,206 @@
+const TZ = "Europe/Madrid";
+let DATA = null;
+let activeFilter = 'all';
+
+/* ---------- floor / room helper filters ---------- */
+function getFloor(roomName) {
+  if (!roomName) return null;
+  const match = roomName.match(/\b([0-3])\.\d+\b/);
+  return match ? parseInt(match[1], 10) : null;
+}
+
+const PRESET_FILTERS = {
+  all: () => true,
+  floor1: (room) => getFloor(room) === 1,
+  floor2: (room) => getFloor(room) === 2,
+  floor3: (room) => getFloor(room) === 3,
+  soxAndMagna: (room) => {
+    if (!room) return false;
+    const r = room.toLowerCase();
+    return r.includes("so") || r === "aula magna";
+  }
+};
+
+/* ---------- time helpers (all in Europe/Madrid) ---------- */
+function madridParts(date = new Date()) {
+  const p = new Intl.DateTimeFormat("en-GB", {
+    timeZone: TZ,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false
+  }).formatToParts(date).reduce((a, x) => (a[x.type] = x.value, a), {});
+  
+  return {
+    date: `${p.year}-${p.month}-${p.day}`,
+    time: `${p.hour}:${p.minute}`,
+    timeFull: `${p.hour}:${p.minute}:${p.second}`
+  };
+}
+
+function weekdayName(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "short" });
+}
+
+const toMin = t => {
+  const [a, b] = t.split(":").map(Number);
+  return a * 60 + b;
+};
+
+/* ---------- data helpers ---------- */
+const eventsOn = iso => DATA.events.filter(e => e.date === iso);
+
+function roomKey(r) {
+  return (r || "").split(/(\d+)/).map(s => isNaN(s) ? s : +s);
+}
+
+function statusAt(evts, time) {
+  const t = toMin(time);
+  return evts.find(e => toMin(e.start) <= t && t < toMin(e.end));
+}
+
+/* ---------- rendering ---------- */
+function render() {
+  const dateEl = document.getElementById("date");
+  const timeEl = document.getElementById("time");
+  const iso = dateEl.value;
+  const time = timeEl.value;
+  const nowIso = madridParts().date;
+  const viewingNow = (iso === nowIso);
+  
+  document.getElementById("boardTitle").textContent =
+    viewingNow ? "Right now" : `Status on ${weekdayName(iso)} at ${time}`;
+
+  const evts = eventsOn(iso);
+  
+  // Extract unique rooms
+  let rooms = [...new Set(DATA.events.map(e => e.room).filter(Boolean))].sort((a, b) => {
+    const ka = roomKey(a), kb = roomKey(b);
+    for (let i = 0; i < Math.max(ka.length, kb.length); i++) {
+      if (ka[i] === undefined) return -1;
+      if (kb[i] === undefined) return 1;
+      if (ka[i] !== kb[i]) return ka[i] < kb[i] ? -1 : 1;
+    }
+    return 0;
+  });
+
+  // Apply active room filter
+  const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
+  rooms = rooms.filter(filterFn);
+
+  /* status board */
+  const board = document.getElementById("board");
+  board.innerHTML = "";
+  const later = evts.filter(e => toMin(e.start) >= toMin(time))
+                    .sort((a, b) => toMin(a.start) - toMin(b.start));
+
+  if (!rooms.length) {
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No rooms matching this floor filter.</div>`;
+  }
+
+  for (const room of rooms) {
+    const roomEvts = evts.filter(e => e.room === room);
+    const cur = statusAt(roomEvts, time);
+    const nxt = later.find(e => e.room === room);
+    const card = document.createElement("div");
+    card.className = "card " + (cur ? "busy" : "free");
+    card.innerHTML =
+      `<div class="room">${room}</div>` +
+      `<span class="pill">${cur ? "BUSY" : "FREE"}</span>` +
+      (cur ? `<div class="cls">${cur.subject} <span class="time">until ${cur.end}</span></div>`
+           : `<div class="cls" style="color:var(--muted)">no class at this time</div>`) +
+      (nxt ? `<div class="next">Next: ${nxt.start} · ${nxt.subject}</div>` : "");
+    board.appendChild(card);
+  }
+
+  /* day schedule table */
+  const body = document.getElementById("dayBody");
+  body.innerHTML = "";
+  if (!rooms.length) {
+    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes or rooms found for this view.</td></tr>`;
+  }
+  for (const room of rooms) {
+    const roomDayEvts = evts.filter(e => e.room === room);
+    const chips = roomDayEvts.length 
+      ? roomDayEvts.map(e => `<span class="chip"><b>${e.start}–${e.end}</b> ${e.subject}</span>`).join("")
+      : `<span style="color:var(--muted); font-size:.8rem">No classes scheduled today</span>`;
+      
+    body.insertAdjacentHTML("beforeend", `<tr><td><b>${room}</b></td><td>${chips}</td></tr>`);
+  }
+}
+
+/* ---------- boot ---------- */
+function tick() {
+  document.getElementById("clock").textContent =
+    weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
+}
+
+async function boot() {
+  tick();
+  setInterval(tick, 1000);
+
+  try {
+    const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    DATA = await r.json();
+  } catch (err) {
+    const e = document.getElementById("error");
+    e.style.display = "block";
+    e.textContent = "⚠ Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
+    return;
+  }
+
+  document.getElementById("freshness").textContent =
+    "data updated: " + new Date(DATA.generated_at).toLocaleString();
+
+  /* default date setup */
+  const today = madridParts().date;
+  const dates = [...new Set(DATA.events.map(e => e.date))].sort();
+  const def = dates.includes(today) ? today : (dates.find(d => d >= today) || dates[0] || today);
+  const dateEl = document.getElementById("date");
+  const timeEl = document.getElementById("time");
+  dateEl.value = def;
+  timeEl.value = madridParts().time;
+
+  const syncNowBtn = () =>
+    document.getElementById("nowBtn").classList.toggle("active", dateEl.value === madridParts().date);
+
+  [dateEl, timeEl].forEach(el => el.addEventListener("input", () => {
+    syncNowBtn();
+    render();
+  }));
+
+  document.getElementById("nowBtn").addEventListener("click", () => {
+    dateEl.value = madridParts().date;
+    timeEl.value = madridParts().time;
+    syncNowBtn();
+    render();
+  });
+
+  /* Filter buttons click handler */
+  document.querySelectorAll('.filter-btn').forEach(button => {
+    button.addEventListener('click', (e) => {
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+      e.target.classList.add('active');
+      activeFilter = e.target.getAttribute('data-filter');
+      render();
+    });
+  });
+
+  render();
+
+  /* keep "now" fresh */
+  setInterval(() => {
+    if (document.getElementById("nowBtn").classList.contains("active")) {
+      timeEl.value = madridParts().time;
+      dateEl.value = madridParts().date;
+      render();
+    }
+  }, 30000);
+}
+
+boot();
