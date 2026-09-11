@@ -16,13 +16,57 @@ const SUBJECT_ALIASES = {
   "cd": "ciencia de datos",
   "ia": "intelixencia artificial",
   "redes": "redes de ordenadores"
-  // Puedes añadir aquí todas las abreviaturas extra que necesites
 };
 
-/* Helper para obtener el texto expandido de la búsqueda si coincide con una sigla */
-function expandQuery(query) {
-  const q = query.toLowerCase().trim();
-  return [q, SUBJECT_ALIASES[q] || ""];
+/* Lista negra para filtrar textos del menú web escrapeados por error */
+const BLACKLISTED_TERMS = [
+  "campus auga", "biblioteca", "deportes", "cultura", "correo uvigo", "moovi", "duvi", 
+  "secretaría", "a esei", "benvida do director", "formularios", "prácticas en empresa", 
+  "traballos fin de grao", "traballos fin de máster", "normativas", "normativa académica", 
+  "normativa de xestión económica", "regulamento de réxime interno", "reclamacións e suxestións", 
+  "persoal técnico", "recursos materiais", "aulas, laboratorios", "laboratorio de libre acceso", 
+  "seminarios para estudo", "infraestrutura", "rede wireless", "equipo directivo", "órganos de goberno", 
+  "xunta de centro", "comisión", "delegación de alumnos", "prevención de riscos", "igualdade", 
+  "coddii", "colexios profesionais", "cpeig", "cpetig", "localización e contacto", "guía de benvida", 
+  "docencia", "calendario académico", "grupos reducidos", "horarios", "exames", "profesorado", 
+  "departamentos", "pat-aneae", "piune", "avaliación por compensación", "estudos", "grao en", 
+  "competencias e obxectivos", "guías docentes", "curso ponte", "informes de coordinación", 
+  "memoria do", "acceso ao", "recoñecemento de créditos", "suplemento europeo", "pceo", "páxina web", 
+  "mástes universitario", "especialidades", "sitio promocional", "gl", "es"
+];
+
+/* Helper para limpiar el array de asignaturas de cada profesor */
+function cleanSubjects(subjects) {
+  if (!Array.isArray(subjects)) return [];
+  return subjects.filter(s => {
+    if (!s || typeof s !== "string" || s.length > 70) return false;
+    const lower = s.toLowerCase().trim();
+    return !BLACKLISTED_TERMS.some(black => lower.includes(black));
+  });
+}
+
+/* Helper para normalizar búsquedas e ignorar acentos */
+function normalizeStr(str) {
+  return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+}
+
+/* Helper para comprobar si una consulta coincide con un profesor */
+function matchesTeacher(teacher, rawQuery) {
+  const query = normalizeStr(rawQuery);
+  if (!query) return true;
+
+  const nameMatch = normalizeStr(teacher.name).includes(query);
+  const officeMatch = normalizeStr(teacher.office).includes(query);
+
+  const expandedAlias = SUBJECT_ALIASES[query] ? normalizeStr(SUBJECT_ALIASES[query]) : "";
+
+  const validSubjects = cleanSubjects(teacher.subjects);
+  const subjectMatch = validSubjects.some(s => {
+    const subNorm = normalizeStr(s);
+    return subNorm.includes(query) || (expandedAlias && subNorm.includes(expandedAlias));
+  });
+
+  return nameMatch || officeMatch || subjectMatch;
 }
 
 /* ---------- floor / room helper filters ---------- */
@@ -165,9 +209,10 @@ function renderTeachers() {
   // 1. DETAIL VIEW
   if (selectedTeacher) {
     const t = selectedTeacher;
-    const subjectsText = t.subjects && t.subjects.length 
-      ? t.subjects.map(s => `<span class="chip"><b>${s}</b></span>`).join(" ")
-      : "Docencia no especificada";
+    const cleanSubs = cleanSubjects(t.subjects);
+    const subjectsText = cleanSubs.length 
+      ? cleanSubs.map(s => `<span class="chip"><b>${s}</b></span>`).join(" ")
+      : "<span style='color:var(--muted);'>Docencia no especificada</span>";
 
     let extraInfoHtml = "";
     if (t.info || t.events) {
@@ -196,13 +241,13 @@ function renderTeachers() {
             </div>
           </div>
           <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.95rem; padding: 6px 12px;">
-            DESPACHO: ${t.office || 'N/A'}
+            DESPACHO: ${t.office || 'No especificado'}
           </span>
         </div>
 
         <div style="margin-top:20px;">
           <b style="display:block; margin-bottom:8px;">Asignaturas:</b>
-          <div>${subjectsText}</div>
+          <div style="display:flex; flex-wrap:wrap; gap:6px;">${subjectsText}</div>
         </div>
 
         ${t.tutoring_url ? `
@@ -225,21 +270,8 @@ function renderTeachers() {
   }
 
   // 2. SEARCH GRID
-  const rawQuery = (document.getElementById("teacherSearch")?.value || "").toLowerCase().trim();
-  const [query, expandedAlias] = expandQuery(rawQuery);
-
-  const filtered = TEACHERS_DATA.teachers.filter(t => {
-    const nameMatch = t.name.toLowerCase().includes(query);
-    const officeMatch = (t.office || "").toLowerCase().includes(query);
-    
-    // Comprobar coincidencia directa o con abreviatura
-    const subjectMatch = (t.subjects || []).some(s => {
-      const subLower = s.toLowerCase();
-      return subLower.includes(query) || (expandedAlias && subLower.includes(expandedAlias));
-    });
-
-    return nameMatch || officeMatch || subjectMatch;
-  });
+  const rawQuery = (document.getElementById("teacherSearch")?.value || "").trim();
+  const filtered = TEACHERS_DATA.teachers.filter(t => matchesTeacher(t, rawQuery));
 
   if (!filtered.length) {
     board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado profesores que coincidan con la búsqueda.</div>`;
@@ -258,7 +290,7 @@ function renderTeachers() {
           <div class="cls"><a href="mailto:${t.email}" class="card-link" onclick="event.stopPropagation()">${t.email || 'Sin correo'}</a></div>
         </div>
         <span class="pill" style="background:var(--panel2); color:var(--accent); font-size:0.85rem;">
-          DESPACHO: ${t.office || 'N/A'}
+          DESPACHO: ${t.office || 'No especificado'}
         </span>
       </div>
     `;
@@ -405,7 +437,7 @@ function setupTeacherAutocomplete() {
   }
 
   input.addEventListener("input", function() {
-    const rawVal = this.value.trim().toLowerCase();
+    const rawVal = this.value.trim();
     listContainer.innerHTML = "";
     currentFocus = -1;
 
@@ -414,23 +446,13 @@ function setupTeacherAutocomplete() {
 
     if (!rawVal || !TEACHERS_DATA) return;
 
-    const [val, expandedAlias] = expandQuery(rawVal);
-
-    const matches = TEACHERS_DATA.teachers.filter(t => {
-      const nameMatch = t.name.toLowerCase().includes(val);
-      const officeMatch = (t.office || "").toLowerCase().includes(val);
-      const subjectMatch = (t.subjects || []).some(s => {
-        const subLower = s.toLowerCase();
-        return subLower.includes(val) || (expandedAlias && subLower.includes(expandedAlias));
-      });
-      return nameMatch || officeMatch || subjectMatch;
-    }).slice(0, 7);
+    const matches = TEACHERS_DATA.teachers.filter(t => matchesTeacher(t, rawVal)).slice(0, 7);
 
     matches.forEach(t => {
       const item = document.createElement("div");
       item.innerHTML = `
         <span class="autocomplete-title">${t.name}</span>
-        <span class="autocomplete-item-sub">${t.office ? 'Despacho ' + t.office : ''}</span>
+        <span class="autocomplete-item-sub">${t.office ? 'Despacho ' + t.office : 'Despacho N/A'}</span>
       `;
       item.addEventListener("click", function(e) {
         e.stopPropagation();
