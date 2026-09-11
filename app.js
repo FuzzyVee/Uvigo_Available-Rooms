@@ -1,27 +1,4 @@
-/* Helper para comprobar si una consulta coincide con un profesor de forma flexible */
-function matchesTeacher(teacher, rawQuery) {
-  const query = normalizeStr(rawQuery);
-  if (!query) return true;
 
-  const nameMatch = normalizeStr(teacher.name).includes(query);
-  const officeMatch = normalizeStr(teacher.office).includes(query);
-
-  // Búsqueda flexible en el diccionario de alias (permite buscar por fragmentos como "ae", "so", etc.)
-  let expandedAliases = [];
-  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
-    if (aliasKey.includes(query) || query.includes(aliasKey)) {
-      expandedAliases.push(normalizeStr(aliasVal));
-    }
-  }
-
-  const validSubjects = cleanSubjects(teacher.subjects);
-  const subjectMatch = validSubjects.some(s => {
-    const subNorm = normalizeStr(s);
-    // 1. Coincidencia por texto parcial (ej. "datos", "operativos")
-    if (subNorm.includes(query)) return true;
-    // 2. Coincidencia por alias o abreviatura parcial (ej. "ae" encuentra "algoritmos...")
-    return expandedAliases.some(alias => subNorm.includes(alias));
-  });
 
   return nameMatch || officeMatch || subjectMatch;
 }const TZ = "Europe/Madrid";
@@ -76,7 +53,7 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-/* Helper para comprobar si una consulta coincide con un profesor */
+/* Helper para comprobar si una consulta coincide con un profesor de forma flexible */
 function matchesTeacher(teacher, rawQuery) {
   const query = normalizeStr(rawQuery);
   if (!query) return true;
@@ -84,17 +61,23 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
-  const expandedAlias = SUBJECT_ALIASES[query] ? normalizeStr(SUBJECT_ALIASES[query]) : "";
+  // Búsqueda flexible en el diccionario de alias (permite buscar por fragmentos como "ae", "so", etc.)
+  let expandedAliases = [];
+  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
+    if (aliasKey.includes(query) || query.includes(aliasKey)) {
+      expandedAliases.push(normalizeStr(aliasVal));
+    }
+  }
 
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
-    return subNorm.includes(query) || (expandedAlias && subNorm.includes(expandedAlias));
+    // 1. Coincidencia por texto parcial (ej. "datos", "operativos")
+    if (subNorm.includes(query)) return true;
+    // 2. Coincidencia por alias o abreviatura parcial (ej. "ae" encuentra "algoritmos...")
+    return expandedAliases.some(alias => subNorm.includes(alias));
   });
-
-  return nameMatch || officeMatch || subjectMatch;
-}
-
+  
 /* ---------- floor / room helper filters ---------- */
 function getFloor(roomName) {
   if (!roomName) return null;
