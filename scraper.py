@@ -109,7 +109,7 @@ DAYS_BEHIND = 7
 DAYS_AHEAD = 100
 
 ROOM_RE = re.compile(r'\s*\[.*?\]')
-IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD", "AEDII", "AUTOM", "DAI"}
+IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD", "AEDII", "DAI"}
 
 def normalize_room(room_name: str) -> str:
     if not room_name:

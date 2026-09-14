@@ -19,6 +19,7 @@
 <div class="tab-nav">
   <button class="tab-btn active" data-tab="rooms">Aulas</button>
   <button class="tab-btn" data-tab="teachers">Profesores</button>
+  <button class="tab-btn" data-tab="subjects">Asignaturas</button>
 </div>
 
 <div id="roomsTab" class="tab-content active">
@@ -67,6 +68,15 @@
   <h2>Docentes y Despachos</h2>
   <div class="grid" id="teachersBoard"></div>
 </div>
+
+<div id="subjectsTab" class="tab-content">
+  <div style="margin-bottom: 16px; position: relative;">
+    <input type="text" id="subjectSearch" placeholder="Buscar asignatura (ej. Algoritmos, Bases de datos...)" style="width: 100%; padding: 12px; border-radius: 8px; background: var(--panel); border: 1px solid var(--border); color: var(--text); font-size: 1rem;">
+  </div>
+  <div id="subjectsBoard" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px;"></div>
+</div>
+
+
     
 <footer>Data refreshes automatically · times are Europe/Ourense</footer>
 
