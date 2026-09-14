@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-11T13:56:16.902705+00:00",
-  "count": 97,
+  "generated_at": "2026-09-14T10:26:01.771424+00:00",
+  "count": 98,
   "teachers": [
     {
       "id": "p-1",
@@ -8,11 +8,10 @@
       "office": "Tel",
       "phone": "",
       "email": "manuel.alonso.carracedo@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alonso-carracedo-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo",
-      "subjects": [
-        "Sistemas operativos I"
-      ]
+      "subjects": []
     },
     {
       "id": "p-2",
@@ -20,12 +19,10 @@
       "office": "Lab",
       "phone": "988387016",
       "email": "miguel.alvarez.dominguez@uvigo.es",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alvarez-dominguez-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez",
-      "subjects": [
-        "Bases de datos II",
-        "Plataformas de Internet das Cousas"
-      ]
+      "subjects": []
     },
     {
       "id": "p-3",
@@ -33,14 +30,10 @@
       "office": "311",
       "phone": "988387035",
       "email": "pedro.arias.perez@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29849/",
       "uvigo_url": "",
-      "subjects": [
-        "Informática::Arquitectura de computadoras I",
-        "Redes de computadoras II",
-        "Robótica baseada no Comportamento",
-        "Robótica Intelixente I / Intelligent Robotic I"
-      ]
+      "subjects": []
     },
     {
       "id": "p-4",
@@ -48,15 +41,10 @@
       "office": "314",
       "phone": "988368915",
       "email": "farriba@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/307692360",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/arriba-perez-francisco-de/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/francisco-arriba-perez",
-      "subjects": [
-        "Interfaces Intelixentes",
-        "Experiencia investigadora:",
-        "Francisco de Arriba Pérez obtivo o doutoramento en Enxeñaría Telemática pola Universidade de Vigo en 2019. Desde 2012 estivo activamente involucrado na investigación, comezando no Departamento de Matemática Aplicada I e posteriormente incorporándose ao Grupo de Tecnoloxías da Información (GTI) en atlanTTic, Universidade de Vigo. Lidera múltiples proxectos de investigación que combinan Aprendizaxe Automático e Procesamento da Linguaxe Natural, en particular na monitorización da saúde cognitiva e na analítica predictiva. O seu traballo deu lugar a 2 libros, 1 capítulo de libro e máis de 30 publicacións en revistas indexadas en JCR/SJR (todas en acceso aberto).",
-        "Participou en máis de 20 proxectos competitivos nacionais e europeos. Ademais, dirixiu varias iniciativas de gran impacto, como CELIA, que desenvolveu unha plataforma de monitorización cognitiva con máis de 10.000 usuarios, e 3DBigDataSpace, que mellorou a accesibilidade nas rutas de peregrinación. A súa investigación foi recoñecida con prestixiosos galardóns, incluíndo os Premios Provinciais á Xuventude e o recoñecemento ao Mellor Proxecto TIC con Beneficios Sociais en 2024.",
-        "Tamén colabora con grupos de investigación internacionais en Francia, Exipto e Portugal, traballando en detección de noticias falsas, modelos de linguaxe de grande tamaño (LLMs), datos sintéticos e mantemento predictivo. Mantén fortes vínculos coa industria, xestionando máis de 20 proxectos de transferencia tecnolóxica con socios clave como E4Legal Analytics SL, Retevisión I e Ednon SL."
-      ]
+      "subjects": []
     },
     {
       "id": "p-5",
@@ -64,14 +52,10 @@
       "office": "311",
       "phone": "988387035",
       "email": "ebalvis@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/100015018",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/balvis-outeirino-eduardo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/eduardo-balvis-outeirino",
-      "subjects": [
-        "Arquitecturas paralelas",
-        "Redes de computadoras II",
-        "Arquitectura de computadoras II",
-        "Informática: Adquisición e procesamento do sinal"
-      ]
+      "subjects": []
     },
     {
       "id": "p-6",
@@ -79,16 +63,10 @@
       "office": "414",
       "phone": "988368911",
       "email": "enrique@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/195045626",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/barreiro-alonso-enrique/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/enrique-barreiro-alonso",
-      "subjects": [
-        "Enxeñaría do software I",
-        "IA no ámbito Empresarial e Administrativo",
-        "Experiencia docente:",
-        "Experiencia investigadora:",
-        "Optimización de algoritmos xenéticos. Sistemas de información. Aplicacións de técnicas de machine learning no ámbito científico. Proxectos con empresas.",
-        "Experiencia profesional:"
-      ]
+      "subjects": []
     },
     {
       "id": "p-7",
@@ -96,23 +74,21 @@
       "office": "Tel",
       "phone": "",
       "email": "yago.bea@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/bea-besada-yago/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada",
-      "subjects": [
-        "Matemáticas::Alxebra Lineal"
-      ]
+      "subjects": []
     },
     {
       "id": "p-8",
       "name": "Blanco Cerradelo, Lidia",
-      "office": "virtual",
+      "office": "Despacho",
       "phone": "",
       "email": "lyblanco@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/408041424",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-cerradelo-lidia/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/lidia-blanco-cerradelo",
-      "subjects": [
-        "Empresa::Técnicas de comunicación e liderado"
-      ]
+      "subjects": []
     },
     {
       "id": "p-9",
@@ -120,14 +96,10 @@
       "office": "402",
       "phone": "988387009",
       "email": "guillermo.blanco.gonzalez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/192251466",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-gonzalez-guillermo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracionpersonal/pdi/guillermo-blanco-gonzalez",
-      "subjects": [
-        "Concorrencia e distribución",
-        "Enxeñaría do Software",
-        "Algoritmos",
-        "Informática: Introdución ás computadoras"
-      ]
+      "subjects": []
     },
     {
       "id": "p-10",
@@ -135,17 +107,10 @@
       "office": "307",
       "phone": "988387028",
       "email": "lborrajo@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/830941365",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/borrajo-diz-maria-lourdes/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-lourdes-borrajo-diz",
-      "subjects": [
-        "Informática: Programación I",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo dende o ano 2000, , impartindo docencia en diferentes titulacións do campus de Ourense. Conta con 4 quinquenios recoñecidos, tendo dirixido mais de 70 Proxectos Fin de Carreira, Traballos Fin de Mestrado e Traballos Fin de Grao. É autora de 9 libros de carácter docente.",
-        "Experiencia investigadora:",
-        "A investigadora conta con 2 sexenios de investigación recoñecidos polo CNAI (2007-2012; 2013-2018). Dirixiu 2 teses de doutoramento, e actualmente dirixe 4 teses de doutoramento. Autora de 41 traballos científicos que foron obxecto dun total de 345 citas procedentes de 318 publicacións distintas (índice h= 10). Deses traballos, 19 foron publicados en revistas JCR y 3 pertencen a congresos internacionais de prestixio referenciados en posicións relevantes dos índices CiteSEER, Computing Research and Education (CORE) e CS Conference Rankings. Participou en 30 proxectos e/o contratos de investigación competitivos que abarcan os ámbitos europeo, nacional, autonómico e da propia universidade, figurando como investigadora principal en 2 de eles. Revisora de artigos científicos en diversas revistas indexadas no JCR. Por último, comentar que a investigadora formou parte do comité científico de máis de 50 prestixiosos congresos internacionais.",
-        "Experiencia profesional:",
-        "2018. Coordinadora das prácticas externas na ESEI dende 2020."
-      ]
+      "subjects": []
     },
     {
       "id": "p-11",
@@ -153,20 +118,10 @@
       "office": "410",
       "phone": "988387017",
       "email": "ccampos@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/123383861",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/campos-bastos-celso/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/celso-campos-bastos",
-      "subjects": [
-        "Dirección e xestión de proxectos",
-        "Creación de contidos dixitais",
-        "Sistemas Gráficos Interactivos",
-        "Experiencia docente:",
-        "Informática Gráfica. Creación, edición e distribución de contidos dixitais. Dirección e Xestión de Proxectos. Técnicas Aplicadas á Xestión de Empresa.",
-        "Experiencia investigadora:",
-        "Visualización Tridimensional. Realidade Virtual, aumentada e Mixta. Informática Gráfica. Desenvolvemento Multimedia. Desenvolvemento de apps en iOS e Android. Desenvolvemento de",
-        "aplicacións e contido 3D.",
-        "Experiencia profesional:",
-        "Profesor de Universidade. Director de Proxectos."
-      ]
+      "subjects": []
     },
     {
       "id": "p-12",
@@ -174,15 +129,10 @@
       "office": "Tel",
       "phone": "",
       "email": "dcandal@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/candal-ventureira-david/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira",
-      "subjects": [
-        "Lóxica para a computación",
-        "Teoría de autómatas e linguaxes formais",
-        "Minaría de Textos",
-        "Temas emerxentes e emprendemento en IA / Emerging and Entrepreuneurial AI",
-        "Fundamentos de IA / AI Fundamentals"
-      ]
+      "subjects": []
     },
     {
       "id": "p-13",
@@ -190,18 +140,10 @@
       "office": "312",
       "phone": "988387023",
       "email": "cmiguens@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/476999933",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/castro-miguens-carlos/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/carlos-castro-miguens",
-      "subjects": [
-        "Física::Sistemas dixitais",
-        "Hardware de aplicación específica",
-        "Experiencia docente:",
-        "Nos últimos anos dei clase nas Escolas de Informática e de Aeronáutica",
-        "Experiencia investigadora:",
-        "Nos últimos anos fixen varios traballos para o grupo Stellantis e para Bosch. Deseñei sistemas que automatizan a montaxe de mecanismos. Tamén deseñei un sistema que evita o conexionado erróneo dunha batería en coches e en camións. Actualmente colaboro no deseño dun chip que implementa unha técnica de control patentada para convertidores PWM.",
-        "Experiencia profesional:",
-        "Nos últimos anos fixen varios traballos para o grupo Stellantis e para Bosch."
-      ]
+      "subjects": []
     },
     {
       "id": "p-14",
@@ -209,17 +151,10 @@
       "office": "412",
       "phone": "988387019",
       "email": "pedro.celard.perez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/347244169",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/celard-perez-pedro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-celard-perez",
-      "subjects": [
-        "Enxeñaría do software II",
-        "Bases de datos II",
-        "Técnicas de Procesamento Masivo de Datos",
-        "Bases de Datos NoSQL",
-        "Bases de Datos",
-        "Visión por Computadora I / Computer Vision I",
-        "Intelixencia Web e Tecnoloxías Semánticas / Web Intelligence and Semantic Technologies"
-      ]
+      "subjects": []
     },
     {
       "id": "p-15",
@@ -227,18 +162,10 @@
       "office": "31",
       "phone": "988 387 221",
       "email": "angelcid@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/964130816",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cid-araujo-jose-angel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-angel-cid-araujo",
-      "subjects": [
-        "Matemáticas::Análise matemática",
-        "Matemáticas: Cálculo e análise numérico",
-        "Web persoal:",
-        "http://webs.uvigo.es/angelcid",
-        "Experiencia docente:",
-        "Impartiu docencia teórico-práctica en numerosas titulacións das Universidades de Santiago, Jaén e Vigo. Participou en diversos proxectos de innovación docente e ten publicacións relacionadas coa educación e a divulgación das matemáticas.",
-        "Experiencia investigadora:",
-        "A súa investigación céntrase principalmente na teoría cualitativa das ecuacións diferenciais ordinarias. Publicou numerosos artigos científicos en revistas internacionais e varios libros como autor ou editor. Tamén ten participado de forma regular en diversos proxectos de investigación, tanto de ámbito autonómico como estatal."
-      ]
+      "subjects": []
     },
     {
       "id": "p-16",
@@ -246,11 +173,10 @@
       "office": "521",
       "phone": "",
       "email": "laura.cotos@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-fernandez-arruty-laura/",
       "uvigo_url": "",
-      "subjects": [
-        "Matemáticas:: Estatística"
-      ]
+      "subjects": []
     },
     {
       "id": "p-17",
@@ -258,20 +184,10 @@
       "office": "13",
       "phone": "988368766",
       "email": "cotos@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/370913313",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-yanez-tomas-raimundo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/tomas-raimundo-cotos-yanez",
-      "subjects": [
-        "Matemáticas::Estatística",
-        "Optimización Matemática",
-        "Matemáticas:: Estatística",
-        "Experiencia docente:",
-        "Na Universidade de Vigo, e dende o ano 1996 ven impartindo docencia en diversas materias de Estatística e Investigación Operativa na E.S. Enxeñaría Informática, na F.C. Empresariais e Turismo e no mestrado/doutoramento Interuniversitario en Técnicas Estatísticas conxuntamente coa USC e a UDC.",
-        "Na UNED é profesor-tutor de diferentes materias de Grao vencelladas á área da Estatística e Investigación Operativa.",
-        "Experiencia investigadora:",
-        "A súa experiencia investigadora enmárcase na área de Estatística, concretamente desenvolvemento e aplicando técnicas estatísticas a problemas reais en diferentes ambitos: medioambientais, informático, químico, ... Principalmente, técnicas de estimación non paramétrica/semiparamétrica de curvas, técnicas de muestreo (bootstrap) e test de bondade de axuste. Ten publicacións en revistas internacionais como Statistical Papers, Spatial Statistics, I.J. of Biometeorology, Environmetrics...",
-        "Experiencia profesional:",
-        "Realización de diversos informes técnicos a entidades como o Concello de Ourense, Laboratorio Oficial de Metroloxía de Galicia..."
-      ]
+      "subjects": []
     },
     {
       "id": "p-18",
@@ -279,11 +195,10 @@
       "office": "310",
       "phone": "988368719",
       "email": "mcruz@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/133719569",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cruz-gonzalez-maria-montserrat/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-montserrat-cruz-gonzalez",
-      "subjects": [
-        "Empresa::Técnicas de comunicación e liderado"
-      ]
+      "subjects": []
     },
     {
       "id": "p-19",
@@ -291,18 +206,10 @@
       "office": "411",
       "phone": "988387018",
       "email": "pcuesta@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/749520036",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cuesta-morales-pedro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-cuesta-morales",
-      "subjects": [
-        "Informática::Programación I",
-        "Web persoal:",
-        "http://webs.uvigo.es/pcuesta",
-        "Experiencia docente:",
-        "Profesor da área de Linguaxes e Sistemas Informáticos, da Universidade de Vigo, dende outubro de 1991. Impartín materias nas diferentes titulacións de Informática (programación, teoría de autómatas, sistemas multiaxente, aprendizaxe baseada en proxectos, ...). e tamén na Facultade de Dereito (novas tecnoloxías aplicadas ao dereito) e na Facultade de Ciencias (Informática). Dirixín máis de 80 proxectos de fin de carreira/traballos fin de grao.",
-        "Experiencia investigadora:",
-        "Investigador na Universidade de Vigo dende 1991, actualmente no grupo LIA2 (http://lia.ei.uvigo.es ). As miñas liñas actuais de investigación inclúen procesado dixital de sinais",
-        "biomédicas, variabilidade da frecuencia cardíaca, desenvolvemento de sistemas informáticos, con numerosas publicacións en congresos e revistas nacionais e internacionais."
-      ]
+      "subjects": []
     },
     {
       "id": "p-20",
@@ -310,23 +217,10 @@
       "office": "304",
       "phone": "988387025",
       "email": "darriba@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/448025197",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/darriba-bilbao-victor-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/victor-manuel-darriba-bilbao",
-      "subjects": [
-        "Aprendizaxe Automática I",
-        "Autómatas e Linguaxes Formais",
-        "Informática: Lóxica",
-        "Procesamento da Linguaxe Natural",
-        "Modelado da Linguaxe / Language Modelling",
-        "Comprensión da Linguaxe Natural / Natural Language Understanding",
-        "Aprendizaxe Automática I / Machine Learning I",
-        "Experiencia docente:",
-        "Profesor Asociado T3/P6 na Universidade de Vigo. Depto de Informática: 09/11/00-30/09/04. Profesor Axudante Doutor na Universidade de Vigo. Depto de Informática: 01/10/04-31/01/07. Profesor Contratado Doutor Interino na Universidade de Vigo. Depto de Informática: 01/02/07-10/11/07. Profesor Contratado Doutor na Universidade de Vigo. Depto de Informática: 11/11/2007-hoxe.",
-        "Experiencia investigadora:",
-        "Autor dun capítulo de libro, 14 artigos en revistas indexadas en JCR, 11 artigos noutras revistas científicas e 12 ponencias en congresos con revisión por pares e publicación de actas, 8 deles internacionais. Conta cun sexenio CNEAI e os complementos á labor docente e investigadora da Xunta de Galicia. Dirixiu 2 proxectos con financiación da Diputación de Ourense e participou como investigador en 7 proxectos nacionais, 1 acción integrada e 13 proxectos e financiados pola Xunta de Galicia.",
-        "Experiencia profesional:",
-        "Investigador contratado na Universidade de A Coruña. Depto. de Computación: 15/02/99-30/04/99, 01/05/99-31/10/99 e 15/10/02-28/02/03. Investigador contratado na Fundación Empresa Universidade de Galicia (FEUGA): 10/12/02-15/01/03. Investigador contratado en 3.14 Financial Contents SL: 13/01/03-03/04/03 e 16/04/03-30/10/04."
-      ]
+      "subjects": []
     },
     {
       "id": "p-21",
@@ -334,1289 +228,857 @@
       "office": "310",
       "phone": "988387034",
       "email": "mcacho@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/768518475",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/diaz-cacho-medina-miguel-ramon/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-ramon-diaz-cacho-medina",
-      "subjects": [
-        "Redes de computadoras II",
-        "Seguridade e administración de sistemas operativos",
-        "Seguridade en redes",
-        "IoT Intelixente / Intelligent IoT",
-        "Experiencia docente:",
-        "Docente en materias de Redes, Sistemas e Arquitectura de",
-        "Computadoras desde o ano 2001 como profesor asociado, e desde o ano",
-        "2007 como profesor a tempo completo. De 2012 en adiante, docente nos Mestrados de Informática, Intelixencia Artificial, Ciberseguridade, Mecatrónica e Automoción en diversas materias relacionadas coa transmisión e securización de datos, sistemas e IoT.",
-        "Experiencia investigadora:",
-        "Doutor investigador no Grupo de Control Non Lineal. A súa investigación está focalizada en redes, protocolos e sistemas con retardos temporais para sistemas de control en rede e teleoperación. Ten publicacións indexadas e ponencias en congresos nacionais e internacionais.",
-        "Experiencia profesional:",
-        "Traballou en diversas compañías de Tecnoloxías da Información e Comunicacións entre 1995 y 2007, destacándose Bosch Telecom, Airtel (ahora Vodafone), Fujitsu ICL, Visual MS y Velneo SA."
-      ]
+      "subjects": []
     },
     {
       "id": "p-22",
+      "name": "Doval Mosquera, Yerai",
+      "office": "302",
+      "phone": "988387280",
+      "email": "yerai.doval@uvigo.gal",
+      "virtual_office": "",
+      "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/doval-mosquera-yerai/",
+      "uvigo_url": "",
+      "subjects": []
+    },
+    {
+      "id": "p-23",
       "name": "Feijóo Miranda, José",
       "office": "Tel",
       "phone": "",
       "email": "jfeijoomiranda@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/feijoo-miranda-jose-2/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda",
-      "subjects": [
-        "Fundamentos Éticos e Xurídicos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-23",
+      "id": "p-24",
       "name": "Fernández Gavilanes, Milagros",
       "office": "313",
       "phone": "988387271",
       "email": "mfgavilanes@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/267428983",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gavilanes-milagros/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/milagros-fernandez-gavilanes",
-      "subjects": [
-        "Sistemas Reactivos",
-        "Web Semántica",
-        "Recuperación da Información",
-        "Ciberseguridade Intelixente / Intelligent Cybersecurity",
-        "IA Explicable e Confiable / Trustworthy and Explainable AI",
-        "Experiencia docente:"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-24",
+      "id": "p-25",
       "name": "Fernández González, Daniel",
       "office": "305",
       "phone": "988387026",
       "email": "danifg@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/841425695",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gonzalez-daniel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-fernandez-gonzalez",
-      "subjects": [
-        "Algoritmos básicos da Intelixencia Artificial",
-        "Fundamentos da Aprendizaxe Automática",
-        "IA en contornas Big Data / AI in Big Data Environments",
-        "Minaría de Textos / Text Mining"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-25",
+      "id": "p-26",
       "name": "Fernández Lanza, Santiago",
       "office": "305",
       "phone": "988387026",
       "email": "sflanza@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/633396819",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-lanza-santiago/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/santiago-fernandez-lanza",
-      "subjects": [
-        "Razoamento con incerteza",
-        "Representación do coñecemento e razoamento",
-        "IA en contornas Big Data / AI in Big Data Environments",
-        "Minaría de Textos / Text Mining"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-26",
+      "id": "p-27",
       "name": "Fernández Riverola, Florentino",
       "office": "408",
       "phone": "988387015",
       "email": "riverola@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/509875813",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-riverola-florentino/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/florentino-fernandez-riverola",
-      "subjects": [
-        "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "Web persoal:",
-        "http://sing-group.org/",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo dende o ano 2000, o profesor Riverola conta con 5 quinquenios recoñecidos, tendo dirixido mais dun cento de Proxectos Fin de",
-        "Carreira, Traballos Fin de Mestrado, Traballos Fin de Grao e Becas de Colaboración co Departamento de Informática. Participou en 13 estancias de mobilidade ERASMUS, e é autor de 4 libros e 17 capítulos de libro, 1 artigo en revista nacional, 2 publicacións en congresos internacionais, 8 en congresos nacionais e 1 contribución GNU, todas elas de ámbito docente. Foi nomeado membro do grupo de traballo de persoas expertas en Intelixencia Artificial no ámbito educativo (creada pola Consellería de Cultura, Educación e Universidade da Xunta de",
-        "Galicia o pasado 03/03/2021), así como membro do comité de expertos académicos para a elaboración da Estratexia Dixital de Galicia 2030 (EDG2030) creada pola Axencia para a Modernización Tecnolóxica de Galicia (AMTEGA) o pasado 02/12/2019.",
-        "Experiencia investigadora:",
-        "Coordinador do grupo de",
-        "investigación Sistemas Informáticos de Nova Xeración (SING, http://sing-group.org), Florentino Fdez-Riverola conta con 4 sexenios de investigación recoñexidos pola CNAI (períodos [2001-2006], [2007-2012], [2013-2018] e [2019-2024]), tendo dirixido un total de 9 teses de doutoramento (2 delas con mención Doutor Europeus e outras 2 con mención de Doutorado Internacional). Segundo SCOPUS (con data 01/07/2022) os 239 traballos científicos publicados polo profesor Riverola, que alcanza un índice h de 26, foron obxecto dun total de 2607 citas procedentes de 2050 publicacións distintas. Deses traballos, 138 foron publicados en revistas JCR, donde 83 delas corresponden ó primero cuartil (Q1), o que supón unha porcentaxe do 60%. A maiores, algúns destes traballos (sobre todo nos últimos anos), teñen sido obxecto de distintos recoñecementos por parte dos comités editoriales de revistas JCR Q1, sendo seleccionados como Editor’s Choice paper, Highy Accessed ou Top 25 Hottest Articles.",
-        "Experiencia profesional:",
-        "Analista-programador da Dirección Xeral de Organización e Sistemas Informáticos na Xunta de Galicia (1998-1999). Especialista avaliador do sistema de certificación I+D+i da ACIE. Evaluador experto ANEP. Subdirector da Escola Superior de Enxeñaría Informática (ESEI, 2003-2006). Director do Centro de Investigación, Transferencia e Innovación (CITI, 2009-2010). Subdirector Científico do Centro de Investigacións Biomédicas (CINBIO, 2018-2019)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-27",
+      "id": "p-28",
       "name": "Figueiral Alonso, Erik",
       "office": "Tel",
       "phone": "",
       "email": "erik.figueiral.alonso@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/figueiral-alonso-erik/",
       "uvigo_url": "",
-      "subjects": [
-        "Lóxica para a computación",
-        "Razoamento con incerteza",
-        "Recuperación da Información"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-28",
+      "id": "p-29",
       "name": "Gálvez Gálvez, Juan Francisco",
       "office": "402",
       "phone": "988387009",
       "email": "galvez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/890357780",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/galvez-galvez-juan-francisco/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-francisco-galvez-galvez",
-      "subjects": [
-        "Bases de datos I",
-        "Bases de Datos",
-        "Experiencia docente:",
-        "Profesor na Área de Linguaxes e Sistemas Informáticos na E.S. Enxeñería Informática (ESEI) dende o ano 1991. Impartindo máis dunha ducia de materias nas diferentes titulacións e doutoramento. Destacando entre elas, a experiencia en Bases de Datos. Ademais conta con máis de 30 proxectos fin de carreira e fin de mestrado dirixidos.",
-        "Experiencia investigadora:",
-        "Investigación en diferentes campos, destacando o relativo a razoamento aproximado e clasificación, avalada coa participación e dirección de proxectos e contratos de I+D e máis de 30 publicacións no ámbito internacional.",
-        "Experiencia profesional:",
-        "Na Universidade de Vigo como PDI, e desenvolvendo cargos académicos, entre os que destacan, Director da E.S.E.I e Vicerreitor do Campus de Ourense."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-29",
+      "id": "p-30",
       "name": "García Hervella, Noelia",
       "office": "Laboratorio",
       "phone": "988387252",
       "email": "nghervella@esei.uvigo.es",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/975250706",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-hervella-noelia/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/noelia-garcia-hervella",
-      "subjects": [
-        "Concorrencia e distribución",
-        "Enxeñaría do Software",
-        "Algoritmos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-30",
+      "id": "p-31",
       "name": "García Pérez-Schofield, Baltasar",
       "office": "307",
       "phone": "988368891",
       "email": "jbgarcia@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/656060768",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-perez-schofield-jose-baltasar/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-baltasar-garcia-perez-schofield",
-      "subjects": [
-        "Aplicacións con linguaxes de script",
-        "Desenvolvemento e integración de aplicacións",
-        "Web persoal:",
-        "http://jbgarcia.webs.uvigo.es",
-        "Experiencia docente:",
-        "Tecnoloxía de obxectos, Programación I, Linguaxes de programación, Programación II, Desenvolvemento e integración de aplicacións e Aplicacións con linguaxes de script.",
-        "Experiencia investigadora:",
-        "Os seus intereses de investigación foron sempre a persistencia, máquinas virtuais, sistemas de tipos e compiladores de linguaxes de programación, así como a aplicación destes conceptos para a mellora da docencia. En 2002 recibe o seu título de Doutor en Enxeñaría Informática sobre persistencia obxectual para un compilador cun entorno de programación",
-        "interactivo ofrecendo C++ como linguaxe de programación. A partir de 2003 comeza a aplicar o seu propio sistema de programación orientado a obxectos e baseado en prototipos Zero á docencia, obtendo bastante éxito que se traduciu en varias publicacións. Na actualidade, o seu interese centrase nas linguaxes de programación e os seus sistemas de tipos, permitindo a mezcla de dos mundos: o das linguaxes de sistemas de tipos estáticos, e as vantaxes dos de sistemas de tipos dinámicos.",
-        "Experiencia profesional:",
-        "Desenvolveu toda a su carreira laboral na Universidade de Vigo."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-31",
+      "id": "p-32",
       "name": "García Rivera, Matías",
       "office": "311",
       "phone": "988387035",
       "email": "mgrivera@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/612808536",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-rivera-matias/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/matias-garcia-rivera",
-      "subjects": [
-        "Arquitecturas paralelas",
-        "Redes de computadoras II",
-        "Arquitectura de computadoras II",
-        "Experiencia docente:",
-        "Ten impartido docencia en Arquitectura de Computadoras, Robótica e Autómatas Programables na Escola de Enxeñaría Informática de Ourense desde 1996.",
-        "Experiencia investigadora:",
-        "Forma parte do Grupo de Control Non Lineal de la Universidad de Vigo. As suas liñas de investigación están relacionadas cos Sistemas de Control en Rede (NCS), en concreto, na influencia de retardos e pérdidas de datos na estabilidade e robustez dos sistemas de control. Participou en diversos proxectos nacionais e internacionais de investigación.",
-        "Experiencia profesional:",
-        "Doutor Enxeñeiro de Telecomunicación. Traballa como Contratado Doutor no Departamento de Enxeñaría de Sistemas e Automática da Universidade de Vigo. Está destinado na Escola de Enxeñaría Informática de dita Universidade."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-32",
+      "id": "p-33",
       "name": "Garriga Domínguez, Ana",
       "office": "26",
       "phone": "988368834",
       "email": "agarriga@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/747433606",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garriga-dominguez-ana/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-garriga-dominguez",
-      "subjects": [
-        "Dimensión ética e xurídica da IA",
-        "Experiencia docente:",
-        "Ampla experiencia docente, en titulacións de grao e postgrao, no ámbito da Teoría do Dereito, a Teoría da Xustiza e dereitos humanos e Sociedade da Información, tanto en universidades españolas como estranxeiras.",
-        "Experiencia investigadora:",
-        "Ampla experiencia investigadora nas seguintes liñas: As liberdades de información e expresión, o principio de igualdade e os dereitos sociais, dereitos fundamentais e protección do Medio, protección de datos persoais e dereitos fundamentais na Sociedade da Información.",
-        "Experiencia profesional:",
-        "Asesoría a diferentes entidades privadas e administracións públicas a través da emisión de ditames e informes técnicos sobre cuestións relacionadas coas liñas de investigación anteriores."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-33",
+      "id": "p-34",
       "name": "Gómez Meire, Silvana",
       "office": "410",
       "phone": "988387017",
       "email": "sgmeire@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/155534894",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-meire-silvana/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/silvana-gomez-meire",
-      "subjects": [
-        "Redes de computadoras I",
-        "Planificación e Dirección de Proxectos",
-        "Deseño e Xestión Avanzada de Redes",
-        "Redes",
-        "Experiencia docente:",
-        "Experiencia investigadora:",
-        "Desenvolvemento da labor investigadora en diversos campos como a intelixencia artificial e as comunicacións de rede.",
-        "Experiencia profesional:",
-        "Administradora de rede no Parque Tecnolóxico de Galicia entre 1996 e 1998 realizando tarefas de configuración e xestión da Intranet."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-34",
+      "id": "p-35",
       "name": "González Mariño, Ángela",
       "office": "311",
       "phone": "988387035",
       "email": "angela.gonzalez@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-marino-angela/",
       "uvigo_url": "",
       "subjects": []
     },
     {
-      "id": "p-35",
+      "id": "p-36",
       "name": "González Moreno, Juan Carlos",
       "office": "407",
       "phone": "988387014",
       "email": "jcmoreno@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/870755795",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-moreno-juan-carlos/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-carlos-gonzalez-moreno",
-      "subjects": [
-        "Concorrencia e distribución",
-        "Sistemas intelixentes",
-        "Aprendizaxe baseada en proxectos",
-        "Métodos avanzados de enxeñaría de software",
-        "Sistemas baseados en Axentes",
-        "IA no ámbito Sanitario",
-        "Plataformas de Internet das Cousas",
-        "Enxeñaría do Software",
-        "Informática: Introdución ás computadoras",
-        "Sistemas Intelixentes de Tempo Real / Intelligent Real Time Systems",
-        "Sistemas Multiaxente / Multi-agent systems",
-        "Web persoal:",
-        "http://jcmoreno.webs.uvigo.es",
-        "Experiencia docente:",
-        "Imparto docencia na ESEI desde o 17/08/2000, tanto en Grao e Master como en Doutoramento. Anteriormente impartín docencia nas universidades UPM desde 1988 ata 1993 e na UCM desde 1993 ata 2000. Os contidos impartidos abarcan materias en Enxeñaría de Software, Intelixencia Artificial ou Fundamentos de Programación entre outras; e na actualidade conto con 6 Quinquenios de docencia recoñecidos.",
-        "Experiencia investigadora:",
-        "Na actualidade conto con 3 sexenios de investigación recoñecidos e a miña investigación céntrase na actualidade en Axentes Intelixentes, Sistemas Multi-Axente e Intelixencia Artificial, aínda que tamén realicei investigación en Enxeñería de Software e Linguaxes de Programación (en particular en Programación Lóxica e Funcional). Dirixín 3 tese doutoral e participei como Investigador Principal e como Investigador nun gran número de Proxectos de ámbito Internacional, Nacional, Autonómico e Local; así como contratos con empresas. Na actualidade son membro do grupo LIA que dirixe o profesor Arno Formella",
-        "Experiencia profesional:",
-        "TEU Interino na Facultade de Informática da UPM (04/01/1988-30/03/1992).",
-        "TEU Interino na Facultade de Matemáticas da UCM (31/03/1992-20/10/1994)",
-        "TU Interino na Facultade de Informática da UCM (21/10/1994-13/01/1998)",
-        "TU na Facultade de Informática da UCM (14/01/1998-17/08/2000)",
-        "TU na ESEI da Universidade de Vigo (18/08/2000-hoxe)"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-36",
+      "id": "p-37",
       "name": "González Pedrouzo, Antonio Adrián",
       "office": "Tel",
       "phone": "",
       "email": "antonio.adrian.gonzalez@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pedrouzo-antonio-adrian/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo",
-      "subjects": [
-        "Interfaces de usuario"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-37",
+      "id": "p-38",
       "name": "González Peña, Daniel",
       "office": "306",
       "phone": "988387039",
       "email": "dgpena@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/267388097",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pena-daniel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-gonzalez-pena",
-      "subjects": [
-        "Programación II",
-        "Deseño de arquitecturas de grandes sistemas software",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo desde o 2010. Dirección de máis dunha trintena de Proxectos Fin de Carreira, Traballos Fin de Mestrado e Traballos Fin de Grao.",
-        "Experiencia investigadora:",
-        "Investigación en Bioinformática e Intelixencia Artificial, sendo autor de máis de trinta publicacións científicas en revistas internacionais. Investigador principal de 3 proxectos estatais/autonómicos aplicando Intelixencia Artificial en Mediciña. Director de 6 teses doutorais xa presentadas e 2 en elaboración.",
-        "Experiencia profesional:",
-        "Participación en contratos de investigación entre a Universidade de Vigo e empresas. Desenvolvemento de aplicacións web como freelance. Impartición de cursos para docentes do sistema educativo galego."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-38",
+      "id": "p-39",
       "name": "González Rodríguez, Brais",
       "office": "Edificio",
       "phone": "988368767",
       "email": "brais.gonzalez.rodriguez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/313974611",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rodriguez-brais/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/brais-gonzalez-rodriguez",
-      "subjects": [
-        "Matemáticas::Estatística",
-        "Matemáticas:: Estatística"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-39",
+      "id": "p-40",
       "name": "González Rufino, María Encarnación",
       "office": "409",
       "phone": "988387016",
       "email": "nrufino@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/904911293",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rufino-maria-encarnacion/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-encarnacion-gonzalez-rufino",
-      "subjects": [
-        "Sistemas operativos I",
-        "Experiencia docente:",
-        "Soy profesora del área de Lenguajes y Sistemas Informáticos, de la Universidad de Vigo, desde noviembre de 1992. Durante estos años mis tareas han sido: impartir clase en diversas titulaciones. Entre las asignaturas dadas cabe mencionar: Sistemas Operativos, Programación, Entornos de Programación, Estructuras de Datos y de la Información, Informática Básica, … Dirigir más de 60 trabajos, entre Proyectos de Fin de Carrera y Trabajos Fin de Grado. Algunos de ellos relacionados con la mejora en la calidad de la docencia de la asignatura Sistemas Operativos. Ser tutora académica de Prácticas en Empresa, tanto curriculares como extracurriculares. Realizar las funciones de coordinadora de 2º curso del Grado en Ingeniería Informática, desde el curso académico 2010/2011 hasta la actualidad. Participar como tutora del Plan de Acción Tutorial.",
-        "Experiencia investigadora:",
-        "Soy investigadora de la Universidad de Vigo desde 1992 y actualmente soy miembro del grupo LIA2 (http://lia.ei.uvigo.es). Mi investigación gira en torno al reconocimiento de patrones en imágenes y la visión por ordenador, incluyendo técnicas de segmentación de imágenes, clasificación de texturas, reconocimiento de formas, transformación de imágenes, etc. Esta labor investigadora ha dado lugar a varias publicaciones en revistas de reconocido prestigio incluidas en JCR y varias contribuciones en congresos internacionales, algunos de ellos de prestigio referenciados en posiciones relevantes de los índices CiteSEER, Computing Research and Education (CORE) y CS Conference Rankings. También he participado y participo en más de 15 proyectos y/o",
-        "contratos de investigación competitivos que abarcan los ámbitos europeo, nacional, autonómico y de la propia universidad."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-40",
+      "id": "p-41",
       "name": "Iago Núñez Lugilde",
       "office": "516",
       "phone": "",
       "email": "iago.nunez.lugilde@uvigo.es",
+      "virtual_office": "https://campusremotouvigo.gal/public/498872871",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/iago-nunez-lugilde/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/iago-nunez-lugilde",
-      "subjects": [
-        "Matemáticas::Estatística",
-        "Matemáticas:: Estatística"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-41",
+      "id": "p-42",
       "name": "Lado Touriño, María José",
       "office": "405",
       "phone": "988387012",
       "email": "mrpepa@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/995394505",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lado-tourino-maria-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-jose-lado-tourino",
-      "subjects": [
-        "Informática::Programación I",
-        "Web persoal:",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "Experiencia docente:",
-        "Linguaxes e Sistemas Informáticos, con máis de 20 anos de experiencia en docencia teórico-práctica en diversas materias de primeiro, segundo e terceiro ciclo, correspondentes a distintas",
-        "Licenciaturas e Enxeñarías, así coma en materias de Grao e Posgrao. Dirección de máis de 70 traballos de fin de carreira.",
-        "Experiencia investigadora:",
-        "Procesado dixital de imaxes médicas, desenvolvemento de sistemas de diagnóstico asistido por computadora, reutilización e software educativo, e procesado de sinais biomédicos. Máis de 25 anos de experiencia, máis de 40 artigos científicos en revistas indexadas, e máis de 70 publicacións en congresos internacionais."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-42",
+      "id": "p-43",
       "name": "Laza Fidalgo, Rosalia",
       "office": "406",
       "phone": "988387013",
       "email": "rlaza@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/991095057",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/laza-fidalgo-rosalia/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/rosalia-laza-fidalgo",
-      "subjects": [
-        "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "Traballo de Fin de Grao",
-        "Traballo Fin de Grao",
-        "Web persoal:",
-        "http://sing.ei.uvigo.es",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo dende o ano 1998, con varios quinquenios recoñecidos, tendo dirixido numerosos Proxectos Fin de Carreira, Traballos Fin de Mestrado e Traballos Fin de Grao. Ademáis tutorizou algunhas Becas de Colaboración co Departamento de Informática e prácticas curriculares e extracurriculares. Participou en varias estancias de mobilidade ERASMUS+.",
-        "Experiencia investigadora:",
-        "Membro do grupo de investigación Sistemas Informáticos de Nova Xeración (SING, http://sing-group.org) é autora de publicacións científicas en revistas JCR e capítulos de libro en editoriais de prestixio. Participación en numerosos proxectos de investigación. Dous sexenios de investigación, tendo dirixido tres tesis doutorais. Membro do comité científico do congreso PACBB. Revisora artículos da revista ASOC. Acreditada ANECA como Profesora Titular de Universidade dende o ano 2013.",
-        "Experiencia profesional:",
-        "Programadora no CPD de Caixa Ourense. Especialista avaliadora do sistema de certificación I+D+i da ACIE, ANEP e DNV-GL. Subdirectora de Organización Académica da Escola Superior de Enxeñaría Informática (2017-...)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-43",
+      "id": "p-44",
       "name": "López Fernández, Hugo",
       "office": "309",
       "phone": "988387030",
       "email": "hlfernandez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/850827261",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-fernandez-hugo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/hugo-lopez-fernandez",
-      "subjects": [
-        "Deseño de arquitecturas de grandes sistemas software",
-        "Informática: Programación II"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-44",
+      "id": "p-45",
       "name": "López Pedrares, Javier",
       "office": "315",
       "phone": "988368807",
       "email": "javier.lopez.pedrares@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/491820289",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-pedrares-javier-2/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-lopez-pedrares",
-      "subjects": [
-        "Matemáticas::Fundamentos matemáticos para a informática"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-45",
+      "id": "p-46",
       "name": "Lorenzo Iglesias, Eva María",
       "office": "412",
       "phone": "988387019",
       "email": "eva@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/295468650",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lorenzo-iglesias-eva-maria/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/eva-maria-lorenzo-iglesias",
-      "subjects": [
-        "Bases de datos II",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo dende 1998 en materias relacionadas coas bases de datos. Dirección de numerosos Proxectos Fin de Carreira, Traballos Fin de Mestrado, Traballos Fin de Grao e Becas de Colaboración co Departamento de Informática. Titorización de prácticas en empresa curriculares e extracurriculares.",
-        "Experiencia investigadora:",
-        "Autora de publicacións científicas en revistas JCR e capítulos de libro en editoriais de prestigio. Drirección e participación en numerosos proxectos de investigación. 2 sexenios de investigación. Membro do comité científico do congreso PACBB. Revisora de artículos de revistas de prestixio como ASOC.",
-        "Especialista na temática de desenvolvemento de técnicas e tecnoloxías de intelixencia artificial aplicadas a texto (text mining).",
-        "Experiencia profesional:"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-46",
+      "id": "p-47",
       "name": "Luis Vázquez, Ivan",
       "office": "407",
       "phone": "988387014",
       "email": "ivan.luis@uvigo.es",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/1533%2039586",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/luis-vazquez-ivan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-luis-vazquez",
-      "subjects": [
-        "Sistemas intelixentes",
-        "Informática: Programación I"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-47",
+      "id": "p-48",
       "name": "Martínez Estévez, Iván",
       "office": "401",
       "phone": "988387008",
       "email": "ivan.martinez.estevez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/443206892",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-estevez-ivan/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ivan-martinez-estevez",
-      "subjects": [
-        "Informática::Programación I",
-        "Tecnoloxías e servizos web",
-        "Computación Concurrente, Paralela e Distribuida"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-48",
+      "id": "p-49",
       "name": "Martínez Orge, José Luis",
       "office": "403",
       "phone": "988387010",
       "email": "jlorge@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/653674688",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-orge-jose-luis/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-luis-martinez-orge",
-      "subjects": [
-        "Dirección e xestión de proxectos",
-        "Sistemas e Servizos de Internet"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-49",
+      "id": "p-50",
       "name": "Méndez Penín, Arturo José",
       "office": "404",
       "phone": "988387011",
       "email": "mrarthur@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/286815130",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-penin-arturo-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/arturo-jose-mendez-penin",
-      "subjects": [
-        "Enxeñaría do software II",
-        "Informática::Programación I",
-        "Web persoal:",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "Experiencia docente:",
-        "Docencia teórica e práctica na área de coñecemento de Linguaxes e Sistemas Informáticos dende o ano 1998, labor desenvolvido en diversos centros da Universidade de Santiago de Compostela e da Universidade de Vigo. A súa actividade docente abrangue materias de distintas licenciaturas e enxeñarías, titulacións de grao, mestrado e doutoramento.",
-        "Experiencia investigadora:",
-        "Procesado dixital de imaxes médicas, desenvolvemento de sistemas de diagnóstico asistido por ordenador, e procesado de sinais biomédicos, campos nos que investiga dende o ano 1992. Recibiu o seu título de doutor no ano 1996, e ten publicados máis de 25 artigos en revistas internacionais con índice de impacto."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-50",
+      "id": "p-51",
       "name": "Méndez Reboredo, José Ramón",
       "office": "408",
       "phone": "988387015",
       "email": "moncho.mendez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/853477752",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-reboredo-jose-ramon/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-ramon-mendez-reboredo",
-      "subjects": [
-        "Auditoría e Xestión da Seguridade",
-        "Redes",
-        "Experiencia docente:",
-        "Docente a tempo parcial na Universidade de Vigo no periodo 2004-2010 e a tempo completo dende o ano 2010, o profesor conta con 2 quinquenios recoñecidos, tendo dirixido Proxectos Fin de Carreira (49), Traballos Fin de Mestrado (10), Traballos Fin de Grao (13) e Traballos Académicamente Dirixidos (1) e Becas de Colaboración co Departamento de Informática. Participou en 7 estancias de mobilidade ERASMUS, e é autor de 4 libros e 3 capítulos de libro, 1 artigo en revista nacional e 4 en congresos nacionais, todas elas de ámbito docente.",
-        "Experiencia investigadora:",
-        "Membro do grupo de investigación Sistemas Informáticos de Nova Xeración (SING, http://singgroup. org ), José Ramón Méndez conta con 2 sexenios de investigación recoñexidos pola CNAI (períodos [2004-2010] e [2011-2016]) e un de transferencia ([2005-2011]), tendo dirixido un total de 3 teses de doutoramento (1 delas con mención Doutor Europeus). Segundo SCOPUS (con data 10/10/2019) os 60 traballos científicos publicados polo profesor José Ramón Méndez (35 deles en revistas indexadas no JCR), que alcanza un índice h de 15, foron obxecto dun total de 700 citas procedentes de 473 publicacións distintas.",
-        "Experiencia profesional:",
-        "Traballou tanto en empresas, como freelance e na administración pública galega desenvolvendo tarefas de informática. As tarefas principalmente desenvolvidas teñen que ver fundamentalmente coa administración e configuración de sistemas informáticos e redes de computadores. Estas actividades alleas á Universidade de Vigo representan máis de cinco anos e medio da súa vida laboral."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-51",
+      "id": "p-52",
       "name": "Mondelo Visuña, Víctor",
       "office": "Laboratorio",
       "phone": "988387252",
       "email": "vmondelo@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/613461796",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mondelo-visuna-victor/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/victor-mondelo-visuna",
-      "subjects": [
-        "Informática::Programación I",
-        "Bases de datos I",
-        "Sistemas operativos II"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-52",
+      "id": "p-53",
       "name": "Mosquera González, Julio",
       "office": "315",
       "phone": "988368807",
       "email": "julio.mosquera.gonzalez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/421865470",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-gonzalez-julio/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/julio-mosquera-gonzalez",
-      "subjects": [
-        "Sistemas operativos II",
-        "Redes",
-        "Experiencia profesional:",
-        "- Administrador de Sistemas Informáticos en diversos servizos",
-        "- Dinamizador TIC",
-        "- Analista da Área TIC da USC",
-        "- Profesor de Secundaria de Formación Profesional en Informática",
-        "- Impartición de docencia no ámbito TIC para distintos organismos e corpos de funcionariado"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-53",
+      "id": "p-54",
       "name": "Mosquera Lois, David",
       "office": "315",
       "phone": "988368807",
       "email": "david.mosquera.lois@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-lois-david/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
-      "subjects": [
-        "Matemáticas::Análise matemática"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-54",
+      "id": "p-55",
       "name": "Mosquera Rodríguez, Manuel Alfredo",
       "office": "E",
       "phone": "988368765",
       "email": "mamrguez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/730562009",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-rodriguez-manuel-alfredo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alfredo-mosquera-rodriguez",
-      "subjects": [
-        "Optimización Matemática"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-55",
+      "id": "p-56",
       "name": "Nieto González, Juan",
       "office": "403",
       "phone": "988387009",
       "email": "juan.nieto@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/378992896",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/nieto-gonzalez-juan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-nieto-gonzalez",
-      "subjects": [
-        "Programación II",
-        "Informática::Programación I"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-56",
+      "id": "p-57",
       "name": "Novo Lourés, María",
       "office": "308",
       "phone": "988387029",
       "email": "manovo@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/483792494",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/novo-loures-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-novo-loures",
-      "subjects": [
-        "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "Algoritmos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-57",
+      "id": "p-58",
       "name": "Olivieri Cecchi, David Nicholas",
       "office": "411",
       "phone": "988387018",
       "email": "olivieri@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/883261697",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/olivieri-cecchi-david-nicholas/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-nicholas-olivieri-cecchi",
-      "subjects": [
-        "Visión Artificial",
-        "Computación Concurrente, Paralela e Distribuida",
-        "Aprendizaxe Automática II / Machine Learning II",
-        "Aprendizaxe Profunda / Deep Learning",
-        "Experiencia docente:",
-        "Linguaxes e Sistemas Informáticos, con máis de 15 anos de experiencia en docencia teórico-práctica en diversas materias de primeiro, segundo e terceiro ciclo, correspondentes a distintas Licenciaturas e Enxeñarías, así coma en materias de Grao e Posgrao.",
-        "Experiencia investigadora:",
-        "Experto en técnicas/teoría de aprendizaxe e máquina, desenvolvemento de sistemas bioinformáticos, procesado dixital de imaxes biomédicas, física computacional, desenvolvemento de sistemas de visión por ordenador; con máis de 20 anos de experiencia, e máis de 30 publicacións en revistas internacionais.",
-        "Experiencia profesional:",
-        "Máis de 4 anos como “Hardware Engineer” en Digital Equipment Corp. (EEUU).",
-        "Máis de 10 anos como consultor externo no sector do software para empresas (en Quantex Consulting S.L.)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-58",
+      "id": "p-59",
       "name": "Otero Cerdeira, Lorena",
       "office": "301",
       "phone": "988387022",
       "email": "locerdeira@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/750068307",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-cerdeira-lorena/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/lorena-otero-cerdeira",
-      "subjects": [
-        "Sistemas operativos I",
-        "Sistemas de negocio",
-        "Enxeñaría Informática: Profesión na práctica",
-        "Razoamento e Planificación / Reasoning and Planning"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-59",
+      "id": "p-60",
       "name": "Otero Iglesias, José",
       "office": "303",
       "phone": "988387024",
       "email": "jose.otero.iglesias@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/331832169",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-iglesias-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-otero-iglesias",
-      "subjects": [
-        "Teoría de autómatas e linguaxes formais",
-        "Seguridade en sistemas informáticos",
-        "Sistemas Expertos",
-        "Informática: Lóxica"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-60",
+      "id": "p-61",
       "name": "Otero Pombo, Juan",
       "office": "303",
       "phone": "988387024",
       "email": "juan.otero.pombo@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/1903%2049096",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-pombo-juan/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/juan-otero-pombo",
-      "subjects": [
-        "Lóxica para a computación",
-        "Teoría de autómatas e linguaxes formais"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-61",
+      "id": "p-62",
       "name": "Outeiriño Cid, Cristina",
       "office": "304",
       "phone": "988387025",
       "email": "cristina.outeirino@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/508379775",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/outeirino-cid-cristina/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/cristina-outeirino-cid",
-      "subjects": [
-        "Aprendizaxe Automática I"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-62",
+      "id": "p-63",
       "name": "Pájaro Diéguez, Manuel",
       "office": "28",
       "phone": "988387237",
       "email": "mapajaro@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pajaro-dieguez-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez",
-      "subjects": [
-        "Matemáticas::Análise matemática",
-        "Matemáticas: Cálculo e análise numérico",
-        "Matemáticas: Álxebra"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-63",
+      "id": "p-64",
       "name": "Pato Valcárcel, Josué",
       "office": "412",
       "phone": "988387019",
       "email": "josue.pato@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pato-valcarcel-josue/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel",
-      "subjects": [
-        "Concorrencia e distribución",
-        "Técnicas de Procesamento Masivo de Datos",
-        "Bases de Datos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-64",
+      "id": "p-65",
       "name": "Pavón Rial, María Reyes",
       "office": "406",
       "phone": "988387013",
       "email": "pavon@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/282663808",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pavon-rial-maria-reyes/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-reyes-pavon-rial",
-      "subjects": [
-        "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo dende o ano 1993, con varios quinquenios recoñecidos, tendo dirixido numerosos Proxectos Fin de Carreira, Traballos Fin de Grao e Traballos Fin de Mestrado. Ademais, titorizou algunhas Becas de Colaboración co Departamento de Informática e numerosas prácticas curriculares e extracurriculares. Participou en estancias de mobilidade ERASMUS.",
-        "Experiencia investigadora:",
-        "Membro do grupo de investigación Sistemas Informáticos de Nova Xeración (SING, http://sing-group.org ) conta con 3 sexenios de investigación e 1 sexenio de transferencia recoñecidos pola CNAI. É autora de publicacións científicas en revistas JCR e capítulos de libros en editoriais de prestixio. Participou en numerosos proxectos de investigación rexionais e nacionais. Membro do comité científico do congreso PACBB. Revisora de artigos de revistas.",
-        "Experiencia profesional:",
-        "Especialista avaliadora do sistema de certificación I+D+i da ACIE. Avaliadora experta ANEP e DNV. Secretaria do departamento de informática (2007-2013)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-65",
+      "id": "p-66",
       "name": "Pérez Bouzas, Maria Pilar",
       "office": "Edificio",
       "phone": "988368769",
       "email": "maria.pilar.perez.bouzas@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/827471071",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-bouzas-maria-pilar/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-pilar-perez-bouzas",
-      "subjects": [
-        "Empresa::Técnicas de comunicación e liderado"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-66",
+      "id": "p-67",
       "name": "Pérez Estévez, Diego",
       "office": "312",
       "phone": "988387023",
       "email": "dieperez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/137843329",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-estevez-diego/",
       "uvigo_url": "https://www.uvigo.gal/en/university/administration-staff/pdi/diego-perez-estevez",
-      "subjects": [
-        "Física::Sistemas dixitais"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-67",
+      "id": "p-68",
       "name": "Pérez Pérez, Martín",
       "office": "314",
       "phone": "988368915",
       "email": "martiperez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/701654406",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-perez-martin/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/martin-perez-perez",
-      "subjects": [
-        "Desenvolvemento de aplicacións para internet",
-        "Bases de datos I"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-68",
+      "id": "p-69",
       "name": "Reboiro Jato, Miguel",
       "office": "306",
       "phone": "988387027",
       "email": "mrjato@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/959723898",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/reboiro-jato-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-reboiro-jato",
-      "subjects": [
-        "Desenvolvemento de aplicacións para internet",
-        "Enxeñaría de Sistemas da Información",
-        "Xestión da Configuración do Software",
-        "Web persoal:",
-        "http://sing.ei.uvigo.es/",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo desde o 2012. Dirección de máis dunha vintena de Proxectos Fin de Carreira, Traballos Fin de Mestrado e Traballos Fin de Grao.",
-        "Experiencia investigadora:",
-        "Investigación en Bioinformática e Intelixencia Artificial, sendo autor de máis de vintecinco publicacións científicas en revistas internacionais. Director de 2 tesis en elaboración.",
-        "Experiencia profesional:",
-        "Participación en contratos de investigación entre a Universidade de Vigo e empresas. Participación como docente en diversos mestrados universitarios."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-69",
+      "id": "p-70",
       "name": "Rial Fernández, Miguel",
       "office": "312",
       "phone": "988387023",
       "email": "mrial@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/473346982",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rial-fernandez-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-rial-fernandez",
-      "subjects": [
-        "Física::Sistemas dixitais",
-        "Hardware de aplicación específica"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-70",
+      "id": "p-71",
       "name": "Ribadas Pena, Francisco José",
       "office": "303",
       "phone": "988387024",
       "email": "ribadas@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/833444977",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ribadas-pena-francisco-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-jose-ribadas-pena",
-      "subjects": [
-        "Seguridade en sistemas informáticos",
-        "Sistemas de Información",
-        "Ciberseguridade Intelixente",
-        "Sistemas Expertos",
-        "Ciberseguridade Intelixente / Intelligent Cybersecurity",
-        "Experiencia docente:",
-        "Profesor contradado doutor con experiencia docente en materias relacionadas coa intelixencia artificial e a aprendizaxe automática, en materias de seguridade en sistemas informáticos e administración de sistemas e en desenvolvemento de aplicacións distribuidas sobre Java EE.",
-        "Experiencia investigadora:",
-        "Experiencia en procesamento da linguaxe natural e recuperación de información, centrada no uso de técnicas de aprendizaxe automática sobre grandes coleccións documentais. Liña de investigación complementaria centrada no uso da aprendizaxe automática en problemas de seguridade (identificación de malware, detección de intrusións).",
-        "Experiencia profesional:",
-        "Diversos contratos como investigador en universidades e pequenas empresas. Investigador principal en dous contratos con empresas no marco de proxectos sectoriais da Xunta de Galicia."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-71",
+      "id": "p-72",
       "name": "Rodeiro Iglesias, Javier",
       "office": "413",
       "phone": "988387020",
       "email": "jrodeiro@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/346873159",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodeiro-iglesias-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-rodeiro-iglesias",
-      "subjects": [
-        "Interfaces de usuario",
-        "Planificación e Dirección de Proxectos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-72",
+      "id": "p-73",
       "name": "Rodríguez Conde, Iván",
       "office": "414",
       "phone": "988368911",
       "email": "ivarodriguez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/421279888",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-conde-ivan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-rodriguez-conde",
-      "subjects": [
-        "Dirección e xestión de proxectos",
-        "Dispositivos móbiles",
-        "Visión por computadora II / Computer Vision II",
-        "Experiencia docente:",
-        "Entre 2017 e 2019, iniciei a miña traxectoria docente na Universidade de Vigo como profesor convidado, impartindo diversas materias nos programas de grao e mestrado en Enxeñaría Informática ofertados pola Escola Superior de Enxeñaría Informática de Ourense (ESEI). Este primeiro contacto coa docencia universitaria marcou o inicio dunha carreira que se consolidou entre 2019 e 2025 no Department of Computer Science da UA Little Rock (EE.UU.), onde acumulei máis de 1.000 horas de experiencia docente.",
-        "Durante este período, contribuín 2á modernización e renovación do currículo académico, tanto nos programas de grao como de posgrao. Centrei os meus esforzos en áreas clave como a interacción persoa-computadora (HCI), a aprendizaxe automática e as metodoloxías avanzadas de desenvolvemento de software. Entre as miñas principais achegas atópanse a actualización do curso Mobile Apps Development e a creación de catro novos cursos: Machine Learning Fundamentals, Web Stack - Client-Side Technologies, Immersive Technologies e Principles of UI and UX.",
-        "En paralelo, liderei a expansión do currículo en programación de videoxogos, adaptándoo ás demandas dinámicas da industria. Este proxecto incluíu a reestruturación de cursos existentes como Introduction to Game Programming e Advanced Game Programming, así como o deseño e a implementación de dous programas de certificación en deseño e desenvolvemento de videoxogos. Estas iniciativas enfocáronse en dotar o alumnado de competencias prácticas para o desenvolvemento de aplicacións gráficas interactivas.",
-        "Dende xaneiro de 2025, tras reincorporarme á Universidade de Vigo e á ESEI como profesor axudante doutor, imparto docencia nos graos de Enxeñaría Informática e Intelixencia Artificial, así como no mestrado en Intelixencia Artificial. O meu obxectivo actual é integrar un enfoque práctico e aplicado no proceso de ensino, dotando o alumnado de habilidades avanzadas para afrontar os retos do sector tecnolóxico en constante evolución.",
-        "Experiencia investigadora:",
-        "A miña investigación céntrase no desenvolvemento de sistemas de software que integran intelixencia artificial e interacción humano-computadora (HCI), cun enfoque práctico e multidisciplinario. Entre 2009 e 2015, como asistente de investigación e posteriormente investigador junior no laboratorio SI6 (Computer Graphics and Multimedia Group) da Universidade de Vigo, participei en proxectos relacionados con dispositivos multitáctiles portátiles, sistemas gráficos interactivos en 3D e enfoques de gamificación. Estas actividades permitíronme adquirir experiencia na aplicación de HCI en diversos contextos.",
-        "En 2019, tras incorporarme á University of Arkansas at Little Rock (UA Little Rock), orientei a miña investigación cara ao aprendizaxe profundo (deep learning), estudando as súas aplicacións en áreas como a intelixencia ambiental, a atención médica e a manufactura. Desde entón, traballei no desenvolvemento de solucións baseadas en on-device machine learning, centrándome en técnicas como a detección de obxectos e o recoñecemento de accións humanas para mellorar as capacidades de interacción entre os usuarios e os sistemas informáticos.",
-        "Durante a miña etapa no Emerging Analytics Center (EAC) da UA Little Rock, desempeñei o rol de Director de Interacción Humano-Computadora, liderando a planificación da infraestrutura de software para proxectos de investigación. Isto permitiu que estudantes de grao e posgrao participasen activamente no deseño e implementación de prototipos vinculados a proxectos financiados externamente, cun enfoque no desenvolvemento de software funcional e ben estruturado.",
-        "No EAC, liderei proxectos en áreas como a visualización, a informática ubicua e o aprendizaxe profundo, xestionando máis de 3 millóns de dólares en financiamento obtido da National Science Foundation (NSF) e o Department of Homeland Security (DHS). Ademais, colaborei con institucións académicas como a Universidade de Vigo e a University of California, Davis, así como con entidades industriais como Sandia National Labs e Hytrol, contribuíndo ao desenvolvemento de tecnoloxías aplicadas en sectores como a sanidade, a educación e a seguridade.",
-        "Experiencia profesional:",
-        "A miña traxectoria profesional inclúe roles técnicos e de xestión en empresas e como profesional autónomo, cun enfoque no desenvolvemento de software e na experiencia de usuario. Entre 2018 e 2019, traballei en Ancora, unha start-up xurdida como spin-off da Universidade de Vigo, participando no proxecto UBISMART. O meu traballo consistiu no deseño e desenvolvemento dun toolset para interfaces multiplataforma en dispositivos Android, orientadas a sistemas distribuídos.",
-        "De 2016 a 2018, no Centro Tecnolóxico de Automoción de Galicia (CTAG), especialiceime no deseño e desenvolvemento de compoñentes HMI, abranguendo interfaces gráficas, táctiles e de voz, cun enfoque en mellorar a interacción do condutor cos sistemas do vehículo. En 2015, como xefe de desenvolvemento móbil en Redegal S.L., dirixín o departamento de desenvolvemento móbil, liderando proxectos dende a planificación e o deseño ata a implementación, ademais de xestionar a relación cos clientes. Como profesional autónomo, impartín máis de 2.000 horas de formación en tecnoloxías da información e a comunicación en colaboración coa Confederación Empresarial de Ourense (CEO), orientadas principalmente á capacitación de persoas desempregadas en Galicia."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-73",
+      "id": "p-74",
       "name": "Rodríguez de la Fuente, Marta",
       "office": "4.18",
       "phone": "988368750",
       "email": "marta@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/957669426",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-de-la-fuente-marta/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/marta-rodriguez-fuente",
-      "subjects": [
-        "Empresa::Técnicas de comunicación e liderado",
-        "Experiencia docente:",
-        "Administración de Empresas",
-        "Experiencia investigadora:",
-        "Dirección de Recursos Humanos",
-        "Empresa Familiar"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-74",
+      "id": "p-75",
       "name": "Rodríguez Liñares, Leandro",
       "office": "405",
       "phone": "988387012",
       "email": "leandro@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/979404306",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-linares-leandro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/leandro-rodriguez-linares",
-      "subjects": [
-        "Sistemas operativos I",
-        "Aprendizaxe Automática Bio-inspirada",
-        "Computación Concurrente, Paralela e Distribuida",
-        "Aprendizaxe Profunda / Deep Learning",
-        "Web persoal:",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "Experiencia docente:",
-        "Máis de 20 de años de experiencia en docencia teórico-práctica en diversas materias de primeiro, segundo e terceiro ciclo, correspondentes a distintas Licenciaturas e Enxeñarías, así como en materias de grao e mestrado.",
-        "Experiencia investigadora:",
-        "Tratamento dixital do sinal, sistemas de síntese e recoñecemento da fala e procesado de sinais biomédicas con máis de 20 años de experiencia, estancias de investigación e numerosas publicacións en revistas e congresos internacionais."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-75",
+      "id": "p-76",
       "name": "Rodríguez Martínez, David",
       "office": "315",
       "phone": "988368807",
       "email": "david.rodriguez.martinez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/854655765",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-david/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-rodriguez-martinez",
-      "subjects": [
-        "Sistemas operativos I",
-        "Desenvolvemento áxil de aplicacións"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-76",
+      "id": "p-77",
       "name": "Rodríguez Martínez, Francisco Javier",
       "office": "301",
       "phone": "988387022",
       "email": "franjrm@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/784781224",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-francisco-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-rodriguez-martinez",
-      "subjects": [
-        "Sistemas de negocio",
-        "Prácticas en empresas I",
-        "Prácticas en empresas II",
-        "Enxeñaría Informática: Profesión na práctica",
-        "Prácticas externas",
-        "Experiencia docente:",
-        "Experiencia investigadora:",
-        "No ámbito dos grandes sistemas de información e bases de datos, especializándose en cuestións como a representación de coñecemento mediante ontoloxías, a representación e manexo de grandes volumes de información como en sistemas de información xeográfica ou ferramentas e metodoloxías de big data en smart cities ou sistemas de Internet das Cousas.",
-        "Experiencia profesional:",
-        "Conta con experiencia na dirección e execución de proxectos de I+D+i con diferentes empresas tanto en ámbitos autonómicos coma nacionais ou internacionais."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-77",
+      "id": "p-78",
       "name": "Rodríguez Martínez, Gerardo José",
       "office": "315",
       "phone": "988368807",
       "email": "gerodriguez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/609065512",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-gerardo-jose/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/gerardo-jose-rodriguez-martinez",
-      "subjects": [
-        "Enxeñaría do software II",
-        "Aprendizaxe baseada en proxectos"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-78",
+      "id": "p-79",
       "name": "Rodríguez Miranda, Iván",
       "office": "Tel",
       "phone": "",
       "email": "iv.rodriguez@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-miranda-ivan/",
       "uvigo_url": "",
-      "subjects": [
-        "Seguridade en sistemas informáticos",
-        "Web Semántica"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-79",
+      "id": "p-80",
       "name": "Rodríguez-Toubes Muñiz, Diego",
       "office": "Edificio",
       "phone": "988368747",
       "email": "drtoubes@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/350363303",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-toubes-muniz-diego/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/diego-rodriguez-toubes-muniz",
-      "subjects": [
-        "Empresa: Xestión de organizacións",
-        "Experiencia docente:",
-        "de Organización e Xestión Empresarial na Escola de Enxeñería Informática da Universidade de Vigo.",
-        "Experiencia investigadora:",
-        "A súa actividade investigadora enmárcase na área da estratexia empresarial, a xestión de crise e o desenvolvemento sostible. É membro do grupo de investigación OC2/Emitur da",
-        "Universidade de Vigo. Publicou artigos e colaboracións nos campos da resiliencia das organizacións, a xestión de riscos en destinos turísticos.",
-        "Realizou estancias de investigación en Linneaus University (Suecia), Universidade de Tras-Móntesvos- e Alto Douro (Portugal) e Strathmore University (Kenia).",
-        "Experiencia profesional:",
-        "Traballou en empresas e entidades de diversos sectores produtivos, na área de operacións, comercial e consultaría, ocupando postos como responsable de compras en Forestal do Atlántico, consultor empresarial no Colexio oficial de Xestores administrativos, responsable do departamento comercial no Laboratorio Oficial de Metroloxía de Galicia e comercial manager en Sotronic Innovation Technology."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-80",
+      "id": "p-81",
       "name": "Romero González, Rubén",
       "office": "Lab",
       "phone": "988387252",
       "email": "rrgonzalez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/552459726",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/romero-gonzalez-ruben/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ruben-romero-gonzalez",
-      "subjects": [
-        "Bases de datos II",
-        "Bases de datos I",
-        "Sistemas operativos II"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-81",
+      "id": "p-82",
       "name": "Ruano Ordás, David Alfonso",
       "office": "409",
       "phone": "988387016",
       "email": "drordas@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/249371841",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ruano-ordas-david-alfonso/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-alfonso-ruano-ordas",
-      "subjects": [
-        "Centros de datos",
-        "Redes de computadoras I",
-        "Experiencia docente:",
-        "Docente coma investigador doutoral na Universidade de Vigo durante o periodo 2013-2021 (360h). Docente a tempo completo na Universidade de Santiago de Compostela durante el periodo 2021-2022 (260h) e na Universidad de Vigo dende 2022. El profesor conta con 1 quinquenio recoñecido, dirixiu Trabajos fin de Master (1), Traballos Fin de Grado (5) e Proxectos Fin de Carreira (3), publicou 1 libro e participou en 2 congresos todos de carácter docente.",
-        "Experiencia investigadora:",
-        "Membro do grupo de investigación Sistemas Informáticos de Nova Xeración (SING). Conta con 1 sexenio de investigación recoñecido pola CNAI (período 2014-2019), e a codirección dunha tese de doutoramento (2021). Segundo SCOPUS, (con data 26/10/2022) os 31 traballos científicos publicados (índice h de 11) recibiron un total de 308 citas procedentes de 225 publicacións distintas. Entre elas, 25 foron publicadas en revistas JCR (10xQ1, 7xQ2, 1xQ3, 7xQ4).",
-        "O profesor participou coma evaluador de proxectos do Ministerio de Ciencia e Innovación (2022) así coma revisor e editor de varias revistas JCR e realizou 9 estancias de investigación en diferentes entidades internacionais. Finalmente, conta co rexistro da propiedade intelectual de catro ferramentas software de distinta índole así coma a publicación dun libro de carácter científico."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-82",
+      "id": "p-83",
       "name": "Sánchez Sellero, Francisco Javier",
       "office": "Tel",
       "phone": "",
       "email": "javiss@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sanchez-sellero-francisco-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero",
-      "subjects": [
-        "Empresa::Técnicas de comunicación e liderado"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-83",
+      "id": "p-84",
       "name": "Seara Vieira, Adrián",
       "office": "412",
       "phone": "988387019",
       "email": "adrseara@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/180182292",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/seara-vieira-adrian/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/adrian-seara-vieira",
-      "subjects": [
-        "Bases de Datos NoSQL"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-84",
+      "id": "p-85",
       "name": "Serrano Antón, Belén",
       "office": "313",
       "phone": "",
       "email": "belen.serrano@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/238817691",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29795/",
       "uvigo_url": "",
-      "subjects": [
-        "Aprendizaxe Automática II",
-        "Aprendizaxe Automática I",
-        "Xestión de Proxectos de IA / AI Project Management"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-85",
+      "id": "p-86",
       "name": "Sorribes Fernández, José Manuel",
       "office": "412",
       "phone": "988387019",
       "email": "sorribes@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/190080641",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sorribes-fenandez-jose-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sorribes-fernandez",
-      "subjects": [
-        "Bases de datos II",
-        "Técnicas avanzadas de manexo de información",
-        "Técnicas de Procesamento Masivo de Datos",
-        "Bases de Datos NoSQL",
-        "Experiencia docente:",
-        "Profesor asociado na Universidade de Vigo durante o período 2004-2013 e dende 2019 ata a actualidade. Docencia impartida en materias relacionadas coas bases de datos e programación. Dirección de Proxectos Fin de Carreira, Traballos Fin de Mestrado, Traballos Fin de Grao. Titorización de prácticas en empresa curriculares e extracurriculares.",
-        "Experiencia investigadora:",
-        "Aplicación de técnicas de Machine Learning e Deep Learning para o tratamento de imaxes, a extracción de textos e a recuperación de información.",
-        "Experiencia profesional:",
-        "Socio fundador de IdeiT SL. Traballa dende 2004 como Enxeñeiro en Informática en multitude de proxectos relacionados coa aplicación das novas tecnoloxías para ofrecer solucións a empresas e organismos públicos. Como xefe de produto da solución de xestión empresarial ERPNOVA, conta cunha ampla experiencia na análise, desenvolvemento e implantación de sistemas ERP para empresas de distintos sectores (fabricación, alimentación, almacéns, etc.). Participou na implantación da solución LABNOVA LIMS en laboratorios de Metroloxía nacionais e internacionais (LATAM). Dirixe e coordina o desenvolvemento da solución de Business Intelligence e Analítica de Datos BINOVA."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-86",
+      "id": "p-87",
       "name": "Sotelo Martínez, José Manuel",
       "office": "310",
       "phone": "988387034",
       "email": "jmsotelo@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/634477845",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sotelo-martinez-jose-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sotelo-martinez",
-      "subjects": [
-        "Arquitecturas paralelas",
-        "Informática::Arquitectura de computadoras I",
-        "Redes de computadoras II",
-        "Experiencia docente:",
-        "Profesor asociado na ESEI das seguintes materias: Robótica (plan antigo), Arquitecturas Paralelas, Redes e Ampliación de Computadoras I e II.",
-        "Experiencia profesional:",
-        "De Febreiro de 2003 a Abril de 2004: Persoal de I+D no departamento de Sistemas e Automática da Universidade de Vigo.",
-        "De Abril de 2004 a Maio de 2008: Responsable de producción e deseñador en UNVI, empresa adicada ao carrozado de autobuses.",
-        "Desde Maio de 2008 traballa como programador de software embebido no departamento de I+D de Egatel, empresa adicada á fabricación de equipos de retransmisión de sinais de telecomunicacións e televisión."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-87",
+      "id": "p-88",
       "name": "Suárez García, Andrés",
       "office": "Laboratorio",
       "phone": "",
       "email": "andsuarez@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/417071046",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/suarez-garcia-andres/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/andres-suarez-garcia",
-      "subjects": [
-        "Robótica baseada no Comportamento"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-88",
+      "id": "p-89",
       "name": "Tugores Blanco, Laia Francina",
       "office": "315",
       "phone": "988368807",
       "email": "laia.francina.tugores@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/108640644",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/tugores-blanco-laia-francina/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/laia-francina-tugores-blanco",
-      "subjects": [
-        "Matemáticas::Fundamentos matemáticos para a informática",
-        "Matemáticas: Matemática discreta"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-89",
+      "id": "p-90",
       "name": "Veloso Trigo, Rubén",
       "office": "Tel",
       "phone": "",
       "email": "ruben.veloso.trigo@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/veloso-trigo-ruben/",
       "uvigo_url": "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo",
-      "subjects": [
-        "Arquitecturas paralelas",
-        "Redes de computadoras II",
-        "Arquitectura de computadoras II"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-90",
+      "id": "p-91",
       "name": "Vila Sobrino, Xosé Antón",
       "office": "404",
       "phone": "988387011",
       "email": "anton@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/675060359",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vila-sobrino-xose-anton/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/xose-anton-vila-sobrino",
-      "subjects": [
-        "Informática::Programación I",
-        "Sistemas operativos II",
-        "Web persoal:",
-        "http://anton.webs.uvigo.es/",
-        "Experiencia docente:",
-        "Experiencia investigadora:",
-        "Investigador principal de varios proxectos de investigación, tanto no eido do análise da variabilidade da frecuencia cardíaca como nas tecnoloxías educativas. Coautor da mais de 20 publicacións con índice de impacto. O meu índice H, segundo Scopus é 16.",
-        "Experiencia profesional:"
-      ]
+      "subjects": []
     },
     {
-      "id": "p-91",
+      "id": "p-92",
       "name": "Vilares Ferro, Manuel",
       "office": "302",
       "phone": "988387280",
       "email": "vilares@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/111912971",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vilares-ferro-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-vilares-ferro",
-      "subjects": [
-        "Lóxica para a computación",
-        "Teoría de autómatas e linguaxes formais",
-        "Teoría de códigos",
-        "Experiencia docente:",
-        "Prof. asociado, CERICS (Francia) 1989-91 (label des Grandes Ecoles).",
-        "Prof. asociado, Fac. Informática da UDC (1991-94).",
-        "Prof. Titular de Universidad, Fac. Informática da UDC (1994-2001).",
-        "Prof. Catedrático de Universidad, Fac. Informática da UVigo (2001-actualidade).",
-        "Experiencia investigadora:",
-        "Investigador INRIA (Francia) 1987-91 (proxectos MODULEF, CROAP, CHLOE).",
-        "Investigador invitado, CERICS (Francia) 1993 (label des Grandes Ecoles).",
-        "Investigador principal en 6 proxectos nacionais (coordinador en 4), 7 autonómicos (coordinador en 5) e 4 multinacionais (coordinador en 4). Participante en outro proxecto multinacional.",
-        "Coordinador da Rede Galega de Procesamento da Linguaxe e RI (2006-actualidade).",
-        "Coordinador local de ESF Research Networking Programme: Evaluating Information Access Systems.",
-        "Experiencia profesional:",
-        "Cooperacións con Esterel Technologies (sistemas en tempo real), Eptica-Lingway, Daedalus, Imaxin Software, Telémaco, 3.14 Financial Contents, El Correo Gallego (procesamento de linguaxe e recuperación de información)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-101",
+      "id": "p-102",
       "name": "Formella , Arno",
       "office": "309",
       "phone": "988387030",
       "email": "formella@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/public/966364345",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/formella-arno/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/arno-formella",
-      "subjects": [
-        "Computación Distribuída e de Altas Prestacións",
-        "Computación Evolutiva / Evolutionary Computation",
-        "Web persoal:",
-        "http://formella.webs.uvigo.es",
-        "Experiencia docente:",
-        "Dende 1987 experencia docente multi-lingua dando clases de teoría e prácticas nos 5 cursos da formación universitaria de enxeñeiros informáticos nas siguientes materias: Concorrencia e distribución, Teoría de autómatas e linguaxes formais, Teoría de grafos, optimización e busca, Informática gráfica, Programación básica, Programación avanzada, Fundamentos da informática e Deseño e arquitectura dos ordenadores; e participación na formación predoutoral con clases en Algoritmia avanzada, Teoría da información, e algoritmos de optimización empregando o castelán, o alemán e o inglés.",
-        "Dirección de máis de 75 proxectos fin de carreira ou traballos fin de mestrado e 5 tesis doutorais.",
-        "Experiencia investigadora:",
-        "Investigación no ámbito da informática aplicada multi-disciplinar con aportacións de máis de 30 artículos a revistas científicas, máis de 50 contribucións a conferencias científicas do ámbito, e participación en máis de 40 proxectos de investigación competitivos a nivel local, autonómico, nacional, e internacional, ou como proxectos de investigación con empresas.",
-        "Desenvolvemento de diversas aplicacións software, entre outras simuladores de partículas, simuladores de propagación de ondas electromagnéticas, procesamento de imaxes con clasificación segundo a suas características, recoñecemento de padróns en imaxes, implementación do software de abordo dos pico-satélites (XaTcobeo, HumSAT-D, Serpens-B, Lume-I).",
-        "Experiencia profesional:",
-        "Universität des Saarlandes en Alemania, Fachhochschule für Technik und Wirtschaft, Saarbrücken en Alemania e Universidade de Vigo."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-102",
+      "id": "p-103",
       "name": "Garcia Lourenço, Anália Maria",
       "office": "308",
       "phone": "988387029",
       "email": "analia@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/346319569",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-lourenco-analia-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/analia-maria-garcia-lourenco",
-      "subjects": [
-        "Enxeñaría do Coñecemento",
-        "Sistemas de Información",
-        "Computación Distribuída e de Altas Prestacións",
-        "IA en Saúde / AI in Health",
-        "Enxeñaría de datos / Data engineering",
-        "Experiencia docente:",
-        "Docente a tempo completo na Universidade de Vigo desde o 2012. Experiencia docente internacional. Dirección de Traballos Fin de Mestrado e Fin de Grao a nivel nacional e internacional, e Becas de Colaboración co Departamento de Informática.",
-        "Experiencia investigadora:",
-        "Autora de publicacións científicas en revistas JCR e capítulos de libro en editoriales de prestixio. Participación en proxectos de investigación a nivel internacional, nacional e autonómico.",
-        "Experiencia profesional:",
-        "Profesora a tempo parcial (1998-2001) no Departamento de Produção e Sistemas da Universidade do Minho; profesora invitada na Universidade Católica Portuguesa (2008-2009); investigadora auxiliar no Centro de Engenharia Biológica de la Universidade do Minho (2008-2012)."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-104",
+      "id": "p-105",
       "name": "Gómez Rodríguez, Alma María",
       "office": "401",
       "phone": "988387008",
       "email": "alma@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/995308053",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-rodriguez-alma-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/alma-maria-gomez-rodriguez",
-      "subjects": [
-        "Auditoría e Certificación de Calidade de Sistemas Informáticos",
-        "Practicas Profesionais",
-        "Sistemas Multiaxente / Multi-agent systems",
-        "Razoamento e Planificación / Reasoning and Planning",
-        "Minaría de Procesos / Process Mining",
-        "Robótica Intelixente II / Intelligent Robotics II",
-        "Coñecemento e razoamento con incerteza / Knowledge and Reasoning under uncertainty",
-        "Aspectos Computacionais da Ciencia Cognitiva / Computational aspects of Cognitive Science",
-        "Experiencia docente:",
-        "Conta con mais de vinte anos de experiencia docente nas distintas titulacións de Informática, en materias como Estrutura de Datos e Algoritmos, Programación, Enxeñería do Software, Bases de Datos e Métodos Avanzados na Enxeñería do Software. Ten dirixido máis de 50 Proxectos Fin de Carreira, Traballos Fin de Mestrado e Traballos Fin de Grao para a construción de sistemas diversos e para distintos entornos: web, móvil, etc., que solucionan problemas reais ou simulados, tanto de xestión como científicos.",
-        "Experiencia investigadora:",
-        "A súa tese doutoral centrase na definición de metamodelos de procesos software para ao ámbito de Sistemas MultiAxente e conta con Mención Europea e Premio Extraordinario de Doutoramento. Neste campo de traballo, ten publicado mais de trinta traballos científicos en revistas de prestixio e conferencias internacionais. Ademais, participou na autoría de diversos libros académicos e docentes.",
-        "Experiencia profesional:",
-        "A profesora ten experiencia profesional previa no ámbito informático de uns catro anos, en Softgal: Servicios de Software de Galicia (hoxe TECNOCOM), adicada ao desenvolvemento de Proxectos Software para o sector Bancario, con categorías de Programador, Analista de Aplicacións e Xefe de Proxecto."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-106",
+      "id": "p-107",
       "name": "Gueimonde Canto, Ana Isabel",
       "office": "E",
       "phone": "988368741",
       "email": "agueimonde@uvigo.gal",
+      "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/854740109",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gueimonde-canto-ana-isabel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-isabel-gueimonde-canto",
-      "subjects": [
-        "Dirección e Xestión da Innovación",
-        "Experiencia docente:",
-        "Docente, en diversas titulacións de grao e mestrado, de materias relacionadas coa Xestión da Innovación e a Tecnoloxía.",
-        "Experiencia investigadora:",
-        "Participante en numerosas reunións científicas estatais e internacionais no ámbito da Xestión empresarial.",
-        "Autora de diversos artigos científicos sobre administración empresarial, xestión de recursos humanos e difusión de novas tecnoloxías.",
-        "Participante en proxectos de investigación de convocatoria pública que analizan diversas problemáticas da contorna empresarial e socioeconómica."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-111",
+      "id": "p-112",
       "name": "Pérez Cota, Manuel",
       "office": "401",
       "phone": "986813933",
       "email": "mpcota@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-cota-manuel/",
       "uvigo_url": "",
-      "subjects": [
-        "Sistemas de Información",
-        "Web persoal:",
-        "http://mpcota.webs.uvigo.es",
-        "Experiencia docente:",
-        "Linguaxes e Sistemas Informáticos, con máis de 30 anos de experiencia en docencia teórico-práctica en diversas materias de primeiro, segundo e terceiro ciclo, correspondentes a distintas Licenciaturas e Enxeñerías, así coma en materias de Grao e Posgrao.",
-        "Experiencia investigadora:",
-        "E-learning (ensino asistido por computador), HCI (interfaces e interacción persona-ordenador, usabilidade, tecnoloxías da información e a comunicación, software educativo, desenvolvemento de tecnoloxías e software industrial, con máis de 30 anos de experiencia, e máis de 30 publicacións en revistas internacionais.",
-        "Experiencia profesional:",
-        "Desenvolvemento de software en empresas industriais, xestión de 2 empresas, colaboración con empresas do ámbito industrial e de desenvolvemento de software."
-      ]
+      "subjects": []
     },
     {
-      "id": "p-112",
+      "id": "p-113",
       "name": "Ramos Valcárcel, David",
       "office": "407",
       "phone": "988387014",
       "email": "david@uvigo.gal",
+      "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ramos-valcarcel-david/",
       "uvigo_url": "",
-      "subjects": [
-        "Auditoría e Certificación de Calidade de Sistemas Informáticos"
-      ]
+      "subjects": []
     }
   ]
 }
