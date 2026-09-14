@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T11:29:45.325065+00:00",
+  "generated_at": "2026-09-14T12:19:43.633881+00:00",
   "count": 98,
   "teachers": [
     {
@@ -12,38 +12,33 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alonso-carracedo-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo",
       "subjects": [
-        "Informática",
-        "Sistemas operativos I",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alonso-carracedo"
+        "Sistemas operativos I"
       ]
     },
     {
       "id": "p-2",
       "name": "Álvarez Domínguez, Miguel",
-      "office": "Lab",
+      "office": "Lab 35 Tel",
       "phone": "988387016",
       "email": "miguel.alvarez.dominguez@uvigo.es",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/alvarez-dominguez-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez",
       "subjects": [
-        "Informática",
         "Bases de datos II",
-        "Plataformas de Internet das Cousas",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-alvarez-dominguez"
+        "Plataformas de Internet das Cousas"
       ]
     },
     {
       "id": "p-3",
       "name": "Arias Pérez, Pedro",
-      "office": "311",
+      "office": "311 Tel",
       "phone": "988387035",
       "email": "pedro.arias.perez@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29849/",
       "uvigo_url": "",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Informática::Arquitectura de computadoras I",
         "Redes de computadoras II",
         "Robótica baseada no Comportamento",
@@ -60,10 +55,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/arriba-perez-francisco-de/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/francisco-arriba-perez",
       "subjects": [
-        "Informática",
-        "Interfaces Intelixentes",
-        "https://campusremotouvigo.gal/access/public/meeting/307692360",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/francisco-arriba-perez"
+        "Interfaces Intelixentes"
       ]
     },
     {
@@ -76,13 +68,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/balvis-outeirino-eduardo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/eduardo-balvis-outeirino",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Arquitecturas paralelas",
         "Redes de computadoras II",
         "Arquitectura de computadoras II",
-        "Informática: Adquisición e procesamento do sinal",
-        "https://campusremotouvigo.gal/access/public/meeting/100015018",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/eduardo-balvis-outeirino"
+        "Informática: Adquisición e procesamento do sinal"
       ]
     },
     {
@@ -95,11 +84,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/barreiro-alonso-enrique/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/enrique-barreiro-alonso",
       "subjects": [
-        "Informática",
         "Enxeñaría do software I",
-        "IA no ámbito Empresarial e Administrativo",
-        "https://campusremotouvigo.gal/access/public/meeting/195045626",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/enrique-barreiro-alonso"
+        "IA no ámbito Empresarial e Administrativo"
       ]
     },
     {
@@ -112,25 +98,20 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/bea-besada-yago/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada",
       "subjects": [
-        "Matemática Aplicada II",
-        "Matemáticas::Alxebra Lineal",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/yago-bea-besada"
+        "Matemáticas::Alxebra Lineal"
       ]
     },
     {
       "id": "p-8",
       "name": "Blanco Cerradelo, Lidia",
-      "office": "Despacho",
+      "office": "virtual",
       "phone": "",
       "email": "lyblanco@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/408041424",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-cerradelo-lidia/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/lidia-blanco-cerradelo",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa::Técnicas de comunicación e liderado",
-        "https://campusremotouvigo.gal/access/public/meeting/408041424",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/lidia-blanco-cerradelo"
+        "Empresa::Técnicas de comunicación e liderado"
       ]
     },
     {
@@ -143,13 +124,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/blanco-gonzalez-guillermo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracionpersonal/pdi/guillermo-blanco-gonzalez",
       "subjects": [
-        "Informática",
         "Concorrencia e distribución",
         "Enxeñaría do Software",
         "Algoritmos",
-        "Informática: Introdución ás computadoras",
-        "https://campusremotouvigo.gal/access/public/meeting/192251466",
-        "https://www.uvigo.gal/es/universidad/administracionpersonal/pdi/guillermo-blanco-gonzalez"
+        "Informática: Introdución ás computadoras"
       ]
     },
     {
@@ -162,10 +140,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/borrajo-diz-maria-lourdes/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-lourdes-borrajo-diz",
       "subjects": [
-        "Informática",
-        "Informática: Programación I",
-        "https://campusremotouvigo.gal/access/public/meeting/830941365",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-lourdes-borrajo-diz"
+        "Informática: Programación I"
       ]
     },
     {
@@ -178,12 +153,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/campos-bastos-celso/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/celso-campos-bastos",
       "subjects": [
-        "Informática",
         "Dirección e xestión de proxectos",
         "Creación de contidos dixitais",
-        "Sistemas Gráficos Interactivos",
-        "https://campusremotouvigo.gal/access/public/meeting/123383861",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/celso-campos-bastos"
+        "Sistemas Gráficos Interactivos"
       ]
     },
     {
@@ -196,13 +168,11 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/candal-ventureira-david/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira",
       "subjects": [
-        "Informática",
         "Lóxica para a computación",
         "Teoría de autómatas e linguaxes formais",
         "Minaría de Textos",
         "Temas emerxentes e emprendemento en IA / Emerging and Entrepreuneurial AI",
-        "Fundamentos de IA / AI Fundamentals",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-candal-ventureira"
+        "Fundamentos de IA / AI Fundamentals"
       ]
     },
     {
@@ -215,11 +185,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/castro-miguens-carlos/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/carlos-castro-miguens",
       "subjects": [
-        "Tecnoloxía Electrónica",
         "Física::Sistemas dixitais",
-        "Hardware de aplicación específica",
-        "https://campusremotouvigo.gal/access/public/meeting/476999933",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/carlos-castro-miguens"
+        "Hardware de aplicación específica"
       ]
     },
     {
@@ -232,16 +199,13 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/celard-perez-pedro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-celard-perez",
       "subjects": [
-        "Informática",
         "Enxeñaría do software II",
         "Bases de datos II",
         "Técnicas de Procesamento Masivo de Datos",
         "Bases de Datos NoSQL",
         "Bases de Datos",
         "Visión por Computadora I / Computer Vision I",
-        "Intelixencia Web e Tecnoloxías Semánticas / Web Intelligence and Semantic Technologies",
-        "https://campusremotouvigo.gal/access/public/meeting/347244169",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-celard-perez"
+        "Intelixencia Web e Tecnoloxías Semánticas / Web Intelligence and Semantic Technologies"
       ]
     },
     {
@@ -254,12 +218,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cid-araujo-jose-angel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-angel-cid-araujo",
       "subjects": [
-        "Matemáticas",
         "Matemáticas::Análise matemática",
-        "Matemáticas: Cálculo e análise numérico",
-        "http://webs.uvigo.es/angelcid",
-        "https://campusremotouvigo.gal/public/964130816",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-angel-cid-araujo"
+        "Matemáticas: Cálculo e análise numérico"
       ]
     },
     {
@@ -272,42 +232,35 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-fernandez-arruty-laura/",
       "uvigo_url": "",
       "subjects": [
-        "Estatística e Investigación Operativa",
         "Matemáticas:: Estatística"
       ]
     },
     {
       "id": "p-17",
       "name": "Cotos Yáñez, Tomas Raimundo",
-      "office": "13",
+      "office": "13 - 5",
       "phone": "988368766",
       "email": "cotos@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/370913313",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cotos-yanez-tomas-raimundo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/tomas-raimundo-cotos-yanez",
       "subjects": [
-        "Estatística e Investigación Operativa",
         "Matemáticas::Estatística",
         "Optimización Matemática",
-        "Matemáticas:: Estatística",
-        "https://campusremotouvigo.gal/access/public/meeting/370913313",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/tomas-raimundo-cotos-yanez"
+        "Matemáticas:: Estatística"
       ]
     },
     {
       "id": "p-18",
       "name": "Cruz González, Maria Montserrat",
-      "office": "310",
+      "office": "310 FCETOU",
       "phone": "988368719",
       "email": "mcruz@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/133719569",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cruz-gonzalez-maria-montserrat/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-montserrat-cruz-gonzalez",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa::Técnicas de comunicación e liderado",
-        "https://campusremotouvigo.gal/access/public/meeting/133719569",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-montserrat-cruz-gonzalez"
+        "Empresa::Técnicas de comunicación e liderado"
       ]
     },
     {
@@ -320,11 +273,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/cuesta-morales-pedro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-cuesta-morales",
       "subjects": [
-        "Informática",
-        "Informática::Programación I",
-        "http://webs.uvigo.es/pcuesta",
-        "https://campusremotouvigo.gal/access/public/meeting/749520036",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/pedro-cuesta-morales"
+        "Informática::Programación I"
       ]
     },
     {
@@ -337,16 +286,13 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/darriba-bilbao-victor-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/victor-manuel-darriba-bilbao",
       "subjects": [
-        "Informática",
         "Aprendizaxe Automática I",
         "Autómatas e Linguaxes Formais",
         "Informática: Lóxica",
         "Procesamento da Linguaxe Natural",
         "Modelado da Linguaxe / Language Modelling",
         "Comprensión da Linguaxe Natural / Natural Language Understanding",
-        "Aprendizaxe Automática I / Machine Learning I",
-        "https://campusremotouvigo.gal/access/public/meeting/448025197",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/victor-manuel-darriba-bilbao"
+        "Aprendizaxe Automática I / Machine Learning I"
       ]
     },
     {
@@ -359,26 +305,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/diaz-cacho-medina-miguel-ramon/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-ramon-diaz-cacho-medina",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Redes de computadoras II",
         "Seguridade e administración de sistemas operativos",
         "Seguridade en redes",
-        "IoT Intelixente / Intelligent IoT",
-        "https://campusremotouvigo.gal/access/public/meeting/768518475",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-ramon-diaz-cacho-medina"
+        "IoT Intelixente / Intelligent IoT"
       ]
     },
     {
       "id": "p-22",
       "name": "Doval Mosquera, Yerai",
-      "office": "302",
+      "office": "302 Tel",
       "phone": "988387280",
       "email": "yerai.doval@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/doval-mosquera-yerai/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
         "Procesamento da Linguaxe Natural",
         "Autómatas e Linguaxes Formais"
       ]
@@ -393,9 +335,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/feijoo-miranda-jose-2/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda",
       "subjects": [
-        "Dereito Privado",
-        "Fundamentos Éticos e Xurídicos",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-feijoo-miranda"
+        "Fundamentos Éticos e Xurídicos"
       ]
     },
     {
@@ -408,14 +348,11 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gavilanes-milagros/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/milagros-fernandez-gavilanes",
       "subjects": [
-        "Informática",
         "Sistemas Reactivos",
         "Web Semántica",
         "Recuperación da Información",
         "Ciberseguridade Intelixente / Intelligent Cybersecurity",
-        "IA Explicable e Confiable / Trustworthy and Explainable AI",
-        "https://campusremotouvigo.gal/access/public/meeting/267428983",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/milagros-fernandez-gavilanes"
+        "IA Explicable e Confiable / Trustworthy and Explainable AI"
       ]
     },
     {
@@ -428,13 +365,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-gonzalez-daniel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-fernandez-gonzalez",
       "subjects": [
-        "Informática",
         "Algoritmos básicos da Intelixencia Artificial",
         "Fundamentos da Aprendizaxe Automática",
         "IA en contornas Big Data / AI in Big Data Environments",
-        "Minaría de Textos / Text Mining",
-        "https://campusremotouvigo.gal/public/841425695",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-fernandez-gonzalez"
+        "Minaría de Textos / Text Mining"
       ]
     },
     {
@@ -447,13 +381,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-lanza-santiago/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/santiago-fernandez-lanza",
       "subjects": [
-        "Informática",
         "Razoamento con incerteza",
         "Representación do coñecemento e razoamento",
         "IA en contornas Big Data / AI in Big Data Environments",
-        "Minaría de Textos / Text Mining",
-        "https://campusremotouvigo.gal/access/public/meeting/633396819",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/santiago-fernandez-lanza"
+        "Minaría de Textos / Text Mining"
       ]
     },
     {
@@ -466,12 +397,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/fernandez-riverola-florentino/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/florentino-fernandez-riverola",
       "subjects": [
-        "Informática",
         "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "http://sing-group.org/",
-        "https://campusremotouvigo.gal/access/public/meeting/509875813",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/florentino-fernandez-riverola"
+        "Algoritmos e estruturas de datos II"
       ]
     },
     {
@@ -484,7 +411,6 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/figueiral-alonso-erik/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
         "Lóxica para a computación",
         "Razoamento con incerteza",
         "Recuperación da Información"
@@ -500,29 +426,23 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/galvez-galvez-juan-francisco/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-francisco-galvez-galvez",
       "subjects": [
-        "Informática",
         "Bases de datos I",
-        "Bases de Datos",
-        "https://campusremotouvigo.gal/public/890357780",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-francisco-galvez-galvez"
+        "Bases de Datos"
       ]
     },
     {
       "id": "p-30",
       "name": "García Hervella, Noelia",
-      "office": "Laboratorio",
+      "office": "Laboratorio 35",
       "phone": "988387252",
       "email": "nghervella@esei.uvigo.es",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/975250706",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-hervella-noelia/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/noelia-garcia-hervella",
       "subjects": [
-        "Informática",
         "Concorrencia e distribución",
         "Enxeñaría do Software",
-        "Algoritmos",
-        "https://campusremotouvigo.gal/access/public/meeting/975250706",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/noelia-garcia-hervella"
+        "Algoritmos"
       ]
     },
     {
@@ -535,12 +455,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-perez-schofield-jose-baltasar/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-baltasar-garcia-perez-schofield",
       "subjects": [
-        "Informática",
         "Aplicacións con linguaxes de script",
-        "Desenvolvemento e integración de aplicacións",
-        "http://jbgarcia.webs.uvigo.es",
-        "https://campusremotouvigo.gal/access/public/meeting/656060768",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-baltasar-garcia-perez-schofield"
+        "Desenvolvemento e integración de aplicacións"
       ]
     },
     {
@@ -553,28 +469,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-rivera-matias/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/matias-garcia-rivera",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Arquitecturas paralelas",
         "Redes de computadoras II",
-        "Arquitectura de computadoras II",
-        "https://campusremotouvigo.gal/access/public/meeting/612808536",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/matias-garcia-rivera"
+        "Arquitectura de computadoras II"
       ]
     },
     {
       "id": "p-33",
       "name": "Garriga Domínguez, Ana",
-      "office": "26",
+      "office": "26 - 4",
       "phone": "988368834",
       "email": "agarriga@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/747433606",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garriga-dominguez-ana/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-garriga-dominguez",
       "subjects": [
-        "Dereito Privado",
-        "Dimensión ética e xurídica da IA",
-        "https://campusremotouvigo.gal/access/public/meeting/747433606",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-garriga-dominguez"
+        "Dimensión ética e xurídica da IA"
       ]
     },
     {
@@ -587,28 +497,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-meire-silvana/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/silvana-gomez-meire",
       "subjects": [
-        "Informática",
         "Redes de computadoras I",
         "Planificación e Dirección de Proxectos",
         "Deseño e Xestión Avanzada de Redes",
-        "Redes",
-        "https://campusremotouvigo.gal/access/public/meeting/155534894",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/silvana-gomez-meire"
+        "Redes"
       ]
     },
     {
       "id": "p-35",
       "name": "González Mariño, Ángela",
-      "office": "311",
+      "office": "311 Tel",
       "phone": "988387035",
       "email": "angela.gonzalez@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-marino-angela/",
       "uvigo_url": "",
-      "subjects": [
-        "Enxeñaría de Sistemas e Automática",
-        "https://www.uvigo.gal/es/universidad/administracionpersonal/%20pdi/angela-gonzalez-marino"
-      ]
+      "subjects": []
     },
     {
       "id": "p-36",
@@ -620,7 +524,6 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-moreno-juan-carlos/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-carlos-gonzalez-moreno",
       "subjects": [
-        "Informática",
         "Concorrencia e distribución",
         "Sistemas intelixentes",
         "Aprendizaxe baseada en proxectos",
@@ -631,10 +534,7 @@
         "Enxeñaría do Software",
         "Informática: Introdución ás computadoras",
         "Sistemas Intelixentes de Tempo Real / Intelligent Real Time Systems",
-        "Sistemas Multiaxente / Multi-agent systems",
-        "http://jcmoreno.webs.uvigo.es",
-        "https://campusremotouvigo.gal/access/public/meeting/870755795",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-carlos-gonzalez-moreno"
+        "Sistemas Multiaxente / Multi-agent systems"
       ]
     },
     {
@@ -647,9 +547,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pedrouzo-antonio-adrian/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo",
       "subjects": [
-        "Informática",
-        "Interfaces de usuario",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/antonio-adrian-gonzalez-pedrouzo"
+        "Interfaces de usuario"
       ]
     },
     {
@@ -662,28 +560,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-pena-daniel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-gonzalez-pena",
       "subjects": [
-        "Informática",
         "Programación II",
-        "Deseño de arquitecturas de grandes sistemas software",
-        "https://campusremotouvigo.gal/access/public/meeting/267388097",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/daniel-gonzalez-pena"
+        "Deseño de arquitecturas de grandes sistemas software"
       ]
     },
     {
       "id": "p-39",
       "name": "González Rodríguez, Brais",
-      "office": "Edificio",
+      "office": "Edificio Xur",
       "phone": "988368767",
       "email": "brais.gonzalez.rodriguez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/313974611",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rodriguez-brais/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/brais-gonzalez-rodriguez",
       "subjects": [
-        "Estatística e Investigación Operativa",
         "Matemáticas::Estatística",
-        "Matemáticas:: Estatística",
-        "https://campusremotouvigo.gal/access/public/meeting/313974611",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/brais-gonzalez-rodriguez"
+        "Matemáticas:: Estatística"
       ]
     },
     {
@@ -696,10 +588,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gonzalez-rufino-maria-encarnacion/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-encarnacion-gonzalez-rufino",
       "subjects": [
-        "Informática",
-        "Sistemas operativos I",
-        "https://campusremotouvigo.gal/public/904911293",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-encarnacion-gonzalez-rufino"
+        "Sistemas operativos I"
       ]
     },
     {
@@ -712,11 +601,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/iago-nunez-lugilde/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/iago-nunez-lugilde",
       "subjects": [
-        "Estatística e Investigación Operativa",
         "Matemáticas::Estatística",
-        "Matemáticas:: Estatística",
-        "https://campusremotouvigo.gal/public/498872871",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/iago-nunez-lugilde"
+        "Matemáticas:: Estatística"
       ]
     },
     {
@@ -729,11 +615,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lado-tourino-maria-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-jose-lado-tourino",
       "subjects": [
-        "Informática",
-        "Informática::Programación I",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "https://campusremotouvigo.gal/public/995394505",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-jose-lado-tourino"
+        "Informática::Programación I"
       ]
     },
     {
@@ -746,14 +628,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/laza-fidalgo-rosalia/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/rosalia-laza-fidalgo",
       "subjects": [
-        "Informática",
         "Informática::Algoritmos e estruturas de datos I",
         "Algoritmos e estruturas de datos II",
         "Traballo de Fin de Grao",
-        "Traballo Fin de Grao",
-        "http://sing.ei.uvigo.es",
-        "https://campusremotouvigo.gal/access/public/meeting/991095057",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/rosalia-laza-fidalgo"
+        "Traballo Fin de Grao"
       ]
     },
     {
@@ -766,11 +644,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-fernandez-hugo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/hugo-lopez-fernandez",
       "subjects": [
-        "Informática",
         "Deseño de arquitecturas de grandes sistemas software",
-        "Informática: Programación II",
-        "https://campusremotouvigo.gal/access/public/meeting/850827261",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/hugo-lopez-fernandez"
+        "Informática: Programación II"
       ]
     },
     {
@@ -783,10 +658,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lopez-pedrares-javier-2/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-lopez-pedrares",
       "subjects": [
-        "Matemáticas",
-        "Matemáticas::Fundamentos matemáticos para a informática",
-        "https://campusremotouvigo.gal/access/public/meeting/491820289",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-lopez-pedrares"
+        "Matemáticas::Fundamentos matemáticos para a informática"
       ]
     },
     {
@@ -799,10 +671,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/lorenzo-iglesias-eva-maria/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/eva-maria-lorenzo-iglesias",
       "subjects": [
-        "Informática",
-        "Bases de datos II",
-        "https://campusremotouvigo.gal/access/public/meeting/295468650",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/eva-maria-lorenzo-iglesias"
+        "Bases de datos II"
       ]
     },
     {
@@ -815,11 +684,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/luis-vazquez-ivan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-luis-vazquez",
       "subjects": [
-        "Informática",
         "Sistemas intelixentes",
-        "Informática: Programación I",
-        "https://campusremotouvigo.gal/access/public/meeting/1533%2039586",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-luis-vazquez"
+        "Informática: Programación I"
       ]
     },
     {
@@ -832,12 +698,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-estevez-ivan/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ivan-martinez-estevez",
       "subjects": [
-        "Informática",
         "Informática::Programación I",
         "Tecnoloxías e servizos web",
-        "Computación Concurrente, Paralela e Distribuida",
-        "https://campusremotouvigo.gal/access/public/meeting/443206892",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ivan-martinez-estevez"
+        "Computación Concurrente, Paralela e Distribuida"
       ]
     },
     {
@@ -850,11 +713,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/martinez-orge-jose-luis/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-luis-martinez-orge",
       "subjects": [
-        "Informática",
         "Dirección e xestión de proxectos",
-        "Sistemas e Servizos de Internet",
-        "https://campusremotouvigo.gal/access/public/meeting/653674688",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-luis-martinez-orge"
+        "Sistemas e Servizos de Internet"
       ]
     },
     {
@@ -867,12 +727,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-penin-arturo-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/arturo-jose-mendez-penin",
       "subjects": [
-        "Informática",
         "Enxeñaría do software II",
-        "Informática::Programación I",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "https://campusremotouvigo.gal/public/286815130",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/arturo-jose-mendez-penin"
+        "Informática::Programación I"
       ]
     },
     {
@@ -885,29 +741,23 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mendez-reboredo-jose-ramon/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-ramon-mendez-reboredo",
       "subjects": [
-        "Informática",
         "Auditoría e Xestión da Seguridade",
-        "Redes",
-        "https://campusremotouvigo.gal/access/public/meeting/853477752",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-ramon-mendez-reboredo"
+        "Redes"
       ]
     },
     {
       "id": "p-52",
       "name": "Mondelo Visuña, Víctor",
-      "office": "Laboratorio",
+      "office": "Laboratorio 35",
       "phone": "988387252",
       "email": "vmondelo@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/613461796",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mondelo-visuna-victor/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/victor-mondelo-visuna",
       "subjects": [
-        "Informática",
         "Informática::Programación I",
         "Bases de datos I",
-        "Sistemas operativos II",
-        "https://campusremotouvigo.gal/access/public/meeting/613461796",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/victor-mondelo-visuna"
+        "Sistemas operativos II"
       ]
     },
     {
@@ -920,26 +770,21 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-gonzalez-julio/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/julio-mosquera-gonzalez",
       "subjects": [
-        "Informática",
         "Sistemas operativos II",
-        "Redes",
-        "https://campusremotouvigo.gal/access/public/meeting/421865470",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/julio-mosquera-gonzalez"
+        "Redes"
       ]
     },
     {
       "id": "p-54",
       "name": "Mosquera Lois, David",
-      "office": "315",
+      "office": "315 Tel",
       "phone": "988368807",
       "email": "david.mosquera.lois@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-lois-david/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
       "subjects": [
-        "Matemáticas",
-        "Matemáticas::Análise matemática",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois"
+        "Matemáticas::Análise matemática"
       ]
     },
     {
@@ -952,10 +797,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-rodriguez-manuel-alfredo/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alfredo-mosquera-rodriguez",
       "subjects": [
-        "Estatística e Investigación Operativa",
-        "Optimización Matemática",
-        "https://campusremotouvigo.gal/access/public/meeting/730562009",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/manuel-alfredo-mosquera-rodriguez"
+        "Optimización Matemática"
       ]
     },
     {
@@ -968,11 +810,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/nieto-gonzalez-juan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-nieto-gonzalez",
       "subjects": [
-        "Informática",
         "Programación II",
-        "Informática::Programación I",
-        "https://campusremotouvigo.gal/access/public/meeting/378992896",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/juan-nieto-gonzalez"
+        "Informática::Programación I"
       ]
     },
     {
@@ -985,12 +824,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/novo-loures-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-novo-loures",
       "subjects": [
-        "Informática",
         "Informática::Algoritmos e estruturas de datos I",
         "Algoritmos e estruturas de datos II",
-        "Algoritmos",
-        "https://campusremotouvigo.gal/access/public/meeting/483792494",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-novo-loures"
+        "Algoritmos"
       ]
     },
     {
@@ -1003,13 +839,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/olivieri-cecchi-david-nicholas/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-nicholas-olivieri-cecchi",
       "subjects": [
-        "Informática",
         "Visión Artificial",
         "Computación Concurrente, Paralela e Distribuida",
         "Aprendizaxe Automática II / Machine Learning II",
-        "Aprendizaxe Profunda / Deep Learning",
-        "https://campusremotouvigo.gal/access/public/meeting/883261697",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/david-nicholas-olivieri-cecchi"
+        "Aprendizaxe Profunda / Deep Learning"
       ]
     },
     {
@@ -1022,13 +855,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-cerdeira-lorena/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/lorena-otero-cerdeira",
       "subjects": [
-        "Informática",
         "Sistemas operativos I",
         "Sistemas de negocio",
         "Enxeñaría Informática: Profesión na práctica",
-        "Razoamento e Planificación / Reasoning and Planning",
-        "https://campusremotouvigo.gal/access/public/meeting/750068307",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/lorena-otero-cerdeira"
+        "Razoamento e Planificación / Reasoning and Planning"
       ]
     },
     {
@@ -1041,13 +871,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-iglesias-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-otero-iglesias",
       "subjects": [
-        "Informática",
         "Teoría de autómatas e linguaxes formais",
         "Seguridade en sistemas informáticos",
         "Sistemas Expertos",
-        "Informática: Lóxica",
-        "https://campusremotouvigo.gal/access/public/meeting/331832169",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-otero-iglesias"
+        "Informática: Lóxica"
       ]
     },
     {
@@ -1060,11 +887,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/otero-pombo-juan/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/juan-otero-pombo",
       "subjects": [
-        "Informática",
         "Lóxica para a computación",
-        "Teoría de autómatas e linguaxes formais",
-        "https://campusremotouvigo.gal/access/public/meeting/1903%2049096",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/juan-otero-pombo"
+        "Teoría de autómatas e linguaxes formais"
       ]
     },
     {
@@ -1077,44 +901,37 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/outeirino-cid-cristina/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/cristina-outeirino-cid",
       "subjects": [
-        "Informática",
-        "Aprendizaxe Automática I",
-        "https://campusremotouvigo.gal/access/public/meeting/508379775",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/cristina-outeirino-cid"
+        "Aprendizaxe Automática I"
       ]
     },
     {
       "id": "p-63",
       "name": "Pájaro Diéguez, Manuel",
-      "office": "28",
+      "office": "28 Pavill",
       "phone": "988387237",
       "email": "mapajaro@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pajaro-dieguez-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez",
       "subjects": [
-        "Matemáticas",
         "Matemáticas::Análise matemática",
         "Matemáticas: Cálculo e análise numérico",
-        "Matemáticas: Álxebra",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-pajaro-dieguez"
+        "Matemáticas: Álxebra"
       ]
     },
     {
       "id": "p-64",
       "name": "Pato Valcárcel, Josué",
-      "office": "412",
+      "office": "412 Tel",
       "phone": "988387019",
       "email": "josue.pato@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pato-valcarcel-josue/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel",
       "subjects": [
-        "Informática",
         "Concorrencia e distribución",
         "Técnicas de Procesamento Masivo de Datos",
-        "Bases de Datos",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/josue-pato-valcarcel"
+        "Bases de Datos"
       ]
     },
     {
@@ -1127,27 +944,21 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/pavon-rial-maria-reyes/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-reyes-pavon-rial",
       "subjects": [
-        "Informática",
         "Informática::Algoritmos e estruturas de datos I",
-        "Algoritmos e estruturas de datos II",
-        "https://campusremotouvigo.gal/access/public/meeting/282663808",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-reyes-pavon-rial"
+        "Algoritmos e estruturas de datos II"
       ]
     },
     {
       "id": "p-66",
       "name": "Pérez Bouzas, Maria Pilar",
-      "office": "Edificio",
+      "office": "Edificio Empresariales - 515",
       "phone": "988368769",
       "email": "maria.pilar.perez.bouzas@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/827471071",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-bouzas-maria-pilar/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-pilar-perez-bouzas",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa::Técnicas de comunicación e liderado",
-        "https://campusremotouvigo.gal/access/public/meeting/827471071",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/maria-pilar-perez-bouzas"
+        "Empresa::Técnicas de comunicación e liderado"
       ]
     },
     {
@@ -1160,10 +971,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-estevez-diego/",
       "uvigo_url": "https://www.uvigo.gal/en/university/administration-staff/pdi/diego-perez-estevez",
       "subjects": [
-        "Tecnoloxía Electrónica",
-        "Física::Sistemas dixitais",
-        "https://campusremotouvigo.gal/access/public/meeting/137843329",
-        "https://www.uvigo.gal/en/university/administration-staff/pdi/diego-perez-estevez"
+        "Física::Sistemas dixitais"
       ]
     },
     {
@@ -1176,11 +984,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-perez-martin/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/martin-perez-perez",
       "subjects": [
-        "Informática",
         "Desenvolvemento de aplicacións para internet",
-        "Bases de datos I",
-        "https://campusremotouvigo.gal/access/public/meeting/701654406",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/martin-perez-perez"
+        "Bases de datos I"
       ]
     },
     {
@@ -1193,13 +998,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/reboiro-jato-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-reboiro-jato",
       "subjects": [
-        "Informática",
         "Desenvolvemento de aplicacións para internet",
         "Enxeñaría de Sistemas da Información",
-        "Xestión da Configuración do Software",
-        "http://sing.ei.uvigo.es/",
-        "https://campusremotouvigo.gal/access/public/meeting/959723898",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-reboiro-jato"
+        "Xestión da Configuración do Software"
       ]
     },
     {
@@ -1212,11 +1013,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rial-fernandez-miguel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-rial-fernandez",
       "subjects": [
-        "Tecnoloxía Electrónica",
         "Física::Sistemas dixitais",
-        "Hardware de aplicación específica",
-        "https://campusremotouvigo.gal/access/public/meeting/473346982",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/miguel-rial-fernandez"
+        "Hardware de aplicación específica"
       ]
     },
     {
@@ -1229,14 +1027,11 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ribadas-pena-francisco-jose/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-jose-ribadas-pena",
       "subjects": [
-        "Informática",
         "Seguridade en sistemas informáticos",
         "Sistemas de Información",
         "Ciberseguridade Intelixente",
         "Sistemas Expertos",
-        "Ciberseguridade Intelixente / Intelligent Cybersecurity",
-        "https://campusremotouvigo.gal/access/public/meeting/833444977",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-jose-ribadas-pena"
+        "Ciberseguridade Intelixente / Intelligent Cybersecurity"
       ]
     },
     {
@@ -1249,11 +1044,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodeiro-iglesias-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-rodeiro-iglesias",
       "subjects": [
-        "Informática",
         "Interfaces de usuario",
-        "Planificación e Dirección de Proxectos",
-        "https://campusremotouvigo.gal/access/public/meeting/346873159",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/javier-rodeiro-iglesias"
+        "Planificación e Dirección de Proxectos"
       ]
     },
     {
@@ -1266,28 +1058,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-conde-ivan/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-rodriguez-conde",
       "subjects": [
-        "Informática",
         "Dirección e xestión de proxectos",
         "Dispositivos móbiles",
-        "Visión por computadora II / Computer Vision II",
-        "https://campusremotouvigo.gal/access/public/meeting/421279888",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/ivan-rodriguez-conde"
+        "Visión por computadora II / Computer Vision II"
       ]
     },
     {
       "id": "p-74",
       "name": "Rodríguez de la Fuente, Marta",
-      "office": "4.18",
+      "office": "4.18 FCETOU",
       "phone": "988368750",
       "email": "marta@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/957669426",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-de-la-fuente-marta/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/marta-rodriguez-fuente",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa::Técnicas de comunicación e liderado",
-        "https://campusremotouvigo.gal/access/public/meeting/957669426",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/marta-rodriguez-fuente"
+        "Empresa::Técnicas de comunicación e liderado"
       ]
     },
     {
@@ -1300,14 +1086,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-linares-leandro/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/leandro-rodriguez-linares",
       "subjects": [
-        "Informática",
         "Sistemas operativos I",
         "Aprendizaxe Automática Bio-inspirada",
         "Computación Concurrente, Paralela e Distribuida",
-        "Aprendizaxe Profunda / Deep Learning",
-        "http://lia.ei.uvigo.es/lia/view/",
-        "https://campusremotouvigo.gal/access/public/meeting/979404306",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/leandro-rodriguez-linares"
+        "Aprendizaxe Profunda / Deep Learning"
       ]
     },
     {
@@ -1320,11 +1102,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-david/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-rodriguez-martinez",
       "subjects": [
-        "Informática",
         "Sistemas operativos I",
-        "Desenvolvemento áxil de aplicacións",
-        "https://campusremotouvigo.gal/access/public/meeting/854655765",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-rodriguez-martinez"
+        "Desenvolvemento áxil de aplicacións"
       ]
     },
     {
@@ -1337,14 +1116,11 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-francisco-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-rodriguez-martinez",
       "subjects": [
-        "Informática",
         "Sistemas de negocio",
         "Prácticas en empresas I",
         "Prácticas en empresas II",
         "Enxeñaría Informática: Profesión na práctica",
-        "Prácticas externas",
-        "https://campusremotouvigo.gal/access/public/meeting/784781224",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-rodriguez-martinez"
+        "Prácticas externas"
       ]
     },
     {
@@ -1357,11 +1133,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-martinez-gerardo-jose/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/gerardo-jose-rodriguez-martinez",
       "subjects": [
-        "Informática",
         "Enxeñaría do software II",
-        "Aprendizaxe baseada en proxectos",
-        "https://campusremotouvigo.gal/access/public/meeting/609065512",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/gerardo-jose-rodriguez-martinez"
+        "Aprendizaxe baseada en proxectos"
       ]
     },
     {
@@ -1374,7 +1147,6 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-miranda-ivan/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
         "Seguridade en sistemas informáticos",
         "Web Semántica"
       ]
@@ -1382,35 +1154,29 @@
     {
       "id": "p-80",
       "name": "Rodríguez-Toubes Muñiz, Diego",
-      "office": "Edificio",
+      "office": "Edificio xur",
       "phone": "988368747",
       "email": "drtoubes@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/350363303",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/rodriguez-toubes-muniz-diego/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/diego-rodriguez-toubes-muniz",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa: Xestión de organizacións",
-        "https://campusremotouvigo.gal/access/public/meeting/350363303",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/diego-rodriguez-toubes-muniz"
+        "Empresa: Xestión de organizacións"
       ]
     },
     {
       "id": "p-81",
       "name": "Romero González, Rubén",
-      "office": "Lab",
+      "office": "Lab 35",
       "phone": "988387252",
       "email": "rrgonzalez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/552459726",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/romero-gonzalez-ruben/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ruben-romero-gonzalez",
       "subjects": [
-        "Informática",
         "Bases de datos II",
         "Bases de datos I",
-        "Sistemas operativos II",
-        "https://campusremotouvigo.gal/access/public/meeting/552459726",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ruben-romero-gonzalez"
+        "Sistemas operativos II"
       ]
     },
     {
@@ -1423,11 +1189,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ruano-ordas-david-alfonso/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-alfonso-ruano-ordas",
       "subjects": [
-        "Informática",
         "Centros de datos",
-        "Redes de computadoras I",
-        "https://campusremotouvigo.gal/access/public/meeting/249371841",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-alfonso-ruano-ordas"
+        "Redes de computadoras I"
       ]
     },
     {
@@ -1440,9 +1203,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sanchez-sellero-francisco-javier/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Empresa::Técnicas de comunicación e liderado",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/francisco-javier-sanchez-sellero"
+        "Empresa::Técnicas de comunicación e liderado"
       ]
     },
     {
@@ -1455,10 +1216,7 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/seara-vieira-adrian/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/adrian-seara-vieira",
       "subjects": [
-        "Informática",
-        "Bases de Datos NoSQL",
-        "https://campusremotouvigo.gal/access/public/meeting/180182292",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/adrian-seara-vieira"
+        "Bases de Datos NoSQL"
       ]
     },
     {
@@ -1471,11 +1229,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/29795/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
         "Aprendizaxe Automática II",
         "Aprendizaxe Automática I",
-        "Xestión de Proxectos de IA / AI Project Management",
-        "https://campusremotouvigo.gal/access/public/meeting/238817691"
+        "Xestión de Proxectos de IA / AI Project Management"
       ]
     },
     {
@@ -1488,13 +1244,10 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sorribes-fenandez-jose-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sorribes-fernandez",
       "subjects": [
-        "Informática",
         "Bases de datos II",
         "Técnicas avanzadas de manexo de información",
         "Técnicas de Procesamento Masivo de Datos",
-        "Bases de Datos NoSQL",
-        "https://campusremotouvigo.gal/public/190080641",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sorribes-fernandez"
+        "Bases de Datos NoSQL"
       ]
     },
     {
@@ -1507,28 +1260,22 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/sotelo-martinez-jose-manuel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sotelo-martinez",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Arquitecturas paralelas",
         "Informática::Arquitectura de computadoras I",
-        "Redes de computadoras II",
-        "https://campusremotouvigo.gal/access/public/meeting/634477845",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/jose-manuel-sotelo-martinez"
+        "Redes de computadoras II"
       ]
     },
     {
       "id": "p-88",
       "name": "Suárez García, Andrés",
-      "office": "Laboratorio",
+      "office": "Laboratorio de Autom",
       "phone": "",
       "email": "andsuarez@uvigo.gal",
       "virtual_office": "https://campusremotouvigo.gal/access/public/meeting/417071046",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/suarez-garcia-andres/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/andres-suarez-garcia",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
-        "Robótica baseada no Comportamento",
-        "https://campusremotouvigo.gal/access/public/meeting/417071046",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/andres-suarez-garcia"
+        "Robótica baseada no Comportamento"
       ]
     },
     {
@@ -1542,9 +1289,7 @@
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/laia-francina-tugores-blanco",
       "subjects": [
         "Matemáticas::Fundamentos matemáticos para a informática",
-        "Matemáticas: Matemática discreta",
-        "https://campusremotouvigo.gal/public/108640644",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/laia-francina-tugores-blanco"
+        "Matemáticas: Matemática discreta"
       ]
     },
     {
@@ -1557,11 +1302,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/veloso-trigo-ruben/",
       "uvigo_url": "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo",
       "subjects": [
-        "Enxeñaría de Sistemas e Automática",
         "Arquitecturas paralelas",
         "Redes de computadoras II",
-        "Arquitectura de computadoras II",
-        "http://uvigo.gal/es/universidad/administracion-personal/pdi/ruben-veloso-trigo"
+        "Arquitectura de computadoras II"
       ]
     },
     {
@@ -1574,12 +1317,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vila-sobrino-xose-anton/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/xose-anton-vila-sobrino",
       "subjects": [
-        "Informática",
         "Informática::Programación I",
-        "Sistemas operativos II",
-        "http://anton.webs.uvigo.es/",
-        "https://campusremotouvigo.gal/public/675060359",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/xose-anton-vila-sobrino"
+        "Sistemas operativos II"
       ]
     },
     {
@@ -1592,12 +1331,9 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/vilares-ferro-manuel/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-vilares-ferro",
       "subjects": [
-        "Informática",
         "Lóxica para a computación",
         "Teoría de autómatas e linguaxes formais",
-        "Teoría de códigos",
-        "https://campusremotouvigo.gal/access/public/meeting/111912971",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/manuel-vilares-ferro"
+        "Teoría de códigos"
       ]
     },
     {
@@ -1610,12 +1346,8 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/formella-arno/",
       "uvigo_url": "https://www.uvigo.gal/universidade/administracion-persoal/pdi/arno-formella",
       "subjects": [
-        "Informática",
         "Computación Distribuída e de Altas Prestacións",
-        "Computación Evolutiva / Evolutionary Computation",
-        "http://formella.webs.uvigo.es",
-        "https://campusremotouvigo.gal/public/966364345",
-        "https://www.uvigo.gal/universidade/administracion-persoal/pdi/arno-formella"
+        "Computación Evolutiva / Evolutionary Computation"
       ]
     },
     {
@@ -1628,15 +1360,12 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-lourenco-analia-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/analia-maria-garcia-lourenco",
       "subjects": [
-        "Informática",
         "Enxeñaría do Coñecemento",
         "Sistemas de Información",
         "Computación Distribuída e de Altas Prestacións",
         "IA en Saúde / AI in Health",
         "Enxeñaría de datos / Data engineering",
-        "Traballo Fin de Máster /Master Thesis",
-        "https://campusremotouvigo.gal/access/public/meeting/346319569",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/analia-maria-garcia-lourenco"
+        "Traballo Fin de Máster /Master Thesis"
       ]
     },
     {
@@ -1649,7 +1378,6 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gomez-rodriguez-alma-maria/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/alma-maria-gomez-rodriguez",
       "subjects": [
-        "Informática",
         "Auditoría e Certificación de Calidade de Sistemas Informáticos",
         "Traballo Fin de Máster",
         "Practicas Profesionais",
@@ -1658,9 +1386,7 @@
         "Minaría de Procesos / Process Mining",
         "Robótica Intelixente II / Intelligent Robotics II",
         "Coñecemento e razoamento con incerteza / Knowledge and Reasoning under uncertainty",
-        "Aspectos Computacionais da Ciencia Cognitiva / Computational aspects of Cognitive Science",
-        "https://campusremotouvigo.gal/access/public/meeting/995308053",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/alma-maria-gomez-rodriguez"
+        "Aspectos Computacionais da Ciencia Cognitiva / Computational aspects of Cognitive Science"
       ]
     },
     {
@@ -1673,38 +1399,32 @@
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/gueimonde-canto-ana-isabel/",
       "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-isabel-gueimonde-canto",
       "subjects": [
-        "Organización de Empresas e Mercadotecnia",
-        "Dirección e Xestión da Innovación",
-        "https://campusremotouvigo.gal/access/public/meeting/854740109",
-        "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/ana-isabel-gueimonde-canto"
+        "Dirección e Xestión da Innovación"
       ]
     },
     {
       "id": "p-112",
       "name": "Pérez Cota, Manuel",
-      "office": "401",
+      "office": "401 Tel",
       "phone": "986813933",
       "email": "mpcota@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/perez-cota-manuel/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
-        "Sistemas de Información",
-        "http://mpcota.webs.uvigo.es"
+        "Sistemas de Información"
       ]
     },
     {
       "id": "p-113",
       "name": "Ramos Valcárcel, David",
-      "office": "407",
+      "office": "407 Tel",
       "phone": "988387014",
       "email": "david@uvigo.gal",
       "virtual_office": "",
       "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ramos-valcarcel-david/",
       "uvigo_url": "",
       "subjects": [
-        "Informática",
         "Auditoría e Certificación de Calidade de Sistemas Informáticos"
       ]
     }
