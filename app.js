@@ -6,12 +6,14 @@ let selectedTeacher = null;
 
 /* ---------- Diccionario de siglas y abreviaturas ---------- */
 const SUBJECT_ALIASES = {
-  "aedii": "algoritmos e estructuras de datos ii",
-  "aedi": "algoritmos e estructuras de datos i",
+  "aedii": "algoritmos e estruturas de datos ii",
+  "aedi": "algoritmos e estruturas de datos i",
   "bdii": "bases de datos ii",
   "bdi": "bases de datos i",
-  "is1": "enxeñaría del software i",
-  "is2": "enxeñaría del software ii",
+  "is1": "enxeñaría do software i",
+  "is2": "enxeñaría do software ii",
+  "isi": "enxeñaría do software i",
+  "isii": "enxeñaría do software ii",
   "so": "sistemas operativos",
   "cd": "ciencia de datos",
   "ia": "intelixencia artificial",
@@ -50,28 +52,120 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
+/* Buscador flexible y tolerante ("lenient/fuzzy search") */
+function flexibleMatch(targetText, queryStr) {
+  const normTarget = normalizeStr(targetText);
+  const normQuery = normalizeStr(queryStr);
+  if (!normQuery) return true;
 
+  // 1. Coincidencia directa por subcadena
+  if (normTarget.includes(normQuery)) return true;
+
+  // 2. Comprobación de alias y abreviaturas en ambas direcciones
+  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
+    const normVal = normalizeStr(aliasVal);
+    if ((normQuery.includes(aliasKey) || aliasKey.includes(normQuery)) && normTarget.includes(normVal)) {
+      return true;
+    }
+    if ((normQuery.includes(normVal) || normVal.includes(normQuery)) && normTarget.includes(aliasKey)) {
+      return true;
+    }
+  }
+
+  // 3. Búsqueda por múltiples palabras (ej. "bases datos" encuentra "Bases de Datos I")
+  const queryTokens = normQuery.split(/\s+/).filter(Boolean);
+  if (queryTokens.length > 1) {
+    return queryTokens.every(token => normTarget.includes(token));
+  }
+
+  return false;
+}
+
+/* Helper actualizado para profesores */
 function matchesTeacher(teacher, rawQuery) {
-  const query = normalizeStr(rawQuery);
+  const query = (rawQuery || "").trim();
   if (!query) return true;
 
-  const nameMatch = normalizeStr(teacher.name).includes(query);
-  const officeMatch = normalizeStr(teacher.office).includes(query);
-
-  // Obtener la expansión del alias si existe (ej. "aedii" -> "algoritmos e estructuras de datos ii")
-  const aliasExpansion = SUBJECT_ALIASES[query] ? normalizeStr(SUBJECT_ALIASES[query]) : "";
+  const nameMatch = flexibleMatch(teacher.name, query);
+  const officeMatch = flexibleMatch(teacher.office, query);
 
   const validSubjects = cleanSubjects(teacher.subjects);
-  const subjectMatch = validSubjects.some(s => {
-    const subNorm = normalizeStr(s);
-    // Coincide si la asignatura contiene lo que buscas directamente, o si contiene el alias expandido
-    return subNorm.includes(query) || (aliasExpansion && subNorm.includes(aliasExpansion));
-  });
+  const subjectMatch = validSubjects.some(s => flexibleMatch(s, query));
 
   return nameMatch || officeMatch || subjectMatch;
 }
 
-/* ---------- floor / room helper filters (FALTABA ESTO) ---------- */
+/* Helper actualizado para asignaturas */
+function renderSubjects() {
+  if (!TEACHERS_DATA) return;
+  const board = document.getElementById("subjectsBoard");
+  if (!board) return;
+  board.innerHTML = "";
+
+  const rawQuery = (document.getElementById("subjectSearch")?.value || "").trim();
+
+  const subjectMap = {};
+  TEACHERS_DATA.teachers.forEach(teacher => {
+    const cleanSubs = cleanSubjects(teacher.subjects);
+    cleanSubs.forEach(sub => {
+      const subKey = sub.trim();
+      if (!subjectMap[subKey]) subjectMap[subKey] = [];
+      if (!subjectMap[subKey].some(t => t.name === teacher.name)) {
+        subjectMap[subKey].push(teacher);
+      }
+    });
+  });
+
+  const sortedSubjects = Object.keys(subjectMap).sort();
+  const filteredSubjects = sortedSubjects.filter(sub => flexibleMatch(sub, rawQuery));
+
+  if (!filteredSubjects.length) {
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado asignaturas que coincidan con la búsqueda.</div>`;
+    return;
+  }
+
+  filteredSubjects.forEach(sub => {
+    const teachers = subjectMap[sub];
+    const card = document.createElement("div");
+    card.className = "card free";
+    card.style.cursor = "default";
+
+    const teachersHtml = teachers.map(t => `
+      <div style="margin-top: 6px; font-size: 0.9rem;">
+        <a href="#" class="card-link teacher-link" data-teacher-name="${t.name}" style="font-weight: 500;">${t.name}</a>
+        <span style="color: var(--muted); font-size: 0.8rem; display: block;">Despacho: ${t.office || 'N/A'}</span>
+      </div>
+    `).join("");
+
+    card.innerHTML = `
+      <div class="room" style="font-size: 1.1rem; margin-bottom: 8px; color: var(--accent);">${sub}</div>
+      <div style="border-top: 1px solid var(--border); padding-top: 8px; margin-top: 4px;">
+        <span style="font-size: 0.855rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Profesorado:</span>
+        ${teachersHtml}
+      </div>
+    `;
+
+    card.querySelectorAll(".teacher-link").forEach(link => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const tName = e.target.getAttribute("data-teacher-name");
+        const foundTeacher = TEACHERS_DATA.teachers.find(t => t.name === tName);
+        if (foundTeacher) {
+          selectedTeacher = foundTeacher;
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+          
+          document.querySelector('[data-tab="teachers"]').classList.add('active');
+          document.getElementById('teachersTab').classList.add('active');
+          renderTeachers();
+        }
+      });
+    });
+
+    board.appendChild(card);
+  });
+}
+
 function getFloor(roomName) {
   if (!roomName) return null;
   const match = roomName.match(/\b([0-3])\.\d+\b/);
@@ -322,89 +416,6 @@ function renderTeachers() {
 function tick() {
   document.getElementById("clock").textContent =
     weekdayName(madridParts().date) + " · " + madridParts().timeFull + " (Madrid)";
-}
-
-function renderSubjects() {
-  if (!TEACHERS_DATA) return;
-  const board = document.getElementById("subjectsBoard");
-  if (!board) return;
-  board.innerHTML = "";
-
-  const rawQuery = normalizeStr(document.getElementById("subjectSearch")?.value || "");
-
-  const subjectMap = {};
-  
-  TEACHERS_DATA.teachers.forEach(teacher => {
-    const cleanSubs = cleanSubjects(teacher.subjects);
-    cleanSubs.forEach(sub => {
-      const subKey = sub.trim();
-      if (!subjectMap[subKey]) {
-        subjectMap[subKey] = [];
-      }
-      if (!subjectMap[subKey].some(t => t.name === teacher.name)) {
-        subjectMap[subKey].push(teacher);
-      }
-    });
-  });
-
-  const sortedSubjects = Object.keys(subjectMap).sort();
-  const filteredSubjects = sortedSubjects.filter(sub => {
-    const subNorm = normalizeStr(sub);
-    let matchesAlias = false;
-    for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
-      if ((aliasKey.includes(rawQuery) || rawQuery.includes(aliasKey)) && subNorm.includes(normalizeStr(aliasVal))) {
-        matchesAlias = true;
-        break;
-      }
-    }
-    return subNorm.includes(rawQuery) || matchesAlias;
-  });
-
-  if (!filteredSubjects.length) {
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No se han encontrado asignaturas que coincidan con la búsqueda.</div>`;
-    return;
-  }
-
-  filteredSubjects.forEach(sub => {
-    const teachers = subjectMap[sub];
-    const card = document.createElement("div");
-    card.className = "card free";
-    card.style.cursor = "default";
-
-    const teachersHtml = teachers.map(t => `
-      <div style="margin-top: 6px; font-size: 0.9rem;">
-        <a href="#" class="card-link teacher-link" data-teacher-name="${t.name}" style="font-weight: 500;">${t.name}</a>
-        <span style="color: var(--muted); font-size: 0.8rem; display: block;">Despacho: ${t.office || 'N/A'}</span>
-      </div>
-    `).join("");
-
-    card.innerHTML = `
-      <div class="room" style="font-size: 1.1rem; margin-bottom: 8px; color: var(--accent);">${sub}</div>
-      <div style="border-top: 1px solid var(--border); padding-top: 8px; margin-top: 4px;">
-        <span style="font-size: 0.855rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px;">Profesorado:</span>
-        ${teachersHtml}
-      </div>
-    `;
-
-    card.querySelectorAll(".teacher-link").forEach(link => {
-      link.addEventListener("click", (e) => {
-        e.preventDefault();
-        const tName = e.target.getAttribute("data-teacher-name");
-        const foundTeacher = TEACHERS_DATA.teachers.find(t => t.name === tName);
-        if (foundTeacher) {
-          selectedTeacher = foundTeacher;
-          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
-          
-          document.querySelector('[data-tab="teachers"]').classList.add('active');
-          document.getElementById('teachersTab').classList.add('active');
-          renderTeachers();
-        }
-      });
-    });
-
-    board.appendChild(card);
-  });
 }
 
 async function boot() {
