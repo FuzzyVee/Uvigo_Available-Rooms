@@ -23,6 +23,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
+      
+      - name: Pull changes
+        run: | 
+          git pull origin main --rebase
 
       - name: Fetch and generate teachers.json
         run: |
@@ -32,6 +36,5 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Bot"
-          git pull origin main --rebase
           git add teachers.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "auto: update teachers.json" && git push)
