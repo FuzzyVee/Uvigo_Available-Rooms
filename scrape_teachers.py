@@ -104,48 +104,28 @@ def extract_teacher_info(profile_url):
                 if match:
                     info["phone"] = clean_text(match.group(1))
 
-        # 6. Extract Subjects (Docencia) from the site's native .field structure
-        fields = content.select(".field")
-        for field in fields:
-            label_el = field.select_one(".field_label")
-            item_el = field.select_one(".field_item")
-            if label_el and item_el and re.search(r"asignaturas|docencia", label_el.text, re.IGNORECASE):
-                # Try finding links first
-                links = item_el.find_all("a", href=True)
-                if links:
-                    for a in links:
-                        subj_name = clean_text(a.text)
-                        if subj_name and len(subj_name) > 2 and subj_name not in info["subjects"]:
-                            info["subjects"].append(subj_name)
-                else:
-                    # Fallback to reading text blocks/lines inside the field item
-                    for line in item_el.stripped_strings:
-                        if line and len(line) > 2 and line not in info["subjects"]:
-                            info["subjects"].append(line)
+        subject_links = content.select(".field__item a, .uvigo_subjects a")
+        for a in subject_links:
+            subj_name = clean_text(a.text)
+            href = a.get("href", "")
+            
+            # Filter valid subject links (they usually point to /asignaturas/)
+            if (
+                subj_name
+                and len(subj_name) > 2
+                and not href.startswith("mailto:")
+                and "/profesorado/" not in href
+                and subj_name not in info["subjects"]
+            ):
+                info["subjects"].append(subj_name)
 
-        # Fallback to old heading method if nothing found via .field
+        # Fallback: if no links matched above, grab any text or links inside any .field__item block
         if not info["subjects"]:
-            docencia_heading = content.find(
-                lambda tag: tag.name in ["h2", "h3", "h4", "h5", "strong"] 
-                and ("docencia" in tag.text.lower() or "asignaturas" in tag.text.lower())
-            )
-            if docencia_heading:
-                parent_container = docencia_heading.find_parent(["div", "section"]) or docencia_heading.parent
-                if parent_container:
-                    for a in parent_container.find_all("a", href=True):
-                        subj_name = clean_text(a.text)
-                        href = a["href"]
-                        if (
-                            subj_name
-                            and len(subj_name) > 3
-                            and not href.startswith("mailto:")
-                            and "uvigo.gal" not in href
-                            and "campusremotouvigo" not in href
-                            and "/profesorado/" not in href
-                            and subj_name not in info["subjects"]
-                        ):
-                            info["subjects"].append(subj_name)
-
+            for item in content.select(".field__item"):
+                for a in item.find_all("a", href=True):
+                    subj_name = clean_text(a.text)
+                    if subj_name and len(subj_name) > 2 and subj_name not in info["subjects"]:
+                        info["subjects"].append(subj_name)
     except Exception as e:
         print(f"Error parsing {profile_url}: {e}")
 
