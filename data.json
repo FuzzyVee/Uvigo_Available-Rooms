@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T04:16:50",
+ "generated_at": "2026-09-14T09:54:49",
  "timezone": "Europe/Madrid",
  "calendar_count": 63,
  "successful_calendars": 43,
@@ -663,15 +663,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-14",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -679,6 +670,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -754,7 +754,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-09-14",
    "start": "10:30",
@@ -852,15 +852,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-14",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -886,6 +877,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "SOI_5",
@@ -942,15 +942,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-14",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -967,6 +958,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "SOI_4",
@@ -1014,15 +1014,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-15",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -1030,6 +1021,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -1096,7 +1096,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-15",
    "start": "10:30",
@@ -1185,15 +1185,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-15",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -1210,6 +1201,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -1276,7 +1276,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-15",
    "start": "16:00",
@@ -1420,7 +1420,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-16",
    "start": "10:30",
@@ -1527,15 +1527,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-16",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -1561,6 +1552,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -1626,15 +1626,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-16",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -1642,6 +1633,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -1698,15 +1698,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-17",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -1714,6 +1705,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -1860,15 +1860,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-17",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -1894,6 +1885,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "AM_8",
@@ -2004,15 +2004,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-18",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2020,6 +2011,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-18",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -2086,7 +2086,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-18",
    "start": "10:30",
@@ -2202,15 +2202,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-18",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2236,6 +2227,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "ISI_2",
@@ -2310,15 +2310,6 @@
    "raw": "PROI_B [2.1]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-21",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2326,6 +2317,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-21",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -2401,7 +2401,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-09-21",
    "start": "10:30",
@@ -2508,15 +2508,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-21",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2542,6 +2533,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -2607,15 +2607,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-21",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -2632,6 +2623,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -2688,15 +2688,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-22",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2704,6 +2695,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-22",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -2770,7 +2770,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-22",
    "start": "10:30",
@@ -2868,15 +2868,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-22",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -2893,6 +2884,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-22",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -2959,7 +2959,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-22",
    "start": "16:00",
@@ -3103,7 +3103,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-23",
    "start": "10:30",
@@ -3210,15 +3210,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-23",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -3244,6 +3235,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -3309,15 +3309,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-23",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -3325,6 +3316,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-23",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -3381,15 +3381,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-24",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -3397,6 +3388,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-24",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -3552,15 +3552,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-24",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -3586,6 +3577,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-24",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -3714,15 +3714,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-25",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -3730,6 +3721,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-25",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -3796,7 +3796,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-25",
    "start": "10:30",
@@ -3912,15 +3912,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-25",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -3946,6 +3937,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -4029,15 +4029,6 @@
    "raw": "PROI_A [2.1]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-28",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -4045,6 +4036,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-28",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -4120,7 +4120,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-09-28",
    "start": "10:30",
@@ -4227,15 +4227,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-28",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -4261,6 +4252,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -4326,15 +4326,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-28",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -4351,6 +4342,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-28",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -4407,15 +4407,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-29",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -4423,6 +4414,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-29",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -4489,7 +4489,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-29",
    "start": "10:30",
@@ -4587,15 +4587,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-29",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -4612,6 +4603,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-09-29",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -4678,7 +4678,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-29",
    "start": "16:00",
@@ -4822,7 +4822,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-09-30",
    "start": "10:30",
@@ -4929,15 +4929,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-30",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -4963,6 +4954,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -5028,15 +5028,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-30",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -5044,6 +5035,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-09-30",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -5100,15 +5100,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-01",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5116,6 +5107,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-01",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -5271,15 +5271,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-01",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5305,6 +5296,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-01",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -5433,15 +5433,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5449,6 +5440,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -5515,7 +5515,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-02",
    "start": "10:30",
@@ -5631,15 +5631,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5665,6 +5656,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -5730,15 +5730,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-05",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5746,6 +5737,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -5821,7 +5821,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-10-05",
    "start": "10:30",
@@ -5928,15 +5928,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-05",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -5962,6 +5953,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -6027,15 +6027,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-05",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -6052,6 +6043,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-05",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -6108,15 +6108,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-06",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -6124,6 +6115,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-06",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -6190,7 +6190,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-06",
    "start": "10:30",
@@ -6288,15 +6288,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-06",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -6313,6 +6304,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-06",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -6379,7 +6379,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-06",
    "start": "16:00",
@@ -6532,7 +6532,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-07",
    "start": "10:30",
@@ -6639,15 +6639,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-07",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -6673,6 +6664,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -6738,15 +6738,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-07",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -6754,6 +6745,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -6810,15 +6810,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-08",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -6826,6 +6817,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-08",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -6981,15 +6981,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-08",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7015,6 +7006,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-08",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -7143,15 +7143,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-09",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7159,6 +7150,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -7225,7 +7225,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-09",
    "start": "10:30",
@@ -7341,15 +7341,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-09",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7375,6 +7366,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -7440,15 +7440,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-13",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7456,6 +7447,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-13",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -7513,7 +7513,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-13",
    "start": "10:30",
@@ -7611,15 +7611,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-13",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7636,6 +7627,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-13",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -7702,7 +7702,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-13",
    "start": "16:00",
@@ -7846,7 +7846,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-14",
    "start": "10:30",
@@ -7953,15 +7953,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-14",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -7987,6 +7978,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -8052,15 +8052,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-14",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -8068,6 +8059,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -8125,7 +8125,7 @@
   },
   {
    "subject": "ACII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-10-15",
    "start": "08:30",
@@ -8277,15 +8277,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-15",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "CDA_A",
    "room": "2.3",
    "group": "Grado 3 - 1C",
@@ -8302,6 +8293,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -8431,7 +8431,7 @@
   },
   {
    "subject": "RCII_5",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-16",
    "start": "08:30",
@@ -8503,7 +8503,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-16",
    "start": "10:30",
@@ -8610,15 +8610,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-16",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "IU_B",
    "room": "2.3",
    "group": "Grado 3 - 1C",
@@ -8635,6 +8626,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -8691,15 +8691,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-19",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -8707,6 +8698,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -8818,7 +8818,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-10-19",
    "start": "10:30",
@@ -8943,15 +8943,6 @@
    "raw": "[EXAM] ALS - FinCarreira [B0]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-19",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -8977,6 +8968,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -9042,15 +9042,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-19",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "FEJ - FinCarreira",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -9076,6 +9067,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -9132,15 +9132,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_4: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_4: Grupo Reducido Primera Prueba"
-  },
-  {
    "subject": "ACII_5: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -9148,6 +9139,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_5: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_4: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_4: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_B: Proba obxectiva 1",
@@ -9159,15 +9159,6 @@
    "raw": "ISI_B: Proba obxectiva 1"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -9175,6 +9166,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -9277,7 +9277,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-20",
    "start": "10:30",
@@ -9402,15 +9402,6 @@
    "raw": "[EXAM] TALF - FinCarreira [Magna]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -9427,6 +9418,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -9520,7 +9520,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-20",
    "start": "16:00",
@@ -9718,7 +9718,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-21",
    "start": "10:30",
@@ -9852,15 +9852,6 @@
    "raw": "[EXAM] TAMI - FinCarreira [Magna]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-21",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -9886,6 +9877,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-21",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -9969,15 +9969,6 @@
    "raw": "[EXAM] SO II - FinCarreira [Magna]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-21",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -9985,6 +9976,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -10077,15 +10077,6 @@
    "raw": "[AEDII] Primera prueba: árboles"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-22",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -10093,6 +10084,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-22",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -10284,15 +10284,6 @@
    "raw": "[EXAM] PRO I - FinCarreira [Magna]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-22",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -10318,6 +10309,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-22",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -10473,15 +10473,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-23",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -10489,6 +10480,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -10591,7 +10591,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-23",
    "start": "10:30",
@@ -10734,15 +10734,6 @@
    "raw": "[EXAM] CCD - FinCarreira [Magna]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-23",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -10768,6 +10759,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -10860,6 +10860,24 @@
    "raw": "[EXAM] AP - FinCarreira [B0]"
   },
   {
+   "subject": "ACII_2: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_2: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_7: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_7: Grupo Reducido Primera Prueba"
+  },
+  {
    "subject": "ACII_8: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -10876,24 +10894,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_1: Grupo Reducido Primera Prueba"
-  },
-  {
-   "subject": "ACII_7: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_7: Grupo Reducido Primera Prueba"
-  },
-  {
-   "subject": "ACII_2: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_A: Proba obxectiva 1",
@@ -10923,15 +10923,6 @@
    "raw": "[DAI] Primera prueba teórica"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -10939,6 +10930,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -11014,7 +11014,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-10-26",
    "start": "10:30",
@@ -11121,15 +11121,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -11155,6 +11146,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -11220,15 +11220,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -11245,6 +11236,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -11310,15 +11310,6 @@
    "raw": "FMI primer examen parcial"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-27",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -11326,6 +11317,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-27",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -11392,7 +11392,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-27",
    "start": "10:30",
@@ -11490,15 +11490,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-27",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -11515,6 +11506,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-27",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -11581,7 +11581,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-27",
    "start": "16:00",
@@ -11652,15 +11652,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-28",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA"
-  },
-  {
    "subject": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -11668,6 +11659,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA"
+  },
+  {
+   "subject": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-28",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA"
   },
   {
    "subject": "BDII. Proba Avaliación Contínua",
@@ -11761,7 +11761,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-28",
    "start": "10:30",
@@ -11868,15 +11868,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-28",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -11902,6 +11893,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-28",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -11967,15 +11967,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-28",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -11983,6 +11974,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-28",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -12048,15 +12048,6 @@
    "raw": "SOI: primera prueba de prácticas (grupos reducidos)"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-29",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12064,6 +12055,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-29",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -12219,15 +12219,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-29",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12253,6 +12244,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-29",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -12408,15 +12408,6 @@
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-30",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12424,6 +12415,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -12490,7 +12490,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-10-30",
    "start": "10:30",
@@ -12606,15 +12606,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-30",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12640,6 +12631,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -12714,15 +12714,6 @@
    "raw": "[DAI] Primera prueba práctica"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12730,6 +12721,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-02",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -12805,7 +12805,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-11-02",
    "start": "10:30",
@@ -12912,15 +12912,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12946,6 +12937,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -13011,15 +13011,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -13036,6 +13027,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-02",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -13101,15 +13101,6 @@
    "raw": "PROI - PROI_1, PROI_2, PROI_9: Proba Práctica [Magna]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-03",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -13117,6 +13108,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-03",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -13183,7 +13183,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-03",
    "start": "10:30",
@@ -13281,15 +13281,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-03",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -13306,6 +13297,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-03",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -13372,7 +13372,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-03",
    "start": "16:00",
@@ -13525,7 +13525,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-04",
    "start": "10:30",
@@ -13632,15 +13632,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-04",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -13666,6 +13657,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -13731,15 +13731,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-04",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -13747,6 +13738,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-04",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -13812,15 +13812,6 @@
    "raw": "PROI - PROI_3, PROI_5: Proba Práctica [Magna]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-05",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -13828,6 +13819,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-05",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -13983,15 +13983,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-05",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14017,6 +14008,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-05",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -14154,15 +14154,6 @@
    "raw": "PROI - PROI_10: Proba Práctica [Magna]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-06",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14170,6 +14161,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-06",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -14236,7 +14236,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-06",
    "start": "10:30",
@@ -14352,15 +14352,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-06",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14386,6 +14377,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-06",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -14460,15 +14460,6 @@
    "raw": "SOI: primera prueba de teoría (aula grande - temas 1, 2 y sus actividades)"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-09",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14476,6 +14467,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-09",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -14551,7 +14551,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-11-09",
    "start": "10:30",
@@ -14658,15 +14658,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-09",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14692,6 +14683,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -14757,15 +14757,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-09",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -14782,6 +14773,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-09",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -14838,15 +14838,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ISI_3: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 1"
-  },
-  {
    "subject": "ISI_8: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14865,6 +14856,15 @@
    "raw": "ISI_6: Proba práctica 1"
   },
   {
+   "subject": "ISI_3: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 1"
+  },
+  {
    "subject": "SOI: primera prueba de teoría (aula grande - temas 1, 2 y sus actividades)",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14874,15 +14874,6 @@
    "raw": "SOI: primera prueba de teoría (aula grande - temas 1, 2 y sus actividades)"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -14890,6 +14881,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -14956,7 +14956,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-10",
    "start": "10:30",
@@ -15063,15 +15063,6 @@
    "raw": "AM_5 [L38]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -15088,6 +15079,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -15154,7 +15154,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-10",
    "start": "16:00",
@@ -15234,15 +15234,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_4: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_4: Proba práctica 1"
-  },
-  {
    "subject": "ISI_5: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -15252,13 +15243,13 @@
    "raw": "ISI_5: Proba práctica 1"
   },
   {
-   "subject": "ACII_6",
+   "subject": "ISI_4: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-11-12",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_4: Proba práctica 1"
   },
   {
    "subject": "PROI_B",
@@ -15268,6 +15259,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -15423,15 +15423,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -15457,6 +15448,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -15594,15 +15594,6 @@
    "raw": "ISI_2: Proba práctica 1"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-13",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -15610,6 +15601,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-13",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -15676,7 +15676,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-13",
    "start": "10:30",
@@ -15783,15 +15783,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-13",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -15817,6 +15808,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-13",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -15882,15 +15882,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-16",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -15898,6 +15889,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-16",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -15973,7 +15973,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-11-16",
    "start": "10:30",
@@ -16080,15 +16080,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-16",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -16114,6 +16105,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -16179,15 +16179,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-16",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -16204,6 +16195,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -16260,15 +16260,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-17",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -16276,6 +16267,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -16342,7 +16342,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-17",
    "start": "10:30",
@@ -16449,15 +16449,6 @@
    "raw": "FMI_8 [SO7]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-17",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -16474,6 +16465,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -16540,7 +16540,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-17",
    "start": "16:00",
@@ -16611,15 +16611,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ISI_7: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_7: Proba práctica 1"
-  },
-  {
    "subject": "ISI_1: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -16627,6 +16618,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_1: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_7: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_7: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -16711,7 +16711,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-18",
    "start": "10:30",
@@ -16818,15 +16818,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-18",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -16852,6 +16843,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -16917,15 +16917,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-18",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -16933,6 +16924,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-18",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -16989,15 +16989,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-19",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17005,6 +16996,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-19",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -17160,15 +17160,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-19",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17194,6 +17185,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-19",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -17322,15 +17322,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-20",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17338,6 +17329,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-20",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -17404,7 +17404,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-20",
    "start": "10:30",
@@ -17511,15 +17511,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-20",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17545,6 +17536,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-20",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -17610,15 +17610,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-23",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17626,6 +17617,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-23",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -17701,7 +17701,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-11-23",
    "start": "10:30",
@@ -17808,15 +17808,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-23",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -17842,6 +17833,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-23",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -17907,15 +17907,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-23",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -17932,6 +17923,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-23",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -17988,15 +17988,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-24",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -18004,6 +17995,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-24",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -18070,7 +18070,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-24",
    "start": "10:30",
@@ -18177,15 +18177,6 @@
    "raw": "FMI_8 [SO7]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-24",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -18202,6 +18193,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-24",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -18268,7 +18268,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-24",
    "start": "16:00",
@@ -18412,7 +18412,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-25",
    "start": "10:30",
@@ -18519,15 +18519,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-25",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -18553,6 +18544,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-25",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -18618,15 +18618,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-25",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -18634,6 +18625,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-25",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -18690,15 +18690,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-26",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -18706,6 +18697,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-26",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -18861,15 +18861,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-26",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -18895,6 +18886,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-26",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -19023,15 +19023,6 @@
    "raw": "ISI_5 [SO7]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-27",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19039,6 +19030,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-27",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -19105,7 +19105,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-11-27",
    "start": "10:30",
@@ -19212,15 +19212,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-27",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19246,6 +19237,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-11-27",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -19320,15 +19320,6 @@
    "raw": "SOI: segunda prueba de teoría (aula grande - tema 3 y su actividad)"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-30",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19336,6 +19327,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-30",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -19411,7 +19411,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-11-30",
    "start": "10:30",
@@ -19518,15 +19518,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-30",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19552,6 +19543,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-30",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -19617,15 +19617,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-30",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -19642,6 +19633,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-30",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -19696,15 +19696,6 @@
    "start": "16:00",
    "end": "18:00",
    "raw": "ABP_4 [SO8]"
-  },
-  {
-   "subject": "ACII_4: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_4: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_5: Grupo Reducido Segunda Prueba",
@@ -19716,6 +19707,15 @@
    "raw": "ACII_5: Grupo Reducido Segunda Prueba"
   },
   {
+   "subject": "ACII_4: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_4: Grupo Reducido Segunda Prueba"
+  },
+  {
    "subject": "SOI: segunda prueba de teoría (aula grande - tema 3 y su actividad)",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -19725,15 +19725,6 @@
    "raw": "SOI: segunda prueba de teoría (aula grande - tema 3 y su actividad)"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19741,6 +19732,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -19807,7 +19807,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-01",
    "start": "10:30",
@@ -19914,15 +19914,6 @@
    "raw": "FMI_8 [SO7]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -19939,6 +19930,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -20005,7 +20005,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-01",
    "start": "16:00",
@@ -20158,7 +20158,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-02",
    "start": "10:30",
@@ -20265,15 +20265,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -20299,6 +20290,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-02",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -20364,15 +20364,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -20380,6 +20371,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-02",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -20436,15 +20436,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_6: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_6: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_3: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20452,6 +20443,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_3: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_6: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_6: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Examen prácticas EST -GREI (grupos reducidos)",
@@ -20463,15 +20463,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -20479,6 +20470,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -20634,15 +20634,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -20668,6 +20659,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -20805,15 +20805,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -20823,13 +20814,13 @@
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
    "date": "2026-12-04",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -20839,6 +20830,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-04",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -20905,7 +20905,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-04",
    "start": "10:30",
@@ -21012,15 +21012,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-04",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -21046,6 +21037,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-04",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -21109,6 +21109,15 @@
    "start": "12:30",
    "end": "14:30",
    "raw": "AEDII_6 [SO6]"
+  },
+  {
+   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_8: Grupo Reducido Segunda Prueba",
@@ -21138,15 +21147,6 @@
    "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "Presentaciones trabajo teórico",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -21156,15 +21156,6 @@
    "raw": "[DAI] Presentaciones trabajo teórico"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -21172,6 +21163,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -21247,7 +21247,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "10:30",
@@ -21354,15 +21354,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -21388,6 +21379,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -21453,15 +21453,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -21478,6 +21469,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -21607,7 +21607,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-09",
    "start": "10:30",
@@ -21714,15 +21714,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-09",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -21748,6 +21739,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-09",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -21813,15 +21813,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-09",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -21829,6 +21820,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-09",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -21894,15 +21894,6 @@
    "raw": "PROI - PROI_1, PROI_3, PROI_5, PROI_9: Proba Práctica [Magna]"
   },
   {
-   "subject": "ACII_6",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-10",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_6 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -21910,6 +21901,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_B [2.1]"
+  },
+  {
+   "subject": "ACII_6",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-10",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_6 [AUTOM]"
   },
   {
    "subject": "CCD_2",
@@ -22065,15 +22065,6 @@
    "raw": "AM_6 [L38]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-10",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22099,6 +22090,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-10",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
@@ -22236,15 +22236,6 @@
    "raw": "PROI - PROI_4, PROI_7, PROI_10: Proba Práctica [Magna]"
   },
   {
-   "subject": "RCII_5",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-11",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "RCII_5 [AUTOM]"
-  },
-  {
    "subject": "PROI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22252,6 +22243,15 @@
    "start": "08:30",
    "end": "10:15",
    "raw": "PROI_A [2.1]"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-11",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]"
   },
   {
    "subject": "SSI_1",
@@ -22318,7 +22318,7 @@
   },
   {
    "subject": "RCII_2",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-11",
    "start": "10:30",
@@ -22425,15 +22425,6 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "RCII_3",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-11",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_3 [AUTOM]"
-  },
-  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22459,6 +22450,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_5 [2.4]"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-11",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]"
   },
   {
    "subject": "LC_4",
@@ -22560,15 +22560,6 @@
    "raw": "PROI - PROI_2, PROI_6, PROI_8: Proba Práctica [Magna]"
   },
   {
-   "subject": "ACII_1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-14",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22576,6 +22567,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "SD_A [2.1]"
+  },
+  {
+   "subject": "ACII_1",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-14",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_1 [AUTOM]"
   },
   {
    "subject": "BDII_2",
@@ -22651,7 +22651,7 @@
   },
   {
    "subject": "ACII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-12-14",
    "start": "10:30",
@@ -22758,15 +22758,6 @@
    "raw": "FMI_3 [2.4]"
   },
   {
-   "subject": "ACII_8",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-14",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
    "subject": "SD_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22792,6 +22783,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_1 [2.4]"
+  },
+  {
+   "subject": "ACII_8",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-14",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_8 [AUTOM]"
   },
   {
    "subject": "LC_7",
@@ -22857,15 +22857,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "ACII_2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-14",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -22882,6 +22873,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "FMI_6 [2.4]"
+  },
+  {
+   "subject": "ACII_2",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-14",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ACII_2 [AUTOM]"
   },
   {
    "subject": "LC_3",
@@ -22947,15 +22947,6 @@
    "raw": "ISI_B: Proba obxectiva 2"
   },
   {
-   "subject": "ISI_6: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 2"
-  },
-  {
    "subject": "ISI_3: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -22963,6 +22954,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_3: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_6: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_6: Proba práctica 2"
   },
   {
    "subject": "ISI_8: Proba práctica 2",
@@ -22974,15 +22974,6 @@
    "raw": "ISI_8: Proba práctica 2"
   },
   {
-   "subject": "ACII_5",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_5 [AUTOM]"
-  },
-  {
    "subject": "FMI_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -22990,6 +22981,15 @@
    "start": "08:30",
    "end": "10:30",
    "raw": "FMI_A [2.1]"
+  },
+  {
+   "subject": "ACII_5",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACII_5 [AUTOM]"
   },
   {
    "subject": "ISI_8",
@@ -23056,7 +23056,7 @@
   },
   {
    "subject": "RCII_4",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-15",
    "start": "10:30",
@@ -23163,15 +23163,6 @@
    "raw": "FMI_8 [SO7]"
   },
   {
-   "subject": "ACII_4",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_4 [AUTOM]"
-  },
-  {
    "subject": "FMI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -23188,6 +23179,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "LC_B [2.3]"
+  },
+  {
+   "subject": "ACII_4",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_4 [AUTOM]"
   },
   {
    "subject": "AM_4",
@@ -23254,7 +23254,7 @@
   },
   {
    "subject": "RCII_7",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-15",
    "start": "16:00",
@@ -23325,15 +23325,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ISI_1: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-16",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 2"
-  },
-  {
    "subject": "ISI_7: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -23341,6 +23332,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-16",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 2"
   },
   {
    "subject": "Exame Bloque III Análise Matemática",
@@ -23425,7 +23425,7 @@
   },
   {
    "subject": "RCII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 3 - 1C",
    "date": "2026-12-16",
    "start": "10:30",
@@ -23532,15 +23532,6 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "RCII_8",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-16",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "RCII_8 [AUTOM]"
-  },
-  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -23566,6 +23557,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "SD_10 [2.4/Elect]"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]"
   },
   {
    "subject": "SSI_4",
@@ -23631,15 +23631,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "RCII_1",
-   "room": null,
-   "group": "Grado 3 - 1C",
-   "date": "2026-12-16",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_1 [AUTOM]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -23647,6 +23638,15 @@
    "start": "16:00",
    "end": "17:45",
    "raw": "SD_5 [2.3/Elect]"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-12-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]"
   },
   {
    "subject": "AM_1",
@@ -23703,15 +23703,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ISI_4: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_4: Proba práctica 2"
-  },
-  {
    "subject": "ISI_5: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -23719,6 +23710,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_5: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_4: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_4: Proba práctica 2"
   },
   {
    "subject": "SOI: segunda prueba de prácticas (grupos reducidos)",
@@ -23731,7 +23731,7 @@
   },
   {
    "subject": "ACII_6",
-   "room": null,
+   "room": "AUTOM",
    "group": "Grado 2 - 1C",
    "date": "2026-12-17",
    "start": "08:30",
@@ -23856,15 +23856,6 @@
    "raw": "FMI_7 [2.4]"
   },
   {
-   "subject": "ACII_3",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_3 [AUTOM]"
-  },
-  {
    "subject": "CDA_A",
    "room": "2.3",
    "group": "Grado 3 - 1C",
@@ -23881,6 +23872,15 @@
    "start": "12:30",
    "end": "14:15",
    "raw": "FMI_10 [2.4]"
+  },
+  {
+   "subject": "ACII_3",
+   "room": "AUTOM",
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACII_3 [AUTOM]"
   },
   {
    "subject": "LC_8",
