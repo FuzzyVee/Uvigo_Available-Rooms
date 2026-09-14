@@ -50,7 +50,7 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-/* Helper para comprobar si una consulta coincide con un profesor */
+/* Helper para comprobar si una consulta coincide con un profesor de forma flexible */
 function matchesTeacher(teacher, rawQuery) {
   const query = normalizeStr(rawQuery);
   if (!query) return true;
@@ -58,7 +58,11 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
+<<<<<<< HEAD
   // Búsqueda flexible de alias: comprueba si la consulta está contenida en la clave del alias o viceversa
+=======
+  // Expandir alias si la consulta coincide de forma parcial con las claves
+>>>>>>> 2ca00f61af91c603a22ff1109a7770d85a1db94f
   let expandedAliases = [];
   for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
     if (aliasKey.includes(query) || query.includes(aliasKey)) {
@@ -69,9 +73,15 @@ function matchesTeacher(teacher, rawQuery) {
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
+<<<<<<< HEAD
     // 1. Coincidencia directa por texto parcial de la asignatura
     if (subNorm.includes(query)) return true;
     // 2. Coincidencia a través de los alias expandidos compatibles
+=======
+    // 1. Coincidencia por texto parcial (ej: "algoritmos", "datos")
+    if (subNorm.includes(query)) return true;
+    // 2. Coincidencia por alias (ej: "ae" o "aed")
+>>>>>>> 2ca00f61af91c603a22ff1109a7770d85a1db94f
     return expandedAliases.some(alias => subNorm.includes(alias));
   });
 
