@@ -6,12 +6,14 @@ let selectedTeacher = null;
 
 /* ---------- Diccionario de siglas y abreviaturas ---------- */
 const SUBJECT_ALIASES = {
-  "aedii": "algoritmos e estructuras de datos ii",
-  "aedi": "algoritmos e estructuras de datos i",
+  "aedii": "algoritmos e estruturas de datos ii",
+  "aedi": "algoritmos e estruturas de datos i",
   "bdii": "bases de datos ii",
   "bdi": "bases de datos i",
-  "is1": "enxeñaría del software i",
-  "is2": "enxeñaría del software ii",
+  "is1": "enxeñaría do software i",
+  "is2": "enxeñaría do software ii",
+  "isi": "enxeñaría do software i",
+  "isii": "enxeñaría do software ii",
   "so": "sistemas operativos",
   "cd": "ciencia de datos",
   "ia": "intelixencia artificial",
@@ -50,7 +52,6 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-
 function matchesTeacher(teacher, rawQuery) {
   const query = normalizeStr(rawQuery);
   if (!query) return true;
@@ -58,20 +59,24 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
-  // Obtener la expansión del alias si existe (ej. "aedii" -> "algoritmos e estructuras de datos ii")
-  const aliasExpansion = SUBJECT_ALIASES[query] ? normalizeStr(SUBJECT_ALIASES[query]) : "";
+  let expandedAliases = [];
+  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
+    if (aliasKey.includes(query) || query.includes(aliasKey)) {
+      expandedAliases.push(normalizeStr(aliasVal));
+    }
+  }
 
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
-    // Coincide si la asignatura contiene lo que buscas directamente, o si contiene el alias expandido
-    return subNorm.includes(query) || (aliasExpansion && subNorm.includes(aliasExpansion));
+    if (subNorm.includes(query)) return true;
+    return expandedAliases.some(alias => subNorm.includes(alias));
   });
 
   return nameMatch || officeMatch || subjectMatch;
 }
 
-/* ---------- floor / room helper filters (FALTABA ESTO) ---------- */
+
 function getFloor(roomName) {
   if (!roomName) return null;
   const match = roomName.match(/\b([0-3])\.\d+\b/);
@@ -347,17 +352,20 @@ function renderSubjects() {
     });
   });
 
+  // Resolver alias expandidos si el usuario busca una sigla (ej: "isii")
+  let expandedAliases = [];
+  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
+    if (aliasKey.includes(rawQuery) || rawQuery.includes(aliasKey)) {
+      expandedAliases.push(normalizeStr(aliasVal));
+    }
+  }
+
   const sortedSubjects = Object.keys(subjectMap).sort();
   const filteredSubjects = sortedSubjects.filter(sub => {
     const subNorm = normalizeStr(sub);
-    let matchesAlias = false;
-    for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
-      if ((aliasKey.includes(rawQuery) || rawQuery.includes(aliasKey)) && subNorm.includes(normalizeStr(aliasVal))) {
-        matchesAlias = true;
-        break;
-      }
-    }
-    return subNorm.includes(rawQuery) || matchesAlias;
+    const directMatch = subNorm.includes(rawQuery);
+    const aliasMatch = expandedAliases.some(alias => subNorm.includes(alias));
+    return directMatch || aliasMatch;
   });
 
   if (!filteredSubjects.length) {
