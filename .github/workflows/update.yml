@@ -27,6 +27,10 @@ jobs:
       - name: Install dependencies
         run: pip install icalendar recurring-ical-events
 
+      - name: Pull changes
+        run: | 
+          git pull origin main --rebase
+
       - name: Scrape calendars
         run: python scraper.py
 
