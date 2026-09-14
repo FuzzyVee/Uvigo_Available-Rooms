@@ -50,7 +50,7 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-/* Helper para comprobar si una consulta coincide con un profesor de forma flexible */
+/* Helper para comprobar si una consulta coincide con un profesor */
 function matchesTeacher(teacher, rawQuery) {
   const query = normalizeStr(rawQuery);
   if (!query) return true;
@@ -58,11 +58,6 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
-<<<<<<< HEAD
-  // Búsqueda flexible de alias: comprueba si la consulta está contenida en la clave del alias o viceversa
-=======
-  // Expandir alias si la consulta coincide de forma parcial con las claves
->>>>>>> 2ca00f61af91c603a22ff1109a7770d85a1db94f
   let expandedAliases = [];
   for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
     if (aliasKey.includes(query) || query.includes(aliasKey)) {
@@ -73,21 +68,31 @@ function matchesTeacher(teacher, rawQuery) {
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
-<<<<<<< HEAD
-    // 1. Coincidencia directa por texto parcial de la asignatura
     if (subNorm.includes(query)) return true;
-    // 2. Coincidencia a través de los alias expandidos compatibles
-=======
-    // 1. Coincidencia por texto parcial (ej: "algoritmos", "datos")
-    if (subNorm.includes(query)) return true;
-    // 2. Coincidencia por alias (ej: "ae" o "aed")
->>>>>>> 2ca00f61af91c603a22ff1109a7770d85a1db94f
     return expandedAliases.some(alias => subNorm.includes(alias));
   });
 
   return nameMatch || officeMatch || subjectMatch;
 }
 
+/* ---------- floor / room helper filters (FALTABA ESTO) ---------- */
+function getFloor(roomName) {
+  if (!roomName) return null;
+  const match = roomName.match(/\b([0-3])\.\d+\b/);
+  return match ? parseInt(match[1], 10) : null;
+}
+
+const PRESET_FILTERS = {
+  all: () => true,
+  floor1: (room) => getFloor(room) === 1,
+  floor2: (room) => getFloor(room) === 2,
+  floor3: (room) => getFloor(room) === 3,
+  soxAndMagna: (room) => {
+    if (!room) return false;
+    const r = room.toLowerCase();
+    return r.includes("so") || r === "aula magna";
+  }
+};
 
 /* ---------- time helpers (all in Europe/Madrid) ---------- */
 function madridParts(date = new Date()) {
@@ -207,7 +212,6 @@ function renderTeachers() {
 
   board.innerHTML = "";
 
-  // 1. DETAIL VIEW
   if (selectedTeacher) {
     const t = selectedTeacher;
     const cleanSubs = cleanSubjects(t.subjects);
@@ -252,7 +256,6 @@ function renderTeachers() {
           <div style="display:flex; flex-wrap:wrap; gap:6px;">${subjectsText}</div>
         </div>
 
-        <!-- ACTION BUTTONS & PORTAL LINKS -->
         <div style="margin-top:20px; display:flex; gap:10px; flex-wrap:wrap;">
           ${t.esei_url ? `
             <a href="${t.esei_url}" target="_blank" rel="noopener" class="card-link" style="padding: 6px 12px; background: var(--panel2); border-radius: 6px; font-size: 0.9rem;">
@@ -286,7 +289,6 @@ function renderTeachers() {
     return;
   }
 
-  // 2. SEARCH GRID
   const rawQuery = (document.getElementById("teacherSearch")?.value || "").trim();
   const filtered = TEACHERS_DATA.teachers.filter(t => matchesTeacher(t, rawQuery));
 
@@ -334,13 +336,11 @@ function renderSubjects() {
 
   const rawQuery = normalizeStr(document.getElementById("subjectSearch")?.value || "");
 
-  // Crear un mapa: Asignatura -> Array de profesores
   const subjectMap = {};
   
   TEACHERS_DATA.teachers.forEach(teacher => {
     const cleanSubs = cleanSubjects(teacher.subjects);
     cleanSubs.forEach(sub => {
-      // Normalizar la clave para agrupar variaciones idénticas
       const subKey = sub.trim();
       if (!subjectMap[subKey]) {
         subjectMap[subKey] = [];
@@ -351,11 +351,9 @@ function renderSubjects() {
     });
   });
 
-  // Filtrar asignaturas según la búsqueda
   const sortedSubjects = Object.keys(subjectMap).sort();
   const filteredSubjects = sortedSubjects.filter(sub => {
     const subNorm = normalizeStr(sub);
-    // Comprobar también si coincide con algún alias del diccionario
     let matchesAlias = false;
     for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
       if ((aliasKey.includes(rawQuery) || rawQuery.includes(aliasKey)) && subNorm.includes(normalizeStr(aliasVal))) {
@@ -371,7 +369,6 @@ function renderSubjects() {
     return;
   }
 
-  // Renderizar tarjetas de asignaturas
   filteredSubjects.forEach(sub => {
     const teachers = subjectMap[sub];
     const card = document.createElement("div");
@@ -393,7 +390,6 @@ function renderSubjects() {
       </div>
     `;
 
-    // Permitir hacer clic en el profesor para ir a su vista detallada
     card.querySelectorAll(".teacher-link").forEach(link => {
       link.addEventListener("click", (e) => {
         e.preventDefault();
@@ -401,7 +397,6 @@ function renderSubjects() {
         const foundTeacher = TEACHERS_DATA.teachers.find(t => t.name === tName);
         if (foundTeacher) {
           selectedTeacher = foundTeacher;
-          // Cambiar automáticamente a la pestaña de profesores para ver el detalle
           document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
           document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
           
