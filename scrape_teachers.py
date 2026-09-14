@@ -85,51 +85,42 @@ def extract_teacher_info(profile_url):
         if uvigo_link:
             info["uvigo_url"] = uvigo_link["href"].strip()
 
-        # 5. Extract Despacho (Office) & Teléfono (Phone) directly from text rows/cells
-        # Look specifically for labels followed by text
+      # 5. Extract Despacho (Office) cleanly handling spaces (e.g., "Lab 35")
         text_nodes = content.find_all(["p", "td", "li", "div", "span"])
         for node in text_nodes:
             text = clean_text(node.text)
 
-            # Look for "Despacho:" or "Oficina:"
             if info["office"] == "No especificado" and re.search(r"despacho", text, re.IGNORECASE):
-                # Grab just the number/code right after "Despacho"
-                match = re.search(r"despacho[:\s]+([A-Za-z0-9\.\-]+)", text, re.IGNORECASE)
+                # Grab everything after "Despacho:" up to reasonable length
+                match = re.search(r"despacho[:\s]+([A-Za-z0-9\.\-\s]+)", text, re.IGNORECASE)
                 if match:
-                    info["office"] = match.group(1).strip()
+                    val = clean_text(match.group(1))
+                    # Cut off if it hits another label like "Teléfono"
+                    val = re.split(r"(?:teléfono|telefono|despacho|correo)", val, flags=re.IGNORECASE)[0]
+                    if val:
+                        info["office"] = val.strip()
 
-            # Look for "Teléfono:" or "Telefono:"
             if not info["phone"] and re.search(r"teléfono|telefono", text, re.IGNORECASE):
                 match = re.search(r"(?:teléfono|telefono)[:\s]+(\+?\d[\d\s]{7,})", text, re.IGNORECASE)
                 if match:
                     info["phone"] = clean_text(match.group(1))
 
-        subject_links = content.select(".field__item a, .uvigo_subjects a")
+        # 6. Extract Subjects (Docencia) strictly from actual subject lists/links
+        # Avoid department/degree title text blocks like "Informática" or "Grao en Enxeñaría Informática"
+        subject_links = content.select(".field__item a, .uvigo_subjects a, ul li a")
         for a in subject_links:
             subj_name = clean_text(a.text)
             href = a.get("href", "")
             
-            # Filter valid subject links (they usually point to /asignaturas/)
+            # Must be an actual subject link pointing to /asignaturas/
             if (
                 subj_name
                 and len(subj_name) > 2
+                and "asignaturas" in href
                 and not href.startswith("mailto:")
-                and "/profesorado/" not in href
                 and subj_name not in info["subjects"]
             ):
                 info["subjects"].append(subj_name)
-
-        # Fallback: if no links matched above, grab any text or links inside any .field__item block
-        if not info["subjects"]:
-            for item in content.select(".field__item"):
-                for a in item.find_all("a", href=True):
-                    subj_name = clean_text(a.text)
-                    if subj_name and len(subj_name) > 2 and subj_name not in info["subjects"]:
-                        info["subjects"].append(subj_name)
-    except Exception as e:
-        print(f"Error parsing {profile_url}: {e}")
-
-    return info
 
 def scrape_all_teachers():
     print(f"Connecting to {TEACHERS_LIST_URL}...")
