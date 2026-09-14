@@ -50,7 +50,7 @@ function normalizeStr(str) {
   return (str || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-/* Helper para comprobar si una consulta coincide con un profesor */
+
 function matchesTeacher(teacher, rawQuery) {
   const query = normalizeStr(rawQuery);
   if (!query) return true;
@@ -58,18 +58,14 @@ function matchesTeacher(teacher, rawQuery) {
   const nameMatch = normalizeStr(teacher.name).includes(query);
   const officeMatch = normalizeStr(teacher.office).includes(query);
 
-  let expandedAliases = [];
-  for (const [aliasKey, aliasVal] of Object.entries(SUBJECT_ALIASES)) {
-    if (aliasKey.includes(query) || query.includes(aliasKey)) {
-      expandedAliases.push(normalizeStr(aliasVal));
-    }
-  }
+  // Obtener la expansión del alias si existe (ej. "aedii" -> "algoritmos e estructuras de datos ii")
+  const aliasExpansion = SUBJECT_ALIASES[query] ? normalizeStr(SUBJECT_ALIASES[query]) : "";
 
   const validSubjects = cleanSubjects(teacher.subjects);
   const subjectMatch = validSubjects.some(s => {
     const subNorm = normalizeStr(s);
-    if (subNorm.includes(query)) return true;
-    return expandedAliases.some(alias => subNorm.includes(alias));
+    // Coincide si la asignatura contiene lo que buscas directamente, o si contiene el alias expandido
+    return subNorm.includes(query) || (aliasExpansion && subNorm.includes(aliasExpansion));
   });
 
   return nameMatch || officeMatch || subjectMatch;
@@ -415,17 +411,18 @@ async function boot() {
   tick();
   setInterval(tick, 1000);
 
-  try {
+      try {
     const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
     if (!r.ok) throw new Error("HTTP " + r.status);
     DATA = await r.json();
     document.getElementById("freshness").textContent =
       "data updated: " + new Date(DATA.generated_at).toLocaleString();
   } catch (err) {
+    console.error("Could not load data.json:", err);
+    DATA = { events: [] }; // Fallback para que la app no muera
     const e = document.getElementById("error");
     e.style.display = "block";
-    e.textContent = "⚠ Could not load data.json — if you are opening this file locally, run a tiny server first: python -m http.server (or push to GitHub Pages, where it works out of the box).";
-    return;
+    e.textContent = "⚠ Could not load data.json. Check path or local server.";
   }
 
   try {
