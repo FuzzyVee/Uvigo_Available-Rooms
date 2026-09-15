@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-15T16:39:36",
+ "generated_at": "2026-09-15T21:04:50",
  "timezone": "Europe/Madrid",
  "calendar_count": 63,
  "successful_calendars": 43,
@@ -8970,15 +8970,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_4: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_4: Grupo Reducido Primera Prueba"
-  },
-  {
    "subject": "ACII_5: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -8986,6 +8977,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_5: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_4: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_4: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_B: Proba obxectiva 1",
@@ -12228,15 +12228,6 @@
    "raw": "SOI: primera prueba de prácticas (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_B: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-30",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_A: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -12244,6 +12235,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_B: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-30",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -14676,15 +14676,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ISI_3: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 1"
-  },
-  {
    "subject": "ISI_6: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14701,6 +14692,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_8: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_3: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 1"
   },
   {
    "subject": "SOI: primera prueba de teoría (aula grande - temas 1, 2 y sus actividades)",
@@ -19536,15 +19536,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ACII_4: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_4: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_5: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -19552,6 +19543,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_5: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_4: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_4: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "SOI: segunda prueba de teoría (aula grande - tema 3 y su actividad)",
@@ -20274,15 +20274,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_6: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20290,6 +20281,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_6: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Examen prácticas EST -GREI (grupos reducidos)",
@@ -20643,15 +20643,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -20659,6 +20650,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -20949,13 +20949,13 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_2: Grupo Reducido Segunda Prueba",
@@ -20967,15 +20967,6 @@
    "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_7: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20983,6 +20974,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_7: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -22785,15 +22785,6 @@
    "raw": "ISI_B: Proba obxectiva 2"
   },
   {
-   "subject": "ISI_3: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 2"
-  },
-  {
    "subject": "ISI_6: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -22801,6 +22792,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_6: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_3: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 2"
   },
   {
    "subject": "ISI_8: Proba práctica 2",
