@@ -180,7 +180,7 @@ const PRESET_FILTERS = {
   if (!room) return false;
   const r = room.toLowerCase();
   return getFloor(room) === 3 || r.includes("autom") || r.includes("aut");
-  }
+  },
   soxAndMagna: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
