@@ -131,12 +131,14 @@ def parse_room(summary):
     return None
 
 def resolve_calendar_id(raw_id: str) -> str:
-    """Decodes standard or UVigo-prefixed base64 string to a Google Calendar ID."""
+    """Decodes standard, UVigo-prefixed, or Y1-prefixed base64 string to a Google Calendar ID."""
     if "@group.calendar.google.com" in raw_id or "@gmail.com" in raw_id:
         return raw_id
     
     candidate = raw_id
-    if "_" in candidate and not candidate.startswith("esei."):
+    if candidate.startswith("Y1_"):
+        candidate = candidate[3:]
+    elif "_" in candidate and not candidate.startswith("esei."):
         candidate = candidate.split("_", 1)[1]
         
     try:
