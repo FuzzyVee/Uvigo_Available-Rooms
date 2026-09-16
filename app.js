@@ -176,7 +176,11 @@ const PRESET_FILTERS = {
   all: () => true,
   floor1: (room) => getFloor(room) === 1,
   floor2: (room) => getFloor(room) === 2,
-  floor3: (room) => getFloor(room) === 3,
+  floor3: (room) => {
+    if (!room) return false;
+    const r = room.toLowerCase();
+    return getFloor(room) === 3 || r.includes("autom");
+  },
   soxAndMagna: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
