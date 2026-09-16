@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-16T09:01:58",
+ "generated_at": "2026-09-16T10:40:12",
  "timezone": "Europe/Madrid",
  "calendar_count": 63,
  "successful_calendars": 43,
@@ -8485,7 +8485,7 @@
   },
   {
    "subject": "AED I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-19",
    "start": "09:00",
@@ -8494,7 +8494,7 @@
   },
   {
    "subject": "IS II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-19",
    "start": "09:00",
@@ -8503,7 +8503,7 @@
   },
   {
    "subject": "IU - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-19",
    "start": "10:00",
@@ -8512,7 +8512,7 @@
   },
   {
    "subject": "DM - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 4 - 1C",
    "date": "2026-10-19",
    "start": "10:00",
@@ -8629,7 +8629,7 @@
   },
   {
    "subject": "AED II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-19",
    "start": "11:00",
@@ -8638,7 +8638,7 @@
   },
   {
    "subject": "ALS - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 4 - 1C",
    "date": "2026-10-19",
    "start": "12:00",
@@ -8745,15 +8745,6 @@
    "raw": "ABP_5 [SO8]"
   },
   {
-   "subject": "FEJ - FinCarreira",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-10-19",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "[EXAM] FEJ - FinCarreira [Magna]"
-  },
-  {
    "subject": "SD_7",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -8779,6 +8770,15 @@
    "start": "16:00",
    "end": "18:00",
    "raw": "ACII_2 [AUTOM]"
+  },
+  {
+   "subject": "FEJ - FinCarreira",
+   "room": "Aula Magna",
+   "group": "Grado 4 - 1C",
+   "date": "2026-10-19",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "[EXAM] FEJ - FinCarreira [Magna]"
   },
   {
    "subject": "LC_3",
@@ -8944,7 +8944,7 @@
   },
   {
    "subject": "AM - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-20",
    "start": "09:00",
@@ -8953,7 +8953,7 @@
   },
   {
    "subject": "DAI - FinCarreira",
-   "room": null,
+   "room": "B00",
    "group": "Grado 4 - 1C",
    "date": "2026-10-20",
    "start": "09:00",
@@ -8962,7 +8962,7 @@
   },
   {
    "subject": "RC I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-20",
    "start": "10:00",
@@ -8971,7 +8971,7 @@
   },
   {
    "subject": "LC - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-20",
    "start": "10:00",
@@ -9079,7 +9079,7 @@
   },
   {
    "subject": "AM - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 1 - 1C",
    "date": "2026-10-20",
    "start": "11:30",
@@ -9087,22 +9087,22 @@
    "raw": "[EXAM] AM - FinCarreira [B0]"
   },
   {
-   "subject": "RC I - FinCarreira",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "12:00",
-   "end": "14:00",
-   "raw": "[EXAM] RC I - FinCarreira [B0]"
-  },
-  {
    "subject": "TALF - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-20",
    "start": "12:00",
    "end": "14:00",
    "raw": "[EXAM] TALF - FinCarreira [Magna]"
+  },
+  {
+   "subject": "RC I - FinCarreira",
+   "room": "B0",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] RC I - FinCarreira [B0]"
   },
   {
    "subject": "FMI_B",
@@ -9195,8 +9195,17 @@
    "raw": "ABP_3 [SO8]"
   },
   {
+   "subject": "RCII_7",
+   "room": "AUTOM",
+   "group": "Grado 3 - 1C",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]"
+  },
+  {
    "subject": "PRO II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-20",
    "start": "16:00",
@@ -9205,7 +9214,7 @@
   },
   {
    "subject": "SO I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-20",
    "start": "16:00",
@@ -9214,21 +9223,12 @@
   },
   {
    "subject": "CDA - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-20",
    "start": "16:00",
    "end": "19:00",
    "raw": "[EXAM] CDA - FinCarreira [Magna]"
-  },
-  {
-   "subject": "RCII_7",
-   "room": "AUTOM",
-   "group": "Grado 3 - 1C",
-   "date": "2026-10-20",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "RCII_7 [AUTOM]"
   },
   {
    "subject": "ISI_6",
@@ -9295,7 +9295,7 @@
   },
   {
    "subject": "PRO II - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 1 - 1C",
    "date": "2026-10-20",
    "start": "18:00",
@@ -9304,7 +9304,7 @@
   },
   {
    "subject": "SO I - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 2 - 1C",
    "date": "2026-10-20",
    "start": "18:00",
@@ -9385,7 +9385,7 @@
   },
   {
    "subject": "SSI - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 4 - 1C",
    "date": "2026-10-21",
    "start": "09:00",
@@ -9394,7 +9394,7 @@
   },
   {
    "subject": "FMI - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-21",
    "start": "10:00",
@@ -9403,7 +9403,7 @@
   },
   {
    "subject": "IS I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-21",
    "start": "10:00",
@@ -9412,7 +9412,7 @@
   },
   {
    "subject": "DGP - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-21",
    "start": "10:00",
@@ -9528,17 +9528,8 @@
    "raw": "AM_3 [L30A]"
   },
   {
-   "subject": "FMI - FinCarreira",
-   "room": null,
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-21",
-   "start": "12:00",
-   "end": "14:00",
-   "raw": "[EXAM] FMI - FinCarreira [B0]"
-  },
-  {
    "subject": "RC II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-21",
    "start": "12:00",
@@ -9547,12 +9538,21 @@
   },
   {
    "subject": "TAMI - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 4 - 1C",
    "date": "2026-10-21",
    "start": "12:00",
    "end": "14:00",
    "raw": "[EXAM] TAMI - FinCarreira [Magna]"
+  },
+  {
+   "subject": "FMI - FinCarreira",
+   "room": "B0",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-21",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] FMI - FinCarreira [B0]"
   },
   {
    "subject": "AM_A",
@@ -9654,24 +9654,6 @@
    "raw": "ABP_1 [SO8]"
   },
   {
-   "subject": "AL - FinCarreira",
-   "room": null,
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-21",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "[EXAM] AL - FinCarreira [Magna]"
-  },
-  {
-   "subject": "SO II - FinCarreira",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-21",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "[EXAM] SO II - FinCarreira [Magna]"
-  },
-  {
    "subject": "SD_5",
    "room": "2.3",
    "group": "Grado 1 - 1C",
@@ -9688,6 +9670,24 @@
    "start": "16:00",
    "end": "18:00",
    "raw": "RCII_1 [AUTOM]"
+  },
+  {
+   "subject": "AL - FinCarreira",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "[EXAM] AL - FinCarreira [Magna]"
+  },
+  {
+   "subject": "SO II - FinCarreira",
+   "room": "Aula Magna",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "[EXAM] SO II - FinCarreira [Magna]"
   },
   {
    "subject": "AM_1",
@@ -9745,7 +9745,7 @@
   },
   {
    "subject": "SO II - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 2 - 1C",
    "date": "2026-10-21",
    "start": "18:00",
@@ -9862,7 +9862,7 @@
   },
   {
    "subject": "SD - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-22",
    "start": "09:00",
@@ -9871,7 +9871,7 @@
   },
   {
    "subject": "HAE - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-22",
    "start": "09:00",
@@ -9880,7 +9880,7 @@
   },
   {
    "subject": "BD I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-22",
    "start": "10:00",
@@ -9979,7 +9979,7 @@
   },
   {
    "subject": "PRO I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-22",
    "start": "12:00",
@@ -10095,17 +10095,17 @@
    "raw": "IU_7 [SO8]"
   },
   {
-   "subject": "EST - FinCarreira",
-   "room": null,
-   "group": "Grado 2 - 1C",
+   "subject": "FMI_2",
+   "room": "2.4",
+   "group": "Grado 1 - 1C",
    "date": "2026-10-22",
    "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] EST - FinCarreira [B0]"
+   "end": "17:45",
+   "raw": "FMI_2 [2.4]"
   },
   {
    "subject": "SI - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-22",
    "start": "16:00",
@@ -10114,7 +10114,7 @@
   },
   {
    "subject": "ABP - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 4 - 1C",
    "date": "2026-10-22",
    "start": "16:00",
@@ -10122,13 +10122,13 @@
    "raw": "[EXAM] ABP - FinCarreira [Magna]"
   },
   {
-   "subject": "FMI_2",
-   "room": "2.4",
-   "group": "Grado 1 - 1C",
+   "subject": "EST - FinCarreira",
+   "room": "B0",
+   "group": "Grado 2 - 1C",
    "date": "2026-10-22",
    "start": "16:00",
-   "end": "17:45",
-   "raw": "FMI_2 [2.4]"
+   "end": "19:00",
+   "raw": "[EXAM] EST - FinCarreira [B0]"
   },
   {
    "subject": "EST_8",
@@ -10258,7 +10258,7 @@
   },
   {
    "subject": "AC I - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 1 - 1C",
    "date": "2026-10-23",
    "start": "09:00",
@@ -10266,17 +10266,8 @@
    "raw": "[EXAM] AC I - FinCarreira [Magna]"
   },
   {
-   "subject": "AC II - FinCarreira",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-23",
-   "start": "09:00",
-   "end": "11:30",
-   "raw": "[EXAM] AC II - FinCarreira [B0]"
-  },
-  {
    "subject": "CDI - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-23",
    "start": "09:00",
@@ -10284,8 +10275,17 @@
    "raw": "[EXAM] CDI - FinCarreira [Magna]"
   },
   {
+   "subject": "AC II - FinCarreira",
+   "room": "B0",
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-23",
+   "start": "09:00",
+   "end": "11:30",
+   "raw": "[EXAM] AC II - FinCarreira [B0]"
+  },
+  {
    "subject": "DIA - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 4 - 1C",
    "date": "2026-10-23",
    "start": "10:00",
@@ -10410,17 +10410,8 @@
    "raw": "AM_2 [L30A]"
   },
   {
-   "subject": "AC I - FinCarreira",
-   "room": null,
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-23",
-   "start": "11:30",
-   "end": "14:00",
-   "raw": "[EXAM] AC I - FinCarreira [B0]"
-  },
-  {
    "subject": "AC II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-23",
    "start": "11:30",
@@ -10428,8 +10419,17 @@
    "raw": "[EXAM] AC II - FinCarreira [Magna]"
   },
   {
+   "subject": "AC I - FinCarreira",
+   "room": "B0",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-23",
+   "start": "11:30",
+   "end": "14:00",
+   "raw": "[EXAM] AC I - FinCarreira [B0]"
+  },
+  {
    "subject": "CCD - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 4 - 1C",
    "date": "2026-10-23",
    "start": "12:00",
@@ -10537,7 +10537,7 @@
   },
   {
    "subject": "AP - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 2 - 1C",
    "date": "2026-10-23",
    "start": "15:30",
@@ -10546,7 +10546,7 @@
   },
   {
    "subject": "BD II - FinCarreira",
-   "room": null,
+   "room": "Aula Magna",
    "group": "Grado 3 - 1C",
    "date": "2026-10-23",
    "start": "16:00",
@@ -10555,30 +10555,12 @@
   },
   {
    "subject": "AP - FinCarreira",
-   "room": null,
+   "room": "B0",
    "group": "Grado 2 - 1C",
    "date": "2026-10-23",
    "start": "18:00",
    "end": "20:30",
    "raw": "[EXAM] AP - FinCarreira [B0]"
-  },
-  {
-   "subject": "ACII_2: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Primera Prueba"
-  },
-  {
-   "subject": "ACII_1: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ACII_7: Grupo Reducido Primera Prueba",
@@ -10590,6 +10572,15 @@
    "raw": "ACII_7: Grupo Reducido Primera Prueba"
   },
   {
+   "subject": "ACII_2: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_2: Grupo Reducido Primera Prueba"
+  },
+  {
    "subject": "ACII_8: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -10597,6 +10588,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_8: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_1: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_1: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_A: Proba obxectiva 1",
@@ -14541,6 +14541,15 @@
    "raw": "ABP_4 [SO8]"
   },
   {
+   "subject": "ISI_6: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_6: Proba práctica 1"
+  },
+  {
    "subject": "ISI_3: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14557,15 +14566,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_8: Proba práctica 1"
-  },
-  {
-   "subject": "ISI_6: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 1"
   },
   {
    "subject": "SOI: primera prueba de teoría (aula grande - temas 1, 2 y sus actividades)",
@@ -14937,15 +14937,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_5: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 1"
-  },
-  {
    "subject": "ISI_4: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14953,6 +14944,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 1"
   },
   {
    "subject": "PROI_B",
@@ -16314,15 +16314,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ISI_1: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 1"
-  },
-  {
    "subject": "ISI_7: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -16330,6 +16321,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -20139,15 +20139,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_6: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20155,6 +20146,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_6: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Examen prácticas EST -GREI (grupos reducidos)",
@@ -20508,15 +20508,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -20524,6 +20515,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -20814,15 +20814,6 @@
    "raw": "AEDII_6 [SO6]"
   },
   {
-   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_7: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20830,6 +20821,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_7: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_8: Grupo Reducido Segunda Prueba",
@@ -20841,13 +20841,13 @@
    "raw": "ACII_8: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -22641,22 +22641,13 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ISI_B: Proba obxectiva 2",
+   "subject": "ISI_8: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-15",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ISI_B: Proba obxectiva 2"
-  },
-  {
-   "subject": "ISI_3: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 2"
+   "raw": "ISI_8: Proba práctica 2"
   },
   {
    "subject": "ISI_6: Proba práctica 2",
@@ -22668,13 +22659,22 @@
    "raw": "ISI_6: Proba práctica 2"
   },
   {
-   "subject": "ISI_8: Proba práctica 2",
+   "subject": "ISI_3: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-15",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ISI_8: Proba práctica 2"
+   "raw": "ISI_3: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_B: Proba obxectiva 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_B: Proba obxectiva 2"
   },
   {
    "subject": "FMI_A",
@@ -23406,15 +23406,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ISI_5: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 2"
-  },
-  {
    "subject": "ISI_4: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -23422,6 +23413,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 2"
   },
   {
    "subject": "SOI: segunda prueba de prácticas (grupos reducidos)",
