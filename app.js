@@ -178,9 +178,9 @@ const PRESET_FILTERS = {
   floor2: (room) => getFloor(room) === 2,
   floor3: (room) => {
   if (!room) return false;
-  const r = room.toLowerCase();
-  return getFloor(room) === 3 || r.includes("autom") || r.includes("aut");
-  },
+    const r = room.toLowerCase();
+    return getFloor(room) === 3 || r.includes("autom") || r.includes("aut");
+    },
   soxAndMagna: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
