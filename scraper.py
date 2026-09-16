@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 """
 ESEI (UVigo) room availability scraper
 ======================================
@@ -108,12 +108,12 @@ FEED_URL = "https://calendar.google.com/calendar/ical/{cid}/public/basic.ics"
 DAYS_BEHIND = 7
 DAYS_AHEAD = 100
 
-ROOM_RE = re.compile(r'\s*\[.*?\]')
+ROOM_RE = re.compile(r'\s*\[(.*?)\]')
 IGNORE_ROOMS = {"EXAM", "EXAMEN", "ONLINE", "AULA", "TBD", "AEDII", "DAI"}
 
 def normalize_room(room_name: str) -> str:
     if not room_name:
-        return room_name
+        return ""
     room_clean = room_name.strip()
     room_clean = re.sub(r'/elect.*$', '', room_clean, flags=re.IGNORECASE)
     if re.fullmatch(r'(aula\s+)?m[ag]{2}na', room_clean, flags=re.IGNORECASE):
@@ -121,15 +121,33 @@ def normalize_room(room_name: str) -> str:
     return room_clean.strip()
 
 def parse_room(summary):
-    match = re.search(r'\[(.*?)\]', summary)
-    if match:
-        room_name = match.group(1).strip()
-        room_name = normalize_room(room_name)
-        if room_name.upper() in IGNORE_ROOMS:
-            return None
-        return room_name
+    # Busca cualquier texto entre corchetes, ej: [L37], [3.2], etc.
+    matches = ROOM_RE.findall(summary)
+    if matches:
+        # Cogemos el último corchete o el que parezca un aula válida
+        for m in reversed(matches):
+            room_name = normalize_room(m)
+            if room_name and room_name.upper() not in IGNORE_ROOMS:
+                return room_name
     return None
 
+def room_and_subject(summary: str, location: str):
+    room = None
+    
+    # 1. Intentar sacar el aula de la location oficial si existe
+    if location:
+        room = normalize_room(location)
+        if room.upper() in IGNORE_ROOMS:
+            room = None
+
+    # 2. Si no hay room en location, buscar obligatoriamente en los corchetes del summary (ej: [L37])
+    if not room:
+        room = parse_room(summary)
+
+    # El subject es el summary quitándole los corchetes de las aulas
+    subject = ROOM_RE.sub("", summary).strip()
+    return room, subject
+    
 def resolve_calendar_id(raw_id: str) -> str:
     """Decodes standard, UVigo-prefixed, or Y1-prefixed base64 string to a Google Calendar ID."""
     if "@group.calendar.google.com" in raw_id or "@gmail.com" in raw_id:
@@ -161,17 +179,6 @@ def fetch_ics(calendar_id: str) -> bytes:
     except Exception as err:
         return b""
 
-def room_and_subject(summary: str, location: str):
-    room = normalize_room(location.strip()) if location else None
-    if room and room.upper() in IGNORE_ROOMS:
-        room = None
-
-    m = parse_room(summary)
-    if not room and m:
-        room = m
-
-    subject = ROOM_RE.sub("", summary).strip()
-    return room, subject
 
 def as_date(value):
     if isinstance(value, dt.datetime):
