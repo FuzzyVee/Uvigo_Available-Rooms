@@ -22,12 +22,12 @@ const SUBJECT_ALIASES = {
 
 /* Lista negra para filtrar textos del menú web escrapeados por error */
 const BLACKLISTED_TERMS = [
-  "campus auga", "biblioteca", "deportes", "cultura", "correo uvigo", "moovi", "duvi", 
+  "campus auga", "biblioteca", "deportes", "cultura", "correo uvigo", "moovi", 
   "secretaría", "a esei", "benvida do director", "formularios", "prácticas en empresa", 
   "traballos fin de grao", "traballos fin de máster", "normativas", "normativa académica", 
   "normativa de xestión económica", "regulamento de réxime interno", "reclamacións e suxestións", 
   "persoal técnico", "recursos materiais", "aulas, laboratorios", "laboratorio de libre acceso", 
-  "seminarios para estudo", "infraestrutura", "rede wireless", "equipo directivo", "órganos de goberno", 
+  "seminarios para estudo", "infraestrutura", "equipo directivo", "órganos de goberno", 
   "xunta de centro", "comisión", "delegación de alumnos", "prevención de riscos", "igualdade", 
   "coddii", "colexios profesionais", "cpeig", "cpetig", "localización e contacto", "guía de benvida", 
   "docencia", "calendario académico", "grupos reducidos", "horarios", "exames", "profesorado", 
