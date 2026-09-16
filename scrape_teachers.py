@@ -126,12 +126,11 @@ def extract_teacher_info(profile_url):
             text = clean_text(node.text)
 
             if info["office"] == "No especificado" and re.search(r"despacho", text, re.IGNORECASE):
-                # Grab everything after "Despacho:" up to reasonable length
                 match = re.search(r"despacho[:\s]+([A-Za-z0-9\.\-\s]+)", text, re.IGNORECASE)
                 if match:
                     val = clean_text(match.group(1))
-                    # Cut off if it hits another label like "Teléfono"
-                    val = re.split(r"(?:teléfono|telefono|despacho|correo)", val, flags=re.IGNORECASE)[0]
+                    # Cut off at telephone or trailing labels
+                    val = re.split(r"(?:teléfono|telefono|despacho|correo|tel\b)", val, flags=re.IGNORECASE)[0]
                     if val:
                         info["office"] = val.strip()
 

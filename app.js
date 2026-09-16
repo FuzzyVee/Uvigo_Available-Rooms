@@ -34,7 +34,7 @@ const BLACKLISTED_TERMS = [
   "departamentos", "pat-aneae", "piune", "avaliación por compensación", "estudos", "grao en", 
   "competencias e obxectivos", "guías docentes", "curso ponte", "informes de coordinación", 
   "memoria do", "acceso ao", "recoñecemento de créditos", "suplemento europeo", "pceo", "páxina web", 
-  "mástes universitario", "especialidades", "sitio promocional", "gl", "es", "Experiencia docente:", "Web persoal:"
+  "mástes universitario", "especialidades", "sitio promocional", "Experiencia docente:", "Web persoal:"
 ];
 
 /* Helper para limpiar el array de asignaturas de cada profesor */
@@ -179,7 +179,7 @@ const PRESET_FILTERS = {
   floor3: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
-    return getFloor(room) === 3 || r.includes("autom");
+    return getFloor(room) === 3 || r.includes("AUTOM");
   },
   soxAndMagna: (room) => {
     if (!room) return false;
