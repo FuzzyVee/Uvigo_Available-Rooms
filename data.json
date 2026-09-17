@@ -1,118 +1,10 @@
 {
- "generated_at": "2026-09-16T21:07:13",
+ "generated_at": "2026-09-17T04:19:09",
  "timezone": "Europe/Madrid",
  "calendar_count": 63,
  "successful_calendars": 43,
- "event_count": 2669,
+ "event_count": 2657,
  "events": [
-  {
-   "subject": "AM_B",
-   "room": "2.1",
-   "group": "Grado 1 - 1C",
-   "date": "2026-09-09",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "AM_B [2.1]"
-  },
-  {
-   "subject": "IU_4",
-   "room": "SO8",
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-09",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "IU_4 [SO8]"
-  },
-  {
-   "subject": "ACII_B",
-   "room": "2.2",
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-09",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "ACII_B [2.2]"
-  },
-  {
-   "subject": "BDII_B",
-   "room": "2.3",
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-09",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "BDII_B [2.3]"
-  },
-  {
-   "subject": "BDII_7",
-   "room": "SO1",
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-09",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "BDII_7 [SO1]"
-  },
-  {
-   "subject": "IU_3",
-   "room": "SO8",
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-09",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "IU_3 [SO8]"
-  },
-  {
-   "subject": "ABP_A",
-   "room": "2.1",
-   "group": "Grado 4 - 1C",
-   "date": "2026-09-09",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "ABP_A [2.1]"
-  },
-  {
-   "subject": "ACII_A",
-   "room": "2.2",
-   "group": "Grado 2 - 1C",
-   "date": "2026-09-09",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "ACII_A [2.2]"
-  },
-  {
-   "subject": "AM_A",
-   "room": "2.1",
-   "group": "Grado 1 - 1C",
-   "date": "2026-09-09",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "AM_A [2.1]"
-  },
-  {
-   "subject": "BDII_A",
-   "room": "2.3",
-   "group": "Grado 3 - 1C",
-   "date": "2026-09-09",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "BDII_A [2.3]"
-  },
-  {
-   "subject": "ABP_1",
-   "room": "SO8",
-   "group": "Grado 4 - 1C",
-   "date": "2026-09-09",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ABP_1 [SO8]"
-  },
-  {
-   "subject": "ABP_2",
-   "room": "SO8",
-   "group": "Grado 4 - 1C",
-   "date": "2026-09-09",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ABP_2 [SO8]"
-  },
   {
    "subject": "PROI_B",
    "room": "2.1",
@@ -10626,6 +10518,15 @@
    "raw": "ACII_2: Grupo Reducido Primera Prueba"
   },
   {
+   "subject": "ACII_8: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Primera Prueba"
+  },
+  {
    "subject": "ACII_7: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -10642,15 +10543,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_1: Grupo Reducido Primera Prueba"
-  },
-  {
-   "subject": "ACII_8: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_A: Proba obxectiva 1",
@@ -11409,15 +11301,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-28",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA"
-  },
-  {
    "subject": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -11425,6 +11308,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA"
+  },
+  {
+   "subject": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-28",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA"
   },
   {
    "subject": "BDII. Proba Avaliación Contínua",
@@ -12156,15 +12048,6 @@
    "raw": "SOI: primera prueba de prácticas (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-30",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -12172,6 +12055,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-30",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -15009,15 +14901,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_5: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 1"
-  },
-  {
    "subject": "ISI_4: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -15025,6 +14908,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 1"
   },
   {
    "subject": "PROI_B",
@@ -16395,15 +16287,6 @@
    "raw": "AEDII_7 [SO7]"
   },
   {
-   "subject": "ISI_7: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_7: Proba práctica 1"
-  },
-  {
    "subject": "ISI_1: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -16411,6 +16294,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_1: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_7: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_7: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -20238,15 +20130,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_6: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20254,6 +20137,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_6: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Examen prácticas EST -GREI (grupos reducidos)",
@@ -20616,15 +20508,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -20632,6 +20515,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -20931,15 +20823,6 @@
    "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_2: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20947,6 +20830,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_2: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_7: Grupo Reducido Segunda Prueba",
@@ -22758,15 +22650,6 @@
    "raw": "ABP_4 [SO8]"
   },
   {
-   "subject": "ISI_B: Proba obxectiva 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_B: Proba obxectiva 2"
-  },
-  {
    "subject": "ISI_8: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -22776,15 +22659,6 @@
    "raw": "ISI_8: Proba práctica 2"
   },
   {
-   "subject": "ISI_3: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 2"
-  },
-  {
    "subject": "ISI_6: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -22792,6 +22666,24 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_6: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_B: Proba obxectiva 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_B: Proba obxectiva 2"
+  },
+  {
+   "subject": "ISI_3: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 2"
   },
   {
    "subject": "FMI_A",
@@ -23523,15 +23415,6 @@
    "raw": "ABP_2 [SO8]"
   },
   {
-   "subject": "ISI_4: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_4: Proba práctica 2"
-  },
-  {
    "subject": "ISI_5: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -23539,6 +23422,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_5: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_4: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_4: Proba práctica 2"
   },
   {
    "subject": "SOI: segunda prueba de prácticas (grupos reducidos)",
