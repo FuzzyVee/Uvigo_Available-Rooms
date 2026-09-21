@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-14T12:29:36.264750+00:00",
-  "count": 98,
+  "generated_at": "2026-09-21T12:36:31.413645+00:00",
+  "count": 99,
   "teachers": [
     {
       "id": "p-1",
@@ -403,6 +403,19 @@
     },
     {
       "id": "p-28",
+      "name": "Ferreira Doval, Nuno",
+      "office": "315 Tel",
+      "phone": "",
+      "email": "nuno.ferreira@uvigo.gal",
+      "virtual_office": "",
+      "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/ferreira-doval-nuno/",
+      "uvigo_url": "",
+      "subjects": [
+        "Matemáticas::Análise matemática"
+      ]
+    },
+    {
+      "id": "p-29",
       "name": "Figueiral Alonso, Erik",
       "office": "Tel",
       "phone": "",
@@ -417,7 +430,7 @@
       ]
     },
     {
-      "id": "p-29",
+      "id": "p-30",
       "name": "Gálvez Gálvez, Juan Francisco",
       "office": "402",
       "phone": "988387009",
@@ -431,7 +444,7 @@
       ]
     },
     {
-      "id": "p-30",
+      "id": "p-31",
       "name": "García Hervella, Noelia",
       "office": "Laboratorio 35",
       "phone": "988387252",
@@ -446,7 +459,20 @@
       ]
     },
     {
-      "id": "p-31",
+      "id": "p-32",
+      "name": "García Liste, Iria",
+      "office": "315 Tel",
+      "phone": "",
+      "email": "i.garcia@uvigo.gal",
+      "virtual_office": "",
+      "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/garcia-liste-iria/",
+      "uvigo_url": "",
+      "subjects": [
+        "Matemáticas::Análise matemática"
+      ]
+    },
+    {
+      "id": "p-33",
       "name": "García Pérez-Schofield, Baltasar",
       "office": "307",
       "phone": "988368891",
@@ -460,7 +486,7 @@
       ]
     },
     {
-      "id": "p-32",
+      "id": "p-34",
       "name": "García Rivera, Matías",
       "office": "311",
       "phone": "988387035",
@@ -475,7 +501,7 @@
       ]
     },
     {
-      "id": "p-33",
+      "id": "p-35",
       "name": "Garriga Domínguez, Ana",
       "office": "26 - 4",
       "phone": "988368834",
@@ -488,7 +514,7 @@
       ]
     },
     {
-      "id": "p-34",
+      "id": "p-36",
       "name": "Gómez Meire, Silvana",
       "office": "410",
       "phone": "988387017",
@@ -504,7 +530,7 @@
       ]
     },
     {
-      "id": "p-35",
+      "id": "p-37",
       "name": "González Mariño, Ángela",
       "office": "311 Tel",
       "phone": "988387035",
@@ -515,7 +541,7 @@
       "subjects": []
     },
     {
-      "id": "p-36",
+      "id": "p-38",
       "name": "González Moreno, Juan Carlos",
       "office": "407",
       "phone": "988387014",
@@ -538,7 +564,7 @@
       ]
     },
     {
-      "id": "p-37",
+      "id": "p-39",
       "name": "González Pedrouzo, Antonio Adrián",
       "office": "Tel",
       "phone": "",
@@ -551,7 +577,7 @@
       ]
     },
     {
-      "id": "p-38",
+      "id": "p-40",
       "name": "González Peña, Daniel",
       "office": "306",
       "phone": "988387039",
@@ -565,7 +591,7 @@
       ]
     },
     {
-      "id": "p-39",
+      "id": "p-41",
       "name": "González Rodríguez, Brais",
       "office": "Edificio Xur",
       "phone": "988368767",
@@ -579,7 +605,7 @@
       ]
     },
     {
-      "id": "p-40",
+      "id": "p-42",
       "name": "González Rufino, María Encarnación",
       "office": "409",
       "phone": "988387016",
@@ -592,7 +618,7 @@
       ]
     },
     {
-      "id": "p-41",
+      "id": "p-43",
       "name": "Iago Núñez Lugilde",
       "office": "516",
       "phone": "",
@@ -606,7 +632,7 @@
       ]
     },
     {
-      "id": "p-42",
+      "id": "p-44",
       "name": "Lado Touriño, María José",
       "office": "405",
       "phone": "988387012",
@@ -619,7 +645,7 @@
       ]
     },
     {
-      "id": "p-43",
+      "id": "p-45",
       "name": "Laza Fidalgo, Rosalia",
       "office": "406",
       "phone": "988387013",
@@ -635,7 +661,7 @@
       ]
     },
     {
-      "id": "p-44",
+      "id": "p-46",
       "name": "López Fernández, Hugo",
       "office": "309",
       "phone": "988387030",
@@ -649,7 +675,7 @@
       ]
     },
     {
-      "id": "p-45",
+      "id": "p-47",
       "name": "López Pedrares, Javier",
       "office": "315",
       "phone": "988368807",
@@ -662,7 +688,7 @@
       ]
     },
     {
-      "id": "p-46",
+      "id": "p-48",
       "name": "Lorenzo Iglesias, Eva María",
       "office": "412",
       "phone": "988387019",
@@ -675,7 +701,7 @@
       ]
     },
     {
-      "id": "p-47",
+      "id": "p-49",
       "name": "Luis Vázquez, Ivan",
       "office": "407",
       "phone": "988387014",
@@ -689,7 +715,7 @@
       ]
     },
     {
-      "id": "p-48",
+      "id": "p-50",
       "name": "Martínez Estévez, Iván",
       "office": "401",
       "phone": "988387008",
@@ -704,7 +730,7 @@
       ]
     },
     {
-      "id": "p-49",
+      "id": "p-51",
       "name": "Martínez Orge, José Luis",
       "office": "403",
       "phone": "988387010",
@@ -718,7 +744,7 @@
       ]
     },
     {
-      "id": "p-50",
+      "id": "p-52",
       "name": "Méndez Penín, Arturo José",
       "office": "404",
       "phone": "988387011",
@@ -732,7 +758,7 @@
       ]
     },
     {
-      "id": "p-51",
+      "id": "p-53",
       "name": "Méndez Reboredo, José Ramón",
       "office": "408",
       "phone": "988387015",
@@ -746,7 +772,7 @@
       ]
     },
     {
-      "id": "p-52",
+      "id": "p-54",
       "name": "Mondelo Visuña, Víctor",
       "office": "Laboratorio 35",
       "phone": "988387252",
@@ -761,7 +787,7 @@
       ]
     },
     {
-      "id": "p-53",
+      "id": "p-55",
       "name": "Mosquera González, Julio",
       "office": "315",
       "phone": "988368807",
@@ -775,20 +801,7 @@
       ]
     },
     {
-      "id": "p-54",
-      "name": "Mosquera Lois, David",
-      "office": "315 Tel",
-      "phone": "988368807",
-      "email": "david.mosquera.lois@uvigo.gal",
-      "virtual_office": "",
-      "esei_url": "https://esei.uvigo.es/docencia/profesorado/profesor/mosquera-lois-david/",
-      "uvigo_url": "https://www.uvigo.gal/es/universidad/administracion-personal/pdi/david-mosquera-lois",
-      "subjects": [
-        "Matemáticas::Análise matemática"
-      ]
-    },
-    {
-      "id": "p-55",
+      "id": "p-56",
       "name": "Mosquera Rodríguez, Manuel Alfredo",
       "office": "E",
       "phone": "988368765",
@@ -801,7 +814,7 @@
       ]
     },
     {
-      "id": "p-56",
+      "id": "p-57",
       "name": "Nieto González, Juan",
       "office": "403",
       "phone": "988387009",
@@ -815,7 +828,7 @@
       ]
     },
     {
-      "id": "p-57",
+      "id": "p-58",
       "name": "Novo Lourés, María",
       "office": "308",
       "phone": "988387029",
@@ -830,7 +843,7 @@
       ]
     },
     {
-      "id": "p-58",
+      "id": "p-59",
       "name": "Olivieri Cecchi, David Nicholas",
       "office": "411",
       "phone": "988387018",
@@ -846,7 +859,7 @@
       ]
     },
     {
-      "id": "p-59",
+      "id": "p-60",
       "name": "Otero Cerdeira, Lorena",
       "office": "301",
       "phone": "988387022",
@@ -862,7 +875,7 @@
       ]
     },
     {
-      "id": "p-60",
+      "id": "p-61",
       "name": "Otero Iglesias, José",
       "office": "303",
       "phone": "988387024",
@@ -878,7 +891,7 @@
       ]
     },
     {
-      "id": "p-61",
+      "id": "p-62",
       "name": "Otero Pombo, Juan",
       "office": "303",
       "phone": "988387024",
@@ -892,7 +905,7 @@
       ]
     },
     {
-      "id": "p-62",
+      "id": "p-63",
       "name": "Outeiriño Cid, Cristina",
       "office": "304",
       "phone": "988387025",
@@ -905,7 +918,7 @@
       ]
     },
     {
-      "id": "p-63",
+      "id": "p-64",
       "name": "Pájaro Diéguez, Manuel",
       "office": "28 Pavill",
       "phone": "988387237",
@@ -920,7 +933,7 @@
       ]
     },
     {
-      "id": "p-64",
+      "id": "p-65",
       "name": "Pato Valcárcel, Josué",
       "office": "412 Tel",
       "phone": "988387019",
@@ -935,7 +948,7 @@
       ]
     },
     {
-      "id": "p-65",
+      "id": "p-66",
       "name": "Pavón Rial, María Reyes",
       "office": "406",
       "phone": "988387013",
@@ -949,7 +962,7 @@
       ]
     },
     {
-      "id": "p-66",
+      "id": "p-67",
       "name": "Pérez Bouzas, Maria Pilar",
       "office": "Edificio Empresariales - 515",
       "phone": "988368769",
@@ -962,7 +975,7 @@
       ]
     },
     {
-      "id": "p-67",
+      "id": "p-68",
       "name": "Pérez Estévez, Diego",
       "office": "312",
       "phone": "988387023",
@@ -975,7 +988,7 @@
       ]
     },
     {
-      "id": "p-68",
+      "id": "p-69",
       "name": "Pérez Pérez, Martín",
       "office": "314",
       "phone": "988368915",
@@ -989,7 +1002,7 @@
       ]
     },
     {
-      "id": "p-69",
+      "id": "p-70",
       "name": "Reboiro Jato, Miguel",
       "office": "306",
       "phone": "988387027",
@@ -1004,7 +1017,7 @@
       ]
     },
     {
-      "id": "p-70",
+      "id": "p-71",
       "name": "Rial Fernández, Miguel",
       "office": "312",
       "phone": "988387023",
@@ -1018,7 +1031,7 @@
       ]
     },
     {
-      "id": "p-71",
+      "id": "p-72",
       "name": "Ribadas Pena, Francisco José",
       "office": "303",
       "phone": "988387024",
@@ -1035,7 +1048,7 @@
       ]
     },
     {
-      "id": "p-72",
+      "id": "p-73",
       "name": "Rodeiro Iglesias, Javier",
       "office": "413",
       "phone": "988387020",
@@ -1049,7 +1062,7 @@
       ]
     },
     {
-      "id": "p-73",
+      "id": "p-74",
       "name": "Rodríguez Conde, Iván",
       "office": "414",
       "phone": "988368911",
@@ -1064,7 +1077,7 @@
       ]
     },
     {
-      "id": "p-74",
+      "id": "p-75",
       "name": "Rodríguez de la Fuente, Marta",
       "office": "4.18 FCETOU",
       "phone": "988368750",
@@ -1077,7 +1090,7 @@
       ]
     },
     {
-      "id": "p-75",
+      "id": "p-76",
       "name": "Rodríguez Liñares, Leandro",
       "office": "405",
       "phone": "988387012",
@@ -1093,7 +1106,7 @@
       ]
     },
     {
-      "id": "p-76",
+      "id": "p-77",
       "name": "Rodríguez Martínez, David",
       "office": "315",
       "phone": "988368807",
@@ -1107,7 +1120,7 @@
       ]
     },
     {
-      "id": "p-77",
+      "id": "p-78",
       "name": "Rodríguez Martínez, Francisco Javier",
       "office": "301",
       "phone": "988387022",
@@ -1124,7 +1137,7 @@
       ]
     },
     {
-      "id": "p-78",
+      "id": "p-79",
       "name": "Rodríguez Martínez, Gerardo José",
       "office": "315",
       "phone": "988368807",
@@ -1138,7 +1151,7 @@
       ]
     },
     {
-      "id": "p-79",
+      "id": "p-80",
       "name": "Rodríguez Miranda, Iván",
       "office": "Tel",
       "phone": "",
@@ -1152,7 +1165,7 @@
       ]
     },
     {
-      "id": "p-80",
+      "id": "p-81",
       "name": "Rodríguez-Toubes Muñiz, Diego",
       "office": "Edificio xur",
       "phone": "988368747",
@@ -1165,7 +1178,7 @@
       ]
     },
     {
-      "id": "p-81",
+      "id": "p-82",
       "name": "Romero González, Rubén",
       "office": "Lab 35",
       "phone": "988387252",
@@ -1180,7 +1193,7 @@
       ]
     },
     {
-      "id": "p-82",
+      "id": "p-83",
       "name": "Ruano Ordás, David Alfonso",
       "office": "409",
       "phone": "988387016",
@@ -1194,7 +1207,7 @@
       ]
     },
     {
-      "id": "p-83",
+      "id": "p-84",
       "name": "Sánchez Sellero, Francisco Javier",
       "office": "Tel",
       "phone": "",
@@ -1207,7 +1220,7 @@
       ]
     },
     {
-      "id": "p-84",
+      "id": "p-85",
       "name": "Seara Vieira, Adrián",
       "office": "412",
       "phone": "988387019",
@@ -1220,7 +1233,7 @@
       ]
     },
     {
-      "id": "p-85",
+      "id": "p-86",
       "name": "Serrano Antón, Belén",
       "office": "313",
       "phone": "",
@@ -1235,7 +1248,7 @@
       ]
     },
     {
-      "id": "p-86",
+      "id": "p-87",
       "name": "Sorribes Fernández, José Manuel",
       "office": "412",
       "phone": "988387019",
@@ -1251,7 +1264,7 @@
       ]
     },
     {
-      "id": "p-87",
+      "id": "p-88",
       "name": "Sotelo Martínez, José Manuel",
       "office": "310",
       "phone": "988387034",
@@ -1266,7 +1279,7 @@
       ]
     },
     {
-      "id": "p-88",
+      "id": "p-89",
       "name": "Suárez García, Andrés",
       "office": "Laboratorio de Autom",
       "phone": "",
@@ -1279,7 +1292,7 @@
       ]
     },
     {
-      "id": "p-89",
+      "id": "p-90",
       "name": "Tugores Blanco, Laia Francina",
       "office": "315",
       "phone": "988368807",
@@ -1293,7 +1306,7 @@
       ]
     },
     {
-      "id": "p-90",
+      "id": "p-91",
       "name": "Veloso Trigo, Rubén",
       "office": "Tel",
       "phone": "",
@@ -1308,7 +1321,7 @@
       ]
     },
     {
-      "id": "p-91",
+      "id": "p-92",
       "name": "Vila Sobrino, Xosé Antón",
       "office": "404",
       "phone": "988387011",
@@ -1322,7 +1335,7 @@
       ]
     },
     {
-      "id": "p-92",
+      "id": "p-93",
       "name": "Vilares Ferro, Manuel",
       "office": "302",
       "phone": "988387280",
@@ -1337,7 +1350,7 @@
       ]
     },
     {
-      "id": "p-102",
+      "id": "p-103",
       "name": "Formella , Arno",
       "office": "309",
       "phone": "988387030",
@@ -1351,7 +1364,7 @@
       ]
     },
     {
-      "id": "p-103",
+      "id": "p-104",
       "name": "Garcia Lourenço, Anália Maria",
       "office": "308",
       "phone": "988387029",
@@ -1369,7 +1382,7 @@
       ]
     },
     {
-      "id": "p-105",
+      "id": "p-106",
       "name": "Gómez Rodríguez, Alma María",
       "office": "401",
       "phone": "988387008",
@@ -1390,7 +1403,7 @@
       ]
     },
     {
-      "id": "p-107",
+      "id": "p-108",
       "name": "Gueimonde Canto, Ana Isabel",
       "office": "E",
       "phone": "988368741",
@@ -1403,7 +1416,7 @@
       ]
     },
     {
-      "id": "p-112",
+      "id": "p-113",
       "name": "Pérez Cota, Manuel",
       "office": "401 Tel",
       "phone": "986813933",
@@ -1416,7 +1429,7 @@
       ]
     },
     {
-      "id": "p-113",
+      "id": "p-114",
       "name": "Ramos Valcárcel, David",
       "office": "407 Tel",
       "phone": "988387014",
