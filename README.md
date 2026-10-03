@@ -4,9 +4,7 @@ A small personal page that shows which ESEI (UVigo) rooms are **free or busy**,
 built from the official public Google Calendars that power the school's
 timetable pages.
 
-```URL
 https://fuzzyvee.github.io/Uvigo_Available-Rooms/
-```
 
 
 ## How it works
