@@ -189,6 +189,14 @@ const PRESET_FILTERS = {
   }
 };
 
+/* ---------- floor plan maps (official ESEI plans, one PDF per floor) ---------- */
+const FLOOR_MAPS = {
+  soxAndMagna: { label: "Floor -1 (sótano)", url: "https://esei.uvigo.es/documentos/plano-sotano-1-esei/" },
+  floor1:      { label: "Floor 1", url: "https://esei.uvigo.es/documentos/plano-planta-1-esei/" },
+  floor2:      { label: "Floor 2", url: "https://esei.uvigo.es/documentos/plano-planta-2-esei/" },
+  floor3:      { label: "Floor 3", url: "https://esei.uvigo.es/documentos/plano-planta-3-esei/" }
+};
+
 /* ---------- room canonicalization ----------
    Merges duplicate room names coming from the feeds ('Aula 2.1' vs '2.1',
    'AUTOM' vs 'Autom', 'Sala Xuntas' vs 'Sala de Xuntas'...), drops values that
@@ -306,6 +314,27 @@ function statusAt(evts, time) {
 }
 
 /* ---------- rendering rooms ---------- */
+/* Show/hide the floor plan guide for the active floor filter; works even
+   when data.json failed to load, so the map is always usable */
+function renderFloorMap() {
+  const mapEl = document.getElementById("floorMap");
+  if (!mapEl) return;
+  const map = FLOOR_MAPS[activeFilter];
+  if (map) {
+    document.getElementById("floorMapTitle").textContent = `Map · ${map.label}`;
+    const embed = document.getElementById("floorMapEmbed");
+    if (embed && embed.getAttribute("src") !== map.url) embed.setAttribute("src", map.url);
+    const link = document.getElementById("floorMapLink");
+    if (link) {
+      link.setAttribute("href", map.url);
+      link.textContent = `Open the ${map.label} plan (PDF) ↗`;
+    }
+    mapEl.hidden = false;
+  } else {
+    mapEl.hidden = true;
+  }
+}
+
 function render() {
   if (!DATA) return;
 
@@ -313,6 +342,8 @@ function render() {
   const timeEl = document.getElementById("time");
   const board = document.getElementById("board");
   const body = document.getElementById("dayBody");
+
+  renderFloorMap();
 
   /* Never claim rooms are FREE when data.json could not be loaded */
   if (DATA_LOAD_FAILED) {
