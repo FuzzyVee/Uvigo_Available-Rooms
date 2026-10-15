@@ -1,5 +1,6 @@
 const TZ = "Europe/Madrid";
 let DATA = null;
+let DATA_LOAD_FAILED = false;
 let TEACHERS_DATA = null;
 let activeFilter = 'all';
 let selectedTeacher = null;
@@ -188,6 +189,92 @@ const PRESET_FILTERS = {
   }
 };
 
+/* ---------- floor plan maps (official ESEI plans, one PDF per floor) ---------- */
+const FLOOR_MAPS = {
+  soxAndMagna: { label: "Floor -1 (sótano)", url: "https://esei.uvigo.es/documentos/plano-sotano-1-esei/" },
+  floor1:      { label: "Floor 1", url: "https://esei.uvigo.es/documentos/plano-planta-1-esei/" },
+  floor2:      { label: "Floor 2", url: "https://esei.uvigo.es/documentos/plano-planta-2-esei/" },
+  floor3:      { label: "Floor 3", url: "https://esei.uvigo.es/documentos/plano-planta-3-esei/" }
+};
+
+/* ---------- room canonicalization ----------
+   Merges duplicate room names coming from the feeds ('Aula 2.1' vs '2.1',
+   'AUTOM' vs 'Autom', 'Sala Xuntas' vs 'Sala de Xuntas'...), drops values that
+   are not rooms at all ('EXAMEN DE PROGRAMACIÓN', 'DEFENSA PROYECTO'...) and
+   guarantees every official room (2.1 ... 3.2, labs, Aula Magna...) always
+   shows on the board, even with no events. */
+const JUNK_ROOM_RE = /\b(examen|defensa|exposici\w*|prueba|presentaci\w*|reserva|tfg|tfm)\b/i;
+const NON_ROOM_KEYS = new Set(["tbd", "online", "exam", "examen", "aula", "faitic", "dai", "aedii"]);
+
+/* Official ESEI rooms (used when data.json has no room_calendars metadata) */
+const FALLBACK_ROOMS = [
+  "2.1", "2.2", "2.3", "2.4", "3.1", "3.2",
+  "L30A", "L31A", "L31B", "L37", "L38",
+  "SO1", "SO2", "SO3", "SO4", "SO5", "SO6", "SO7", "SO8", "SO9",
+  "Automática", "B00", "Electrónica",
+  "Aula Magna", "Seminario 40", "Salón de Actos", "Salón de Graos", "Sala de Xuntas"
+];
+
+/* Common feed spellings -> canonical display name */
+const ROOM_ALIASES = {
+  "magna": "Aula Magna",
+  "aula magna": "Aula Magna",
+  "autom": "Automática",
+  "automatica": "Automática",
+  "sala xuntas": "Sala de Xuntas",
+  "salon actos": "Salón de Actos",
+  "salon graos": "Salón de Graos"
+};
+
+function roomKeyOf(r) {
+  return normalizeStr(r).replace(/\bde\b/g, "").replace(/\s+/g, " ").trim();
+}
+
+let ROOM_MAP = {};
+function buildRoomMap() {
+  ROOM_MAP = {};
+  const labels = (DATA && DATA.room_calendars) ? Object.keys(DATA.room_calendars) : [];
+  const source = labels.length ? labels : FALLBACK_ROOMS;
+  for (const label of source) {
+    let disp = String(label).trim();
+    if (/^aula\s+magna$/i.test(disp)) { ROOM_MAP["aula magna"] = "Aula Magna"; continue; }
+    disp = disp.replace(/^(aula|lab|laboratorio)(\s+de)?\s+/i, "");
+    ROOM_MAP[roomKeyOf(disp)] = disp;
+  }
+  Object.assign(ROOM_MAP, ROOM_ALIASES);
+}
+
+function canonicalRoom(raw) {
+  if (!raw) return null;
+  const r = String(raw).trim();
+  if (!r) return null;
+  if (/^((aula\s+)?magna)$/i.test(r)) return "Aula Magna";
+  if (JUNK_ROOM_RE.test(r)) return null;
+  if (NON_ROOM_KEYS.has(roomKeyOf(r))) return null;
+  const disp = r.replace(/^(aula|lab|laboratorio)(\s+de)?\s+/i, "");
+  const key = roomKeyOf(disp);
+  /* Only registered rooms (official roster or verified alias) become cards;
+     anything else is reported as an unresolved label, never invented */
+  return ROOM_MAP[key] || null;
+}
+
+/* When an event's room field is invalid (e.g. 'DEFENSA PROYECTO' picked up by
+   mistake), recover the real room from the room brackets in the raw summary:
+   'DAGSS_1 [SO4] [DEFENSA PROYECTO]' -> SO4 */
+function recoverRoomFromRaw(raw) {
+  if (!raw) return null;
+  const matches = String(raw).match(/\[([^\]]+)\]/g) || [];
+  for (const m of matches) {
+    const canon = canonicalRoom(m.slice(1, -1));
+    if (canon) return canon;
+  }
+  return null;
+}
+
+function roomCompare(a, b) {
+  return a.localeCompare(b, "es", { numeric: true, sensitivity: "base" });
+}
+
 /* ---------- time helpers (all in Europe/Madrid) ---------- */
 function madridParts(date = new Date()) {
   const p = new Intl.DateTimeFormat("en-GB", {
@@ -221,20 +308,51 @@ const toMin = t => {
 /* ---------- data helpers ---------- */
 const eventsOn = iso => DATA.events.filter(e => e.date === iso);
 
-function roomKey(r) {
-  return (r || "").split(/(\d+)/).map(s => isNaN(s) ? s : +s);
-}
-
 function statusAt(evts, time) {
   const t = toMin(time);
   return evts.find(e => toMin(e.start) <= t && t < toMin(e.end));
 }
 
 /* ---------- rendering rooms ---------- */
+/* Show/hide the floor plan guide for the active floor filter; works even
+   when data.json failed to load, so the map is always usable */
+function renderFloorMap() {
+  const mapEl = document.getElementById("floorMap");
+  if (!mapEl) return;
+  const map = FLOOR_MAPS[activeFilter];
+  if (map) {
+    document.getElementById("floorMapTitle").textContent = `Map · ${map.label}`;
+    const embed = document.getElementById("floorMapEmbed");
+    if (embed && embed.getAttribute("src") !== map.url) embed.setAttribute("src", map.url);
+    const link = document.getElementById("floorMapLink");
+    if (link) {
+      link.setAttribute("href", map.url);
+      link.textContent = `Open the ${map.label} plan (PDF) ↗`;
+    }
+    mapEl.hidden = false;
+  } else {
+    mapEl.hidden = true;
+  }
+}
+
 function render() {
   if (!DATA) return;
+
   const dateEl = document.getElementById("date");
   const timeEl = document.getElementById("time");
+  const board = document.getElementById("board");
+  const body = document.getElementById("dayBody");
+
+  renderFloorMap();
+
+  /* Never claim rooms are FREE when data.json could not be loaded */
+  if (DATA_LOAD_FAILED) {
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">Could not load data.json — room status unavailable.</div>`;
+    body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">Data unavailable.</td></tr>`;
+    return;
+  }
+
+  buildRoomMap();
   const iso = dateEl.value;
   const time = timeEl.value;
   const nowIso = madridParts().date;
@@ -243,22 +361,35 @@ function render() {
   document.getElementById("boardTitle").textContent =
     viewingNow ? "Right now" : `Status on ${weekdayName(iso)} at ${time}`;
 
-  const evts = eventsOn(iso);
-  
-  let rooms = [...new Set(DATA.events.map(e => e.room).filter(Boolean))].sort((a, b) => {
-    const ka = roomKey(a), kb = roomKey(b);
-    for (let i = 0; i < Math.max(ka.length, kb.length); i++) {
-      if (ka[i] === undefined) return -1;
-      if (kb[i] === undefined) return 1;
-      if (ka[i] !== kb[i]) return ka[i] < kb[i] ? -1 : 1;
+  /* Canonicalize room names once so 'Aula 2.1' and '2.1' match the same card;
+     if the room field is invalid, recover the real room from the raw summary */
+  const evts = eventsOn(iso).map(e => ({
+    ...e,
+    room: canonicalRoom(e.room) || recoverRoomFromRaw(e.raw)
+  }));
+
+  /* Diagnostic: labels that are neither junk nor recoverable and are not on
+     the official roster (e.g. 'B0') create no card — report them once */
+  const unresolved = new Set();
+  for (const e of eventsOn(iso)) {
+    if (e.room && !JUNK_ROOM_RE.test(e.room) &&
+        !canonicalRoom(e.room) && !recoverRoomFromRaw(e.raw)) {
+      unresolved.add(e.room);
     }
-    return 0;
-  });
+  }
+  if (unresolved.size) {
+    console.warn("Unrecognized room labels (no card created):", [...unresolved]);
+  }
+
+  /* All official rooms always appear (even without events today), plus any
+     extra rooms found in the events */
+  const eventRooms = [...new Set(evts.map(e => e.room).filter(Boolean))];
+  let rooms = [...new Set([...Object.values(ROOM_MAP), ...eventRooms])]
+    .sort(roomCompare);
 
   const filterFn = PRESET_FILTERS[activeFilter] || PRESET_FILTERS.all;
   rooms = rooms.filter(filterFn);
 
-  const board = document.getElementById("board");
   board.innerHTML = "";
   const later = evts.filter(e => toMin(e.start) >= toMin(time))
                     .sort((a, b) => toMin(a.start) - toMin(b.start));
@@ -282,7 +413,6 @@ function render() {
     board.appendChild(card);
   }
 
-  const body = document.getElementById("dayBody");
   body.innerHTML = "";
   if (!rooms.length) {
     body.innerHTML = `<tr><td colspan="2" style="color:var(--muted)">No classes or rooms found for this view.</td></tr>`;
@@ -435,6 +565,7 @@ async function boot() {
   } catch (err) {
     console.error("Could not load data.json:", err);
     DATA = { events: [] }; // Fallback para que la app no muera
+    DATA_LOAD_FAILED = true;
     const e = document.getElementById("error");
     e.style.display = "block";
     e.textContent = "⚠ Could not load data.json. Check path or local server.";

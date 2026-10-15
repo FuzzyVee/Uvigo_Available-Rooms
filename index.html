@@ -41,6 +41,16 @@
   <h2 id="boardTitle">Right now</h2>
   <div class="grid" id="board"></div>
 
+  <!-- Floor plan guide: shown when a floor filter is active (app.js controls it) -->
+  <div id="floorMap" style="margin: 24px 0; padding: 16px; border: 1px solid var(--border); border-radius: 10px; background: var(--panel);" hidden>
+    <h3 id="floorMapTitle" style="margin: 0 0 12px 0; font-size: 1.05rem;">Floor plan</h3>
+    <embed id="floorMapEmbed" type="application/pdf" src="" title="Floor plan"
+           style="width: 100%; height: 520px; border-radius: 8px; border: 1px solid var(--border); background: var(--panel2);">
+    <div style="margin-top: 10px;">
+      <a id="floorMapLink" href="" target="_blank" rel="noopener" style="font-size: 0.9rem;">Open the full floor plan (PDF) ↗</a>
+    </div>
+  </div>
+
   <h2>Day schedule</h2>
   <table>
     <thead>
