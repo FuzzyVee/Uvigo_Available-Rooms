@@ -182,6 +182,7 @@ function getFloor(roomName) {
 
 const PRESET_FILTERS = {
   all: () => true,
+  floor0: (room) => getFloor(room) === 0,
   floor1: (room) => getFloor(room) === 1,
   floor2: (room) => getFloor(room) === 2,
   floor3: (room) => {
@@ -193,6 +194,7 @@ const PRESET_FILTERS = {
            r.includes("electronica") || 
            r.startsWith("l3");
   },
+  floor4: (room) => getFloor(room) === 4,
   soxAndMagna: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
@@ -408,7 +410,7 @@ function render() {
                     .sort((a, b) => toMin(a.start) - toMin(b.start));
 
   if (!rooms.length) {
-    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No rooms matching this floor filter.</div>`;
+    board.innerHTML = `<div style="grid-column:1/-1; color:var(--muted)">No rooms relevant in this floor.</div>`;
   }
 
   for (const room of rooms) {
@@ -568,21 +570,6 @@ function tick() {
 async function boot() {
   tick();
   setInterval(tick, 1000);
-
-      try {
-    const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!r.ok) throw new Error("HTTP " + r.status);
-    DATA = await r.json();
-    document.getElementById("freshness").textContent =
-      "data updated: " + new Date(DATA.generated_at).toLocaleString();
-  } catch (err) {
-    console.error("Could not load data.json:", err);
-    DATA = { events: [] }; // Fallback para que la app no muera
-    DATA_LOAD_FAILED = true;
-    const e = document.getElementById("error");
-    e.style.display = "block";
-    e.textContent = "⚠ Could not load data.json. Check path or local server.";
-  }
 
   try {
     const r = await fetch(`teachers.json?v=${Date.now()}`, { cache: "no-store" });
