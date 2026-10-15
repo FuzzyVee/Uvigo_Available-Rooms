@@ -571,6 +571,19 @@ async function boot() {
   tick();
   setInterval(tick, 1000);
 
+      try {
+    const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    DATA = await r.json();
+  } catch (err) {
+    console.error("Could not load data.json:", err);
+    DATA = { events: [] }; // Fallback para que la app no muera
+    DATA_LOAD_FAILED = true;
+    const e = document.getElementById("error");
+    e.style.display = "block";
+    e.textContent = "⚠ Could not load data.json. Check path or local server.";
+  }
+
   try {
     const r = await fetch(`teachers.json?v=${Date.now()}`, { cache: "no-store" });
     if (r.ok) {
