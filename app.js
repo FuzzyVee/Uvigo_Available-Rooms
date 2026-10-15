@@ -169,6 +169,13 @@ function renderSubjects() {
 
 function getFloor(roomName) {
   if (!roomName) return null;
+  const r = roomName.toLowerCase().trim();
+  
+  if (r.startsWith("3") || r.startsWith("l3")) return 3;
+  if (r.startsWith("2") || r.startsWith("l2")) return 2;
+  if (r.startsWith("1") || r.startsWith("l1")) return 1;
+  if (r.startsWith("-") || r.includes("-1")) return -1;
+
   const match = roomName.match(/\b([0-3])\.\d+\b/);
   return match ? parseInt(match[1], 10) : null;
 }
@@ -178,10 +185,14 @@ const PRESET_FILTERS = {
   floor1: (room) => getFloor(room) === 1,
   floor2: (room) => getFloor(room) === 2,
   floor3: (room) => {
-  if (!room) return false;
+    if (!room) return false;
     const r = room.toLowerCase();
-    return getFloor(room) === 3 || r.includes("autom") || r.includes("aut");
-    },
+    return getFloor(room) === 3 || 
+           r.includes("autom") || 
+           r.includes("aut") || 
+           r.includes("electronica") || 
+           r.startsWith("l3");
+  },
   soxAndMagna: (room) => {
     if (!room) return false;
     const r = room.toLowerCase();
