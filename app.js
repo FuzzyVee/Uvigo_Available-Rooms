@@ -575,8 +575,6 @@ async function boot() {
     const r = await fetch(`data.json?v=${Date.now()}`, { cache: "no-store" });
     if (!r.ok) throw new Error("HTTP " + r.status);
     DATA = await r.json();
-    document.getElementById("freshness").textContent =
-      "data updated: " + new Date(DATA.generated_at).toLocaleString();
   } catch (err) {
     console.error("Could not load data.json:", err);
     DATA = { events: [] }; // Fallback para que la app no muera
