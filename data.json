@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-20T11:14:09",
+ "generated_at": "2026-10-20T16:38:58",
  "timezone": "Europe/Madrid",
  "calendar_count": 91,
  "successful_calendars": 71,
- "event_count": 3633,
+ "event_count": 3635,
  "duplicate_events_skipped": 1842,
  "room_calendars": {
   "Aula 2.1": "c_8215f375fc0a944d31f42dc3231170b3cf879554c2ddd2e77b06a78974fced0f@group.calendar.google.com",
@@ -2611,15 +2611,6 @@
    "raw": "[EXAM] IS II - FinCarreira [Magna]"
   },
   {
-   "subject": "IS II (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-19",
-   "start": "09:00",
-   "end": "11:00",
-   "raw": "[EXAM] IS II (GREI) [Magna]"
-  },
-  {
    "subject": "AED I (GREI)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -2627,6 +2618,15 @@
    "start": "09:00",
    "end": "12:00",
    "raw": "[EXAM] AED I (GREI) [Magna]"
+  },
+  {
+   "subject": "IS II (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-19",
+   "start": "09:00",
+   "end": "11:00",
+   "raw": "[EXAM] IS II (GREI) [Magna]"
   },
   {
    "subject": "IU - FinCarreira",
@@ -2647,22 +2647,13 @@
    "raw": "[EXAM] DM - FinCarreira [Magna]"
   },
   {
-   "subject": "WSEM (GRIA)",
+   "subject": "APAU BIO (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-19",
    "start": "10:00",
    "end": "13:00",
-   "raw": "[EXAM] WSEM (GRIA) [Magna]"
-  },
-  {
-   "subject": "IU (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-19",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] IU (GREI) [Magna]"
+   "raw": "[EXAM] APAU BIO (GRIA) [Magna]"
   },
   {
    "subject": "ENX (GRIA)",
@@ -2674,13 +2665,13 @@
    "raw": "[EXAM] ENX (GRIA) [Magna]"
   },
   {
-   "subject": "APAU BIO (GRIA)",
+   "subject": "WSEM (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-19",
    "start": "10:00",
    "end": "13:00",
-   "raw": "[EXAM] APAU BIO (GRIA) [Magna]"
+   "raw": "[EXAM] WSEM (GRIA) [Magna]"
   },
   {
    "subject": "DM (GREI)",
@@ -2699,6 +2690,15 @@
    "start": "10:00",
    "end": "13:00",
    "raw": "[EXAM] AL (GRIA) [Magna]"
+  },
+  {
+   "subject": "IU (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-19",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] IU (GREI) [Magna]"
   },
   {
    "subject": "Reserva Ma Encarnación González Rufino",
@@ -3151,15 +3151,6 @@
    "raw": "[EXAM] PLN (GRIA) [Magna]"
   },
   {
-   "subject": "SIEX (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-19",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] SIEX (GRIA) [Magna]"
-  },
-  {
    "subject": "FEJ (GREI)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -3167,6 +3158,15 @@
    "start": "16:00",
    "end": "18:00",
    "raw": "[EXAM] FEJ (GREI) [Magna]"
+  },
+  {
+   "subject": "SIEX (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-19",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "[EXAM] SIEX (GRIA) [Magna]"
   },
   {
    "subject": "ACII_2",
@@ -3286,15 +3286,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ACII_5: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-20",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_5: Grupo Reducido Primera Prueba"
-  },
-  {
    "subject": "ACII_4: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -3302,6 +3293,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_4: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_5: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-20",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_5: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_B: Proba obxectiva 1",
@@ -3502,13 +3502,13 @@
    "raw": "[EXAM] LC - FinCarreira [Magna]"
   },
   {
-   "subject": "RC I (GREI)",
+   "subject": "APAU I (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-20",
    "start": "10:00",
-   "end": "12:00",
-   "raw": "[EXAM] RC I (GREI) [Magna]"
+   "end": "13:00",
+   "raw": "[EXAM] APAU I (GRIA) [Magna]"
   },
   {
    "subject": "LC (GREI)",
@@ -3518,24 +3518,6 @@
    "start": "10:00",
    "end": "12:00",
    "raw": "[EXAM] LC (GREI) [Magna]"
-  },
-  {
-   "subject": "MD (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-20",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] MD (GRIA) [Magna]"
-  },
-  {
-   "subject": "APAU I (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-20",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] APAU I (GRIA) [Magna]"
   },
   {
    "subject": "ININ (GRIA)",
@@ -3554,6 +3536,24 @@
    "start": "10:00",
    "end": "12:00",
    "raw": "[EXAM] RED (GRIA) [Magna]"
+  },
+  {
+   "subject": "MD (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] MD (GRIA) [Magna]"
+  },
+  {
+   "subject": "RC I (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "10:00",
+   "end": "12:00",
+   "raw": "[EXAM] RC I (GREI) [Magna]"
   },
   {
    "subject": "RCII_4",
@@ -3781,15 +3781,6 @@
    "raw": "[EXAM] RC I - FinCarreira [B0]"
   },
   {
-   "subject": "RC I (GREI)",
-   "room": "B0",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-20",
-   "start": "12:00",
-   "end": "14:00",
-   "raw": "[EXAM] RC I (GREI) [B0]"
-  },
-  {
    "subject": "RED (GRIA)",
    "room": "B0",
    "group": "Ocupación Aulas",
@@ -3797,6 +3788,15 @@
    "start": "12:00",
    "end": "14:00",
    "raw": "[EXAM] RED (GRIA) [B0]"
+  },
+  {
+   "subject": "RC I (GREI)",
+   "room": "B0",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] RC I (GREI) [B0]"
   },
   {
    "subject": "FMI_B",
@@ -3988,6 +3988,24 @@
    "raw": "[EXAM] CDA - FinCarreira [Magna]"
   },
   {
+   "subject": "CDA (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "[EXAM] CDA (GREI) [Magna]"
+  },
+  {
+   "subject": "SO I (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "[EXAM] SO I (GREI) [Magna]"
+  },
+  {
    "subject": "PRO II (GREI)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -4006,15 +4024,6 @@
    "raw": "[EXAM] SN (GREI) [Magna]"
   },
   {
-   "subject": "CDA (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-20",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] CDA (GREI) [Magna]"
-  },
-  {
    "subject": "PROI (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -4022,15 +4031,6 @@
    "start": "16:00",
    "end": "19:00",
    "raw": "[EXAM] PROI (GRIA) [Magna]"
-  },
-  {
-   "subject": "TPMD (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-20",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] TPMD (GRIA) [Magna]"
   },
   {
    "subject": "BD (GRIA)",
@@ -4042,13 +4042,13 @@
    "raw": "[EXAM] BD (GRIA) [Magna]"
   },
   {
-   "subject": "SO I (GREI)",
+   "subject": "TPMD (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-20",
    "start": "16:00",
-   "end": "18:00",
-   "raw": "[EXAM] SO I (GREI) [Magna]"
+   "end": "19:00",
+   "raw": "[EXAM] TPMD (GRIA) [Magna]"
   },
   {
    "subject": "VIAR (GRIA)",
@@ -4157,6 +4157,15 @@
    "start": "16:00",
    "end": "19:00",
    "raw": "Introduccion a la Informatica"
+  },
+  {
+   "subject": "CLASE DE MAYORES - ALMA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-20",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "CLASE DE MAYORES - ALMA"
   },
   {
    "subject": "Móbiles e Productividad Dixital",
@@ -4447,24 +4456,6 @@
    "raw": "[EXAM] SIRE (GRIA) [Magna]"
   },
   {
-   "subject": "RI (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-21",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] RI (GRIA) [Magna]"
-  },
-  {
-   "subject": "IS I (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-21",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] IS I (GREI) [Magna]"
-  },
-  {
    "subject": "CAN (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -4481,6 +4472,24 @@
    "start": "10:00",
    "end": "12:00",
    "raw": "[EXAM] FMI (GREI) [Magna]"
+  },
+  {
+   "subject": "RI (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-21",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] RI (GRIA) [Magna]"
+  },
+  {
+   "subject": "IS I (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-21",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] IS I (GREI) [Magna]"
   },
   {
    "subject": "DGP (GREI)",
@@ -4924,15 +4933,6 @@
    "raw": "[EXAM] SO II - FinCarreira [Magna]"
   },
   {
-   "subject": "BD NoSQL (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-21",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] BD NoSQL (GRIA) [Magna]"
-  },
-  {
    "subject": "IC (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -4949,6 +4949,15 @@
    "start": "16:00",
    "end": "18:00",
    "raw": "[EXAM] MAIS (GREI) [Magna]"
+  },
+  {
+   "subject": "SO II (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-21",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "[EXAM] SO II (GREI) [Magna]"
   },
   {
    "subject": "CCPD (GRIA)",
@@ -4978,13 +4987,13 @@
    "raw": "[EXAM] CIN (GRIA) [Magna]"
   },
   {
-   "subject": "SO II (GREI)",
+   "subject": "BD NoSQL (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-21",
    "start": "16:00",
-   "end": "18:00",
-   "raw": "[EXAM] SO II (GREI) [Magna]"
+   "end": "19:00",
+   "raw": "[EXAM] BD NoSQL (GRIA) [Magna]"
   },
   {
    "subject": "RCII_1",
@@ -5365,6 +5374,33 @@
    "raw": "[EXAM] BD I - FinCarreira [Magna]"
   },
   {
+   "subject": "SIAX (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-22",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] SIAX (GRIA) [Magna]"
+  },
+  {
+   "subject": "FAA (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-22",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] FAA (GRIA) [Magna]"
+  },
+  {
+   "subject": "BD I (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-22",
+   "start": "10:00",
+   "end": "12:00",
+   "raw": "[EXAM] BD I (GREI) [Magna]"
+  },
+  {
    "subject": "RAIN (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -5381,33 +5417,6 @@
    "start": "10:00",
    "end": "13:00",
    "raw": "[EXAM] PROII (GRIA) [Magna]"
-  },
-  {
-   "subject": "BD I (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-22",
-   "start": "10:00",
-   "end": "12:00",
-   "raw": "[EXAM] BD I (GREI) [Magna]"
-  },
-  {
-   "subject": "FAA (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-22",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] FAA (GRIA) [Magna]"
-  },
-  {
-   "subject": "SIAX (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-22",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] SIAX (GRIA) [Magna]"
   },
   {
    "subject": "MD_A",
@@ -5563,15 +5572,6 @@
    "raw": "[EXAM] PRO I - FinCarreira [Magna]"
   },
   {
-   "subject": "DAGGS (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-22",
-   "start": "12:00",
-   "end": "14:00",
-   "raw": "[EXAM] DAGGS (GREI) [Magna]"
-  },
-  {
    "subject": "PRO I (GREI)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -5579,6 +5579,15 @@
    "start": "12:00",
    "end": "14:00",
    "raw": "[EXAM] PRO I (GREI) [Magna]"
+  },
+  {
+   "subject": "DAGGS (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-22",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "[EXAM] DAGGS (GREI) [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -5788,6 +5797,15 @@
    "raw": "[EXAM] ABP - FinCarreira [Magna]"
   },
   {
+   "subject": "SI (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-22",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "[EXAM] SI (GREI) [Magna]"
+  },
+  {
    "subject": "RCR (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -5806,22 +5824,13 @@
    "raw": "[EXAM] XO (GRIA) [Magna]"
   },
   {
-   "subject": "SI (GREI)",
+   "subject": "MITEX (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-22",
    "start": "16:00",
    "end": "19:00",
-   "raw": "[EXAM] SI (GREI) [Magna]"
-  },
-  {
-   "subject": "APAU II (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-22",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] APAU II (GRIA) [Magna]"
+   "raw": "[EXAM] MITEX (GRIA) [Magna]"
   },
   {
    "subject": "ABP (GREI)",
@@ -5833,13 +5842,13 @@
    "raw": "[EXAM] ABP (GREI) [Magna]"
   },
   {
-   "subject": "MITEX (GRIA)",
+   "subject": "APAU II (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-22",
    "start": "16:00",
    "end": "19:00",
-   "raw": "[EXAM] MITEX (GRIA) [Magna]"
+   "raw": "[EXAM] APAU II (GRIA) [Magna]"
   },
   {
    "subject": "EST - FinCarreira",
@@ -6139,15 +6148,6 @@
    "raw": "[EXAM] CDI - FinCarreira [Magna]"
   },
   {
-   "subject": "CDI (GREI)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-23",
-   "start": "09:00",
-   "end": "12:00",
-   "raw": "[EXAM] CDI (GREI) [Magna]"
-  },
-  {
    "subject": "AC I (GREI)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -6155,6 +6155,15 @@
    "start": "09:00",
    "end": "11:30",
    "raw": "[EXAM] AC I (GREI) [Magna]"
+  },
+  {
+   "subject": "CDI (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-23",
+   "start": "09:00",
+   "end": "12:00",
+   "raw": "[EXAM] CDI (GREI) [Magna]"
   },
   {
    "subject": "AC II - FinCarreira",
@@ -6175,13 +6184,13 @@
    "raw": "[EXAM] AC II (GREI) [B0]"
   },
   {
-   "subject": "IAEM (GRIA)",
+   "subject": "ABIA (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-23",
    "start": "10:00",
    "end": "13:00",
-   "raw": "[EXAM] IAEM (GRIA) [Magna]"
+   "raw": "[EXAM] ABIA (GRIA) [Magna]"
   },
   {
    "subject": "APS (GRIA)",
@@ -6193,6 +6202,15 @@
    "raw": "[EXAM] APS (GRIA) [Magna]"
   },
   {
+   "subject": "IAEM (GRIA)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-23",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "[EXAM] IAEM (GRIA) [Magna]"
+  },
+  {
    "subject": "PIC (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -6200,15 +6218,6 @@
    "start": "10:00",
    "end": "13:00",
    "raw": "[EXAM] PIC (GRIA) [Magna]"
-  },
-  {
-   "subject": "ABIA (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-23",
-   "start": "10:00",
-   "end": "13:00",
-   "raw": "[EXAM] ABIA (GRIA) [Magna]"
   },
   {
    "subject": "DIA - FinCarreira",
@@ -6661,13 +6670,13 @@
    "raw": "[EXAM] BD II - FinCarreira [Magna]"
   },
   {
-   "subject": "BD II (GREI)",
+   "subject": "EST (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
    "date": "2026-10-23",
    "start": "16:00",
-   "end": "18:30",
-   "raw": "[EXAM] BD II (GREI) [Magna]"
+   "end": "19:00",
+   "raw": "[EXAM] EST (GRIA) [Magna]"
   },
   {
    "subject": "EJIA (GRIA)",
@@ -6688,6 +6697,15 @@
    "raw": "[EXAM] TC (GREI) [Magna]"
   },
   {
+   "subject": "BD II (GREI)",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-23",
+   "start": "16:00",
+   "end": "18:30",
+   "raw": "[EXAM] BD II (GREI) [Magna]"
+  },
+  {
    "subject": "ALF (GRIA)",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -6695,15 +6713,6 @@
    "start": "16:00",
    "end": "19:00",
    "raw": "[EXAM] ALF (GRIA) [Magna]"
-  },
-  {
-   "subject": "EST (GRIA)",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-10-23",
-   "start": "16:00",
-   "end": "19:00",
-   "raw": "[EXAM] EST (GRIA) [Magna]"
   },
   {
    "subject": "IASA (GRIA)",
@@ -6796,15 +6805,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ACII_2: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Primera Prueba"
-  },
-  {
    "subject": "ACII_7: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -6830,6 +6830,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_1: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_2: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_2: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ISI_A: Proba obxectiva 1",
@@ -8063,6 +8072,15 @@
    "start": "16:00",
    "end": "19:00",
    "raw": "Introduccion a la Informatica"
+  },
+  {
+   "subject": "CLASE DE MAYORES - ALMA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2026-10-27",
+   "start": "16:00",
+   "end": "19:00",
+   "raw": "CLASE DE MAYORES - ALMA"
   },
   {
    "subject": "Móbiles e Productividad Dixital",
@@ -11971,15 +11989,6 @@
    "raw": "MD_A [3.1]"
   },
   {
-   "subject": "Examen Teória MD - GRIA",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-05",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Examen Teória MD - GRIA"
-  },
-  {
    "subject": "Exame parcial PROI_1 y PROI_9",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -11987,6 +11996,15 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "Exame parcial PROI_1 y PROI_9"
+  },
+  {
+   "subject": "Examen Teória MD - GRIA",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "Examen Teória MD - GRIA"
   },
   {
    "subject": "SIEX_2",
@@ -13564,6 +13582,15 @@
    "raw": "RP.x [SO5]"
   },
   {
+   "subject": "ISI_8: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_8: Proba práctica 1"
+  },
+  {
    "subject": "ISI_6: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -13580,15 +13607,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_3: Proba práctica 1"
-  },
-  {
-   "subject": "ISI_8: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_8: Proba práctica 1"
   },
   {
    "subject": "SOI_A: primera prueba de teoría (Aula Magna - temas 1, 2 y sus actividades)",
@@ -16597,15 +16615,6 @@
    "raw": "AIH [SO6]"
   },
   {
-   "subject": "ISI_1: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 1"
-  },
-  {
    "subject": "ISI_7: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -16613,6 +16622,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -23572,15 +23590,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_A: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_B: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -23588,6 +23597,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_A: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -24121,13 +24139,13 @@
    "raw": "ESI (MEI) [L31A]"
   },
   {
-   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_2: Grupo Reducido Segunda Prueba",
@@ -24148,13 +24166,13 @@
    "raw": "ACII_7: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -26605,15 +26623,6 @@
    "raw": "[DAI] Presentaciones trabajo teórico"
   },
   {
-   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-12-14",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
-  },
-  {
    "subject": "DAGSS Evaluación continua: Exposiciones orales",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -26621,6 +26630,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "DAGSS Evaluación continua: Exposiciones orales"
+  },
+  {
+   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
+   "room": null,
+   "group": "Grado 4 - 1C",
+   "date": "2026-12-14",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
   },
   {
    "subject": "PROI - PROI_2, PROI_6, PROI_8: Proba Práctica",
@@ -27262,24 +27280,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ISI_B: Proba obxectiva 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_B: Proba obxectiva 2"
-  },
-  {
-   "subject": "ISI_8: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_8: Proba práctica 2"
-  },
-  {
    "subject": "ISI_3: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -27296,6 +27296,24 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_6: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_B: Proba obxectiva 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_B: Proba obxectiva 2"
+  },
+  {
+   "subject": "ISI_8: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_8: Proba práctica 2"
   },
   {
    "subject": "FMI_A",
@@ -28531,15 +28549,6 @@
    "raw": "CYB [SO6]"
   },
   {
-   "subject": "ISI_5: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 2"
-  },
-  {
    "subject": "ISI_4: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -28547,6 +28556,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 2"
   },
   {
    "subject": "SOI: segunda prueba de prácticas (grupos reducidos)",
@@ -30961,15 +30979,6 @@
    "raw": "[EXAM] PDP (MEI) [L30A]"
   },
   {
-   "subject": "Evaluación global",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2027-01-22",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "[AEDII] Evaluación global"
-  },
-  {
    "subject": "Tercera prueba: Esquemas algorítmicos",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -30977,6 +30986,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "[AEDII] Tercera prueba: Esquemas algorítmicos"
+  },
+  {
+   "subject": "Evaluación global",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2027-01-22",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "[AEDII] Evaluación global"
   },
   {
    "subject": "DAGSS Evaluación continua: Defensa final del proyecto",
