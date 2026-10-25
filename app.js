@@ -204,12 +204,12 @@ const PRESET_FILTERS = {
 
 /* ---------- floor plan maps (official ESEI plans, one PDF per floor) ---------- */
 const FLOOR_MAPS = {
-  soxAndMagna: { label: "Floor -1 (sótano)", url: "https://esei.uvigo.es/documentos/plano-sotano-1-esei/" },
-  floor0:      { label: "Floor 0", url: "https://esei.uvigo.es/documentos/plano-planta-0-esei/" },
-  floor1:      { label: "Floor 1", url: "https://esei.uvigo.es/documentos/plano-planta-1-esei/" },
-  floor2:      { label: "Floor 2", url: "https://esei.uvigo.es/documentos/plano-planta-2-esei/" },
-  floor3:      { label: "Floor 3", url: "https://esei.uvigo.es/documentos/plano-planta-3-esei/" },
-  floor4:      { label: "Floor 4", url: "https://esei.uvigo.es/documentos/plano-planta-4-esei/" }
+  soxAndMagna: { label: "Floor -1 (sótano)", url: "https://esei.uvigo.es/documentos/plano-sotano-1-esei/#toolbar=0&navpanes=0" },
+  floor0:      { label: "Floor 0", url: "https://esei.uvigo.es/documentos/plano-planta-0-esei/#toolbar=0&navpanes=0" },
+  floor1:      { label: "Floor 1", url: "https://esei.uvigo.es/documentos/plano-planta-1-esei/#toolbar=0&navpanes=0" },
+  floor2:      { label: "Floor 2", url: "https://esei.uvigo.es/documentos/plano-planta-2-esei/#toolbar=0&navpanes=0" },
+  floor3:      { label: "Floor 3", url: "https://esei.uvigo.es/documentos/plano-planta-3-esei/#toolbar=0&navpanes=0" },
+  floor4:      { label: "Floor 4", url: "https://esei.uvigo.es/documentos/plano-planta-4-esei/#toolbar=0&navpanes=0" }
 };
 
 /* ---------- room canonicalization ----------
