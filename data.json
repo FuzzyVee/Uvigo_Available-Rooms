@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-01T05:22:22",
+ "generated_at": "2026-11-01T12:58:18",
  "timezone": "Europe/Madrid",
  "calendar_count": 91,
- "successful_calendars": 70,
- "event_count": 3243,
- "duplicate_events_skipped": 1638,
+ "successful_calendars": 71,
+ "event_count": 3244,
+ "duplicate_events_skipped": 1715,
  "room_calendars": {
   "Aula 2.1": "c_8215f375fc0a944d31f42dc3231170b3cf879554c2ddd2e77b06a78974fced0f@group.calendar.google.com",
   "Aula 2.2": "c_c9a41a2e44e97156defe4dc92b01bef3b43f3886fa232ae116ad84d0e718eb5f@group.calendar.google.com",
@@ -82,15 +82,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Primera Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-26",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Primera Prueba"
-  },
-  {
    "subject": "ACII_7: Grupo Reducido Primera Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -98,6 +89,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_7: Grupo Reducido Primera Prueba"
+  },
+  {
+   "subject": "ACII_8: Grupo Reducido Primera Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-26",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Primera Prueba"
   },
   {
    "subject": "ACII_2: Grupo Reducido Primera Prueba",
@@ -345,7 +345,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-26",
    "start": "10:30",
    "end": "12:30",
@@ -543,7 +543,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-26",
    "start": "12:30",
    "end": "14:30",
@@ -669,7 +669,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-26",
    "start": "16:00",
    "end": "18:00",
@@ -885,7 +885,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-27",
    "start": "08:45",
    "end": "10:30",
@@ -984,7 +984,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-27",
    "start": "10:30",
    "end": "12:30",
@@ -1137,7 +1137,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-27",
    "start": "12:30",
    "end": "14:15",
@@ -1459,15 +1459,6 @@
    "raw": "AIH [SO6]"
   },
   {
-   "subject": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-10-28",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA"
-  },
-  {
    "subject": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -1475,6 +1466,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_A: GRUPO GRANDE PRIMERA PRUEBA"
+  },
+  {
+   "subject": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-10-28",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_B: GRUPO GRANDE PRIMERA PRUEBA"
   },
   {
    "subject": "BDII. Proba Avaliación Contínua",
@@ -2316,7 +2316,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-29",
    "start": "10:30",
    "end": "12:30",
@@ -2532,7 +2532,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-29",
    "start": "12:30",
    "end": "14:30",
@@ -2649,7 +2649,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-29",
    "start": "16:00",
    "end": "18:00",
@@ -2746,15 +2746,6 @@
    "raw": "SOI: primera prueba de prácticas (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_B: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-10-30",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_A: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -2762,6 +2753,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_B: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-10-30",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -3198,7 +3198,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-10-30",
    "start": "12:30",
    "end": "14:30",
@@ -3531,7 +3531,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-02",
    "start": "10:30",
    "end": "12:30",
@@ -3729,7 +3729,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-02",
    "start": "12:30",
    "end": "14:30",
@@ -3846,7 +3846,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-02",
    "start": "16:00",
    "end": "18:00",
@@ -4035,7 +4035,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-03",
    "start": "08:45",
    "end": "10:30",
@@ -4134,7 +4134,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-03",
    "start": "10:30",
    "end": "12:30",
@@ -4269,7 +4269,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-03",
    "start": "12:30",
    "end": "14:15",
@@ -5365,15 +5365,6 @@
    "raw": "MD_A [3.1]"
   },
   {
-   "subject": "Examen Teória MD - GRIA",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-05",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Examen Teória MD - GRIA"
-  },
-  {
    "subject": "Exame parcial PROI_1 y PROI_9",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -5381,6 +5372,15 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "Exame parcial PROI_1 y PROI_9"
+  },
+  {
+   "subject": "Examen Teória MD - GRIA",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-05",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "Examen Teória MD - GRIA"
   },
   {
    "subject": "SIEX_2",
@@ -5403,7 +5403,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-05",
    "start": "10:30",
    "end": "12:30",
@@ -5601,7 +5601,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-05",
    "start": "12:30",
    "end": "14:30",
@@ -5718,7 +5718,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-05",
    "start": "16:00",
    "end": "18:00",
@@ -6222,7 +6222,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-06",
    "start": "12:30",
    "end": "14:30",
@@ -6573,7 +6573,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-09",
    "start": "10:30",
    "end": "12:30",
@@ -6762,7 +6762,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-09",
    "start": "12:30",
    "end": "14:30",
@@ -6879,7 +6879,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-09",
    "start": "16:00",
    "end": "18:00",
@@ -6976,6 +6976,15 @@
    "raw": "RP.x [SO5]"
   },
   {
+   "subject": "ISI_6: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_6: Proba práctica 1"
+  },
+  {
    "subject": "ISI_8: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -6992,15 +7001,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_3: Proba práctica 1"
-  },
-  {
-   "subject": "ISI_6: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 1"
   },
   {
    "subject": "SOI_A: primera prueba de teoría (Aula Magna - temas 1, 2 y sus actividades)",
@@ -7113,7 +7113,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-10",
    "start": "08:45",
    "end": "10:30",
@@ -7212,7 +7212,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-10",
    "start": "10:30",
    "end": "12:30",
@@ -7356,7 +7356,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-10",
    "start": "12:30",
    "end": "14:15",
@@ -7705,15 +7705,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_4: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_4: Proba práctica 1"
-  },
-  {
    "subject": "ISI_5: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -7721,6 +7712,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_5: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_4: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_4: Proba práctica 1"
   },
   {
    "subject": "Reserva Reyes Pavón Rial",
@@ -7896,7 +7896,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-12",
    "start": "10:30",
    "end": "12:30",
@@ -8094,7 +8094,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-12",
    "start": "12:30",
    "end": "14:30",
@@ -8211,7 +8211,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-12",
    "start": "16:00",
    "end": "18:00",
@@ -8715,7 +8715,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-13",
    "start": "12:30",
    "end": "14:30",
@@ -9039,7 +9039,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-16",
    "start": "10:30",
    "end": "12:30",
@@ -9228,7 +9228,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-16",
    "start": "12:30",
    "end": "14:30",
@@ -9345,7 +9345,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-16",
    "start": "16:00",
    "end": "18:00",
@@ -9534,7 +9534,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-17",
    "start": "08:45",
    "end": "10:30",
@@ -9624,7 +9624,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-17",
    "start": "10:30",
    "end": "12:30",
@@ -9768,7 +9768,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-17",
    "start": "12:30",
    "end": "14:15",
@@ -10857,7 +10857,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-19",
    "start": "10:30",
    "end": "12:30",
@@ -11055,7 +11055,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-19",
    "start": "12:30",
    "end": "14:30",
@@ -11163,7 +11163,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-19",
    "start": "16:00",
    "end": "18:00",
@@ -11667,7 +11667,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-20",
    "start": "12:30",
    "end": "14:30",
@@ -11982,7 +11982,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-23",
    "start": "10:30",
    "end": "12:30",
@@ -12171,7 +12171,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-23",
    "start": "12:30",
    "end": "14:30",
@@ -12288,7 +12288,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-23",
    "start": "16:00",
    "end": "18:00",
@@ -12468,7 +12468,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-24",
    "start": "08:45",
    "end": "10:30",
@@ -12549,7 +12549,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-24",
    "start": "10:30",
    "end": "12:30",
@@ -12684,7 +12684,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-24",
    "start": "12:30",
    "end": "14:15",
@@ -13728,7 +13728,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-26",
    "start": "10:30",
    "end": "12:30",
@@ -13935,7 +13935,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-26",
    "start": "12:30",
    "end": "14:30",
@@ -14043,7 +14043,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-26",
    "start": "16:00",
    "end": "18:00",
@@ -14529,7 +14529,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-27",
    "start": "12:30",
    "end": "14:30",
@@ -14853,7 +14853,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-30",
    "start": "10:30",
    "end": "12:30",
@@ -15042,7 +15042,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-30",
    "start": "12:30",
    "end": "14:30",
@@ -15159,7 +15159,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-11-30",
    "start": "16:00",
    "end": "18:00",
@@ -15375,7 +15375,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-01",
    "start": "08:45",
    "end": "10:30",
@@ -15456,7 +15456,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-01",
    "start": "10:30",
    "end": "12:30",
@@ -15591,7 +15591,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-01",
    "start": "12:30",
    "end": "14:15",
@@ -16662,7 +16662,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-03",
    "start": "10:30",
    "end": "12:30",
@@ -16860,7 +16860,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-03",
    "start": "12:30",
    "end": "14:30",
@@ -16968,7 +16968,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-03",
    "start": "16:00",
    "end": "18:00",
@@ -17065,15 +17065,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_B: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_A: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -17081,6 +17072,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_B: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -17490,7 +17490,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-04",
    "start": "12:30",
    "end": "14:30",
@@ -17614,15 +17614,6 @@
    "raw": "ESI (MEI) [L31A]"
   },
   {
-   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_7: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -17630,6 +17621,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_7: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_2: Grupo Reducido Segunda Prueba",
@@ -17641,13 +17641,13 @@
    "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -17841,7 +17841,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-07",
    "start": "10:30",
    "end": "12:30",
@@ -18030,7 +18030,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-07",
    "start": "12:30",
    "end": "14:30",
@@ -18147,7 +18147,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-07",
    "start": "16:00",
    "end": "18:00",
@@ -19110,7 +19110,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-10",
    "start": "10:30",
    "end": "12:30",
@@ -19308,7 +19308,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-10",
    "start": "12:30",
    "end": "14:30",
@@ -19425,7 +19425,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-10",
    "start": "16:00",
    "end": "18:00",
@@ -19929,7 +19929,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-11",
    "start": "12:30",
    "end": "14:30",
@@ -20278,15 +20278,6 @@
    "raw": "CAN_A [3.1]"
   },
   {
-   "subject": "Reserva Manuel Pájaro Diéguez",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-12-14",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Reserva Manuel Pájaro Diéguez"
-  },
-  {
    "subject": "Exame parcial PROI_6",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -20294,6 +20285,15 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "Exame parcial PROI_6"
+  },
+  {
+   "subject": "Reserva Manuel Pájaro Diéguez",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "Reserva Manuel Pájaro Diéguez"
   },
   {
    "subject": "ACII_7",
@@ -20334,7 +20334,7 @@
   {
    "subject": "LC_6",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-14",
    "start": "10:30",
    "end": "12:30",
@@ -20541,7 +20541,7 @@
   {
    "subject": "LC_7",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-14",
    "start": "12:30",
    "end": "14:30",
@@ -20667,7 +20667,7 @@
   {
    "subject": "LC_3",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-14",
    "start": "16:00",
    "end": "18:00",
@@ -20764,15 +20764,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ISI_6: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 2"
-  },
-  {
    "subject": "ISI_B: Proba obxectiva 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -20780,6 +20771,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_B: Proba obxectiva 2"
+  },
+  {
+   "subject": "ISI_8: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_8: Proba práctica 2"
   },
   {
    "subject": "ISI_3: Proba práctica 2",
@@ -20791,13 +20791,13 @@
    "raw": "ISI_3: Proba práctica 2"
   },
   {
-   "subject": "ISI_8: Proba práctica 2",
+   "subject": "ISI_6: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-15",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ISI_8: Proba práctica 2"
+   "raw": "ISI_6: Proba práctica 2"
   },
   {
    "subject": "FMI_A",
@@ -20892,7 +20892,7 @@
   {
    "subject": "LC_A",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-15",
    "start": "08:45",
    "end": "10:30",
@@ -20973,7 +20973,7 @@
   {
    "subject": "LC_1",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-15",
    "start": "10:30",
    "end": "12:30",
@@ -21117,7 +21117,7 @@
   {
    "subject": "LC_B",
    "room": "2.3",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-15",
    "start": "12:30",
    "end": "14:15",
@@ -22224,7 +22224,7 @@
   {
    "subject": "LC_5",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-17",
    "start": "10:30",
    "end": "12:30",
@@ -22431,7 +22431,7 @@
   {
    "subject": "LC_8",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-17",
    "start": "12:30",
    "end": "14:30",
@@ -22539,7 +22539,7 @@
   {
    "subject": "LC_2",
    "room": "L37",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-17",
    "start": "16:00",
    "end": "18:00",
@@ -23016,7 +23016,7 @@
   {
    "subject": "LC_4",
    "room": "L30A",
-   "group": "Ocupación Aulas",
+   "group": "Grado 3 - 1C",
    "date": "2026-12-18",
    "start": "12:30",
    "end": "14:30",
@@ -23597,6 +23597,15 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] SI (MEI) [L30A]"
+  },
+  {
+   "subject": "LC - 1Cuadrimestre",
+   "room": "Aula Magna",
+   "group": "Grado 3 - 1C",
+   "date": "2027-01-13",
+   "start": "09:00",
+   "end": "12:00",
+   "raw": "[EXAM] LC - 1Cuadrimestre [Magna]"
   },
   {
    "subject": "LC (GREI)",
@@ -24301,15 +24310,6 @@
    "raw": "[EXAM] XCS (MEI) [L30A]"
   },
   {
-   "subject": "Segunda prueba práctica",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2027-01-21",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "[DAI] Segunda prueba práctica"
-  },
-  {
    "subject": "Segunda prueba teórica",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -24317,6 +24317,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "[DAI] Segunda prueba teórica"
+  },
+  {
+   "subject": "Segunda prueba práctica",
+   "room": null,
+   "group": "Grado 4 - 1C",
+   "date": "2027-01-21",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "[DAI] Segunda prueba práctica"
   },
   {
    "subject": "DAI - 1Cuadrimestre",
