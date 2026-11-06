@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T14:01:04",
+ "generated_at": "2026-11-06T22:55:38",
  "timezone": "Europe/Madrid",
  "calendar_count": 91,
  "successful_calendars": 71,
@@ -4330,15 +4330,6 @@
    "raw": "ISI_6: Proba práctica 1"
   },
   {
-   "subject": "ISI_3: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 1"
-  },
-  {
    "subject": "ISI_8: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -4346,6 +4337,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_8: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_3: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 1"
   },
   {
    "subject": "FMI_A",
@@ -5041,15 +5041,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_5: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 1"
-  },
-  {
    "subject": "ISI_4: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -5057,6 +5048,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 1"
   },
   {
    "subject": "Reserva Reyes Pavón Rial",
@@ -7453,15 +7453,6 @@
    "raw": "AIH [SO6]"
   },
   {
-   "subject": "ISI_1: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 1"
-  },
-  {
    "subject": "ISI_7: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -7469,6 +7460,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -12646,15 +12646,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ACII_5: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_5: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_4: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -12662,6 +12653,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_4: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_5: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_5: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "SOI_A: segunda prueba de teoría (Aula Magna - tema 3 y su actividad)",
@@ -14455,15 +14455,6 @@
    "raw": "Examen prácticas EST -GREI (grupos reducidos)"
   },
   {
-   "subject": "PROI - PROI_B: Proba Cuestionario",
-   "room": "Aula Magna",
-   "group": "Grado 1 - 1C",
-   "date": "2026-12-04",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
-  },
-  {
    "subject": "PROI - PROI_A: Proba Cuestionario",
    "room": "Aula Magna",
    "group": "Grado 1 - 1C",
@@ -14471,6 +14462,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "PROI - PROI_A: Proba Cuestionario [Magna]"
+  },
+  {
+   "subject": "PROI - PROI_B: Proba Cuestionario",
+   "room": "Aula Magna",
+   "group": "Grado 1 - 1C",
+   "date": "2026-12-04",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "PROI - PROI_B: Proba Cuestionario [Magna]"
   },
   {
    "subject": "PROI_A",
@@ -15013,15 +15013,6 @@
    "raw": "ESI (MEI) [L31A]"
   },
   {
-   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_8: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -15047,6 +15038,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_7: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_2: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -17497,15 +17497,6 @@
    "raw": "[DAI] Presentaciones trabajo teórico"
   },
   {
-   "subject": "DAGSS Evaluación continua: Exposiciones orales",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-12-14",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "DAGSS Evaluación continua: Exposiciones orales"
-  },
-  {
    "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -17513,6 +17504,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
+  },
+  {
+   "subject": "DAGSS Evaluación continua: Exposiciones orales",
+   "room": null,
+   "group": "Grado 4 - 1C",
+   "date": "2026-12-14",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "DAGSS Evaluación continua: Exposiciones orales"
   },
   {
    "subject": "PROI - PROI_2, PROI_6, PROI_8: Proba Práctica",
@@ -18163,15 +18163,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ISI_6: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 2"
-  },
-  {
    "subject": "ISI_3: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -18188,6 +18179,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_8: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_6: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_6: Proba práctica 2"
   },
   {
    "subject": "ISI_B: Proba obxectiva 2",
@@ -18811,15 +18811,6 @@
    "raw": "AIH [SO6]"
   },
   {
-   "subject": "ISI_1: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-16",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 2"
-  },
-  {
    "subject": "ISI_7: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -18827,6 +18818,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-16",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 2"
   },
   {
    "subject": "Exame Bloque III Análise Matemática",
@@ -20854,15 +20854,6 @@
    "raw": "[EXAM] CV1 MIA [SO5]"
   },
   {
-   "subject": "LII (MEI)",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-11",
-   "start": "17:00",
-   "end": "20:00",
-   "raw": "[EXAM] LII (MEI) [L30A]"
-  },
-  {
    "subject": "PeP (MEI)",
    "room": "L30A",
    "group": "Ocupación Aulas",
@@ -20870,6 +20861,15 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] PeP (MEI) [L30A]"
+  },
+  {
+   "subject": "LII (MEI)",
+   "room": "L30A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-11",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "[EXAM] LII (MEI) [L30A]"
   },
   {
    "subject": "EST - 1Cuadrimestre",
@@ -21880,15 +21880,6 @@
    "raw": "[EXAM] PDP (MEI) [L30A]"
   },
   {
-   "subject": "Evaluación global",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2027-01-22",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "[AEDII] Evaluación global"
-  },
-  {
    "subject": "Tercera prueba: Esquemas algorítmicos",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -21896,6 +21887,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "[AEDII] Tercera prueba: Esquemas algorítmicos"
+  },
+  {
+   "subject": "Evaluación global",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2027-01-22",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "[AEDII] Evaluación global"
   },
   {
    "subject": "DAGSS Evaluación continua: Defensa final del proyecto",
@@ -22537,15 +22537,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "ACCSI (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-25",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "ACCSI (MEI) [L31A]"
-  },
-  {
    "subject": "AXS (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -22553,6 +22544,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "AXS (MEI) [L31A]"
+  },
+  {
+   "subject": "ACCSI (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-25",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "ACCSI (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
@@ -24625,15 +24625,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "ACCSI (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-01",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "ACCSI (MEI) [L31A]"
-  },
-  {
    "subject": "AXS (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -24641,6 +24632,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "AXS (MEI) [L31A]"
+  },
+  {
+   "subject": "ACCSI (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-01",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "ACCSI (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
