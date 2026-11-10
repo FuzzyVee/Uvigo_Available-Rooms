@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-09T15:45:00",
+ "generated_at": "2026-11-10T01:22:52",
  "timezone": "Europe/Madrid",
  "calendar_count": 91,
  "successful_calendars": 71,
- "event_count": 3114,
- "duplicate_events_skipped": 1657,
+ "event_count": 3108,
+ "duplicate_events_skipped": 1656,
  "room_calendars": {
   "Aula 2.1": "c_8215f375fc0a944d31f42dc3231170b3cf879554c2ddd2e77b06a78974fced0f@group.calendar.google.com",
   "Aula 2.2": "c_c9a41a2e44e97156defe4dc92b01bef3b43f3886fa232ae116ad84d0e718eb5f@group.calendar.google.com",
@@ -36,645 +36,6 @@
   "Sala de Xuntas": "c_41d80fa80ecbcf291ed5f99ae646e96766d0b4ba50046ba0e95c8eef312c5fd5@group.calendar.google.com"
  },
  "events": [
-  {
-   "subject": "Primera prueba práctica",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "[DAI] Primera prueba práctica"
-  },
-  {
-   "subject": "DAGSS Evaluación continua: Examen de programación",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "DAGSS Evaluación continua: Examen de programación"
-  },
-  {
-   "subject": "SD_A",
-   "room": "2.1",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "SD_A [2.1]"
-  },
-  {
-   "subject": "ACII_1",
-   "room": "Automática",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "ACII_1 [AUTOM]"
-  },
-  {
-   "subject": "BD_1",
-   "room": "L31B",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "BD_1 [L31B]"
-  },
-  {
-   "subject": "CIN_1",
-   "room": "L37",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "CIN_1 [L37]"
-  },
-  {
-   "subject": "BDII_2",
-   "room": "SO1",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "BDII_2 [SO1]"
-  },
-  {
-   "subject": "CDA_1",
-   "room": "SO2",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "CDA_1 [SO2]"
-  },
-  {
-   "subject": "PROI_10",
-   "room": "SO4",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "PROI_10 [SO4]"
-  },
-  {
-   "subject": "SOI_3",
-   "room": "SO7",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "08:30",
-   "end": "10:30",
-   "raw": "SOI_3 [SO7]"
-  },
-  {
-   "subject": "SOI_B",
-   "room": "2.2",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "SOI_B [2.2]"
-  },
-  {
-   "subject": "RCII_B",
-   "room": "2.3",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "RCII_B [2.3]"
-  },
-  {
-   "subject": "FMI_9",
-   "room": "2.4",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "FMI_9 [2.4]"
-  },
-  {
-   "subject": "DAGSS_A",
-   "room": "3.1",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "DAGSS_A [3.1]"
-  },
-  {
-   "subject": "RAIN_A",
-   "room": "3.2",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "RAIN_A [3.2]"
-  },
-  {
-   "subject": "MD_2",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "08:45",
-   "end": "10:30",
-   "raw": "MD_2 [L30A]"
-  },
-  {
-   "subject": "Salón de Graos  \" Dia mundial del suelo \"",
-   "room": "Salón de Graos",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "09:00",
-   "end": "14:00",
-   "raw": "Salón de Graos  \" Dia mundial del suelo \""
-  },
-  {
-   "subject": "CAN_A",
-   "room": "3.1",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "CAN_A [3.1]"
-  },
-  {
-   "subject": "Reserva Yerai Doval Mosquera",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Reserva Yerai Doval Mosquera"
-  },
-  {
-   "subject": "ACII_7",
-   "room": "Automática",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "ACII_7 [AUTOM]"
-  },
-  {
-   "subject": "ALG_3",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "ALG_3 [L30A]"
-  },
-  {
-   "subject": "RAIN_3",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "RAIN_3 [L31A]"
-  },
-  {
-   "subject": "BD_2",
-   "room": "L31B",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "BD_2 [L31B]"
-  },
-  {
-   "subject": "LC_6",
-   "room": "L37",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "LC_6 [L37]"
-  },
-  {
-   "subject": "SIEX_1",
-   "room": "L38",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "SIEX_1 [L38]"
-  },
-  {
-   "subject": "BDII_8",
-   "room": "SO1",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "BDII_8 [SO1]"
-  },
-  {
-   "subject": "CDA_4",
-   "room": "SO2",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "CDA_4 [SO2]"
-  },
-  {
-   "subject": "DAGSS_1",
-   "room": "SO4",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "DAGSS_1 [SO4] [EXAMEN DE PROGRAMACIÓN]"
-  },
-  {
-   "subject": "PROI_5",
-   "room": "SO5",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "PROI_5 [SO5]"
-  },
-  {
-   "subject": "PROI_6",
-   "room": "SO6",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "PROI_6 [SO6]"
-  },
-  {
-   "subject": "SOI_6",
-   "room": "SO7",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "SOI_6 [SO7]"
-  },
-  {
-   "subject": "Reserva Ma Encarnación González Rufino",
-   "room": "Seminario 40",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:30",
-   "end": "11:30",
-   "raw": "Reserva Ma Encarnación González Rufino"
-  },
-  {
-   "subject": "DAI_A",
-   "room": "2.1",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "DAI_A [2.1]"
-  },
-  {
-   "subject": "ISI_A",
-   "room": "2.2",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "ISI_A [2.2]"
-  },
-  {
-   "subject": "SD_4",
-   "room": "2.3",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "SD_4 [2.3/Elect]"
-  },
-  {
-   "subject": "FMI_3",
-   "room": "2.4",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "FMI_3 [2.4]"
-  },
-  {
-   "subject": "PLN_A",
-   "room": "3.2",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "10:45",
-   "end": "12:30",
-   "raw": "PLN_A [3.2]"
-  },
-  {
-   "subject": "SD_B",
-   "room": "2.1",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "SD_B [2.1]"
-  },
-  {
-   "subject": "RCII_A",
-   "room": "2.3",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "RCII_A [2.3]"
-  },
-  {
-   "subject": "FMI_1",
-   "room": "2.4",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "FMI_1 [2.4]"
-  },
-  {
-   "subject": "RED_A",
-   "room": "3.1",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "RED_A [3.1]"
-  },
-  {
-   "subject": "ACII_8",
-   "room": "Automática",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ACII_8 [AUTOM]"
-  },
-  {
-   "subject": "SIEX_3",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "SIEX_3 [L30A]"
-  },
-  {
-   "subject": "CAN_3",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "CAN_3 [L31A]"
-  },
-  {
-   "subject": "PLN_1",
-   "room": "L31B",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "PLN_1 [L31B]"
-  },
-  {
-   "subject": "LC_7",
-   "room": "L37",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "LC_7 [L37]"
-  },
-  {
-   "subject": "MD_1",
-   "room": "L38",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:15",
-   "raw": "MD_1 [L38]"
-  },
-  {
-   "subject": "BDII_5",
-   "room": "SO2",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "BDII_5 [SO2]"
-  },
-  {
-   "subject": "DAGSS_2",
-   "room": "SO3",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "DAGSS_2 [SO3] [EXAMEN DE PROGRAMACIÓN]"
-  },
-  {
-   "subject": "PROI_2",
-   "room": "SO4",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "PROI_2 [SO4]"
-  },
-  {
-   "subject": "VIAR_2",
-   "room": "SO5",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "VIAR_2 [SO5]"
-  },
-  {
-   "subject": "DAI_1",
-   "room": "SO6",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "DAI_1 [SO6]"
-  },
-  {
-   "subject": "SOI_5",
-   "room": "SO7",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "SOI_5 [SO7]"
-  },
-  {
-   "subject": "ABP_5",
-   "room": "SO8",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "12:30",
-   "end": "14:30",
-   "raw": "ABP_5 [SO8]"
-  },
-  {
-   "subject": "BDE",
-   "room": "SO6",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "15:30",
-   "end": "17:00",
-   "raw": "BDE [SO6]"
-  },
-  {
-   "subject": "SD_7",
-   "room": "2.3",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "17:45",
-   "raw": "SD_7 [2.3/Elect]"
-  },
-  {
-   "subject": "FMI_6",
-   "room": "2.4",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "17:45",
-   "raw": "FMI_6 [2.4]"
-  },
-  {
-   "subject": "ACII_2",
-   "room": "Automática",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ACII_2 [AUTOM]"
-  },
-  {
-   "subject": "LC_3",
-   "room": "L37",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "LC_3 [L37]"
-  },
-  {
-   "subject": "BDII_6",
-   "room": "SO2",
-   "group": "Grado 3 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "BDII_6 [SO2]"
-  },
-  {
-   "subject": "PROI_8",
-   "room": "SO3",
-   "group": "Grado 1 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "PROI_8 [SO3]"
-  },
-  {
-   "subject": "DAI_2",
-   "room": "SO4",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "DAI_2 [SO4]"
-  },
-  {
-   "subject": "SOI_4",
-   "room": "SO7",
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "SOI_4 [SO7]"
-  },
-  {
-   "subject": "ABP_4",
-   "room": "SO8",
-   "group": "Grado 4 - 1C",
-   "date": "2026-11-02",
-   "start": "16:00",
-   "end": "18:00",
-   "raw": "ABP_4 [SO8]"
-  },
-  {
-   "subject": "SI (MEI)",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "SI (MEI) [L30A]"
-  },
-  {
-   "subject": "SR (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "SR (MEI) [L31A]"
-  },
-  {
-   "subject": "Reserva MEI por corte eléctrico",
-   "room": "SO1",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "20:45",
-   "raw": "Reserva MEI por corte eléctrico"
-  },
-  {
-   "subject": "RP",
-   "room": "SO5",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "18:30",
-   "raw": "RP [SO5]"
-  },
-  {
-   "subject": "BDE",
-   "room": "SO6",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "18:30",
-   "raw": "BDE [SO6]"
-  },
-  {
-   "subject": "Reserva MEI por corte eléctrico",
-   "room": "SO9",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "17:00",
-   "end": "20:45",
-   "raw": "Reserva MEI por corte eléctrico"
-  },
-  {
-   "subject": "RP.x",
-   "room": "SO5",
-   "group": "Ocupación Aulas",
-   "date": "2026-11-02",
-   "start": "18:30",
-   "end": "20:00",
-   "raw": "RP.x [SO5]"
-  },
   {
    "subject": "PROI - PROI_1, PROI_2, PROI_9: Proba Práctica",
    "room": "Aula Magna",
@@ -3727,6 +3088,15 @@
    "raw": "RP.x [SO5]"
   },
   {
+   "subject": "ISI_3: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-10",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 1"
+  },
+  {
    "subject": "ISI_8: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -3743,15 +3113,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_6: Proba práctica 1"
-  },
-  {
-   "subject": "ISI_3: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-10",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 1"
   },
   {
    "subject": "FMI_A",
@@ -4447,15 +3808,6 @@
    "raw": "[AEDII] Segunda prueba: Map y Grafo"
   },
   {
-   "subject": "ISI_5: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-12",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 1"
-  },
-  {
    "subject": "ISI_4: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -4463,6 +3815,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-12",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 1"
   },
   {
    "subject": "Reserva Reyes Pavón Rial",
@@ -6074,6 +5435,15 @@
    "start": "12:30",
    "end": "14:30",
    "raw": "ABP_5 [SO8]"
+  },
+  {
+   "subject": "Reserva Yerai Doval Mosquera",
+   "room": "L31B",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-16",
+   "start": "14:30",
+   "end": "15:30",
+   "raw": "Reserva Yerai Doval Mosquera"
   },
   {
    "subject": "BDE",
@@ -10054,6 +9424,15 @@
    "raw": "AM_3 [L30A]"
   },
   {
+   "subject": "Reserva María Encarnación González Rufino",
+   "room": "Salon de graos",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-25",
+   "start": "12:00",
+   "end": "14:00",
+   "raw": "Reserva María Encarnación González Rufino"
+  },
+  {
    "subject": "AM_A",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -11260,6 +10639,15 @@
    "raw": "OpMa_1 [SO9]"
   },
   {
+   "subject": "Reserva Hugo López Fernández",
+   "room": "Salon de graos",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-27",
+   "start": "11:30",
+   "end": "14:30",
+   "raw": "Reserva Hugo López Fernández"
+  },
+  {
    "subject": "PROI_B",
    "room": "2.1",
    "group": "Grado 1 - 1C",
@@ -12052,15 +11440,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ACII_5: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-01",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_5: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_4: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -12068,6 +11447,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_4: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_5: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-01",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_5: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "SOI_A: segunda prueba de teoría (Aula Magna - tema 3 y su actividad)",
@@ -13285,15 +12673,6 @@
    "raw": "CYB [SO6]"
   },
   {
-   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-03",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_6: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -13301,6 +12680,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_6: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_3: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-03",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_3: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Examen prácticas EST -GREI (grupos reducidos)",
@@ -14437,24 +13825,6 @@
    "raw": "ESI (MEI) [L31A]"
   },
   {
-   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
-  },
-  {
-   "subject": "ACII_7: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_7: Grupo Reducido Segunda Prueba"
-  },
-  {
    "subject": "ACII_8: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14471,6 +13841,24 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_2: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_1: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_1: Grupo Reducido Segunda Prueba"
+  },
+  {
+   "subject": "ACII_7: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_7: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -16921,15 +16309,6 @@
    "raw": "[DAI] Presentaciones trabajo teórico"
   },
   {
-   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-12-14",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
-  },
-  {
    "subject": "DAGSS Evaluación continua: Exposiciones orales",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -16937,6 +16316,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "DAGSS Evaluación continua: Exposiciones orales"
+  },
+  {
+   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
+   "room": null,
+   "group": "Grado 4 - 1C",
+   "date": "2026-12-14",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
   },
   {
    "subject": "PROI - PROI_2, PROI_6, PROI_8: Proba Práctica",
@@ -17101,15 +16489,6 @@
    "raw": "CAN_A [3.1]"
   },
   {
-   "subject": "Exame parcial PROI_6",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-12-14",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Exame parcial PROI_6"
-  },
-  {
    "subject": "Reserva Manuel Pájaro Diéguez",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -17117,6 +16496,15 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "Reserva Manuel Pájaro Diéguez"
+  },
+  {
+   "subject": "Exame parcial PROI_6",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "Exame parcial PROI_6"
   },
   {
    "subject": "ACII_7",
@@ -17587,24 +16975,6 @@
    "raw": "RP.x [SO5]"
   },
   {
-   "subject": "ISI_6: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_6: Proba práctica 2"
-  },
-  {
-   "subject": "ISI_3: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_3: Proba práctica 2"
-  },
-  {
    "subject": "ISI_B: Proba obxectiva 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -17614,6 +16984,15 @@
    "raw": "ISI_B: Proba obxectiva 2"
   },
   {
+   "subject": "ISI_6: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_6: Proba práctica 2"
+  },
+  {
    "subject": "ISI_8: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -17621,6 +17000,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_8: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_3: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 2"
   },
   {
    "subject": "FMI_A",
@@ -18892,15 +18280,6 @@
    "raw": "CYB [SO6]"
   },
   {
-   "subject": "ISI_5: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-17",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_5: Proba práctica 2"
-  },
-  {
    "subject": "ISI_4: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -18908,6 +18287,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_4: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_5: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-17",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_5: Proba práctica 2"
   },
   {
    "subject": "SOI: segunda prueba de prácticas (grupos reducidos)",
@@ -20323,15 +19711,6 @@
    "raw": "[EXAM] CV1 MIA [SO5]"
   },
   {
-   "subject": "PeP (MEI)",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-11",
-   "start": "17:00",
-   "end": "20:00",
-   "raw": "[EXAM] PeP (MEI) [L30A]"
-  },
-  {
    "subject": "LII (MEI)",
    "room": "L30A",
    "group": "Ocupación Aulas",
@@ -20339,6 +19718,15 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] LII (MEI) [L30A]"
+  },
+  {
+   "subject": "PeP (MEI)",
+   "room": "L30A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-11",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "[EXAM] PeP (MEI) [L30A]"
   },
   {
    "subject": "EST - 1Cuadrimestre",
@@ -20629,15 +20017,6 @@
    "raw": "[EXAM] IS I (GREI) [L38]"
   },
   {
-   "subject": "FBI (MEI)",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-14",
-   "start": "17:00",
-   "end": "20:00",
-   "raw": "[EXAM] FBI (MEI) [L30A]"
-  },
-  {
    "subject": "SR (MEI)",
    "room": "L30A",
    "group": "Ocupación Aulas",
@@ -20645,6 +20024,15 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] SR (MEI) [L30A]"
+  },
+  {
+   "subject": "FBI (MEI)",
+   "room": "L30A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-14",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "[EXAM] FBI (MEI) [L30A]"
   },
   {
    "subject": "DAGSS Evaluación continua: Entrega de proyecto de laboratorio",
@@ -21349,15 +20737,6 @@
    "raw": "[EXAM] PDP (MEI) [L30A]"
   },
   {
-   "subject": "Tercera prueba: Esquemas algorítmicos",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2027-01-22",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "[AEDII] Tercera prueba: Esquemas algorítmicos"
-  },
-  {
    "subject": "Evaluación global",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -21365,6 +20744,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "[AEDII] Evaluación global"
+  },
+  {
+   "subject": "Tercera prueba: Esquemas algorítmicos",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2027-01-22",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "[AEDII] Tercera prueba: Esquemas algorítmicos"
   },
   {
    "subject": "DAGSS Evaluación continua: Defensa final del proyecto",
@@ -23590,15 +22978,6 @@
    "raw": "DGP_4 [SO7]"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-28",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -23606,6 +22985,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-28",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "ML2",
@@ -25678,15 +25066,6 @@
    "raw": "DGP_4 [SO7]"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-04",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -25694,6 +25073,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-04",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "ML2",
@@ -26623,15 +26011,6 @@
    "raw": "DGP_4 [SO7]"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-11",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -26639,6 +26018,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-11",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "ML2",
@@ -28061,6 +27449,564 @@
    "start": "18:30",
    "end": "20:00",
    "raw": "TXAI.x [SO6]"
+  },
+  {
+   "subject": "ACI_B",
+   "room": "2.1",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ACI_B [2.1]"
+  },
+  {
+   "subject": "APS_3",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "APS_3 [AUTOM]"
+  },
+  {
+   "subject": "IAEM_1",
+   "room": "L30A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "IAEM_1 [L30A]"
+  },
+  {
+   "subject": "ALF_1",
+   "room": "L37",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "ALF_1 [L37]"
+  },
+  {
+   "subject": "BDI_8",
+   "room": "SO1",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "BDI_8 [SO1]"
+  },
+  {
+   "subject": "PROII_4",
+   "room": "SO3",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "PROII_4 [SO3]"
+  },
+  {
+   "subject": "CDI_5",
+   "room": "SO4",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "CDI_5 [SO4]"
+  },
+  {
+   "subject": "AEDI_2",
+   "room": "SO6",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "AEDI_2 [SO6]"
+  },
+  {
+   "subject": "RCI_A",
+   "room": "2.2",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCI_A [2.2]"
+  },
+  {
+   "subject": "HAE_A",
+   "room": "2.3",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "HAE_A [2.3]"
+  },
+  {
+   "subject": "FEJ_A",
+   "room": "3.1",
+   "group": "Grado 4 - 1C",
+   "date": "2027-02-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "FEJ_A [3.1]"
+  },
+  {
+   "subject": "APAUII_A",
+   "room": "3.2",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "APAUII_A [3.2]"
+  },
+  {
+   "subject": "LOX_2",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "LOX_2 [L31A]"
+  },
+  {
+   "subject": "HAE_2",
+   "room": "Elect",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "HAE_2 [Elect]"
+  },
+  {
+   "subject": "PIC_3",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "PIC_3 [L31A]"
+  },
+  {
+   "subject": "APAUII_2",
+   "room": "L31B",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "APAUII_2 [L31B]"
+  },
+  {
+   "subject": "ABIA_3",
+   "room": "L37",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "ABIA_3 [L37]"
+  },
+  {
+   "subject": "TALF_1",
+   "room": "L38",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "TALF_1 [L38]"
+  },
+  {
+   "subject": "BDI_3",
+   "room": "SO1",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "BDI_3 [SO1]"
+  },
+  {
+   "subject": "SI_6",
+   "room": "SO2",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "SI_6 [SO2]"
+  },
+  {
+   "subject": "PROII_1",
+   "room": "SO3",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "PROII_1 [SO3]"
+  },
+  {
+   "subject": "CDI_4",
+   "room": "SO4",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CDI_4 [SO4]"
+  },
+  {
+   "subject": "CCPD_2",
+   "room": "SO5",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "CCPD_2 [SO5]"
+  },
+  {
+   "subject": "AEDI_7",
+   "room": "SO6",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "AEDI_7 [SO6]"
+  },
+  {
+   "subject": "ISII_1",
+   "room": "SO7",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "ISII_1 [SO7]"
+  },
+  {
+   "subject": "FEJ_4",
+   "room": "SO8",
+   "group": "Grado 4 - 1C",
+   "date": "2027-02-17",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "FEJ_4 [SO8]"
+  },
+  {
+   "subject": "RCI_B",
+   "room": "2.2",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "RCI_B [2.2]"
+  },
+  {
+   "subject": "DAA_A",
+   "room": "2.3",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "DAA_A [2.3]"
+  },
+  {
+   "subject": "APS_A",
+   "room": "3.1",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "APS_A [3.1]"
+  },
+  {
+   "subject": "IAEM_A",
+   "room": "3.2",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "IAEM_A [3.2]"
+  },
+  {
+   "subject": "ACI_8",
+   "room": "Automática",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "ACI_8 [AUTOM]"
+  },
+  {
+   "subject": "AL_6",
+   "room": "L30A",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "10:45",
+   "end": "12:30",
+   "raw": "AL_6 [L30A]"
+  },
+  {
+   "subject": "ACI_A",
+   "room": "2.1",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ACI_A [2.1]"
+  },
+  {
+   "subject": "HAE_B",
+   "room": "2.3",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "HAE_B [2.3]"
+  },
+  {
+   "subject": "CCPD_A",
+   "room": "3.1",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "CCPD_A [3.1]"
+  },
+  {
+   "subject": "AP_6",
+   "room": "Automática",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "AP_6 [AUTOM]"
+  },
+  {
+   "subject": "AL_10",
+   "room": "L30A",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "AL_10 [L30A]"
+  },
+  {
+   "subject": "IAEM_2",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "IAEM_2 [L31A]"
+  },
+  {
+   "subject": "PIC_1",
+   "room": "L31B",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "PIC_1 [L31B]"
+  },
+  {
+   "subject": "LOX_1",
+   "room": "L37",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "LOX_1 [L37]"
+  },
+  {
+   "subject": "TALF_2",
+   "room": "L38",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "TALF_2 [L38]"
+  },
+  {
+   "subject": "BDI_2",
+   "room": "SO1",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "BDI_2 [SO1]"
+  },
+  {
+   "subject": "DAA_1",
+   "room": "SO2",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "DAA_1 [SO2]"
+  },
+  {
+   "subject": "PROII_9",
+   "room": "SO3",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "PROII_9 [SO3]"
+  },
+  {
+   "subject": "CDI_3",
+   "room": "SO4",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "CDI_3 [SO4]"
+  },
+  {
+   "subject": "ISII_4",
+   "room": "SO7",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "ISII_4 [SO7]"
+  },
+  {
+   "subject": "FEJ_3",
+   "room": "SO8",
+   "group": "Grado 4 - 1C",
+   "date": "2027-02-17",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "FEJ_3 [SO8]"
+  },
+  {
+   "subject": "EC.r",
+   "room": "SO5",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "15:30",
+   "end": "17:00",
+   "raw": "EC.r [SO5]"
+  },
+  {
+   "subject": "KRU.r",
+   "room": "SO8",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "15:30",
+   "end": "17:00",
+   "raw": "KRU.r [SO8]"
+  },
+  {
+   "subject": "AP_7",
+   "room": "Automática",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "AP_7 [AUTOM]"
+  },
+  {
+   "subject": "AL_1",
+   "room": "L30A",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "17:45",
+   "raw": "AL_1 [L30A]"
+  },
+  {
+   "subject": "TALF_7",
+   "room": "L38",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "TALF_7 [L38]"
+  },
+  {
+   "subject": "ISII_5",
+   "room": "SO1",
+   "group": "Grado 2 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "ISII_5 [SO1]"
+  },
+  {
+   "subject": "DAA_2",
+   "room": "SO2",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "DAA_2 [SO2]"
+  },
+  {
+   "subject": "PROII_5",
+   "room": "SO3",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "PROII_5 [SO3]"
+  },
+  {
+   "subject": "AEDI_3",
+   "room": "SO4",
+   "group": "Grado 1 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "AEDI_3 [SO4]"
+  },
+  {
+   "subject": "SI_8",
+   "room": "SO7",
+   "group": "Grado 3 - 1C",
+   "date": "2027-02-17",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "SI_8 [SO7]"
+  },
+  {
+   "subject": "Imaxe/vídeos e Intelixencia Artificial",
+   "room": "L37",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "16:30",
+   "end": "18:30",
+   "raw": "Imaxe/vídeos e Intelixencia Artificial"
+  },
+  {
+   "subject": "SSI (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "SSI (MEI) [L31A]"
+  },
+  {
+   "subject": "MAS",
+   "room": "SO5",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "17:00",
+   "end": "18:30",
+   "raw": "MAS [SO5]"
+  },
+  {
+   "subject": "Internet e Redes Sociais",
+   "room": "L37",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "18:30",
+   "end": "20:30",
+   "raw": "Internet e Redes Sociais"
+  },
+  {
+   "subject": "MAS.r",
+   "room": "SO5",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-17",
+   "start": "18:30",
+   "end": "20:00",
+   "raw": "MAS.r [SO5]"
   }
  ]
 }
