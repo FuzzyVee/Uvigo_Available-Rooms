@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-11-25T07:51:11",
+ "generated_at": "2026-11-25T21:26:52",
  "timezone": "Europe/Madrid",
  "calendar_count": 91,
  "successful_calendars": 71,
- "event_count": 3061,
- "duplicate_events_skipped": 1635,
+ "event_count": 3083,
+ "duplicate_events_skipped": 1625,
  "room_calendars": {
   "Aula 2.1": "c_8215f375fc0a944d31f42dc3231170b3cf879554c2ddd2e77b06a78974fced0f@group.calendar.google.com",
   "Aula 2.2": "c_c9a41a2e44e97156defe4dc92b01bef3b43f3886fa232ae116ad84d0e718eb5f@group.calendar.google.com",
@@ -37,15 +37,6 @@
  },
  "events": [
   {
-   "subject": "ISI_1: Proba práctica 1",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-11-18",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_1: Proba práctica 1"
-  },
-  {
    "subject": "ISI_7: Proba práctica 1",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -53,6 +44,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_7: Proba práctica 1"
+  },
+  {
+   "subject": "ISI_1: Proba práctica 1",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-11-18",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_1: Proba práctica 1"
   },
   {
    "subject": "Exame Bloque II Análise Matemática",
@@ -3167,6 +3167,15 @@
    "start": "09:30",
    "end": "11:00",
    "raw": "Reserva Ma Encarnación González Rufino"
+  },
+  {
+   "subject": "EX. QUÍMICA",
+   "room": "Salón de Actos",
+   "group": "Ocupación Aulas",
+   "date": "2026-11-25",
+   "start": "10:00",
+   "end": "13:00",
+   "raw": "EX. QUÍMICA"
   },
   {
    "subject": "RCII_6",
@@ -6661,6 +6670,15 @@
    "raw": "CYB [SO6]"
   },
   {
+   "subject": "Reserva Manuel Torrecilla",
+   "room": "3.1",
+   "group": "Ocupación Aulas",
+   "date": "2026-12-02",
+   "start": "19:30",
+   "end": "21:00",
+   "raw": "Reserva Manuel Torrecilla"
+  },
+  {
    "subject": "ACII_3: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -7858,13 +7876,13 @@
    "raw": "ESI (MEI) [L31A]"
   },
   {
-   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "subject": "ACII_7: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-07",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
+   "raw": "ACII_7: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "ACII_2: Grupo Reducido Segunda Prueba",
@@ -7876,6 +7894,15 @@
    "raw": "ACII_2: Grupo Reducido Segunda Prueba"
   },
   {
+   "subject": "ACII_8: Grupo Reducido Segunda Prueba",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-07",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ACII_8: Grupo Reducido Segunda Prueba"
+  },
+  {
    "subject": "ACII_1: Grupo Reducido Segunda Prueba",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -7883,15 +7910,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ACII_1: Grupo Reducido Segunda Prueba"
-  },
-  {
-   "subject": "ACII_7: Grupo Reducido Segunda Prueba",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-07",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ACII_7: Grupo Reducido Segunda Prueba"
   },
   {
    "subject": "Presentaciones trabajo teórico",
@@ -7993,9 +8011,18 @@
    "raw": "SOI_B [2.2]"
   },
   {
-   "subject": "RCII_B",
+   "subject": "RCII_B. Examen 1 contínua.",
    "room": "2.3",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-07",
+   "start": "08:45",
+   "end": "10:30",
+   "raw": "RCII_B [2.3]. Examen 1 contínua."
+  },
+  {
+   "subject": "RCII_B",
+   "room": "2.3",
+   "group": "Ocupación Aulas",
    "date": "2026-12-07",
    "start": "08:45",
    "end": "10:30",
@@ -8209,9 +8236,18 @@
    "raw": "SD_B [2.1]"
   },
   {
-   "subject": "RCII_A",
+   "subject": "RCII_A. Examen 1 contínua",
    "room": "2.3",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-07",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "RCII_A [2.3]. Examen 1 contínua"
+  },
+  {
+   "subject": "RCII_A",
+   "room": "2.3",
+   "group": "Ocupación Aulas",
    "date": "2026-12-07",
    "start": "12:30",
    "end": "14:15",
@@ -8909,6 +8945,15 @@
    "start": "12:30",
    "end": "14:30",
    "raw": "RCII_8 [AUTOM]"
+  },
+  {
+   "subject": "Reserva Noelia García Hervella",
+   "room": "B00",
+   "group": "Ocupación Aulas",
+   "date": "2026-12-09",
+   "start": "12:30",
+   "end": "14:15",
+   "raw": "Reserva Noelia García Hervella"
   },
   {
    "subject": "IC_3",
@@ -10351,15 +10396,6 @@
    "raw": "[DAI] Presentaciones trabajo teórico"
   },
   {
-   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
-   "room": null,
-   "group": "Grado 4 - 1C",
-   "date": "2026-12-14",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
-  },
-  {
    "subject": "DAGSS Evaluación continua: Exposiciones orales",
    "room": null,
    "group": "Grado 4 - 1C",
@@ -10367,6 +10403,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "DAGSS Evaluación continua: Exposiciones orales"
+  },
+  {
+   "subject": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto",
+   "room": null,
+   "group": "Grado 4 - 1C",
+   "date": "2026-12-14",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "DAGSS Evaluación continua: 3ª defensa seguimiento proyecto"
   },
   {
    "subject": "PROI - PROI_2, PROI_6, PROI_8: Proba Práctica",
@@ -10468,13 +10513,13 @@
    "raw": "SOI_B [2.2]"
   },
   {
-   "subject": "RCII_B. Examen",
+   "subject": "RCII_B.",
    "room": "2.3",
    "group": "Grado 3 - 1C",
    "date": "2026-12-14",
    "start": "08:45",
    "end": "10:30",
-   "raw": "RCII_B [2.3]. Examen"
+   "raw": "RCII_B [2.3]."
   },
   {
    "subject": "RCII_B",
@@ -10531,15 +10576,6 @@
    "raw": "CAN_A [3.1]"
   },
   {
-   "subject": "Exame parcial PROI_6",
-   "room": "Aula Magna",
-   "group": "Ocupación Aulas",
-   "date": "2026-12-14",
-   "start": "10:30",
-   "end": "12:30",
-   "raw": "Exame parcial PROI_6"
-  },
-  {
    "subject": "Reserva Manuel Pájaro Diéguez",
    "room": "Aula Magna",
    "group": "Ocupación Aulas",
@@ -10547,6 +10583,15 @@
    "start": "10:30",
    "end": "12:30",
    "raw": "Reserva Manuel Pájaro Diéguez"
+  },
+  {
+   "subject": "Exame parcial PROI_6",
+   "room": "Aula Magna",
+   "group": "Ocupación Aulas",
+   "date": "2026-12-14",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "Exame parcial PROI_6"
   },
   {
    "subject": "ACII_7",
@@ -10720,13 +10765,13 @@
    "raw": "SD_B [2.1]"
   },
   {
-   "subject": "RCII_A. Examen",
+   "subject": "RCII_A.",
    "room": "2.3",
    "group": "Grado 3 - 1C",
    "date": "2026-12-14",
    "start": "12:30",
    "end": "14:15",
-   "raw": "RCII_A [2.3]. Examen"
+   "raw": "RCII_A [2.3]."
   },
   {
    "subject": "RCII_A",
@@ -11035,6 +11080,15 @@
    "raw": "RP.x [SO5]"
   },
   {
+   "subject": "ISI_3: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-15",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_3: Proba práctica 2"
+  },
+  {
    "subject": "ISI_6: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -11042,15 +11096,6 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_6: Proba práctica 2"
-  },
-  {
-   "subject": "ISI_8: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-15",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_8: Proba práctica 2"
   },
   {
    "subject": "ISI_B: Proba obxectiva 2",
@@ -11062,13 +11107,13 @@
    "raw": "ISI_B: Proba obxectiva 2"
   },
   {
-   "subject": "ISI_3: Proba práctica 2",
+   "subject": "ISI_8: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
    "date": "2026-12-15",
    "start": "00:00",
    "end": "23:59",
-   "raw": "ISI_3: Proba práctica 2"
+   "raw": "ISI_8: Proba práctica 2"
   },
   {
    "subject": "FMI_A",
@@ -11215,9 +11260,18 @@
    "raw": "AM_7 [L38]"
   },
   {
-   "subject": "RCII_4",
+   "subject": "RCII_4. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-15",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_4 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_4",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-15",
    "start": "10:30",
    "end": "12:30",
@@ -11539,9 +11593,18 @@
    "raw": "Reserva David Olivieri"
   },
   {
-   "subject": "RCII_7",
+   "subject": "RCII_7. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-15",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_7 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_7",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-15",
    "start": "16:00",
    "end": "18:00",
@@ -11701,15 +11764,6 @@
    "raw": "AIH [SO6]"
   },
   {
-   "subject": "ISI_7: Proba práctica 2",
-   "room": null,
-   "group": "Grado 2 - 1C",
-   "date": "2026-12-16",
-   "start": "00:00",
-   "end": "23:59",
-   "raw": "ISI_7: Proba práctica 2"
-  },
-  {
    "subject": "ISI_1: Proba práctica 2",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -11717,6 +11771,15 @@
    "start": "00:00",
    "end": "23:59",
    "raw": "ISI_1: Proba práctica 2"
+  },
+  {
+   "subject": "ISI_7: Proba práctica 2",
+   "room": null,
+   "group": "Grado 2 - 1C",
+   "date": "2026-12-16",
+   "start": "00:00",
+   "end": "23:59",
+   "raw": "ISI_7: Proba práctica 2"
   },
   {
    "subject": "Exame Bloque III Análise Matemática",
@@ -11881,9 +11944,18 @@
    "raw": "Tesis Alba Perez - Pablo Garcia del Rio"
   },
   {
-   "subject": "RCII_6",
+   "subject": "RCII_6. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-16",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_6 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_6",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-16",
    "start": "10:30",
    "end": "12:30",
@@ -12088,9 +12160,18 @@
    "raw": "Reserva María Novo Lourés"
   },
   {
-   "subject": "RCII_8",
+   "subject": "RCII_8. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-16",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_8 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_8",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-16",
    "start": "12:30",
    "end": "14:30",
@@ -12232,9 +12313,18 @@
    "raw": "Reserva David Olivieri"
   },
   {
-   "subject": "RCII_1",
+   "subject": "RCII_1. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-16",
+   "start": "16:00",
+   "end": "18:00",
+   "raw": "RCII_1 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_1",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-16",
    "start": "16:00",
    "end": "18:00",
@@ -13006,9 +13096,18 @@
    "raw": "Reserva Pedro Celard Pérez"
   },
   {
-   "subject": "RCII_5",
+   "subject": "RCII_5. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-18",
+   "start": "08:30",
+   "end": "10:30",
+   "raw": "RCII_5 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_5",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-18",
    "start": "08:30",
    "end": "10:30",
@@ -13141,9 +13240,18 @@
    "raw": "AL_A [3.1]"
   },
   {
-   "subject": "RCII_2",
+   "subject": "RCII_2. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-18",
+   "start": "10:30",
+   "end": "12:30",
+   "raw": "RCII_2 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_2",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-18",
    "start": "10:30",
    "end": "12:30",
@@ -13348,9 +13456,18 @@
    "raw": "SN_A [3.2]"
   },
   {
-   "subject": "RCII_3",
+   "subject": "RCII_3. Examen 2 contínua",
    "room": "Automática",
    "group": "Grado 3 - 1C",
+   "date": "2026-12-18",
+   "start": "12:30",
+   "end": "14:30",
+   "raw": "RCII_3 [AUTOM]. Examen 2 contínua"
+  },
+  {
+   "subject": "RCII_3",
+   "room": "Automática",
+   "group": "Ocupación Aulas",
    "date": "2026-12-18",
    "start": "12:30",
    "end": "14:30",
@@ -14032,6 +14149,15 @@
    "raw": "[EXAM] SGI (MEI) [L30A]"
   },
   {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-13",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
+  },
+  {
    "subject": "OpMa (GRIA)",
    "room": "SO7",
    "group": "Ocupación Aulas",
@@ -14122,15 +14248,6 @@
    "raw": "[EXAM] IS I (GREI) [L38]"
   },
   {
-   "subject": "SR (MEI)",
-   "room": "L30A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-14",
-   "start": "17:00",
-   "end": "20:00",
-   "raw": "[EXAM] SR (MEI) [L30A]"
-  },
-  {
    "subject": "FBI (MEI)",
    "room": "L30A",
    "group": "Ocupación Aulas",
@@ -14138,6 +14255,15 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] FBI (MEI) [L30A]"
+  },
+  {
+   "subject": "SR (MEI)",
+   "room": "L30A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-14",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "[EXAM] SR (MEI) [L30A]"
   },
   {
    "subject": "DAGSS Evaluación continua: Entrega de proyecto de laboratorio",
@@ -14518,6 +14644,24 @@
    "raw": "[EXAM] DXAR (MEI) [L30A]"
   },
   {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-19",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-19",
+   "start": "17:00",
+   "end": "05:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
+  },
+  {
    "subject": "SOI. tercera prueba de teoría (temas 4, 5 y sus actividades) Evaluación continúa",
    "room": null,
    "group": "Grado 2 - 1C",
@@ -14885,6 +15029,24 @@
    "start": "17:00",
    "end": "20:00",
    "raw": "[EXAM] PDP (MEI) [L30A]"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-21",
+   "start": "17:00",
+   "end": "05:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-21",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
   },
   {
    "subject": "Evaluación global",
@@ -15535,15 +15697,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-01-25",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -15553,6 +15706,15 @@
    "raw": "ACCSI (MEI) [L31A]"
   },
   {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-25",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
+  },
+  {
    "subject": "AIPM",
    "room": "SO5",
    "group": "Ocupación Aulas",
@@ -15560,6 +15722,15 @@
    "start": "17:00",
    "end": "18:30",
    "raw": "AIPM [SO5]"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-25",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
   },
   {
    "subject": "AIPM.x",
@@ -16082,6 +16253,15 @@
    "start": "17:00",
    "end": "18:30",
    "raw": "TXAI [SO6]"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-26",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
   },
   {
    "subject": "TXAI.x",
@@ -16633,6 +16813,15 @@
    "raw": "MAS [SO5]"
   },
   {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-27",
+   "start": "17:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
+  },
+  {
    "subject": "Internet e Redes Sociais",
    "room": "L37",
    "group": "Ocupación Aulas",
@@ -16649,6 +16838,15 @@
    "start": "18:30",
    "end": "20:00",
    "raw": "MAS.r [SO5]"
+  },
+  {
+   "subject": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA",
+   "room": "Salón de Graos",
+   "group": "Ocupación Aulas",
+   "date": "2027-01-28",
+   "start": "08:00",
+   "end": "20:00",
+   "raw": "DEFENSA PRAZA PTU - SANDRA RIVAS SIOTA"
   },
   {
    "subject": "TCL_A",
@@ -17614,15 +17812,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-01",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -17630,6 +17819,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-01",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
@@ -21034,15 +21232,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-15",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -21050,6 +21239,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-15",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
@@ -23500,15 +23698,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-22",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -23516,6 +23705,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-22",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
@@ -23959,15 +24157,6 @@
    "raw": "DGP_7 [SO7]"
   },
   {
-   "subject": "EC",
-   "room": "SO6",
-   "group": "Ocupación Aulas",
-   "date": "2027-02-23",
-   "start": "15:30",
-   "end": "17:00",
-   "raw": "EC [SO6]"
-  },
-  {
    "subject": "KRU",
    "room": "SO6",
    "group": "Ocupación Aulas",
@@ -23975,6 +24164,15 @@
    "start": "15:30",
    "end": "17:00",
    "raw": "KRU [SO6]"
+  },
+  {
+   "subject": "EC",
+   "room": "SO6",
+   "group": "Ocupación Aulas",
+   "date": "2027-02-23",
+   "start": "15:30",
+   "end": "17:00",
+   "raw": "EC [SO6]"
   },
   {
    "subject": "TCL_4",
@@ -25966,15 +26164,6 @@
    "raw": "Informática Básica"
   },
   {
-   "subject": "AXS (MEI)",
-   "room": "L31A",
-   "group": "Ocupación Aulas",
-   "date": "2027-03-01",
-   "start": "17:00",
-   "end": "20:15",
-   "raw": "AXS (MEI) [L31A]"
-  },
-  {
    "subject": "ACCSI (MEI)",
    "room": "L31A",
    "group": "Ocupación Aulas",
@@ -25982,6 +26171,15 @@
    "start": "17:00",
    "end": "20:15",
    "raw": "ACCSI (MEI) [L31A]"
+  },
+  {
+   "subject": "AXS (MEI)",
+   "room": "L31A",
+   "group": "Ocupación Aulas",
+   "date": "2027-03-01",
+   "start": "17:00",
+   "end": "20:15",
+   "raw": "AXS (MEI) [L31A]"
   },
   {
    "subject": "AIPM",
@@ -26425,15 +26623,6 @@
    "raw": "DGP_7 [SO7]"
   },
   {
-   "subject": "EC",
-   "room": "SO6",
-   "group": "Ocupación Aulas",
-   "date": "2027-03-02",
-   "start": "15:30",
-   "end": "17:00",
-   "raw": "EC [SO6]"
-  },
-  {
    "subject": "KRU",
    "room": "SO6",
    "group": "Ocupación Aulas",
@@ -26441,6 +26630,15 @@
    "start": "15:30",
    "end": "17:00",
    "raw": "KRU [SO6]"
+  },
+  {
+   "subject": "EC",
+   "room": "SO6",
+   "group": "Ocupación Aulas",
+   "date": "2027-03-02",
+   "start": "15:30",
+   "end": "17:00",
+   "raw": "EC [SO6]"
   },
   {
    "subject": "TCL_4",
